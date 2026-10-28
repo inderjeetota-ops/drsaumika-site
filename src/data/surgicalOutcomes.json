@@ -129,5 +129,45 @@
       "hi": "यह मामला जटिल जन्मजात पलक-विकारों में सावधानीपूर्वक मूल्यांकन और व्यक्तिगत शल्य-योजना के महत्व को रेखांकित करता है।"
     },
     "collageImage": "collage.webp", "year": 2026, "consent": true, "featured": false
+  },
+  {
+    "slug": "tarsal-cyst-misdiagnosed-chalazion",
+    "title": { "en": "Tarsal Cyst – Upper Eyelid", "hi": "टार्सल सिस्ट – ऊपरी पलक" },
+    "metaTitle": { "en": "Tarsal Cyst Mistaken for Chalazion – Upper Eyelid | Dr Saumika Singh", "hi": "चालाज़ियन समझा गया टार्सल सिस्ट – ऊपरी पलक | डॉ. सौमिका सिंह" },
+    "technique": { "en": "Excision Biopsy of a Persistent Eyelid Swelling Previously Treated as Chalazion", "hi": "चालाज़ियन के रूप में पूर्व-उपचारित लगातार बनी पलक की सूजन की छांटन बायोप्सी" },
+    "relatedService": "eyelid-disorders-eyelid-surgery",
+    "relatedServiceName": { "en": "Eyelid Disorders & Eyelid Surgery", "hi": "पलक के विकार एवं पलक की सर्जरी" },
+    "tags": [
+      { "en": "Eyelid", "hi": "पलक" },
+      { "en": "Diagnosis", "hi": "निदान" },
+      { "en": "Excision Biopsy", "hi": "छांटन बायोप्सी" }
+    ],
+    "metaDescription": {
+      "en": "Persistent eyelid swelling treated as chalazion, diagnosed as a tarsal cyst and treated by excision biopsy with no recurrence. Case by Dr Saumika Singh, Lucknow.",
+      "hi": "चालाज़ियन के रूप में उपचारित लगातार बनी पलक की सूजन, टार्सल सिस्ट के रूप में निदान और बिना पुनरावृत्ति के छांटन बायोप्सी द्वारा उपचार। डॉ. सौमिका सिंह, लखनऊ।"
+    },
+    "stages": [
+      {
+        "label": { "en": "Pre-operative", "hi": "ऑपरेशन से पहले" },
+        "image": "stage-1-preop.webp", "width": 1600, "height": 1045,
+        "alt": { "en": "Pre-operative photograph showing a large persistent upper eyelid swelling later diagnosed as a tarsal cyst", "hi": "एक बड़ी लगातार बनी ऊपरी पलक की सूजन दर्शाती ऑपरेशन-पूर्व तस्वीर, जिसे बाद में टार्सल सिस्ट के रूप में निदान किया गया" },
+        "caption": { "en": "Large, persistent upper eyelid swelling, previously treated as a chalazion.", "hi": "ऊपरी पलक की बड़ी, लगातार बनी रहने वाली सूजन, जिसे पहले चालाज़ियन के रूप में उपचारित किया गया था।" }
+      },
+      {
+        "label": { "en": "Post-operative", "hi": "ऑपरेशन के बाद" },
+        "image": "stage-2-postop.webp", "width": 1600, "height": 1110,
+        "alt": { "en": "Post-operative photograph after excision biopsy showing resolution of the eyelid swelling", "hi": "छांटन बायोप्सी के बाद ऑपरेशन-पश्चात तस्वीर, जिसमें पलक की सूजन का पूर्ण निवारण दिख रहा है" },
+        "caption": { "en": "After excision biopsy. Complete resolution of the swelling with no recurrence on follow-up.", "hi": "छांटन बायोप्सी के बाद। फॉलो-अप पर बिना किसी पुनरावृत्ति के सूजन का पूर्ण निवारण।" }
+      }
+    ],
+    "narrative": {
+      "en": "This gentleman presented to us with a large, persistent eyelid swelling, for which he had previously been diagnosed and treated as a chalazion elsewhere.\n\nOn detailed clinical evaluation, the lesion was found to have features atypical of a routine chalazion. Further evaluation led to the diagnosis of a tarsal cyst. Excision biopsy was planned and performed. The patient had an excellent postoperative outcome, with complete resolution of the swelling and no recurrence on follow-up.\n\nThis case highlights an important principle in eyelid practice: not every eyelid swelling is a chalazion. Persistent, recurrent or atypical lesions warrant careful clinical assessment and consideration of alternative diagnoses. Identifying the underlying pathology is essential to guide appropriate treatment and minimise the risk of recurrence.",
+      "hi": "यह सज्जन हमारे पास पलक की एक बड़ी, लगातार बनी रहने वाली सूजन के साथ आए, जिसके लिए उन्हें पहले अन्यत्र चालाज़ियन (गुहेरी) के रूप में निदान और उपचारित किया गया था।\n\nविस्तृत नैदानिक मूल्यांकन पर, घाव में सामान्य चालाज़ियन से भिन्न असामान्य लक्षण पाए गए। आगे के मूल्यांकन से टार्सल सिस्ट का निदान हुआ। छांटन बायोप्सी की योजना बनाई गई और सफलतापूर्वक की गई। रोगी का ऑपरेशन के बाद का परिणाम उत्कृष्ट रहा, जिसमें सूजन पूरी तरह ठीक हो गई और फॉलो-अप में कोई पुनरावृत्ति नहीं देखी गई।\n\nयह मामला पलक के अभ्यास में एक महत्वपूर्ण सिद्धांत को उजागर करता है: हर पलक की सूजन चालाज़ियन नहीं होती। लगातार बनी रहने वाली, बार-बार होने वाली या असामान्य गांठों का सावधानीपूर्वक नैदानिक मूल्यांकन और वैकल्पिक निदान पर विचार आवश्यक है। अंतर्निहित विकृति की पहचान करना उचित उपचार का मार्गदर्शन करने और पुनरावृत्ति के जोखिम को कम करने के लिए आवश्यक है।"
+    },
+    "takeaway": {
+      "en": "The right diagnosis is the first step towards the right treatment.",
+      "hi": "सही निदान ही सही उपचार की दिशा में पहला कदम है।"
+    },
+    "collageImage": "collage.webp", "year": 2026, "consent": true, "featured": false
   }
 ]

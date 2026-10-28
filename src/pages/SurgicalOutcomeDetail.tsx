@@ -50,7 +50,7 @@ export default function SurgicalOutcomeDetail() {
 
   return (
     <>
-      <SEO path={basePath} title={`${L(c.title)} | Dr Saumika Singh`} description={L(c.metaDescription)}
+      <SEO path={basePath} title={c.metaTitle ? L(c.metaTitle) : `${L(c.title)} | Dr Saumika Singh`} description={L(c.metaDescription)}
         image={imgUrl(c.collageImage)} jsonLd={jsonLd} />
 
       <main className="mx-auto max-w-5xl px-4 py-10">

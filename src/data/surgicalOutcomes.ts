@@ -12,6 +12,7 @@ export interface CaseStage {
 export interface SurgicalCase {
   slug: string;
   title: LocalizedString;
+  metaTitle?: LocalizedString;
   technique: LocalizedString;
   relatedService: string;
   relatedServiceName: LocalizedString;
