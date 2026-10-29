@@ -20,6 +20,10 @@ const CANONICAL_ADDRESS = {
 };
 
 const STR = {
+  pageTitle: {
+    en: 'About Dr. Saumika Singh | Oculoplasty Surgeon, Lucknow',
+    hi: 'डॉ. सौमिका सिंह के बारे में | ओकुलोप्लास्टी सर्जन, लखनऊ',
+  },
   metaTitle: { en: 'About Dr. Saumika Singh', hi: 'डॉ. सौमिका सिंह के बारे में' },
   metaDescription: {
     en: 'Fellowship-trained oculoplasty, orbit & ocular oncology surgeon in Lucknow. MBBS, MS (Ophthalmology), FICO (UK), with fellowship training at Dr. Shroff\'s Charity Eye Hospital, New Delhi. Qualifications, experience and areas of expertise.',
@@ -127,7 +131,7 @@ export default function About() {
         '@type': 'ProfilePage',
         '@id': `${SITE_URL}${basePath}#profilepage`,
         url: `${SITE_URL}${basePath}`,
-        name: `${L(STR.metaTitle)} | Dr. Saumika Singh`,
+        name: L(STR.pageTitle),
         inLanguage: language === 'hi' ? 'hi-IN' : 'en-IN',
         description: L(STR.metaDescription),
         mainEntity: { '@id': `${SITE_URL}/#physician` },
@@ -205,7 +209,7 @@ export default function About() {
     <>
       <SEO
         path={basePath}
-        title={`${L(STR.metaTitle)} | Dr. Saumika Singh`}
+        title={L(STR.pageTitle)}
         description={L(STR.metaDescription)}
         jsonLd={jsonLd}
       />
