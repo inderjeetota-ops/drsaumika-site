@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { m } from 'motion/react';
-import { Check, Droplets, Eye, Shield, Sparkles, Activity, PlusCircle, ArrowRight, Star, Award, Ribbon, Syringe } from 'lucide-react';
+import { Check, Droplets, Eye, Shield, Sparkles, Activity, PlusCircle, ArrowRight, Star, Award, Ribbon, Syringe, ChevronDown, ChevronUp } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
 
@@ -83,6 +83,7 @@ const homeSurgicalCases = HOME_SURGICAL_SLUGS
 
 export default function Home() {
   const { t, language } = useLanguage();
+  const [isAboutExpanded, setIsAboutExpanded] = useState(false);
 
   return (
     <div className="flex flex-col">
@@ -231,7 +232,14 @@ export default function Home() {
               </h2>
 
               {/* About Block */}
-              <div className="mb-8 bg-gold/5 backdrop-blur-md p-5 sm:p-7 rounded-2xl border border-gold/20 shadow-sm max-w-2xl relative overflow-hidden group w-full">
+              <div 
+                className={`mb-8 bg-gold/5 backdrop-blur-md p-5 sm:p-7 rounded-2xl border border-gold/20 shadow-sm max-w-2xl relative overflow-hidden group w-full transition-all duration-300 ${
+                  !isAboutExpanded ? 'cursor-pointer sm:cursor-default' : ''
+                }`}
+                onClick={() => {
+                  if (!isAboutExpanded) setIsAboutExpanded(true);
+                }}
+              >
                 <div className="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-gold via-gold-light to-gold" />
                 <div className="absolute top-0 right-0 w-16 h-16 bg-gold/10 rounded-full blur-lg pointer-events-none" />
                 
@@ -244,20 +252,55 @@ export default function Home() {
                   <p>
                     {language === 'hi' ? 'डॉ. सौमिका सिंह एक फेलोशिप-प्रशिक्षित ओकुलोप्लास्टी, ऑर्बिट और ओकुलर ऑन्कोलॉजी सर्जन हैं जो पलकों, लैक्रिमल, ऑर्बिटल विकारों और आंखों के कैंसर के प्रबंधन के लिए समर्पित हैं। उन्होंने कलकत्ता नेशनल मेडिकल कॉलेज, कोलकाता से एमबीबीएस पूरा किया, इसके बाद क्षेत्रीय नेत्र विज्ञान संस्थान, कोलकाता से नेत्र विज्ञान में एमएस किया। इसके बाद उन्होंने प्रतिष्ठित डॉ. श्रॉफ चैरिटी आई हॉस्पिटल, नई दिल्ली में ओकुलोप्लास्टी, ऑर्बिट और ओकुलर ऑन्कोलॉजी में उन्नत फेलोशिप प्रशिक्षण प्राप्त किया।' : 'Dr. Saumika Singh is a fellowship-trained Oculoplasty, Orbit and Ocular Oncology surgeon dedicated to the management of eyelid, lacrimal, orbital disorders and eye cancers. She completed her MBBS from Calcutta National Medical College, Kolkata, followed by an MS in Ophthalmology from the Regional Institute of Ophthalmology, Kolkata. She subsequently underwent advanced fellowship training in Oculoplasty, Orbit and Ocular Oncology at the prestigious Dr. Shroff\'s Charity Eye Hospital, New Delhi.'}
                   </p>
-                  <p>
-                    {language === 'hi' ? 'अपने पेशेवर करियर के दौरान, डॉ. सिंह ने हैदराबाद में एक तृतीयक नेत्र देखभाल केंद्र में एक सलाहकार के रूप में, चंद्रा सुपर स्पेशलिटी आई हॉस्पिटल, लखनऊ में एक सलाहकार के रूप में, और डॉ. अग्रवाल आई हॉस्पिटल, लखनऊ में एक विजिटिंग कंसल्टेंट ओकुलोप्लास्टी सर्जन के रूप में अपने काम के माध्यम से जटिल ओकुलोप्लास्टिक विकारों के निदान और सर्जिकल प्रबंधन में व्यापक अनुभव प्राप्त किया है। वह वर्तमान में लखनऊ में एक समर्पित स्वतंत्र ओकुलोप्लास्टी, ऑर्बिट और ओकुलर ऑन्कोलॉजी अभ्यास का नेतृत्व करती हैं।' : 'Over the course of her professional career, Dr. Singh has gained extensive experience in the diagnosis and surgical management of complex oculoplastic disorders through her work as a consultant at a tertiary eye care centre in Hyderabad, as a Consultant at Chandra Super Speciality Eye Hospital, Lucknow, and as a Visiting Consultant Oculoplasty Surgeon at Dr Agarwals Eye Hospital, Lucknow. She currently leads a dedicated independent Oculoplasty, Orbit and Ocular Oncology practice in Lucknow.'}
-                  </p>
-                  <p className="text-xs text-navy/70 border-t border-gold/15 pt-3 text-left">
-                    <span className="font-semibold text-navy/80">{language === 'hi' ? 'चिकित्सा योग्यताएँ एवं पंजीकरण: ' : 'Medical qualifications & registration: '}</span>
-                    {language === 'hi' ? 'एमबीबीएस • एमएस (नेत्र विज्ञान) • एफआईसीओ (यूके)। उत्तर प्रदेश मेडिकल काउंसिल में पंजीकृत — पंजीकरण संख्या 137106।' : 'MBBS • MS (Ophthalmology) • FICO (UK). Registered with the Uttar Pradesh Medical Council — Reg. No. 137106.'}
-                  </p>
-                  <Link
-                    to={language === 'hi' ? '/hi/about' : '/about'}
-                    className="inline-flex items-center gap-1.5 text-sm font-bold text-gold hover:text-navy transition-colors group/readmore focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 rounded-sm"
-                  >
-                    <span>{language === 'hi' ? 'डॉ. सिंह के बारे में और पढ़ें' : 'Read more about Dr. Singh'}</span>
-                    <ArrowRight className="h-4 w-4 transform group-hover/readmore:translate-x-1 transition-transform duration-300" aria-hidden="true" />
-                  </Link>
+
+                  {/* Mobile Read More / Less Toggle Trigger */}
+                  <div className="sm:hidden pt-0.5">
+                    {!isAboutExpanded ? (
+                      <button
+                        type="button"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          setIsAboutExpanded(true);
+                        }}
+                        className="inline-flex items-center gap-1.5 text-sm font-semibold text-gold hover:text-navy transition-colors cursor-pointer py-1"
+                        aria-expanded={false}
+                      >
+                        <span>{language === 'hi' ? 'और पढ़ें...' : 'Read more...'}</span>
+                        <ChevronDown className="h-4 w-4" />
+                      </button>
+                    ) : (
+                      <button
+                        type="button"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          setIsAboutExpanded(false);
+                        }}
+                        className="inline-flex items-center gap-1 text-xs font-semibold text-gold hover:text-navy transition-colors cursor-pointer py-1 mb-1"
+                        aria-expanded={true}
+                      >
+                        <span>{language === 'hi' ? 'कम पढ़ें' : 'Show less'}</span>
+                        <ChevronUp className="h-3.5 w-3.5" />
+                      </button>
+                    )}
+                  </div>
+
+                  <div className={isAboutExpanded ? 'space-y-4' : 'hidden sm:block sm:space-y-4'}>
+                    <p>
+                      {language === 'hi' ? 'अपने पेशेवर करियर के दौरान, डॉ. सिंह ने हैदराबाद में एक तृतीयक नेत्र देखभाल केंद्र में एक सलाहकार के रूप में, चंद्रा सुपर स्पेशलिटी आई हॉस्पिटल, लखनऊ में एक सलाहकार के रूप में, और डॉ. अग्रवाल आई हॉस्पिटल, लखनऊ में एक विजिटिंग कंसल्टेंट ओकुलोप्लास्टी सर्जन के रूप में अपने काम के माध्यम से जटिल ओकुलोप्लास्टिक विकारों के निदान और सर्जिकल प्रबंधन में व्यापक अनुभव प्राप्त किया है। वह वर्तमान में लखनऊ में एक समर्पित स्वतंत्र ओकुलोप्लास्टी, ऑर्बिट और ओकुलर ऑन्कोलॉजी अभ्यास का नेतृत्व करती हैं।' : 'Over the course of her professional career, Dr. Singh has gained extensive experience in the diagnosis and surgical management of complex oculoplastic disorders through her work as a consultant at a tertiary eye care centre in Hyderabad, as a Consultant at Chandra Super Speciality Eye Hospital, Lucknow, and as a Visiting Consultant Oculoplasty Surgeon at Dr Agarwals Eye Hospital, Lucknow. She currently leads a dedicated independent Oculoplasty, Orbit and Ocular Oncology practice in Lucknow.'}
+                    </p>
+                    <p className="text-xs text-navy/70 border-t border-gold/15 pt-3 text-left">
+                      <span className="font-semibold text-navy/80">{language === 'hi' ? 'चिकित्सा योग्यताएँ एवं पंजीकरण: ' : 'Medical qualifications & registration: '}</span>
+                      {language === 'hi' ? 'एमबीबीएस • एमएस (नेत्र विज्ञान) • एफआईसीओ (यूके)। उत्तर प्रदेश मेडिकल काउंसिल में पंजीकृत — पंजीकरण संख्या 137106।' : 'MBBS • MS (Ophthalmology) • FICO (UK). Registered with the Uttar Pradesh Medical Council — Reg. No. 137106.'}
+                    </p>
+                    <Link
+                      to={language === 'hi' ? '/hi/about' : '/about'}
+                      className="inline-flex items-center gap-1.5 text-sm font-bold text-gold hover:text-navy transition-colors group/readmore focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 rounded-sm"
+                      onClick={(e) => e.stopPropagation()}
+                    >
+                      <span>{language === 'hi' ? 'डॉ. सिंह के बारे में और पढ़ें' : 'Read more about Dr. Singh'}</span>
+                      <ArrowRight className="h-4 w-4 transform group-hover/readmore:translate-x-1 transition-transform duration-300" aria-hidden="true" />
+                    </Link>
+                  </div>
                 </div>
               </div>
               
