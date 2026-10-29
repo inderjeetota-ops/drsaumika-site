@@ -15,12 +15,20 @@ export default function NotFoundPage() {
         <p className="text-navy/70 mb-8 max-w-md">
           Sorry, the page you're looking for doesn't exist or may have been moved.
         </p>
-        <a
-          href="/"
-          className="px-5 py-2.5 bg-navy text-ivory text-sm uppercase tracking-wide font-medium rounded-sm hover:bg-navy-light transition-colors"
-        >
-          Return to Homepage
-        </a>
+        <div className="flex flex-wrap items-center justify-center gap-4">
+          <a
+            href="/"
+            className="px-5 py-2.5 bg-navy text-ivory text-sm uppercase tracking-wide font-medium rounded-sm hover:bg-navy-light transition-colors"
+          >
+            Return to Homepage
+          </a>
+          <a
+            href="/hi"
+            className="px-5 py-2.5 border border-navy/30 text-navy text-sm uppercase tracking-wide font-medium rounded-sm hover:bg-navy/5 transition-colors"
+          >
+            Hindi Homepage (/hi)
+          </a>
+        </div>
       </div>
     </>
   );

@@ -24,11 +24,16 @@ export default function SEO({ title, description, path, image = DEFAULT_IMAGE, j
     <Helmet>
       <title>{title}</title>
       <meta name="description" content={description} />
-      <link rel="canonical" href={url} />
-      {noindex && <meta name="robots" content="noindex, follow" />}
-      <link rel="alternate" hrefLang="en-IN" href={`${SITE_URL}${enPath}`} />
-      <link rel="alternate" hrefLang="hi-IN" href={`${SITE_URL}${hiPath}`} />
-      <link rel="alternate" hrefLang="x-default" href={`${SITE_URL}${enPath}`} />
+      {noindex ? (
+        <meta name="robots" content="noindex" />
+      ) : (
+        <>
+          <link rel="canonical" href={url} />
+          <link rel="alternate" hrefLang="en-IN" href={`${SITE_URL}${enPath}`} />
+          <link rel="alternate" hrefLang="hi-IN" href={`${SITE_URL}${hiPath}`} />
+          <link rel="alternate" hrefLang="x-default" href={`${SITE_URL}${enPath}`} />
+        </>
+      )}
 
       {/* Open Graph */}
       <meta property="og:type" content="website" />

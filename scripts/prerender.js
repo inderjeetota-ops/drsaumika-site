@@ -27,6 +27,7 @@ async function launchBrowser() {
 
 const routes = [
   '/',
+  '/404',
   '/gallery',
   '/contact',
   '/publications',
@@ -103,6 +104,11 @@ const server = app.listen(PORT, async () => {
 
       fs.writeFileSync(path.join(routeDir, 'index.html'), html);
       console.log(`Saved ${routeDir}/index.html`);
+
+      if (route === '/404') {
+        fs.writeFileSync(path.join(distDir, '404.html'), html);
+        console.log(`Saved ${distDir}/404.html`);
+      }
       await page.close();
     }
   } catch (error) {

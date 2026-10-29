@@ -94,6 +94,7 @@
   {
     "slug": "congenital-ptosis-marcus-gunn",
     "title": { "en": "Congenital Ptosis with Marcus Gunn Jaw-Winking Phenomenon", "hi": "जन्मजात प्टोसिस के साथ मार्कस गन जॉ-विंकिंग परिघटना" },
+    "metaTitle": { "en": "Marcus Gunn Jaw-Winking Ptosis Surgery | Dr Saumika Singh", "hi": "मार्कस गन जॉ-विंकिंग प्टोसिस सर्जरी | डॉ. सौमिका सिंह" },
     "technique": { "en": "Tarsofrontal Sling with Silicone to Improve Eyelid Position and Symmetry", "hi": "पलक की स्थिति और सममिति में सुधार हेतु सिलिकॉन के साथ टार्सोफ्रंटल स्लिंग" },
     "relatedService": "eyelid-disorders-eyelid-surgery",
     "relatedServiceName": { "en": "Eyelid Disorders & Eyelid Surgery", "hi": "पलक के विकार एवं पलक की सर्जरी" },
@@ -133,7 +134,7 @@
   {
     "slug": "tarsal-cyst-misdiagnosed-chalazion",
     "title": { "en": "Tarsal Cyst – Upper Eyelid", "hi": "टार्सल सिस्ट – ऊपरी पलक" },
-    "metaTitle": { "en": "Tarsal Cyst Mistaken for Chalazion – Upper Eyelid | Dr Saumika Singh", "hi": "चालाज़ियन समझा गया टार्सल सिस्ट – ऊपरी पलक | डॉ. सौमिका सिंह" },
+    "metaTitle": { "en": "Tarsal Cyst Mistaken for Chalazion | Dr Saumika Singh", "hi": "चालाज़ियन समझा गया टार्सल सिस्ट – ऊपरी पलक | डॉ. सौमिका सिंह" },
     "technique": { "en": "Excision Biopsy of a Persistent Eyelid Swelling Previously Treated as Chalazion", "hi": "चालाज़ियन के रूप में पूर्व-उपचारित लगातार बनी पलक की सूजन की एक्सिशन बायोप्सी" },
     "relatedService": "eyelid-disorders-eyelid-surgery",
     "relatedServiceName": { "en": "Eyelid Disorders & Eyelid Surgery", "hi": "पलक के विकार एवं पलक की सर्जरी" },

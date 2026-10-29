@@ -49,6 +49,7 @@ export default function App() {
               <Route path="hi/publications" element={<Publications />} />
               <Route path="hi/privacy" element={<PrivacyPolicy />} />
               <Route path="hi/about" element={<About />} />
+              <Route path="404" element={<NotFoundPage />} />
               <Route path="*" element={<NotFoundPage />} />
             </Route>
           </Routes>
