@@ -342,7 +342,7 @@ export default function Home() {
                   </m.div>
                   <h3 className="text-sm sm:text-lg md:text-xl font-bold text-navy mb-3 group-hover:text-gold transition-colors duration-300 leading-tight w-full break-words hyphens-auto px-1">{item.title}</h3>
                   {item.desc && (
-                    <p className="text-sm text-navy/70 leading-relaxed mb-4">
+                    <p className="hidden sm:block text-sm text-navy/70 leading-relaxed mb-4">
                       {item.desc}
                     </p>
                   )}
