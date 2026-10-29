@@ -72,6 +72,15 @@ const EyelidIcon = (props: React.SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
+const HOME_SURGICAL_SLUGS = [
+  'tarsal-cyst-misdiagnosed-chalazion',
+  'sebaceous-gland-carcinoma-lower-eyelid',
+  'congenital-ptosis-marcus-gunn',
+];
+const homeSurgicalCases = HOME_SURGICAL_SLUGS
+  .map((slug) => surgicalCases.find((c) => c.slug === slug))
+  .filter((c): c is (typeof surgicalCases)[number] => Boolean(c));
+
 export default function Home() {
   const { t, language } = useLanguage();
 
@@ -391,7 +400,7 @@ export default function Home() {
           </m.div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {surgicalCases.slice(0, 3).map((c) => (
+            {homeSurgicalCases.map((c) => (
               <SurgicalCaseCard key={c.slug} c={c} />
             ))}
           </div>
