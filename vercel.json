@@ -6,6 +6,12 @@
     { "source": "/services/drooping-eyelids", "destination": "/services/eyelid-disorders-eyelid-surgery", "permanent": true },
     { "source": "/services/thyroid-eye-disease", "destination": "/services/orbital-disorders-orbital-surgery", "permanent": true },
     { "source": "/services/tumours", "destination": "/services/eye-tumours-ocular-oncology", "permanent": true },
-    { "source": "/services/watering-eyes", "destination": "/services/watering-eyes-tear-drainage-disorders", "permanent": true }
+    { "source": "/services/watering-eyes", "destination": "/services/watering-eyes-tear-drainage-disorders/dcr", "permanent": true },
+    { "source": "/services/watering-eyes-tear-drainage-disorders", "destination": "/services/watering-eyes-tear-drainage-disorders/dcr", "permanent": true },
+    { "source": "/hi/services/watering-eyes-tear-drainage-disorders", "destination": "/hi/services/watering-eyes-tear-drainage-disorders/dcr", "permanent": true },
+    { "source": "/services/watering-eyes-tear-drainage-disorders-dcr", "destination": "/services/watering-eyes-tear-drainage-disorders/dcr", "permanent": true },
+    { "source": "/hi/services/watering-eyes-tear-drainage-disorders-dcr", "destination": "/hi/services/watering-eyes-tear-drainage-disorders/dcr", "permanent": true },
+    { "source": "/services/dcr", "destination": "/services/watering-eyes-tear-drainage-disorders/dcr", "permanent": true },
+    { "source": "/hi/services/dcr", "destination": "/hi/services/watering-eyes-tear-drainage-disorders/dcr", "permanent": true }
   ]
 }

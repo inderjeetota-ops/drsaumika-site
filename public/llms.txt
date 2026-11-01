@@ -15,6 +15,6 @@
 ## Clinical Services
 
 - [Eyelid disorders & eyelid surgery](https://drsaumika.in/services/eyelid-disorders-eyelid-surgery): Ptosis (drooping eyelid), entropion, ectropion, eyelid tumours, blepharoplasty, eyelid reconstruction.
-- [Watering eyes & tear drainage disorders](https://drsaumika.in/services/watering-eyes-tear-drainage-disorders): Epiphora, blocked tear duct, dacryocystitis, DCR (dacryocystorhinostomy), canalicular repair.
+- [Watering eyes & tear drainage disorders (DCR)](https://drsaumika.in/services/watering-eyes-tear-drainage-disorders/dcr): Epiphora, blocked tear duct, dacryocystitis, DCR (dacryocystorhinostomy), canalicular repair.
 - [Orbital disorders & orbital surgery](https://drsaumika.in/services/orbital-disorders-orbital-surgery): Thyroid eye disease (Graves' orbitopathy), orbital tumours, orbital fractures, orbital decompression.
 - [Eye tumours & ocular oncology](https://drsaumika.in/services/eye-tumours-ocular-oncology): Ocular melanoma, retinoblastoma, sebaceous gland carcinoma, conjunctival

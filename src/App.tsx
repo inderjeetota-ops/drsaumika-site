@@ -34,6 +34,9 @@ export default function App() {
               <Route path="gallery" element={<GalleryPage />} />
               <Route path="contact" element={<ContactPage />} />
               <Route path="services/:id" element={<ServiceDetail />} />
+              <Route path="services/:id/dcr" element={<ServiceDetail />} />
+              <Route path="services/:id/DCR" element={<ServiceDetail />} />
+              <Route path="services/dcr" element={<Navigate to="/services/watering-eyes-tear-drainage-disorders/dcr" replace />} />
               <Route path="surgical-outcomes" element={<SurgicalOutcomes />} />
               <Route path="surgical-outcomes/:slug" element={<SurgicalOutcomeDetail />} />
               <Route path="publications" element={<Publications />} />
@@ -44,6 +47,9 @@ export default function App() {
               <Route path="hi/gallery" element={<GalleryPage />} />
               <Route path="hi/contact" element={<ContactPage />} />
               <Route path="hi/services/:id" element={<ServiceDetail />} />
+              <Route path="hi/services/:id/dcr" element={<ServiceDetail />} />
+              <Route path="hi/services/:id/DCR" element={<ServiceDetail />} />
+              <Route path="hi/services/dcr" element={<Navigate to="/hi/services/watering-eyes-tear-drainage-disorders/dcr" replace />} />
               <Route path="hi/surgical-outcomes" element={<SurgicalOutcomes />} />
               <Route path="hi/surgical-outcomes/:slug" element={<SurgicalOutcomeDetail />} />
               <Route path="hi/publications" element={<Publications />} />

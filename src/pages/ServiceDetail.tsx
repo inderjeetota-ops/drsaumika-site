@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useParams, Link, useNavigate } from 'react-router-dom';
+import { useParams, Link, useNavigate, useLocation } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
 import { m } from 'motion/react';
 import { ArrowLeft, CheckCircle2, ArrowRight } from 'lucide-react';
@@ -1463,28 +1463,37 @@ const richWhyChooseContent = {
 export default function ServiceDetail() {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
+  const location = useLocation();
   const { t, language } = useLanguage();
 
   const redirects: Record<string, string> = {
     'drooping-eyelids': 'eyelid-disorders-eyelid-surgery',
-    'watering-eyes': 'watering-eyes-tear-drainage-disorders',
+    'watering-eyes': 'watering-eyes-tear-drainage-disorders/dcr',
+    'watering-eyes-tear-drainage-disorders-dcr': 'watering-eyes-tear-drainage-disorders/dcr',
+    'dcr': 'watering-eyes-tear-drainage-disorders/dcr',
     'artificial-eye': 'orbital-disorders-orbital-surgery',
     'thyroid-eye-disease': 'eye-tumours-ocular-oncology',
     'tumours': 'socket-reconstruction-artificial-eye-rehabilitation',
     'botox-aesthetics': 'eye-trauma-eyelid-orbital-reconstruction'
   };
 
-  const isRedirecting = id && redirects[id];
+  const isLegacyWatering = id === 'watering-eyes-tear-drainage-disorders' && !location.pathname.toLowerCase().endsWith('/dcr');
+  const targetRedirect = id ? (redirects[id] || (isLegacyWatering ? 'watering-eyes-tear-drainage-disorders/dcr' : null)) : null;
 
   React.useEffect(() => {
-    if (id && redirects[id]) {
-      navigate(`/services/${redirects[id]}`, { replace: true });
+    if (targetRedirect) {
+      const prefix = language === 'hi' ? '/hi' : '';
+      navigate(`${prefix}/services/${targetRedirect}`, { replace: true });
     }
-  }, [id, navigate]);
+  }, [targetRedirect, navigate, language]);
 
-  const service = id ? serviceKeys[id] : null;
+  const effectiveId = (id === 'watering-eyes-tear-drainage-disorders-dcr' || id === 'dcr')
+    ? 'watering-eyes-tear-drainage-disorders'
+    : id;
 
-  if (isRedirecting) {
+  const service = effectiveId ? serviceKeys[effectiveId] : null;
+
+  if (targetRedirect) {
     return null;
   }
 
@@ -1500,14 +1509,14 @@ export default function ServiceDetail() {
     );
   }
 
-  const isEyelidSurgery = id === 'eyelid-disorders-eyelid-surgery';
-  const isWateringEyes = id === 'watering-eyes-tear-drainage-disorders';
-  const isOrbitalSurgery = id === 'orbital-disorders-orbital-surgery';
-  const isTumoursService = id === 'eye-tumours-ocular-oncology';
-  const isSocketService = id === 'socket-reconstruction-artificial-eye-rehabilitation';
-  const isTraumaService = id === 'eye-trauma-eyelid-orbital-reconstruction';
-  const isBotoxService = id === 'botox-eyelid-cosmetic-surgery-periocular-aesthetics';
-  const isWhyChooseService = id === 'why-choose-an-oculoplasty-ocular-oncology-specialist';
+  const isEyelidSurgery = effectiveId === 'eyelid-disorders-eyelid-surgery';
+  const isWateringEyes = effectiveId === 'watering-eyes-tear-drainage-disorders';
+  const isOrbitalSurgery = effectiveId === 'orbital-disorders-orbital-surgery';
+  const isTumoursService = effectiveId === 'eye-tumours-ocular-oncology';
+  const isSocketService = effectiveId === 'socket-reconstruction-artificial-eye-rehabilitation';
+  const isTraumaService = effectiveId === 'eye-trauma-eyelid-orbital-reconstruction';
+  const isBotoxService = effectiveId === 'botox-eyelid-cosmetic-surgery-periocular-aesthetics';
+  const isWhyChooseService = effectiveId === 'why-choose-an-oculoplasty-ocular-oncology-specialist';
   const isRichService = isEyelidSurgery || isWateringEyes || isOrbitalSurgery || isTumoursService || isSocketService || isTraumaService || isBotoxService || isWhyChooseService;
   const currentLang = (language === 'hi' ? 'hi' : 'en') as 'en' | 'hi';
   const richData = (isEyelidSurgery 
@@ -1598,17 +1607,21 @@ export default function ServiceDetail() {
     }
   };
 
-  const seoInfo = id && language === 'hi' && seoDataHi[id] ? seoDataHi[id] : id && seoData[id] ? seoData[id] : {
+  const seoInfo = effectiveId && language === 'hi' && seoDataHi[effectiveId] ? seoDataHi[effectiveId] : effectiveId && seoData[effectiveId] ? seoData[effectiveId] : {
     title: t(service.titleKey), 
     desc: t(service.descKey) || (isRichService && richData ? richData.introParas[0] : '') 
   };
+
+  const currentPath = isWateringEyes
+    ? (language === 'hi' ? '/hi/services/watering-eyes-tear-drainage-disorders/dcr' : '/services/watering-eyes-tear-drainage-disorders/dcr')
+    : (language === 'hi' ? `/hi/services/${effectiveId}` : `/services/${effectiveId}`);
 
   return (
     <div id="service-detail-root" className="flex flex-col">
       <SEO 
         title={seoInfo.title}
         description={seoInfo.desc}
-        path={language === 'hi' ? `/hi/services/${id}` : `/services/${id}`}
+        path={currentPath}
         jsonLd={{
           "@context": "https://schema.org",
           "@graph": [
@@ -1628,7 +1641,7 @@ export default function ServiceDetail() {
               "itemListElement": [
                 { "@type": "ListItem", "position": 1, "name": t('nav.home'), "item": `https://drsaumika.in${language === 'hi' ? '/hi' : '/'}` },
                 { "@type": "ListItem", "position": 2, "name": t('nav.conditions'), "item": `https://drsaumika.in${language === 'hi' ? '/hi' : '/'}#conditions` },
-                { "@type": "ListItem", "position": 3, "name": t(service.titleKey), "item": `https://drsaumika.in${language === 'hi' ? `/hi/services/${id}` : `/services/${id}`}` }
+                { "@type": "ListItem", "position": 3, "name": t(service.titleKey), "item": `https://drsaumika.in${currentPath}` }
               ]
             },
             ...(isRichService && richData && Array.isArray(richData.faqs) && richData.faqs.length
@@ -1643,7 +1656,7 @@ export default function ServiceDetail() {
               : []),
             {
               "@type": "MedicalWebPage",
-              "url": `https://drsaumika.in${language === 'hi' ? `/hi/services/${id}` : `/services/${id}`}`,
+              "url": `https://drsaumika.in${currentPath}`,
               "name": t(service.titleKey),
               "inLanguage": language === 'hi' ? 'hi-IN' : 'en-IN',
               "specialty": "https://schema.org/Surgical",
@@ -1866,7 +1879,7 @@ export default function ServiceDetail() {
                 )}
 
                 {/* References & further reading — authoritative external sources (E-E-A-T) */}
-                {id && serviceReferences[id] && serviceReferences[id].length > 0 && (
+                {effectiveId && serviceReferences[effectiveId] && serviceReferences[effectiveId].length > 0 && (
                   <section id="service-references" className="border border-gold/15 bg-white/40 p-6 rounded-sm">
                     <h2 className="text-xl md:text-2xl font-bold text-navy mb-1">
                       {language === 'hi' ? 'संदर्भ एवं अधिक जानकारी' : 'References & further reading'}
@@ -1877,7 +1890,7 @@ export default function ServiceDetail() {
                         : 'Patient-education resources from recognised medical authorities (open in a new tab).'}
                     </p>
                     <ul className="space-y-3">
-                      {serviceReferences[id].map((ref, idx) => (
+                      {serviceReferences[effectiveId].map((ref, idx) => (
                         <li key={idx} className="flex items-start gap-2.5">
                           <ArrowRight className="w-4 h-4 text-gold flex-shrink-0 mt-1" aria-hidden="true" />
                           <span className="leading-relaxed">
@@ -1957,21 +1970,25 @@ export default function ServiceDetail() {
             className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 lg:gap-6"
           >
             {Object.entries(serviceKeys)
-              .filter(([key]) => key !== id) // Exclude current service
-              .map(([key, item]) => (
-                <m.div
-                  key={key}
-                  variants={{
-                    hidden: { opacity: 0, scale: 0.95 },
-                    show: { opacity: 1, scale: 1, transition: { duration: 0.3 } }
-                  }}
-                  className="h-full"
-                >
-                  <Link
-                    to={`/services/${key}`}
-                    aria-label={`Learn more about ${t(item.titleKey)} treatments`}
-                    className="group block p-5 md:p-6 bg-white/70 backdrop-blur-sm border border-gold/15 rounded-xl hover:border-gold/50 focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 shadow-sm hover:shadow-md transition-all text-center relative overflow-hidden h-full"
+              .filter(([key]) => key !== effectiveId) // Exclude current service
+              .map(([key, item]) => {
+                const serviceLink = key === 'watering-eyes-tear-drainage-disorders'
+                  ? (language === 'hi' ? '/hi/services/watering-eyes-tear-drainage-disorders/dcr' : '/services/watering-eyes-tear-drainage-disorders/dcr')
+                  : (language === 'hi' ? `/hi/services/${key}` : `/services/${key}`);
+                return (
+                  <m.div
+                    key={key}
+                    variants={{
+                      hidden: { opacity: 0, scale: 0.95 },
+                      show: { opacity: 1, scale: 1, transition: { duration: 0.3 } }
+                    }}
+                    className="h-full"
                   >
+                    <Link
+                      to={serviceLink}
+                      aria-label={`Learn more about ${t(item.titleKey)} treatments`}
+                      className="group block p-5 md:p-6 bg-white/70 backdrop-blur-sm border border-gold/15 rounded-xl hover:border-gold/50 focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 shadow-sm hover:shadow-md transition-all text-center relative overflow-hidden h-full"
+                    >
                     <div className="absolute top-0 left-0 right-0 h-1 bg-gold scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300" />
                     <h3 className="font-bold text-navy group-hover:text-gold transition-colors text-lg mb-3">{t(item.titleKey)}</h3>
                     <div className="text-xs font-bold text-gold/80 tracking-wider uppercase flex items-center justify-center gap-1.5 group-hover:text-gold transition-all duration-300">
@@ -1980,7 +1997,8 @@ export default function ServiceDetail() {
                     </div>
                   </Link>
                 </m.div>
-            ))}
+              );
+            })}
           </m.div>
         </m.div>
 

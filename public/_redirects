@@ -4,5 +4,11 @@
 /services/drooping-eyelids /services/eyelid-disorders-eyelid-surgery 301
 /services/thyroid-eye-disease /services/orbital-disorders-orbital-surgery 301
 /services/tumours /services/eye-tumours-ocular-oncology 301
-/services/watering-eyes /services/watering-eyes-tear-drainage-disorders 301
+/services/watering-eyes /services/watering-eyes-tear-drainage-disorders/dcr 301
+/services/watering-eyes-tear-drainage-disorders /services/watering-eyes-tear-drainage-disorders/dcr 301
+/hi/services/watering-eyes-tear-drainage-disorders /hi/services/watering-eyes-tear-drainage-disorders/dcr 301
+/services/watering-eyes-tear-drainage-disorders-dcr /services/watering-eyes-tear-drainage-disorders/dcr 301
+/hi/services/watering-eyes-tear-drainage-disorders-dcr /hi/services/watering-eyes-tear-drainage-disorders/dcr 301
+/services/dcr /services/watering-eyes-tear-drainage-disorders/dcr 301
+/hi/services/dcr /hi/services/watering-eyes-tear-drainage-disorders/dcr 301
 /*    /index.html   200

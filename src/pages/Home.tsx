@@ -360,7 +360,7 @@ export default function Home() {
           >
             {[
               { icon: EyelidIcon, title: t('home.drooping'), desc: t('home.droopingDesc'), slug: 'eyelid-disorders-eyelid-surgery' },
-              { icon: Droplets, title: t('home.watering'), desc: t('home.wateringDesc'), slug: 'watering-eyes-tear-drainage-disorders' },
+              { icon: Droplets, title: t('home.watering'), desc: t('home.wateringDesc'), slug: 'watering-eyes-tear-drainage-disorders/dcr' },
               { icon: OrbitalIcon, title: t('home.artificialTitle'), desc: t('home.artificialDesc'), slug: 'orbital-disorders-orbital-surgery' },
               { icon: Ribbon, title: t('home.thyroid'), desc: t('home.thyroidDesc'), slug: 'eye-tumours-ocular-oncology' },
               { icon: SocketIcon, title: t('home.tumours'), desc: t('home.tumoursDesc'), slug: 'socket-reconstruction-artificial-eye-rehabilitation' },
@@ -377,7 +377,7 @@ export default function Home() {
                 whileHover={{ y: -8, scale: 1.02, transition: { duration: 0.2 } }}
                 className="h-full"
               >
-                <Link to={`/services/${item.slug}`} aria-label={`Explore ${item.title}`} className="group flex flex-col items-center text-center px-3 py-5 sm:p-6 border border-gold/15 hover:border-gold/50 focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 transition-all rounded-xl relative overflow-hidden bg-white/70 backdrop-blur-sm shadow-sm hover:shadow-xl h-full pb-8">
+                <Link to={language === 'hi' ? `/hi/services/${item.slug}` : `/services/${item.slug}`} aria-label={`Explore ${item.title}`} className="group flex flex-col items-center text-center px-3 py-5 sm:p-6 border border-gold/15 hover:border-gold/50 focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 transition-all rounded-xl relative overflow-hidden bg-white/70 backdrop-blur-sm shadow-sm hover:shadow-xl h-full pb-8">
                   {/* Decorative premium hover line */}
                   <div className="absolute top-0 left-0 right-0 h-1 bg-gold scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300" />
                   
