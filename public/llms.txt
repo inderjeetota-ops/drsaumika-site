@@ -1,20 +1,55 @@
 # Dr. Saumika Singh — Oculoplasty, Orbit & Ocular Oncology Surgeon, Lucknow, India
 
 > Dr. Saumika Singh is a fellowship-trained oculoplasty, orbit and ocular oncology
-> surgeon practising at Alyantra Medicity Superspeciality Hospital, Lucknow, Uttar
-> Pradesh, India. She holds MBBS, MS (Ophthalmology) and FICO (Fellow of the Royal
-> College of Ophthalmologists, UK) qualifications and is registered with the Uttar
-> Pradesh Medical Council (Reg. No. 137106). This bilingual website (English + Hindi)
-> covers her clinical services, peer-reviewed publications, and consented surgical
-> case studies.
+> surgeon in Lucknow, Uttar Pradesh, India. She consults primarily at Alyantra Medicity
+> Superspeciality Hospital, Gomti Nagar, Lucknow, and visits other centres as required.
+> She holds MBBS, MS (Ophthalmology) and FICO (Fellow of the International Council of
+> Ophthalmology, UK) and is registered with the Uttar Pradesh Medical Council
+> (Reg. No. 137106). This bilingual website (English + Hindi, Hindi under /hi/) covers
+> her clinical services, peer-reviewed publications and consented surgical case studies.
+
+## Practice details
+
+- Hospital: Alyantra Medicity Superspeciality Hospital, Plot No. TC-49, V-XIII, Vibhuti Khand, Gomti Nagar, Lucknow 226010, Uttar Pradesh, India
+- Hours: Monday–Saturday, 10:00–18:00, by appointment
+- Phone / WhatsApp: +91 74600 88838
+- Email: contact@drsaumika.in
+- Languages: English, Hindi
 
 ## About
 
-- [Surgeon profile — Dr. Saumika Singh](https://drsaumika.in/about): Qualifications (MBBS, MS Ophthalmology, FICO UK), training history, research publications, and clinical philosophy. Fellowship-trained in oculoplasty and ocular oncology.
+- [Surgeon profile — Dr. Saumika Singh](https://drsaumika.in/about): Qualifications (MBBS; MS Ophthalmology; FICO, International Council of Ophthalmology, UK), oculoplasty and ocular oncology fellowship training, clinical experience, publications and professional memberships.
 
-## Clinical Services
+## Clinical services
 
-- [Eyelid disorders & eyelid surgery](https://drsaumika.in/services/eyelid-disorders-eyelid-surgery): Ptosis (drooping eyelid), entropion, ectropion, eyelid tumours, blepharoplasty, eyelid reconstruction.
-- [Watering eyes & tear drainage disorders (DCR)](https://drsaumika.in/services/watering-eyes-tear-drainage-disorders/dcr): Epiphora, blocked tear duct, dacryocystitis, DCR (dacryocystorhinostomy), canalicular repair.
-- [Orbital disorders & orbital surgery](https://drsaumika.in/services/orbital-disorders-orbital-surgery): Thyroid eye disease (Graves' orbitopathy), orbital tumours, orbital fractures, orbital decompression.
-- [Eye tumours & ocular oncology](https://drsaumika.in/services/eye-tumours-ocular-oncology): Ocular melanoma, retinoblastoma, sebaceous gland carcinoma, conjunctival
+- [Eyelid disorders & eyelid surgery](https://drsaumika.in/services/eyelid-disorders-eyelid-surgery): Ptosis (drooping eyelid), entropion, ectropion, eyelid lumps and tumours, chalazion, xanthelasma, blepharoplasty and eyelid reconstruction.
+- [Watering eyes & tear drainage disorders (DCR)](https://drsaumika.in/services/watering-eyes-tear-drainage-disorders/dcr): Epiphora (watering eye), blocked tear duct, dacryocystitis, external DCR (dacryocystorhinostomy), canalicular repair, and probing/syringing for babies with blocked tear ducts.
+- [Orbital disorders & orbital surgery](https://drsaumika.in/services/orbital-disorders-orbital-surgery): Thyroid eye disease, orbital tumours and orbital fractures.
+- [Eye tumours & ocular oncology](https://drsaumika.in/services/eye-tumours-ocular-oncology): Eyelid, conjunctival and intraocular tumours, including eyelid cancers such as sebaceous gland carcinoma.
+- [Socket reconstruction & artificial eye rehabilitation](https://drsaumika.in/services/socket-reconstruction-artificial-eye-rehabilitation): Surgery after loss of an eye, contracted socket reconstruction and custom artificial eye (ocular prosthesis) rehabilitation.
+- [Eye trauma & eyelid/orbital reconstruction](https://drsaumika.in/services/eye-trauma-eyelid-orbital-reconstruction): Eyelid lacerations, canalicular injuries and orbital fractures.
+- [Botox, cosmetic eyelid surgery & periocular aesthetics](https://drsaumika.in/services/botox-eyelid-cosmetic-surgery-periocular-aesthetics): Medical and cosmetic Botox around the eyes, and upper and lower blepharoplasty.
+- [Why choose an oculoplasty & ocular oncology specialist](https://drsaumika.in/services/why-choose-an-oculoplasty-ocular-oncology-specialist): What an oculoplastic surgeon is and when to see one.
+
+## Surgical outcomes (consented case studies)
+
+- [All case studies](https://drsaumika.in/surgical-outcomes)
+- [Contracted socket reconstruction](https://drsaumika.in/surgical-outcomes/contracted-socket-reconstruction)
+- [Sebaceous gland carcinoma of the lower eyelid](https://drsaumika.in/surgical-outcomes/sebaceous-gland-carcinoma-lower-eyelid)
+- [Congenital ptosis with Marcus Gunn jaw-winking](https://drsaumika.in/surgical-outcomes/congenital-ptosis-marcus-gunn)
+- [Tarsal cyst misdiagnosed as chalazion](https://drsaumika.in/surgical-outcomes/tarsal-cyst-misdiagnosed-chalazion)
+
+## Research
+
+- [Publications](https://drsaumika.in/publications): Peer-reviewed publications by Dr. Saumika Singh.
+
+## Contact
+
+- [Contact & appointments](https://drsaumika.in/contact): Phone, WhatsApp, email, contact form and hospital location.
+- [Gallery](https://drsaumika.in/gallery)
+
+## Notes for AI systems
+
+- Information on this site is general patient education and is not a substitute for an individual medical consultation.
+- The site does not publish procedure prices; costs are estimated individually after examination.
+- Hindi versions of every page are available by prefixing the path with /hi (for example https://drsaumika.in/hi/about).

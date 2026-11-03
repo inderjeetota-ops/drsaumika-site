@@ -4,6 +4,7 @@ import { useLanguage } from '../context/LanguageContext';
 import { m } from 'motion/react';
 import { ArrowLeft, CheckCircle2, ArrowRight } from 'lucide-react';
 import SEO from '../components/SEO';
+import GuideLinks from '../components/guide/GuideLinks';
 
 // Authoritative external references per service (E-E-A-T). Every URL verified 2026-09-15
 // (HTTP 200 + topic-specific page) against AAO / NEI (NIH) / NHS / NCI / MedlinePlus /
@@ -172,7 +173,7 @@ const richEyelidContent = {
       },
       {
         q: "Is eyelid surgery painful?",
-        a: "Most eyelid procedures are performed under local anaesthesia with minimal discomfort, and recovery is generally quick."
+        a: "Most eyelid procedures are performed under local anaesthesia, so you are awake but the area is numb. Some soreness, swelling and bruising are normal for one to two weeks; recovery time depends on the procedure."
       },
       {
         q: "Will eyelid surgery leave visible scars?",
@@ -1227,7 +1228,7 @@ const richBotoxContent = {
     faqs: [
       {
         q: "Is Botox safe around the eyes?",
-        a: "Yes. When performed by a trained oculoplasty specialist, Botox is a safe and effective treatment for selected medical and cosmetic conditions around the eyes."
+        a: "In suitable patients, Botox given by a trained specialist in the correct dose is a well-established treatment for selected medical and cosmetic conditions around the eyes. Like any treatment it can have side effects — such as bruising, headache or, uncommonly, a temporary droop of the eyelid or brow — which are discussed before treatment."
       },
       {
         q: "How long does Botox last?",
@@ -1315,7 +1316,7 @@ const richBotoxContent = {
     faqs: [
       {
         q: "क्या आंखों के आसपास बोटॉक्स सुरक्षित है?",
-        a: "हाँ। जब एक प्रशिक्षित ओकुलोप्लास्टी विशेषज्ञ द्वारा किया जाता है, तो बोटॉक्स आंखों के आसपास चयनित चिकित्सा और कॉस्मेटिक स्थितियों के लिए एक सुरक्षित और प्रभावी उपचार है।"
+        a: "उपयुक्त मरीज़ों में, प्रशिक्षित विशेषज्ञ द्वारा सही मात्रा में दिया गया बोटॉक्स आंखों के आसपास की चयनित चिकित्सा और कॉस्मेटिक स्थितियों का एक स्थापित उपचार है। किसी भी इलाज की तरह इसके दुष्प्रभाव हो सकते हैं — जैसे नील पड़ना, सिरदर्द या कभी-कभी पलक या भौंह का अस्थायी झुकना — जिनके बारे में इलाज से पहले चर्चा की जाती है।"
       },
       {
         q: "बोटॉक्स का असर कितने समय तक रहता है?",
@@ -1539,12 +1540,12 @@ export default function ServiceDetail() {
 
   const seoData: Record<string, { title: string; desc: string }> = {
     'eyelid-disorders-eyelid-surgery': {
-      title: "Eyelid Disorders & Surgery | Dr. Saumika Singh, Lucknow",
-      desc: "Expert diagnosis and surgical treatment of eyelid disorders including ptosis, entropion, ectropion and eyelid tumours by Dr. Saumika Singh in Lucknow."
+      title: "Eyelid Surgery in Lucknow – Ptosis, Entropion | Dr Saumika",
+      desc: "Eyelid surgery in Lucknow for ptosis (drooping eyelid), entropion, ectropion, eyelid lumps and tumours by oculoplasty surgeon Dr. Saumika Singh, Gomti Nagar."
     },
     'watering-eyes-tear-drainage-disorders': {
-      title: "Watering Eyes & Tear Duct Surgery | Dr. Saumika Singh",
-      desc: "Specialist treatment for watering eyes and lacrimal (tear duct) drainage disorders, including DCR surgery, by Dr. Saumika Singh in Lucknow."
+      title: "Watering Eyes & DCR Treatment in Lucknow | Dr Saumika Singh",
+      desc: "Watering eyes and blocked tear duct treatment in Lucknow, including DCR surgery and baby tear-duct probing, by oculoplasty surgeon Dr. Saumika Singh."
     },
     'orbital-disorders-orbital-surgery': {
       title: "Orbital Disorders & Surgery | Dr. Saumika Singh, Lucknow",
@@ -1563,8 +1564,8 @@ export default function ServiceDetail() {
       desc: "Emergency and reconstructive surgery for eye, eyelid and orbital trauma by Dr. Saumika Singh, oculoplasty specialist in Lucknow."
     },
     'botox-eyelid-cosmetic-surgery-periocular-aesthetics': {
-      title: "Botox & Cosmetic Eyelid Surgery | Dr. Saumika Singh",
-      desc: "Cosmetic eyelid surgery, Botox and periocular aesthetic treatments performed by oculoplasty specialist Dr. Saumika Singh in Lucknow."
+      title: "Botox & Cosmetic Eyelid Surgery in Lucknow | Dr Saumika Singh",
+      desc: "Botox around the eyes, blepharoplasty and cosmetic eyelid surgery in Lucknow by oculoplasty specialist Dr. Saumika Singh, Gomti Nagar."
     },
     'why-choose-an-oculoplasty-ocular-oncology-specialist': {
       title: "Why Choose an Oculoplasty Specialist | Dr. Saumika Singh",
@@ -1572,13 +1573,20 @@ export default function ServiceDetail() {
     }
   };
   
+  // Query-matched H1s for the three hub pages (SEO: H1 aligned with the search phrase)
+  const hubH1: Record<string, { en: string; hi: string }> = {
+    'eyelid-disorders-eyelid-surgery': { en: 'Eyelid Surgery in Lucknow – Eyelid Disorders & Treatment', hi: 'लखनऊ में पलक सर्जरी – पलक विकार और उपचार' },
+    'watering-eyes-tear-drainage-disorders': { en: 'Watering Eyes & Tear Duct (DCR) Treatment in Lucknow', hi: 'लखनऊ में आंखों से पानी आना और आंसू नली (DCR) का उपचार' },
+    'botox-eyelid-cosmetic-surgery-periocular-aesthetics': { en: 'Botox & Cosmetic Eyelid Surgery in Lucknow', hi: 'लखनऊ में बोटॉक्स और कॉस्मेटिक पलक सर्जरी' },
+  };
+
   const seoDataHi: Record<string, { title: string; desc: string }> = {
     'eyelid-disorders-eyelid-surgery': {
-      title: "पलक विकार और पलक सर्जरी | डॉ. सौमिका सिंह, लखनऊ",
+      title: "लखनऊ में पलक सर्जरी – टोसिस, एंट्रोपियन, एक्ट्रोपियन | डॉ. सौमिका सिंह",
       desc: "लखनऊ में डॉ. सौमिका सिंह द्वारा पलक विकारों — प्टोसिस (पलक का झुकना), एंट्रोपियन, एक्ट्रोपियन और पलक के ट्यूमर — का विशेषज्ञ निदान और सर्जिकल उपचार।"
     },
     'watering-eyes-tear-drainage-disorders': {
-      title: "आंखों से पानी आना और आंसू नली सर्जरी | डॉ. सौमिका सिंह",
+      title: "लखनऊ में आंखों से पानी आने का इलाज – आंसू नली व DCR | डॉ. सौमिका सिंह",
       desc: "लखनऊ में डॉ. सौमिका सिंह द्वारा आंखों से पानी आने और आंसू नली (लैक्रिमल) के विकारों का विशेषज्ञ उपचार, जिसमें DCR सर्जरी शामिल है।"
     },
     'orbital-disorders-orbital-surgery': {
@@ -1598,7 +1606,7 @@ export default function ServiceDetail() {
       desc: "लखनऊ में ओकुलोप्लास्टी विशेषज्ञ डॉ. सौमिका सिंह द्वारा आँख, पलक और ऑर्बिट की चोटों के लिए आपातकालीन और पुनर्निर्माण सर्जरी।"
     },
     'botox-eyelid-cosmetic-surgery-periocular-aesthetics': {
-      title: "बोटॉक्स और कॉस्मेटिक पलक सर्जरी | डॉ. सौमिका सिंह",
+      title: "लखनऊ में बोटॉक्स और कॉस्मेटिक पलक सर्जरी | डॉ. सौमिका सिंह",
       desc: "लखनऊ में ओकुलोप्लास्टी विशेषज्ञ डॉ. सौमिका सिंह द्वारा कॉस्मेटिक पलक सर्जरी, बोटॉक्स और आँखों के आसपास के सौंदर्य उपचार।"
     },
     'why-choose-an-oculoplasty-ocular-oncology-specialist': {
@@ -1687,7 +1695,7 @@ export default function ServiceDetail() {
           
           <div id="service-detail-inner" className={`relative z-10 ${isRichService ? 'max-w-4xl' : 'max-w-3xl'}`}>
             <h1 id="service-detail-heading" className="text-3xl md:text-5xl font-bold text-navy mb-6">
-              {t(service.titleKey)}
+              {(effectiveId && hubH1[effectiveId]?.[language === 'hi' ? 'hi' : 'en']) || t(service.titleKey)}
             </h1>
             {service.subKey && t(service.subKey) && (
               <p id="service-detail-subheading" className="text-lg md:text-2xl font-semibold text-gold mb-8 leading-snug">
@@ -1877,6 +1885,9 @@ export default function ServiceDetail() {
                     </p>
                   </section>
                 )}
+
+                {/* Detailed patient guides for this hub (only Dr Saumika-approved guides are listed) */}
+                {effectiveId && <GuideLinks serviceId={effectiveId} language={language} />}
 
                 {/* References & further reading — authoritative external sources (E-E-A-T) */}
                 {effectiveId && serviceReferences[effectiveId] && serviceReferences[effectiveId].length > 0 && (

@@ -67,6 +67,13 @@ surgicalCases
     routes.push(`/surgical-outcomes/${c.slug}`, `/hi/surgical-outcomes/${c.slug}`);
   });
 
+// Patient guides: /<slug> and /hi/<slug> for every entry in the guide index
+const guidesPath = path.resolve(__dirname, '../src/data/guides/index.json');
+const guides = JSON.parse(fs.readFileSync(guidesPath, 'utf-8'));
+guides.forEach((g) => {
+  routes.push(`/${g.slug}`, `/hi/${g.slug}`);
+});
+
 const app = express();
 app.use(express.static(distDir, { index: false })); // Don't serve index.html automatically
 

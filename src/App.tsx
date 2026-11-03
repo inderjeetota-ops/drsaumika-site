@@ -9,6 +9,7 @@ import { Layout } from './components/Layout';
 import { LanguageProvider } from './context/LanguageContext';
 import ScrollToTop from './components/ScrollToTop';
 import Home from './pages/Home'; // eager — primary landing page, keep it instant
+import guideList from './data/guides/index.json';
 
 // Lazy routes: each becomes its own chunk, downloaded only when the route is visited.
 const GalleryPage = lazy(() => import('./pages/GalleryPage'));
@@ -20,6 +21,10 @@ const Publications = lazy(() => import('./pages/Publications'));
 const PrivacyPolicy = lazy(() => import('./pages/PrivacyPolicy'));
 const About = lazy(() => import('./pages/About'));
 const NotFoundPage = lazy(() => import('./pages/NotFoundPage'));
+const GuidePage = lazy(() => import('./pages/GuidePage'));
+
+// Patient guides (flat, query-matched URLs such as /ptosis-surgery-in-lucknow), English + Hindi.
+const guideSlugs: string[] = (guideList as { slug: string }[]).map((g) => g.slug);
 
 export default function App() {
   return (
@@ -55,6 +60,12 @@ export default function App() {
               <Route path="hi/publications" element={<Publications />} />
               <Route path="hi/privacy" element={<PrivacyPolicy />} />
               <Route path="hi/about" element={<About />} />
+              {guideSlugs.map((slug) => (
+                <React.Fragment key={slug}>
+                  <Route path={slug} element={<GuidePage slug={slug} />} />
+                  <Route path={`hi/${slug}`} element={<GuidePage slug={slug} />} />
+                </React.Fragment>
+              ))}
               <Route path="404" element={<NotFoundPage />} />
               <Route path="*" element={<NotFoundPage />} />
             </Route>
