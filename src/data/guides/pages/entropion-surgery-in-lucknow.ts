@@ -9,17 +9,17 @@ const guide: Guide = {
   hindiKeywords: ['एंट्रोपियन सर्जरी लखनऊ', 'पलक अंदर मुड़ना', 'पलकों के बाल आंख में चुभना', 'palak andar mudna', 'आंख में बाल चुभने का इलाज'],
 
   metaTitle: t(
-    'Entropion Surgery in Lucknow – Inward Eyelid | Dr Saumika Singh',
+    'Entropion Surgery in Lucknow – Inward Eyelid | Dr Saumika',
     'लखनऊ में एंट्रोपियन सर्जरी – अंदर मुड़ी पलक का इलाज | डॉ. सौमिका सिंह'
   ),
   metaDescription: t(
-    'Entropion surgery in Lucknow for an inward-turning eyelid and eyelashes rubbing the eye, by oculoplasty surgeon Dr Saumika Singh, Gomti Nagar: causes, repair, recovery, risks.',
+    'Entropion surgery in Lucknow for an inward-turning eyelid and lashes rubbing the eye, by Dr Saumika Singh, Gomti Nagar: causes, repair, recovery and risks.',
     'लखनऊ में अंदर मुड़ी पलक और आंख में चुभती पलकों के लिए एंट्रोपियन सर्जरी – डॉ. सौमिका सिंह, गोमती नगर। कारण, सर्जरी, रिकवरी और जोखिम।'
   ),
   h1: t('Entropion Surgery in Lucknow – Inward-Turning Eyelid Repair', 'लखनऊ में एंट्रोपियन सर्जरी – अंदर मुड़ी पलक का इलाज'),
   lead: t(
     'Entropion surgery in Lucknow is performed by Dr. Saumika Singh, an oculoplasty surgeon at Alyantra Medicity Superspeciality Hospital, Gomti Nagar, to turn an inward-rolling eyelid back to its normal position so the eyelashes stop rubbing on the eye. Entropion is a condition in which the eyelid margin — most often the lower lid — turns in towards the eyeball. The lashes and skin then scratch the cornea with every blink, causing pain, redness, watering and a constant feeling that something is in the eye, and over time this can scar the cornea and affect vision. Surgery is the definitive treatment.',
-    'लखनऊ में एंट्रोपियन सर्जरी डॉ. सौमिका सिंह करती हैं, जो अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में ओकुलोप्लास्टी सर्जन हैं। इसका उद्देश्य अंदर मुड़ी पलक को सामान्य स्थिति में लाना है ताकि पलकों के बाल आंख पर रगड़ना बंद करें। एंट्रोपियन में पलक का किनारा — अक्सर निचली पलक — आंख की ओर अंदर मुड़ जाता है। तब हर बार झपकने पर बाल और त्वचा कॉर्निया को खरोंचते हैं, जिससे दर्द, लालिमा, पानी आना और आंख में कुछ गिरा होने जैसा एहसास लगातार बना रहता है। समय के साथ इससे कॉर्निया पर निशान पड़ सकता है और नज़र प्रभावित हो सकती है। सर्जरी ही इसका स्थायी इलाज है।'
+    'लखनऊ में एंट्रोपियन सर्जरी डॉ. सौमिका सिंह करती हैं, जो अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में ओकुलोप्लास्टी सर्जन हैं। इसका उद्देश्य अंदर मुड़ी पलक को सामान्य स्थिति में लाना है ताकि पलकों के बाल आंख पर रगड़ना बंद करें। एंट्रोपियन में पलक का किनारा — अक्सर निचली पलक — आंख की ओर अंदर मुड़ जाता है। तब हर बार झपकने पर बाल और त्वचा कॉर्निया को खरोंचते हैं, जिससे दर्द, लालिमा, पानी आना और आंख में कुछ गिरा होने जैसा एहसास लगातार बना रहता है। समय के साथ इससे कॉर्निया पर निशान पड़ सकता है और नज़र प्रभावित हो सकती है। लंबे समय तक ठीक रखने के लिए आमतौर पर सर्जरी ही मुख्य इलाज है।'
   ),
   atAGlance: [
     t('**What it is:** the eyelid turns inwards and the lashes rub on the eye', '**यह क्या है:** पलक अंदर मुड़ जाती है और बाल आंख पर रगड़ते हैं'),

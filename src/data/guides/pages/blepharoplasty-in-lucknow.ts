@@ -5,18 +5,18 @@ const t = (en: string, hi: string): L => ({ en, hi });
 const guide: Guide = {
   slug: 'blepharoplasty-in-lucknow',
   primaryKeyword: 'blepharoplasty in Lucknow',
-  secondaryKeywords: ['blepharoplasty doctor Lucknow', 'eyelid surgery Lucknow', 'upper blepharoplasty', 'lower blepharoplasty', 'under eye bags surgery', 'hooded eyelids surgery', 'blepharoplasty cost in Lucknow', 'blepharoplasty recovery'],
+  secondaryKeywords: ['blepharoplasty doctor Lucknow', 'eyelid lift Lucknow', 'upper blepharoplasty', 'lower blepharoplasty', 'under eye bags surgery', 'hooded eyelids surgery', 'blepharoplasty cost in Lucknow', 'blepharoplasty recovery'],
   hindiKeywords: ['ब्लेफेरोप्लास्टी लखनऊ', 'पलक की ढीली त्वचा का ऑपरेशन', 'आंखों के नीचे सूजन की सर्जरी', 'blepharoplasty kya hai', 'पलकों की सर्जरी'],
 
   metaTitle: t(
-    'Blepharoplasty in Lucknow – Eyelid Surgery | Dr Saumika Singh',
-    'लखनऊ में ब्लेफेरोप्लास्टी – ऊपरी व निचली पलक सर्जरी | डॉ. सौमिका सिंह'
+    'Blepharoplasty in Lucknow – Eyelid Lift | Dr Saumika Singh',
+    'लखनऊ में ब्लेफेरोप्लास्टी – पलक लिफ़्ट | डॉ. सौमिका सिंह'
   ),
   metaDescription: t(
-    'Blepharoplasty in Lucknow by oculoplasty surgeon Dr Saumika Singh, Gomti Nagar: upper and lower eyelid surgery for heavy lids and under-eye bags, suitability, recovery, risks and cost.',
+    'Blepharoplasty in Lucknow by Dr Saumika Singh, Gomti Nagar: upper and lower eyelid surgery for heavy lids and under-eye bags, suitability, recovery and risks.',
     'लखनऊ में ब्लेफेरोप्लास्टी – डॉ. सौमिका सिंह, गोमती नगर। भारी पलकों और आंखों के नीचे की थैलियों के लिए ऊपरी व निचली पलक सर्जरी, रिकवरी, जोखिम और खर्च।'
   ),
-  h1: t('Blepharoplasty in Lucknow – Upper & Lower Eyelid Surgery', 'लखनऊ में ब्लेफेरोप्लास्टी – ऊपरी व निचली पलक सर्जरी'),
+  h1: t('Blepharoplasty in Lucknow – Upper & Lower Eyelid Lift', 'लखनऊ में ब्लेफेरोप्लास्टी – ऊपरी व निचली पलक लिफ़्ट'),
   lead: t(
     'Blepharoplasty in Lucknow is performed by Dr. Saumika Singh, an oculoplasty (eye plastic) surgeon at Alyantra Medicity Superspeciality Hospital, Gomti Nagar, to remove or reposition excess eyelid skin and fat. Blepharoplasty is eyelid surgery that treats heavy, hooded upper eyelids and puffy lower-eyelid bags. Upper-lid surgery can be functional, when overhanging skin blocks the upper field of vision, or cosmetic, when the aim is a fresher appearance; lower-lid surgery is usually cosmetic. Because the eyelids protect the eye, the operation is planned around eyelid closure and eye-surface health as well as appearance.',
     'लखनऊ में ब्लेफेरोप्लास्टी डॉ. सौमिका सिंह करती हैं, जो अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में ओकुलोप्लास्टी (आई प्लास्टिक) सर्जन हैं। इसमें पलकों की अतिरिक्त त्वचा और चर्बी को हटाया या सही जगह पर किया जाता है। ब्लेफेरोप्लास्टी पलकों की सर्जरी है जो भारी, लटकती ऊपरी पलकों और निचली पलकों के नीचे की सूजी हुई थैलियों का इलाज करती है। ऊपरी पलक की सर्जरी फ़ंक्शनल हो सकती है — जब लटकती त्वचा ऊपर की नज़र रोकती है — या सौंदर्य के लिए, जब उद्देश्य तरोताज़ा दिखना हो; निचली पलक की सर्जरी आमतौर पर सौंदर्य के लिए होती है। पलकें आंख की रक्षा करती हैं, इसलिए ऑपरेशन की योजना सुंदरता के साथ-साथ पलक के बंद होने और आंख की सतह की सेहत को ध्यान में रखकर बनाई जाती है।'

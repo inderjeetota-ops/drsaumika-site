@@ -21,8 +21,8 @@ const CANONICAL_ADDRESS = {
 
 const STR = {
   pageTitle: {
-    en: 'About Dr. Saumika Singh | Oculoplasty Surgeon, Lucknow',
-    hi: 'डॉ. सौमिका सिंह के बारे में | ओकुलोप्लास्टी सर्जन, लखनऊ',
+    en: 'About Dr. Saumika Singh – Qualifications & Experience',
+    hi: 'डॉ. सौमिका सिंह के बारे में – योग्यताएं और अनुभव',
   },
   metaTitle: { en: 'About Dr. Saumika Singh', hi: 'डॉ. सौमिका सिंह के बारे में' },
   metaDescription: {

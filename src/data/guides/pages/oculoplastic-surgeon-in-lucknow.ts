@@ -15,7 +15,7 @@ const guide: Guide = {
     'लखनऊ में ओकुलोप्लास्टिक सर्जन – डॉ. सौमिका सिंह'
   ),
   metaDescription: t(
-    'Dr Saumika Singh is a fellowship-trained oculoplastic and ocular oncology surgeon in Lucknow at Alyantra Medicity, Gomti Nagar, treating eyelid, tear duct, orbit and eye tumour conditions.',
+    'Oculoplastic surgeon in Lucknow Dr Saumika Singh, fellowship-trained, treats eyelid, tear duct, orbit and eye tumour conditions at Alyantra Medicity, Gomti Nagar.',
     'डॉ. सौमिका सिंह लखनऊ में अलयंत्रा मेडिसिटी, गोमती नगर में फ़ेलोशिप-प्रशिक्षित ओकुलोप्लास्टिक व ओकुलर ऑन्कोलॉजी सर्जन हैं — पलक, आंसू नली, ऑर्बिट और आंख के ट्यूमर का इलाज।'
   ),
   h1: t('Oculoplastic Surgeon in Lucknow – Dr. Saumika Singh', 'लखनऊ में ओकुलोप्लास्टिक सर्जन – डॉ. सौमिका सिंह'),
@@ -38,12 +38,8 @@ const guide: Guide = {
       h2: t('What is an oculoplastic surgeon?', 'ओकुलोप्लास्टिक सर्जन कौन होते हैं?'),
       paras: [
         t(
-          'Oculoplasty (oculoplastic surgery) is the branch of ophthalmology that deals with the structures around the eye: the eyelids, the tear drainage system, the orbit and the face around the eyes. An oculoplastic surgeon first trains as an ophthalmologist (MS or equivalent in ophthalmology) and then completes a dedicated fellowship in oculoplasty. This combination matters because eyelid and orbit surgery is done millimetres from the eye — the surgeon must understand how each change will affect blinking, tear flow, eye-surface health and vision.',
-          'ओकुलोप्लास्टी (ओकुलोप्लास्टिक सर्जरी) नेत्र विज्ञान की वह शाखा है जो आंख के आसपास की संरचनाओं से जुड़ी है: पलकें, आंसू निकासी तंत्र, ऑर्बिट और आंखों के आसपास का चेहरा। ओकुलोप्लास्टिक सर्जन पहले नेत्र रोग विशेषज्ञ (नेत्र विज्ञान में MS या समकक्ष) बनते हैं और फिर ओकुलोप्लास्टी में अलग से फ़ेलोशिप करते हैं। यह संयोजन इसलिए अहम है क्योंकि पलक और ऑर्बिट की सर्जरी आंख से कुछ मिलीमीटर की दूरी पर होती है — सर्जन को समझना होता है कि हर बदलाव पलक झपकने, आंसू बहने, आंख की सतह और नज़र को कैसे प्रभावित करेगा।'
-        ),
-        t(
-          'General ophthalmologists treat conditions inside the eye such as cataract and glaucoma, and plastic surgeons operate on the face and body. An oculoplastic surgeon sits between the two, focusing on the eyelids, tear ducts and orbit with an eye surgeon’s training. For conditions such as [ptosis](/ptosis-surgery-in-lucknow), [blocked tear ducts](/dcr-surgery-in-lucknow) or eyelid tumours, many patients and doctors look for this specific training.',
-          'सामान्य नेत्र रोग विशेषज्ञ आंख के अंदर की समस्याओं जैसे मोतियाबिंद और ग्लूकोमा का इलाज करते हैं, और प्लास्टिक सर्जन चेहरे व शरीर की सर्जरी करते हैं। ओकुलोप्लास्टिक सर्जन इन दोनों के बीच हैं — नेत्र सर्जन के प्रशिक्षण के साथ पलकों, आंसू नलियों और ऑर्बिट पर ध्यान। [टोसिस](/ptosis-surgery-in-lucknow), [बंद आंसू नली](/dcr-surgery-in-lucknow) या पलक के ट्यूमर जैसी समस्याओं में कई मरीज़ और डॉक्टर इसी विशेष प्रशिक्षण वाले सर्जन को ढूंढते हैं।'
+          'An oculoplastic surgeon is an eye surgeon (MS or equivalent in ophthalmology) who has completed further fellowship training in the eyelids, tear ducts, orbit and the face around the eyes. Because this surgery is done millimetres from the eye, that combined training matters for conditions such as [ptosis](/ptosis-surgery-in-lucknow), [blocked tear ducts](/dcr-surgery-in-lucknow) and eyelid tumours. For a fuller explanation of the specialty, see [what is oculoplasty?](/what-is-oculoplasty)',
+          'ओकुलोप्लास्टिक सर्जन ऐसे नेत्र सर्जन (नेत्र विज्ञान में MS या समकक्ष) होते हैं जिन्होंने पलकों, आंसू नलियों, ऑर्बिट और आंखों के आसपास के चेहरे में अलग से फ़ेलोशिप प्रशिक्षण लिया हो। यह सर्जरी आंख से कुछ मिलीमीटर की दूरी पर होती है, इसलिए [टोसिस](/ptosis-surgery-in-lucknow), [बंद आंसू नली](/dcr-surgery-in-lucknow) और पलक के ट्यूमर जैसी समस्याओं में यह संयुक्त प्रशिक्षण अहम है। इस विशेषज्ञता की पूरी जानकारी के लिए [ओकुलोप्लास्टी क्या है?](/what-is-oculoplasty) देखें।'
         ),
       ],
     },
@@ -139,6 +135,15 @@ const guide: Guide = {
       ],
       subsections: [
         {
+          h3: t('Do you need a subspecialist, or will a general eye doctor do?', 'सब-स्पेशलिस्ट चाहिए या सामान्य नेत्र डॉक्टर काफ़ी हैं?'),
+          paras: [
+            t(
+              'A general ophthalmologist is usually the right first stop for most eye problems, and many will refer you on. Ask for an oculoplastic opinion when the problem is in the eyelid, tear duct or eye socket rather than inside the eye — for example, a droopy lid that blocks your vision, a watering eye that has not settled with drops, an eyelid lump that keeps coming back or bleeds, an eye that looks more prominent than the other, or a child whose eyelid covers the pupil. It is also sensible to see a subspecialist before any repeat eyelid operation, or before cosmetic eyelid surgery if you have dry eye or thyroid problems. A fuller list of referral reasons is in [what is oculoplasty?](/what-is-oculoplasty)',
+              'ज़्यादातर आंखों की समस्याओं में सामान्य नेत्र रोग विशेषज्ञ ही पहला सही पड़ाव होते हैं, और कई बार वे आगे रेफ़र करते हैं। जब समस्या आंख के अंदर नहीं बल्कि पलक, आंसू नली या आंख के गड्ढे (ऑर्बिट) में हो, तब ओकुलोप्लास्टिक राय लें — जैसे झुकी पलक जो नज़र रोके, ड्रॉप्स से ठीक न होने वाला आंखों से पानी आना, बार-बार लौटने वाली या खून आने वाली पलक की गांठ, एक आंख का दूसरी से ज़्यादा उभरी दिखना, या बच्चे की पलक का पुतली को ढकना। पलक की दोबारा सर्जरी से पहले, या सूखी आंख या थायरॉइड की समस्या होने पर कॉस्मेटिक पलक सर्जरी से पहले भी सब-स्पेशलिस्ट को दिखाना समझदारी है। रेफ़रल के कारणों की पूरी सूची [ओकुलोप्लास्टी क्या है?](/what-is-oculoplasty) पेज पर है।'
+            ),
+          ],
+        },
+        {
           h3: t('Patient reviews', 'मरीज़ों की समीक्षाएं'),
           paras: [
             t(
@@ -152,12 +157,11 @@ const guide: Guide = {
     {
       id: 'first-visit',
       h2: t('What happens at your first consultation', 'पहले परामर्श में क्या होता है'),
-      steps: [
-        t('Book by phone or WhatsApp on +91 74600 88838, or through the contact form', '+91 74600 88838 पर फ़ोन या WhatsApp से, या संपर्क फ़ॉर्म से बुक करें'),
-        t('Bring previous eye reports, scans, biopsy reports, a list of your medicines and, for eyelid problems, older photographs', 'पुरानी आंखों की रिपोर्ट, स्कैन, बायोप्सी रिपोर्ट, दवाओं की सूची और पलक की समस्या हो तो पुरानी तस्वीरें लाएं'),
-        t('Dr. Singh takes a history and examines the eyes, eyelids and tear system; drops may be used, so you may not be able to drive straight after', 'डॉ. सिंह इतिहास लेकर आंख, पलक और आंसू तंत्र की जांच करती हैं; ड्रॉप्स डाली जा सकती हैं, इसलिए तुरंत गाड़ी चलाना मुश्किल हो सकता है'),
-        t('Tests such as syringing, photographs, scans or a biopsy are arranged if needed', 'ज़रूरत हो तो सिरिंजिंग, तस्वीरें, स्कैन या बायोप्सी जैसी जांचें कराई जाती हैं'),
-        t('You receive a diagnosis, the treatment options (including non-surgical ones), risks, recovery time and a cost estimate', 'आपको निदान, इलाज के विकल्प (बिना सर्जरी वाले भी), जोखिम, रिकवरी का समय और खर्च का अनुमान बताया जाता है'),
+      paras: [
+        t(
+          'Book by phone, WhatsApp or the contact form, and bring previous eye reports, scans and a list of your medicines. Dr. Singh takes a history, examines the eyes, eyelids and tear system, arranges any tests needed, and explains the diagnosis, treatment options (including non-surgical ones), risks and recovery. Eye drops may be used, so plan not to drive straight after. A step-by-step guide is in [your oculoplasty consultation: what to expect](/oculoplasty-consultation-what-to-expect).',
+          'फ़ोन, WhatsApp या संपर्क फ़ॉर्म से बुक करें, और पुरानी आंखों की रिपोर्ट, स्कैन और दवाओं की सूची साथ लाएं। डॉ. सिंह इतिहास लेकर आंख, पलक और आंसू तंत्र की जांच करती हैं, ज़रूरी जांचें कराती हैं, और निदान, इलाज के विकल्प (बिना सर्जरी वाले भी), जोखिम और रिकवरी समझाती हैं। ड्रॉप्स डाली जा सकती हैं, इसलिए तुरंत गाड़ी न चलाने की योजना रखें। पूरी जानकारी [ओकुलोप्लास्टी परामर्श में क्या होता है](/oculoplasty-consultation-what-to-expect) पेज पर है।'
+        ),
       ],
       callout: {
         tone: 'urgent',
