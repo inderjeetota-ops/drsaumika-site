@@ -1,10 +1,10 @@
 [
   { "slug": "oculoplastic-surgeon-in-lucknow", "hub": "surgeon", "title": { "en": "Oculoplastic surgeon in Lucknow", "hi": "लखनऊ में ओकुलोप्लास्टिक सर्जन" }, "cases": [], "updated": "2026-11-03", "reviewedOn": null },
-  { "slug": "ptosis-surgery-in-lucknow", "hub": "eyelid", "title": { "en": "Ptosis (drooping eyelid) surgery", "hi": "टोसिस (झुकी पलक) सर्जरी" }, "cases": ["congenital-ptosis-marcus-gunn"], "updated": "2026-11-03", "reviewedOn": null },
+  { "slug": "ptosis-surgery-in-lucknow", "hub": "eyelid", "title": { "en": "Ptosis (drooping eyelid) surgery", "hi": "टोसिस (झुकी पलक) सर्जरी" }, "cases": ["congenital-ptosis-marcus-gunn"], "updated": "2026-11-11", "reviewedOn": null },
   { "slug": "ectropion-surgery-in-lucknow", "hub": "eyelid", "title": { "en": "Ectropion (outward-turning eyelid) surgery", "hi": "एक्ट्रोपियन (बाहर मुड़ी पलक) सर्जरी" }, "cases": [], "updated": "2026-11-03", "reviewedOn": null },
   { "slug": "entropion-surgery-in-lucknow", "hub": "eyelid", "title": { "en": "Entropion (inward-turning eyelid) surgery", "hi": "एंट्रोपियन (अंदर मुड़ी पलक) सर्जरी" }, "cases": [], "updated": "2026-11-03", "reviewedOn": null },
-  { "slug": "dcr-surgery-in-lucknow", "hub": "watering", "title": { "en": "DCR surgery for a blocked tear duct", "hi": "बंद आंसू नली के लिए DCR सर्जरी" }, "cases": [], "updated": "2026-11-03", "reviewedOn": null },
-  { "slug": "blepharoplasty-in-lucknow", "hub": "botox", "title": { "en": "Blepharoplasty (upper & lower eyelid surgery)", "hi": "ब्लेफेरोप्लास्टी (ऊपरी और निचली पलक सर्जरी)" }, "cases": [], "updated": "2026-11-03", "reviewedOn": null },
+  { "slug": "dcr-surgery-in-lucknow", "hub": "watering", "title": { "en": "DCR surgery for a blocked tear duct", "hi": "बंद आंसू नली के लिए DCR सर्जरी" }, "cases": [], "updated": "2026-11-11", "reviewedOn": null },
+  { "slug": "blepharoplasty-in-lucknow", "hub": "botox", "title": { "en": "Blepharoplasty (upper & lower eyelid surgery)", "hi": "ब्लेफेरोप्लास्टी (ऊपरी और निचली पलक सर्जरी)" }, "cases": [], "updated": "2026-11-11", "reviewedOn": null },
   { "slug": "oculoplasty-surgery-cost-in-lucknow", "hub": "surgeon", "title": { "en": "Oculoplasty surgery cost: what affects it", "hi": "ओकुलोप्लास्टी सर्जरी का खर्च: किन बातों पर निर्भर" }, "cases": [], "updated": "2026-11-03", "reviewedOn": null },
   { "slug": "drooping-eyelid-causes-and-treatment", "hub": "eyelid", "title": { "en": "Drooping eyelid: causes & when to worry", "hi": "झुकी हुई पलक: कारण और कब चिंता करें" }, "cases": [], "updated": "2026-11-03", "reviewedOn": null },
   { "slug": "congenital-ptosis-in-children", "hub": "eyelid", "title": { "en": "Congenital ptosis in children", "hi": "बच्चों में जन्मजात टोसिस" }, "cases": ["congenital-ptosis-marcus-gunn"], "updated": "2026-11-03", "reviewedOn": null },
@@ -16,5 +16,11 @@
   { "slug": "eyelid-cancer-signs-and-treatment", "hub": "tumour", "title": { "en": "Eyelid cancer: signs & treatment", "hi": "पलक का कैंसर: लक्षण और इलाज" }, "cases": ["sebaceous-gland-carcinoma-lower-eyelid"], "updated": "2026-11-03", "reviewedOn": null },
   { "slug": "ectropion-vs-entropion", "hub": "eyelid", "title": { "en": "Ectropion vs entropion", "hi": "एक्ट्रोपियन और एंट्रोपियन में अंतर" }, "cases": [], "updated": "2026-11-03", "reviewedOn": null },
   { "slug": "what-is-oculoplasty", "hub": "surgeon", "title": { "en": "What is oculoplasty?", "hi": "ओकुलोप्लास्टी क्या है?" }, "cases": [], "updated": "2026-11-03", "reviewedOn": null },
-  { "slug": "oculoplasty-consultation-what-to-expect", "hub": "surgeon", "title": { "en": "Your consultation: what to expect", "hi": "परामर्श में क्या होता है" }, "cases": [], "updated": "2026-11-03", "reviewedOn": null }
+  { "slug": "oculoplasty-consultation-what-to-expect", "hub": "surgeon", "title": { "en": "Your consultation: what to expect", "hi": "परामर्श में क्या होता है" }, "cases": [], "updated": "2026-11-03", "reviewedOn": null },
+  { "slug": "functional-vs-cosmetic-blepharoplasty", "hub": "botox", "title": { "en": "Functional vs cosmetic blepharoplasty", "hi": "ब्लेफेरोप्लास्टी: ज़रूरी या कॉस्मेटिक" }, "cases": [], "updated": "2026-11-11", "reviewedOn": null },
+  { "slug": "under-eye-bags-treatment", "hub": "botox", "title": { "en": "Under-eye bags: causes and treatment", "hi": "आंखों के नीचे सूजन: कारण और इलाज" }, "cases": [], "updated": "2026-11-11", "reviewedOn": null },
+  { "slug": "botox-for-blepharospasm", "hub": "botox", "title": { "en": "Botox for blepharospasm and hemifacial spasm", "hi": "ब्लेफेरोस्पाज़्म और चेहरे के फड़कने में बोटॉक्स" }, "cases": [], "updated": "2026-11-11", "reviewedOn": null },
+  { "slug": "eyelid-growth-removal-in-lucknow", "hub": "eyelid", "title": { "en": "Eyelid growth, mole and papilloma removal", "hi": "पलक पर मस्सा, तिल और ग्रोथ हटाना" }, "cases": ["tarsal-cyst-misdiagnosed-chalazion"], "updated": "2026-11-11", "reviewedOn": null },
+  { "slug": "xanthelasma-removal-in-lucknow", "hub": "eyelid", "title": { "en": "Xanthelasma (yellow eyelid patches) removal", "hi": "ज़ैंथेलाज़्मा (पलकों पर पीले धब्बे) हटाना" }, "cases": [], "updated": "2026-11-11", "reviewedOn": null },
+  { "slug": "thyroid-eye-disease", "hub": "orbit", "title": { "en": "Thyroid eye disease: symptoms and treatment", "hi": "थायराइड आई डिज़ीज़: लक्षण और इलाज" }, "cases": [], "updated": "2026-11-11", "reviewedOn": null }
 ]

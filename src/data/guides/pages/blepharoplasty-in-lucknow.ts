@@ -122,6 +122,45 @@ const guide: Guide = {
         t('Avoid bending, heavy lifting, strenuous exercise and swimming for about two weeks, or as advised', 'लगभग दो हफ़्ते या सलाह के अनुसार झुकने, भारी सामान उठाने, कड़े व्यायाम और तैराकी से बचें'),
         t('Do not wear contact lenses until your surgeon says it is safe; sunglasses help outdoors', 'सर्जन की अनुमति तक कॉन्टैक्ट लेंस न पहनें; बाहर धूप का चश्मा मददगार है'),
       ],
+      subsections: [
+        {
+          h3: t('Caring for your eyes at home', 'घर पर आंखों की देखभाल'),
+          bullets: [
+            t('Use cold compresses for short periods in the first 48 hours, as advised, and keep the head raised when resting and sleeping', 'पहले 48 घंटों में सलाह के अनुसार थोड़ी-थोड़ी देर ठंडी सिकाई करें, और आराम करते व सोते समय सिर ऊंचा रखें'),
+            t('Use lubricating drops and ointment as prescribed; dryness and a gritty feeling are common in the first weeks', 'चिकनाई वाली ड्रॉप्स और ऑइंटमेंट निर्देशानुसार लगाएं; पहले कुछ हफ़्तों में सूखापन और किरकिरापन आम है'),
+            t('Clean the stitch lines gently only as shown, keep them dry for the first few days, and do not rub the eyes', 'टांकों की रेखाएं सिर्फ़ बताए गए तरीके से धीरे से साफ़ करें, पहले कुछ दिन उन्हें सूखा रखें, और आंखें न मलें'),
+            t('Keep eye make-up and creams off the wounds until your surgeon says the skin has healed', 'जब तक सर्जन न कहें कि त्वचा भर गई है, घावों पर आई मेकअप और क्रीम न लगाएं'),
+            t('Ask before restarting blood thinners or supplements that can increase bruising, and avoid smoking', 'नील बढ़ा सकने वाली ख़ून पतला करने की दवाएं या सप्लीमेंट दोबारा शुरू करने से पहले पूछें, और धूम्रपान से बचें'),
+          ],
+        },
+        {
+          h3: t('Returning to work, screens, driving and exercise', 'काम, स्क्रीन, गाड़ी चलाना और व्यायाम कब शुरू करें'),
+          paras: [
+            t(
+              'Many people return to desk work after about a week to ten days, and to social activities after around two weeks once the bruising has faded. Screen use is usually fine, but take breaks and use drops, as the eyes tire and dry quickly at first. Drive only when your vision is clear, ointment is not blurring it, and you feel comfortable. Gentle walking is encouraged early; heavier exercise, head-down yoga positions and swimming wait until you are cleared, usually after about two weeks.',
+              'कई लोग लगभग एक हफ़्ते से दस दिन में दफ़्तरी काम पर, और नील कम होने पर लगभग दो हफ़्ते में सामाजिक कामों में लौट आते हैं। स्क्रीन का इस्तेमाल आमतौर पर ठीक है, लेकिन बीच-बीच में आराम करें और ड्रॉप्स डालें, क्योंकि शुरुआत में आंखें जल्दी थकती और सूखती हैं। गाड़ी तभी चलाएं जब नज़र साफ़ हो, ऑइंटमेंट से धुंधलापन न हो और आप सहज महसूस करें। शुरू से हल्का टहलना अच्छा है; भारी व्यायाम, सिर नीचे करने वाले योगासन और तैराकी अनुमति मिलने तक टालें — आमतौर पर लगभग दो हफ़्ते बाद।'
+            ),
+          ],
+        },
+        {
+          h3: t('What is normal while healing — and what is not', 'भरने के दौरान क्या सामान्य है — और क्या नहीं'),
+          paras: [
+            t(
+              'For some weeks the eyelids can feel tight, the eyes may water or feel dry, and one side may look more swollen than the other. After lower eyelid surgery the lower lid can look slightly pulled down at first while the swelling settles. Small white bumps along the stitch line sometimes appear and are usually simple to treat, and the scar may look pink for a few months before it fades. Tell the clinic if the eye cannot close, the lower lid stays pulled away from the eye, or redness, discharge and tenderness increase, which can be a sign of infection.',
+              'कुछ हफ़्तों तक पलकें कसी हुई लग सकती हैं, आंखों से पानी आ सकता है या वे सूखी लग सकती हैं, और एक तरफ़ दूसरी से ज़्यादा सूजी दिख सकती है। निचली पलक की सर्जरी के बाद शुरुआत में, सूजन कम होने तक, निचली पलक थोड़ी नीचे खिंची दिख सकती है। टांकों की रेखा पर कभी-कभी छोटे सफ़ेद दाने निकल आते हैं, जिनका इलाज आमतौर पर आसान होता है, और निशान हल्का होने से पहले कुछ महीनों तक गुलाबी दिख सकता है। अगर आंख बंद न हो पाए, निचली पलक आंख से दूर खिंची ही रहे, या लालिमा, स्राव और दर्द बढ़े — जो संक्रमण का संकेत हो सकता है — तो क्लिनिक को बताएं।'
+            ),
+          ],
+        },
+        {
+          h3: t('Scar care and when you will see the final result', 'निशान की देखभाल और अंतिम परिणाम कब दिखेगा'),
+          paras: [
+            t(
+              'Once the wound has healed, protect the scar from strong sun and follow any advice on gentle massage. Upper eyelid scars usually sit in the natural crease and become hard to see. Most residual swelling settles over three to six months, which is when the final result is judged. Follow-up usually includes stitch removal in the first week and a later review of the shape and symmetry of the eyelids.',
+              'घाव भरने के बाद निशान को तेज़ धूप से बचाएं और हल्की मालिश की कोई सलाह मिली हो तो उसका पालन करें। ऊपरी पलक का निशान आमतौर पर प्राकृतिक सिलवट में रहता है और मुश्किल से दिखता है। ज़्यादातर बची हुई सूजन तीन से छह महीनों में कम हो जाती है, और अंतिम परिणाम तभी आंका जाता है। फ़ॉलो-अप में आमतौर पर पहले हफ़्ते टांके हटाना और बाद में पलकों के आकार और बराबरी की जांच शामिल होती है।'
+            ),
+          ],
+        },
+      ],
       callout: {
         tone: 'urgent',
         title: t('Emergency warning signs after eyelid surgery', 'पलक सर्जरी के बाद इमरजेंसी चेतावनी संकेत'),

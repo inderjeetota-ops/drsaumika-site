@@ -460,7 +460,7 @@ const richOrbitalContent = {
       },
       {
         title: "Thyroid Eye Disease",
-        desc: "Thyroid-related eye disease may cause bulging eyes, eyelid retraction, swelling around the eyes, redness, dryness and double vision. Treatment depends on the severity of the disease and may range from medical therapy to specialised orbital surgery."
+        desc: "An autoimmune condition linked to the thyroid that can cause bulging, staring or puffy eyes, redness, dryness and double vision. It needs assessment of disease activity and severity, often shared with your thyroid doctor."
       },
       {
         title: "Orbital Tumours",
@@ -562,7 +562,7 @@ const richOrbitalContent = {
       },
       {
         title: "थायराइड नेत्र रोग",
-        desc: "थायरॉयड से संबंधित नेत्र रोग के कारण आंखें उभरी हुई, पलकें सिकुड़ी हुई, आंखों के आसपास सूजन, लालिमा, सूखापन और दोहरी दृष्टि हो सकती है। उपचार रोग की गंभीरता पर निर्भर करता है और चिकित्सा चिकित्सा (medical therapy) से लेकर विशिष्ट ऑर्बिटल सर्जरी तक हो सकता है।"
+        desc: "थायराइड से जुड़ी एक ऑटोइम्यून स्थिति, जिसमें आंखें उभरी, घूरती-सी या सूजी दिख सकती हैं, और लालिमा, सूखापन व दोहरा दिखना हो सकता है। इसमें बीमारी की सक्रियता और गंभीरता की जांच ज़रूरी है, अक्सर आपके थायराइड डॉक्टर के साथ मिलकर।"
       },
       {
         title: "ऑर्बिटल ट्यूमर",
@@ -826,7 +826,8 @@ const richSocketContent = {
     introTitle: "Introduction",
     introParas: [
       "Losing an eye due to injury, infection, cancer or a painful blind eye can be emotionally and physically challenging. Modern oculoplastic surgery focuses not only on treating the underlying condition but also on restoring facial appearance, eyelid function and confidence through socket reconstruction and artificial eye rehabilitation.",
-      "Dr. Saumika Singh provides specialised care for patients requiring eye removal surgery, socket reconstruction and long-term rehabilitation with customised ocular prostheses, with the aim of achieving the best possible functional and cosmetic outcome."
+      "Dr. Saumika Singh provides specialised care for patients requiring eye removal surgery, socket reconstruction and long-term rehabilitation with customised ocular prostheses, with the aim of a comfortable socket and a natural appearance.",
+      "An artificial eye (ocular prosthesis), often called a \u201cglass eye\u201d, is today usually a thin, custom-made acrylic shell rather than glass. It sits over an implant or the healed socket, behind the eyelids, and is painted to match your other eye. It does not restore sight, but a healthy socket and a well-fitted prosthesis can give a natural look and comfortable movement. The usual path is: assessment of the eye or socket, surgery if needed, a healing period of several weeks, and then fitting of a custom prosthesis by an ocularist working with the surgeon."
     ],
     commonDisordersTitle: "Symptoms & Conditions We Treat",
     disorders: [
@@ -844,7 +845,11 @@ const richSocketContent = {
       },
       {
         title: "Artificial Eye Rehabilitation",
-        desc: "A customised artificial eye (ocular prosthesis) is designed to closely match the natural eye, improving facial symmetry and confidence. Proper socket preparation is essential for achieving the best cosmetic result."
+        desc: "A customised artificial eye (ocular prosthesis) is designed to closely match the natural eye, improving facial symmetry and confidence. Proper socket preparation is essential for a natural cosmetic result."
+      },
+      {
+        title: "Old, Loose or Uncomfortable Artificial Eye",
+        desc: "An artificial eye that falls out, sits sunken, causes discharge or no longer matches the other eye often points to a change in the socket or eyelids. Many of these problems can be improved with socket or eyelid surgery and a new prosthesis."
       },
       {
         title: "Exposure or Extrusion of Orbital Implant",
@@ -864,6 +869,7 @@ const richSocketContent = {
       "Recurrent discharge from the eye socket",
       "Shrinking or scarring of the socket",
       "Exposure of an orbital implant",
+      "An artificial eye that keeps falling out or looks sunken",
       "A child born with an underdeveloped or absent eye"
     ],
     treatmentOptionsTitle: "Treatment Options",
@@ -902,6 +908,14 @@ const richSocketContent = {
       {
         q: "Can socket problems be corrected years after surgery?",
         a: "Yes. Many socket-related problems, including contracted sockets, implant exposure and poorly fitting prostheses, can often be improved with reconstructive surgery after appropriate evaluation."
+      },
+      {
+        q: "How do I look after an artificial eye?",
+        a: "Follow your ocularist\u2019s advice on how often to remove and clean it; many people only need to do so occasionally. Wash your hands first and clean the prosthesis gently as shown. Most prostheses need professional polishing about once a year and replacement every few years, or sooner if the socket changes."
+      },
+      {
+        q: "Can children have an artificial eye?",
+        a: "Yes. Children who lose an eye, or who are born with a small or absent eye, are fitted with prostheses or expanders that are enlarged step by step, because the socket needs stimulation to grow normally with the face. Regular review continues through childhood."
       }
     ],
     consultationSection: {
@@ -913,7 +927,8 @@ const richSocketContent = {
     introTitle: "परिचय",
     introParas: [
       "चोट, संक्रमण, कैंसर या दर्दनाक दृष्टिहीन आँख के कारण आँख खोना भावनात्मक और शारीरिक रूप से चुनौतीपूर्ण हो सकता है। आधुनिक ओकुलोप्लास्टिक सर्जरी न केवल अंतर्निहित स्थिति के इलाज पर ध्यान केंद्रित करती है, बल्कि सॉकेट पुनर्निर्माण और कृत्रिम आँख पुनर्वास के माध्यम से चेहरे के रूप-रंग, पलकों के कार्य और आत्मविश्वास को बहाल करने पर भी ध्यान केंद्रित करती है।",
-      "डॉ. सौमिका सिंह सर्वोत्तम संभव कार्यात्मक और कॉस्मेटिक परिणाम प्राप्त करने के उद्देश्य से आँख निकालने की सर्जरी, सॉकेट पुनर्निर्माण और अनुकूलित ओकुलर प्रोस्थेसिस (कृत्रिम आँख) के साथ दीर्घकालिक पुनर्वास की आवश्यकता वाले रोगियों के लिए विशिष्ट देखभाल प्रदान करती हैं।"
+      "डॉ. सौमिका सिंह आरामदायक सॉकेट और प्राकृतिक रूप के उद्देश्य से आँख निकालने की सर्जरी, सॉकेट पुनर्निर्माण और अनुकूलित ओकुलर प्रोस्थेसिस (कृत्रिम आँख) के साथ दीर्घकालिक पुनर्वास की आवश्यकता वाले रोगियों के लिए विशिष्ट देखभाल प्रदान करती हैं।",
+      "कृत्रिम आँख (ओकुलर प्रोस्थेसिस), जिसे आम बोलचाल में \u201cनकली आँख\u201d या \u201cपत्थर की आँख\u201d कहते हैं, आजकल आमतौर पर कांच की नहीं, बल्कि नाप से बनी पतली एक्रेलिक परत होती है। यह इम्प्लांट या भरे हुए सॉकेट के ऊपर, पलकों के पीछे बैठती है और आपकी दूसरी आँख से मिलाकर रंगी जाती है। इससे रोशनी वापस नहीं आती, लेकिन स्वस्थ सॉकेट और सही फ़िट वाली कृत्रिम आँख से प्राकृतिक रूप और आरामदायक हरकत मिल सकती है। आम क्रम यह है: आँख या सॉकेट की जांच, ज़रूरत हो तो सर्जरी, कुछ हफ़्तों का भराव, और फिर सर्जन के साथ काम करने वाले ओकुलरिस्ट द्वारा नाप से बनी कृत्रिम आँख लगाना।"
     ],
     commonDisordersTitle: "लक्षण और स्थितियां जिनका हम इलाज करते हैं",
     disorders: [
@@ -934,6 +949,10 @@ const richSocketContent = {
         desc: "एक अनुकूलित कृत्रिम आँख (ओकुलर प्रोस्थेसिस) प्राकृतिक आँख से काफी हद तक मेल खाने के लिए डिज़ाइन की जाती है, जिससे चेहरे की समरूपता और आत्मविश्वास में सुधार होता है। सर्वोत्तम कॉस्मेटिक परिणाम प्राप्त करने के लिए उचित सॉकेट की तैयारी आवश्यक है।"
       },
       {
+        title: "पुरानी, ढीली या तकलीफ़ देने वाली कृत्रिम आँख",
+        desc: "जो कृत्रिम आँख बार-बार निकल जाए, धंसी हुई दिखे, स्राव पैदा करे या दूसरी आँख से मेल न खाए, वह अक्सर सॉकेट या पलकों में बदलाव का संकेत होती है। इनमें से कई समस्याएं सॉकेट या पलक सर्जरी और नई कृत्रिम आँख से बेहतर की जा सकती हैं।"
+      },
+      {
         title: "ऑर्बिटल इम्प्लांट का निकलना या दिखना",
         desc: "कभी-कभी, आँख निकालने की सर्जरी के बाद रखा गया इम्प्लांट बाहर दिख सकता है या विस्थापित हो सकता है। प्रारंभिक विशेषज्ञ मूल्यांकन यह निर्धारित करने में मदद करता है कि चिकित्सा उपचार की आवश्यकता है या पुनर्निर्माण सर्जरी की।"
       },
@@ -951,6 +970,7 @@ const richSocketContent = {
       "आँख के सॉकेट से बार-बार पानी या मवाद आना",
       "सॉकेट का सिकुड़ना या उसमें घाव होना",
       "ऑर्बिटल इम्प्लांट का बाहर दिखना",
+      "कृत्रिम आँख का बार-बार निकल जाना या धंसा हुआ दिखना",
       "अविकसित या अनुपस्थित आँख के साथ पैदा हुआ बच्चा"
     ],
     treatmentOptionsTitle: "उपचार के विकल्प",
@@ -989,6 +1009,14 @@ const richSocketContent = {
       {
         q: "क्या सर्जरी के वर्षों बाद भी सॉकेट की समस्याओं को ठीक किया जा सकता है?",
         a: "हाँ। कई सॉकेट-संबंधित समस्याओं, जिनमें सिकुड़े हुए सॉकेट, इम्प्लांट का दिखना और खराब फिटिंग वाली कृत्रिम आँख शामिल हैं, को उचित मूल्यांकन के बाद पुनर्निर्माण सर्जरी के साथ ठीक किया जा सकता है।"
+      },
+      {
+        q: "कृत्रिम आँख की देखभाल कैसे करें?",
+        a: "इसे कितनी बार निकालना और साफ़ करना है, इसके लिए अपने ओकुलरिस्ट की सलाह मानें; कई लोगों को ऐसा कभी-कभार ही करना पड़ता है। पहले हाथ धोएं और बताए गए तरीके से कृत्रिम आँख को धीरे से साफ़ करें। ज़्यादातर कृत्रिम आँखों को साल में लगभग एक बार पेशेवर पॉलिश और हर कुछ साल में बदलने की ज़रूरत होती है, या सॉकेट बदलने पर पहले भी।"
+      },
+      {
+        q: "क्या बच्चों को कृत्रिम आँख लग सकती है?",
+        a: "हां। जिन बच्चों की आँख चली जाती है, या जो छोटी या अनुपस्थित आँख के साथ पैदा होते हैं, उन्हें ऐसी कृत्रिम आँख या एक्सपैंडर लगाए जाते हैं जिन्हें धीरे-धीरे बड़ा किया जाता है, क्योंकि चेहरे के साथ सॉकेट के सामान्य रूप से बढ़ने के लिए उसे उत्तेजना चाहिए। पूरे बचपन नियमित जांच चलती रहती है।"
       }
     ],
     consultationSection: {
@@ -1173,11 +1201,11 @@ const richBotoxContent = {
     disorders: [
       {
         title: "Botox for Blepharospasm",
-        desc: "Blepharospasm is a condition in which involuntary eyelid muscle contractions interfere with normal blinking and daily activities. Botox injections help relax the affected muscles, providing significant symptomatic relief."
+        desc: "Involuntary, forceful closing of both eyelids that is different from a harmless eyelid twitch. Medical Botox injections relax the overactive muscles and are repeated every few months."
       },
       {
         title: "Botox for Hemifacial Spasm",
-        desc: "Involuntary twitching affecting one side of the face can often be effectively managed with carefully administered Botox injections, reducing muscle spasms and improving comfort."
+        desc: "Twitching of the eyelid and cheek on one side of the face. It usually needs a scan to look for a cause, and Botox injections can reduce the spasms."
       },
       {
         title: "Cosmetic Botox Around the Eyes",
@@ -1261,11 +1289,11 @@ const richBotoxContent = {
     disorders: [
       {
         title: "ब्लेफेरोस्पाज्म के लिए बोटॉक्स",
-        desc: "ब्लेफेरोस्पाज्म एक ऐसी स्थिति है जिसमें अनैच्छिक पलक की मांसपेशियों का संकुचन सामान्य पलक झपकने और दैनिक गतिविधियों में हस्तक्षेप करता है। बोटॉक्स इंजेक्शन प्रभावित मांसपेशियों को आराम देने में मदद करते हैं, जिससे महत्वपूर्ण रोगसूचक राहत मिलती है।"
+        desc: "दोनों पलकों का अनचाहे, ज़ोर से बंद होना, जो साधारण आंख फड़कने से अलग है। मेडिकल बोटॉक्स इंजेक्शन ज़्यादा सक्रिय मांसपेशियों को ढीला करते हैं और हर कुछ महीनों में दोहराए जाते हैं।"
       },
       {
         title: "हेमीफेशियल ऐंठन के लिए बोटॉक्स",
-        desc: "चेहरे के एक हिस्से को प्रभावित करने वाले अनैच्छिक फड़कने को अक्सर बोटॉक्स इंजेक्शन के माध्यम से प्रभावी ढंग से प्रबंधित किया जा सकता है, जिससे मांसपेशियों में ऐंठन कम होती है और आराम में सुधार होता है।"
+        desc: "चेहरे के एक तरफ़ पलक और गाल का फड़कना। इसमें आमतौर पर कारण देखने के लिए स्कैन की ज़रूरत होती है, और बोटॉक्स इंजेक्शन से ऐंठन कम हो सकती है।"
       },
       {
         title: "आंखों के आसपास कॉस्मेटिक बोटॉक्स",
@@ -1388,6 +1416,14 @@ const richWhyChooseContent = {
     faqsTitle: "Choosing the right specialist",
     faqs: [
       {
+        q: "What is the difference between an oculoplastic surgeon and an ophthalmologist?",
+        a: "Every oculoplastic surgeon is first a fully trained ophthalmologist (eye doctor and eye surgeon). After that, they complete further fellowship training focused on the eyelids, tear drainage system, orbit and face around the eyes. A general ophthalmologist looks after the whole eye, including glasses, cataract, glaucoma and the retina; an oculoplastic surgeon concentrates on the structures around the eye."
+      },
+      {
+        q: "Is an oculoplastic surgeon the same as a plastic surgeon?",
+        a: "No. A plastic surgeon trains in surgery of the whole body and face. An oculoplastic surgeon trains first in ophthalmology and then specialises in the eyelids, tear ducts and orbit, so eyelid and eye-socket operations are planned with eye health, tear flow and vision in mind."
+      },
+      {
         q: "When to see a specialist?",
         a: "Many patients are referred to an oculoplasty specialist by their ophthalmologist, while others seek consultation directly after noticing symptoms such as persistent watering, a drooping eyelid, an eyelid growth, swelling around the eye or changes in eye appearance."
       },
@@ -1445,6 +1481,14 @@ const richWhyChooseContent = {
     whyChooseText: "पलकें और आंखों के आसपास के ऊतक हमारे चेहरे को फ्रेम करने से कहीं अधिक काम करते हैं। वे आंख की रक्षा करते हैं, आंसू वितरित करते हैं, आरामदायक दृष्टि बनाए रखते हैं और सामान्य चेहरे की अभिव्यक्ति में योगदान करते हैं।\nइस क्षेत्र में उपचार के लिए अक्सर सावधानीपूर्वक योजना की आवश्यकता होती है क्योंकि हर निर्णय आंखों के कार्य और उपस्थिति दोनों को प्रभावित करता है। चाहे अवरुद्ध आंसू वाहिनी का प्रबंधन करना हो, आघात के बाद पलक की मरम्मत करना हो, ट्यूमर को हटाना हो या नाजुक ऊतकों का पुनर्निर्माण करना हो, लक्ष्य हमेशा दृष्टि को संरक्षित करना, कार्य को बहाल करना और एक प्राकृतिक परिणाम प्राप्त करना है।\nइसी तरह, ओकुलर ऑन्कोलॉजी पलकों, कंजंक्टिवा, आंख के सॉकेट और आसपास के ऊतकों से जुड़े ट्यूमर के निदान और प्रबंधन पर केंद्रित है। संदिग्ध घावों की शीघ्र पहचान, आवश्यकता पड़ने पर समय पर बायोप्सी और उचित उपचार आंखों के स्वास्थ्य और दीर्घकालिक परिणामों दोनों में महत्वपूर्ण अंतर ला सकते हैं।",
     faqsTitle: "सही विशेषज्ञ का चुनाव",
     faqs: [
+      {
+        q: "ओकुलोप्लास्टिक सर्जन और नेत्र रोग विशेषज्ञ (ऑफ़्थैल्मोलॉजिस्ट) में क्या अंतर है?",
+        a: "हर ओकुलोप्लास्टिक सर्जन पहले पूरी तरह प्रशिक्षित नेत्र रोग विशेषज्ञ (आंखों के डॉक्टर और सर्जन) होते हैं। इसके बाद वे पलकों, आंसू निकासी तंत्र, ऑर्बिट और आंखों के आसपास के चेहरे पर केंद्रित फ़ेलोशिप प्रशिक्षण पूरा करते हैं। सामान्य नेत्र रोग विशेषज्ञ पूरी आंख की देखभाल करते हैं, जिसमें चश्मा, मोतियाबिंद, ग्लूकोमा और रेटिना शामिल हैं; ओकुलोप्लास्टिक सर्जन आंख के आसपास की संरचनाओं पर ध्यान देते हैं।"
+      },
+      {
+        q: "क्या ओकुलोप्लास्टिक सर्जन और प्लास्टिक सर्जन एक ही होते हैं?",
+        a: "नहीं। प्लास्टिक सर्जन पूरे शरीर और चेहरे की सर्जरी में प्रशिक्षित होते हैं। ओकुलोप्लास्टिक सर्जन पहले नेत्र विज्ञान में प्रशिक्षण लेते हैं और फिर पलकों, आंसू नलियों और ऑर्बिट में विशेषज्ञता हासिल करते हैं, इसलिए पलक और आंख के गड्ढे की सर्जरी आंखों के स्वास्थ्य, आंसू के बहाव और नज़र को ध्यान में रखकर बनाई जाती है।"
+      },
       {
         q: "विशेषज्ञ से कब मिलें?",
         a: "कई रोगियों को उनके नेत्र रोग विशेषज्ञ द्वारा ओकुलोप्लास्टी विशेषज्ञ के पास भेजा जाता है, जबकि अन्य लगातार पानी आने, पलक झुकने, पलक बढ़ने, आंख के आसपास सूजन या आंख के रूप में बदलाव जैसे लक्षणों को देखने के बाद सीधे परामर्श लेते हैं।"
@@ -1556,8 +1600,8 @@ export default function ServiceDetail() {
       desc: "Comprehensive care for eyelid, conjunctival and intraocular tumours from a fellowship-trained ocular oncology specialist in Lucknow."
     },
     'socket-reconstruction-artificial-eye-rehabilitation': {
-      title: "Socket Reconstruction & Custom Eyes | Dr. Saumika Singh",
-      desc: "Socket reconstruction surgery and artificial eye (ocular prosthesis) rehabilitation for patients who have lost an eye, offered by Dr. Saumika Singh in Lucknow."
+      title: "Artificial Eye in Lucknow – Socket Reconstruction | Dr Saumika",
+      desc: "Artificial eye (ocular prosthesis) rehabilitation and socket reconstruction in Lucknow for patients who have lost an eye, by oculoplasty surgeon Dr. Saumika Singh."
     },
     'eye-trauma-eyelid-orbital-reconstruction': {
       title: "Eye Trauma & Orbital Reconstruction | Dr. Saumika Singh",
@@ -1568,16 +1612,18 @@ export default function ServiceDetail() {
       desc: "Botox around the eyes, blepharoplasty and cosmetic eyelid surgery in Lucknow by oculoplasty specialist Dr. Saumika Singh, Gomti Nagar."
     },
     'why-choose-an-oculoplasty-ocular-oncology-specialist': {
-      title: "Why Choose an Oculoplasty Specialist | Dr. Saumika Singh",
-      desc: "Understand the difference a fellowship-trained oculoplasty and ocular oncology specialist makes for eyelid, orbital and eye tumour conditions."
+      title: "Oculoplastic Surgeon vs Ophthalmologist | Dr Saumika Singh",
+      desc: "Oculoplastic surgeon vs ophthalmologist: how the training differs, which eyelid, tear duct, orbit and eye tumour problems need a subspecialist, and when to ask."
     }
   };
   
-  // Query-matched H1s for the three hub pages (SEO: H1 aligned with the search phrase)
+  // Query-matched H1s for hub pages (SEO: H1 aligned with the search phrase)
   const hubH1: Record<string, { en: string; hi: string }> = {
     'eyelid-disorders-eyelid-surgery': { en: 'Eyelid Surgery in Lucknow – Eyelid Disorders & Treatment', hi: 'लखनऊ में पलक सर्जरी – पलक विकार और उपचार' },
     'watering-eyes-tear-drainage-disorders': { en: 'Watering Eyes & Tear Duct Treatment in Lucknow', hi: 'लखनऊ में आंखों से पानी आना और आंसू नली का उपचार' },
     'botox-eyelid-cosmetic-surgery-periocular-aesthetics': { en: 'Botox Around the Eyes & Periocular Aesthetics in Lucknow', hi: 'लखनऊ में आंखों के आसपास बोटॉक्स और सौंदर्य उपचार' },
+    'socket-reconstruction-artificial-eye-rehabilitation': { en: 'Artificial Eye & Socket Reconstruction in Lucknow', hi: 'लखनऊ में कृत्रिम (नकली) आँख और सॉकेट पुनर्निर्माण' },
+    'why-choose-an-oculoplasty-ocular-oncology-specialist': { en: 'Oculoplastic Surgeon vs Ophthalmologist: When to See a Specialist', hi: 'ओकुलोप्लास्टिक सर्जन और नेत्र रोग विशेषज्ञ: विशेषज्ञ को कब दिखाएं' },
   };
 
   const seoDataHi: Record<string, { title: string; desc: string }> = {
@@ -1598,7 +1644,7 @@ export default function ServiceDetail() {
       desc: "लखनऊ में फ़ेलोशिप-प्रशिक्षित ओकुलर ऑन्कोलॉजी विशेषज्ञ द्वारा पलक, कंजंक्टाइवा और आँख के भीतर के ट्यूमर की संपूर्ण देखभाल।"
     },
     'socket-reconstruction-artificial-eye-rehabilitation': {
-      title: "सॉकेट पुनर्निर्माण और कृत्रिम आँख | डॉ. सौमिका सिंह",
+      title: "लखनऊ में कृत्रिम (नकली) आँख – सॉकेट पुनर्निर्माण | डॉ. सौमिका सिंह",
       desc: "आँख खो चुके रोगियों के लिए सॉकेट पुनर्निर्माण सर्जरी और कृत्रिम आँख (ओकुलर प्रोस्थेसिस) पुनर्वास — लखनऊ में डॉ. सौमिका सिंह द्वारा।"
     },
     'eye-trauma-eyelid-orbital-reconstruction': {
@@ -1610,7 +1656,7 @@ export default function ServiceDetail() {
       desc: "लखनऊ में ओकुलोप्लास्टी विशेषज्ञ डॉ. सौमिका सिंह द्वारा कॉस्मेटिक पलक सर्जरी, बोटॉक्स और आँखों के आसपास के सौंदर्य उपचार।"
     },
     'why-choose-an-oculoplasty-ocular-oncology-specialist': {
-      title: "ओकुलोप्लास्टी विशेषज्ञ को क्यों चुनें | डॉ. सौमिका सिंह",
+      title: "ओकुलोप्लास्टिक सर्जन और नेत्र रोग विशेषज्ञ में अंतर | डॉ. सौमिका सिंह",
       desc: "जानें कि पलक, ऑर्बिट और आँखों के ट्यूमर की स्थितियों में फ़ेलोशिप-प्रशिक्षित ओकुलोप्लास्टी और ओकुलर ऑन्कोलॉजी विशेषज्ञ क्या अंतर लाते हैं।"
     }
   };

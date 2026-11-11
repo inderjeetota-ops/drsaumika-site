@@ -315,7 +315,7 @@ const guide: Guide = {
     'All six reference URLs returned HTTP 200 and were checked by page title/content (AAO Tearing, AAO What Is a Blocked Tear Duct, EyeWiki Dacryocystorhinostomy, EyeWiki Dacryocystitis, NHS Blepharitis, NHS Conjunctivitis). No StatPearls epiphora URL was cited because an ID could not be verified.',
     'Confirm the assessment list (slit lamp, dye disappearance test, syringing/irrigation, nasal exam or scans when needed) matches her routine workup.',
     'Confirm she is comfortable with the phrase "a narrowed punctum can sometimes be widened with a small procedure" and "other lacrimal techniques" (punctoplasty, probing, intubation are deliberately not named as services). Edit if she does not offer these.',
-    'External DCR is stated as performed; endoscopic DCR is mentioned only as an existing technique.',
+    'External DCR is stated as performed; endoscopic DCR is mentioned only as an existing technique. Confirmed 2026-11-11 that she does not perform endoscopic DCR, so this wording is correct.',
     'Chemical-splash first aid wording is generic ("plenty of clean running water for several minutes") with no fixed duration; confirm.',
     'Home-care section: confirm she agrees with warm compress, lid hygiene and plain lubricating drops being described as generally safe, and with the list of things not to use (kajal, surma, home-made drops, honey, breast milk, steroid drops).',
     'Confirm the statement that a fully blocked adult duct rarely opens on its own (FAQ), and the table line that an infected tear sac is treated with antibiotics first and surgery later if needed.',

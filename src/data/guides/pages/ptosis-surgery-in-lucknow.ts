@@ -180,6 +180,45 @@ const guide: Guide = {
         t('Avoid bending, heavy lifting and strenuous exercise for about the first week', 'लगभग पहले हफ़्ते तक झुकने, भारी सामान उठाने और कड़े व्यायाम से बचें'),
         t('Seek urgent review for severe or increasing pain, rapidly increasing swelling, bleeding that does not stop with gentle pressure, or any drop in vision', 'तेज़ या बढ़ता दर्द, तेज़ी से बढ़ती सूजन, हल्के दबाव से न रुकने वाला खून, या नज़र कम होने पर तुरंत संपर्क करें'),
       ],
+      subsections: [
+        {
+          h3: t('Caring for your eyelids at home', 'घर पर पलकों की देखभाल'),
+          bullets: [
+            t('Use cold compresses (a clean cold pack wrapped in a cloth) for short periods in the first 48 hours, as advised; never put ice directly on the skin', 'पहले 48 घंटों में सलाह के अनुसार थोड़ी-थोड़ी देर ठंडी सिकाई करें (कपड़े में लपेटा साफ़ ठंडा पैक); बर्फ़ सीधे त्वचा पर कभी न रखें'),
+            t('Clean the stitch line gently only as shown, and apply ointment to the wound if it has been prescribed', 'टांकों की रेखा सिर्फ़ बताए गए तरीके से धीरे से साफ़ करें, और अगर ऑइंटमेंट लिखा गया हो तो घाव पर लगाएं'),
+            t('Keep the eye moist: lubricating drops by day and ointment at night are often needed while the eyelid settles', 'आंख को नम रखें: पलक के स्थिर होने तक अक्सर दिन में चिकनाई वाली ड्रॉप्स और रात में ऑइंटमेंट की ज़रूरत होती है'),
+            t('Sleep with the head raised for the first few nights and try not to sleep face-down', 'पहली कुछ रातें सिर ऊंचा रखकर सोएं और पेट के बल सोने से बचें'),
+            t('Keep soap and shampoo out of the eyes for the first week; wash the face around the eyes rather than over them', 'पहले हफ़्ते साबुन और शैम्पू आंखों में न जाने दें; चेहरा आंखों के ऊपर से नहीं, उनके आसपास से धोएं'),
+          ],
+        },
+        {
+          h3: t('Back to work, screens, driving and exercise', 'काम, स्क्रीन, गाड़ी चलाना और व्यायाम'),
+          paras: [
+            t(
+              'Light desk work and screen use are often possible within a few days to a week, though the eyes tire easily at first and frequent drops help. Drive only once your vision is clear, ointment is not blurring it, and you can turn your head comfortably. Leave eye make-up, swimming and heavy exercise until your surgeon clears you, often after about two weeks, and avoid contact lenses until you are told it is safe. Children usually recover quickly; keep them from rubbing the eye and from rough play or swimming until their review.',
+              'हल्का दफ़्तरी काम और स्क्रीन का इस्तेमाल अक्सर कुछ दिनों से एक हफ़्ते में संभव होता है, हालांकि शुरुआत में आंखें जल्दी थकती हैं और बार-बार ड्रॉप्स डालना मदद करता है। गाड़ी तभी चलाएं जब नज़र साफ़ हो, ऑइंटमेंट से धुंधलापन न हो, और आप आराम से सिर घुमा सकें। आई मेकअप, तैराकी और भारी व्यायाम सर्जन की अनुमति तक टालें — अक्सर लगभग दो हफ़्ते बाद — और बताए जाने तक कॉन्टैक्ट लेंस न पहनें। बच्चे आमतौर पर जल्दी ठीक हो जाते हैं; जांच होने तक उन्हें आंख मलने, धक्का-मुक्की वाले खेल और तैराकी से दूर रखें।'
+            ),
+          ],
+        },
+        {
+          h3: t('What is normal while healing — and what is not', 'भरने के दौरान क्या सामान्य है — और क्या नहीं'),
+          paras: [
+            t(
+              'In the first weeks the two eyelids often look slightly different in height or crease, because swelling rarely settles evenly. Many people also find the eye does not close fully for a while, so it feels dry or gritty, especially in the morning; regular lubricants usually help while this settles. Final height is judged after the swelling has gone, which is why small early differences are usually watched rather than corrected straight away. Contact the clinic sooner if the eye becomes red and painful, vision blurs and does not clear with blinking, or the lid noticeably drops again.',
+              'पहले कुछ हफ़्तों में दोनों पलकों की ऊंचाई या सिलवट अक्सर थोड़ी अलग दिखती है, क्योंकि सूजन शायद ही बराबर कम होती है। कई लोगों को यह भी लगता है कि कुछ समय तक आंख पूरी बंद नहीं होती, इसलिए आंख सूखी या किरकिरी लगती है, ख़ासकर सुबह; इस दौरान नियमित चिकनाई वाली ड्रॉप्स आमतौर पर मदद करती हैं। अंतिम ऊंचाई सूजन जाने के बाद आंकी जाती है, इसीलिए शुरुआती छोटे अंतर को तुरंत ठीक करने के बजाय आमतौर पर देखा जाता है। अगर आंख लाल और दर्दनाक हो जाए, नज़र धुंधली हो और पलक झपकाने से साफ़ न हो, या पलक फिर से साफ़ तौर पर झुकने लगे, तो जल्दी क्लिनिक से संपर्क करें।'
+            ),
+          ],
+        },
+        {
+          h3: t('Follow-up visits', 'फ़ॉलो-अप जांच'),
+          paras: [
+            t(
+              'Expect a review within the first one to two weeks to check the wound and remove any stitches, and another once the swelling has largely settled to assess height, symmetry and eyelid closure. A small number of people need a further adjustment; this is usually planned only after healing has settled.',
+              'पहले एक-दो हफ़्तों में घाव देखने और टांके हटाने के लिए एक जांच होगी, और सूजन काफ़ी हद तक कम होने के बाद पलक की ऊंचाई, बराबरी और बंद होने को आंकने के लिए एक और। कुछ ही लोगों को आगे थोड़े सुधार की ज़रूरत होती है; इसकी योजना आमतौर पर भराव स्थिर होने के बाद ही बनाई जाती है।'
+            ),
+          ],
+        },
+      ],
     },
     {
       id: 'risks',
