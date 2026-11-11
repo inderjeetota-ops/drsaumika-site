@@ -86,8 +86,8 @@ const guide: Guide = {
       h2: t('How DCR surgery is done', 'DCR ऑपरेशन कैसे होता है'),
       paras: [
         t(
-          'DCR can be performed from the outside (external DCR) or from inside the nose with an endoscope (endoscopic or endonasal DCR). Both aim to create the same new passage. Dr. Saumika Singh performs external DCR, with or without silicone intubation, and will explain why a particular approach suits you.',
-          'DCR बाहर से (एक्सटर्नल DCR) या नाक के अंदर से एंडोस्कोप द्वारा (एंडोस्कोपिक/एंडोनेज़ल DCR) किया जा सकता है। दोनों का लक्ष्य एक ही नया रास्ता बनाना है। डॉ. सौमिका सिंह इंट्यूबेशन के साथ या बिना एक्सटर्नल DCR करती हैं, और आपको बताएंगी कि आपके लिए कौन-सा तरीका उपयुक्त है।'
+          'DCR can be performed from the outside (external DCR) or from inside the nose with an endoscope (endoscopic or endonasal DCR). Both aim to create the same new passage. Dr. Saumika Singh performs external DCR, with or without silicone intubation. She does not perform endoscopic DCR; if that approach is better suited to you, she will explain why and advise on referral.',
+          'DCR बाहर से (एक्सटर्नल DCR) या नाक के अंदर से एंडोस्कोप द्वारा (एंडोस्कोपिक/एंडोनेज़ल DCR) किया जा सकता है। दोनों का लक्ष्य एक ही नया रास्ता बनाना है। डॉ. सौमिका सिंह इंट्यूबेशन के साथ या बिना एक्सटर्नल DCR करती हैं। वे एंडोस्कोपिक DCR नहीं करतीं; अगर आपके लिए वह तरीका ज़्यादा उपयुक्त हो, तो वे इसका कारण समझाएंगी और रेफ़रल की सलाह देंगी।'
         ),
       ],
       subsections: [
@@ -105,8 +105,8 @@ const guide: Guide = {
           h3: t('Endoscopic DCR', 'एंडोस्कोपिक DCR'),
           paras: [
             t(
-              'In endoscopic DCR the same opening is made from inside the nose with a camera, so there is no skin incision. Suitability depends on the nasal anatomy and the type of blockage. Both approaches are recognised treatments, and published success rates for both are high in suitable patients. Ask your surgeon which approach they recommend for your situation and why.',
-              'एंडोस्कोपिक DCR में यही रास्ता नाक के अंदर से कैमरे की मदद से बनाया जाता है, इसलिए त्वचा पर चीरा नहीं लगता। यह उपयुक्त है या नहीं, यह नाक की बनावट और रुकावट के प्रकार पर निर्भर करता है। दोनों तरीके मान्य इलाज हैं, और उपयुक्त मरीज़ों में दोनों की प्रकाशित सफलता दर ऊंची है। अपने सर्जन से पूछें कि आपकी स्थिति में वे कौन-सा तरीका सुझाते हैं और क्यों।'
+              'In endoscopic DCR the same opening is made from inside the nose with a camera, so there is no skin incision. Suitability depends on the nasal anatomy and the type of blockage. Both approaches are recognised treatments, and published success rates for both are high in suitable patients. Endoscopic DCR is offered by some oculoplastic and ENT surgeons; Dr. Saumika Singh performs the external approach.',
+              'एंडोस्कोपिक DCR में यही रास्ता नाक के अंदर से कैमरे की मदद से बनाया जाता है, इसलिए त्वचा पर चीरा नहीं लगता। यह उपयुक्त है या नहीं, यह नाक की बनावट और रुकावट के प्रकार पर निर्भर करता है। दोनों तरीके मान्य इलाज हैं, और उपयुक्त मरीज़ों में दोनों की प्रकाशित सफलता दर ऊंची है। एंडोस्कोपिक DCR कुछ ओकुलोप्लास्टिक और ENT सर्जन करते हैं; डॉ. सौमिका सिंह बाहरी (एक्सटर्नल) तरीका अपनाती हैं।'
             ),
           ],
         },
@@ -137,6 +137,36 @@ const guide: Guide = {
       bullets: [
         t('Seek urgent advice for heavy nosebleeding that does not stop with 10–15 minutes of pressure, fever, increasing pain or redness, or any change in vision', '10–15 मिनट दबाने से न रुकने वाले नकसीर, बुखार, बढ़ते दर्द या लालिमा, या नज़र में बदलाव पर तुरंत संपर्क करें'),
         t('If the tube slips forward into the corner of the eye, do not pull it — tape it to the cheek and call the clinic', 'अगर ट्यूब आंख के कोने में आगे खिसक आए तो उसे खींचें नहीं — गाल पर टेप से चिपकाकर क्लिनिक को फ़ोन करें'),
+      ],
+      subsections: [
+        {
+          h3: t('Caring for the wound and nose at home', 'घर पर घाव और नाक की देखभाल'),
+          bullets: [
+            t('Keep the wound clean and dry for the first few days; clean around it gently only as shown, and use ointment or drops exactly as prescribed', 'पहले कुछ दिन घाव को साफ़ और सूखा रखें; सिर्फ़ बताए गए तरीके से उसके आसपास धीरे से साफ़ करें, और ऑइंटमेंट या ड्रॉप्स ठीक निर्देशानुसार लगाएं'),
+            t('Use nasal sprays or nasal rinses only if they have been prescribed for you', 'नाक के स्प्रे या नाक की धुलाई सिर्फ़ तभी करें जब वे आपको लिखे गए हों'),
+            t('Sleep with your head raised on an extra pillow for the first few nights to reduce swelling and oozing', 'सूजन और रिसाव कम करने के लिए पहली कुछ रातें एक अतिरिक्त तकिए से सिर ऊंचा रखकर सोएं'),
+            t('Ask before restarting blood thinners or painkillers that can increase bleeding, and do not stop any prescribed medicine on your own', 'ख़ून पतला करने वाली दवाएं या ख़ून बहना बढ़ाने वाली दर्द-निवारक दवाएं दोबारा शुरू करने से पहले पूछें, और कोई भी लिखी हुई दवा अपने-आप बंद न करें'),
+            t('Avoid smoking, which slows healing inside the nose', 'धूम्रपान से बचें, क्योंकि यह नाक के अंदर भराव को धीमा करता है'),
+          ],
+        },
+        {
+          h3: t('Returning to work, driving, exercise and travel', 'काम, गाड़ी चलाना, व्यायाम और यात्रा कब शुरू करें'),
+          paras: [
+            t(
+              'Most people take about a week off desk work, and longer if the job is physical, dusty or outdoors. Drive only once you feel comfortable, are off any medicine that makes you drowsy, and can see clearly. Walking is encouraged from the first day, but leave the gym, head-down yoga positions, swimming and contact sports until your surgeon clears you, usually after about two weeks. Ask before planning air travel in the first couple of weeks.',
+              'ज़्यादातर लोग दफ़्तरी काम से लगभग एक हफ़्ते की छुट्टी लेते हैं, और अगर काम मेहनत वाला, धूल भरा या बाहर का हो तो ज़्यादा। गाड़ी तभी चलाएं जब आप सहज महसूस करें, नींद लाने वाली कोई दवा न ले रहे हों और साफ़ दिखाई दे। पहले दिन से टहलना अच्छा है, लेकिन जिम, सिर नीचे करने वाले योगासन, तैराकी और टक्कर वाले खेल सर्जन की अनुमति तक टालें — आमतौर पर लगभग दो हफ़्ते बाद। पहले दो-एक हफ़्तों में हवाई यात्रा की योजना बनाने से पहले पूछ लें।'
+            ),
+          ],
+        },
+        {
+          h3: t('Is it normal for the eye to still water after DCR?', 'क्या DCR के बाद भी आंख से पानी आना सामान्य है?'),
+          paras: [
+            t(
+              'Yes, for a while. Swelling inside the new passage, and a silicone tube if one was placed, can keep the eye watery for some weeks. Watering usually eases as healing completes and after the tube comes out. If the eye is still watering a few months after surgery, or the sticky discharge returns, tell the clinic: the passage can be checked with a simple syringing test and the next steps discussed.',
+              'हां, कुछ समय तक। नए रास्ते के अंदर की सूजन, और अगर सिलिकॉन ट्यूब डाली गई हो तो वह भी, कुछ हफ़्तों तक आंख में पानी बनाए रख सकती है। भराव पूरा होने और ट्यूब निकलने के बाद पानी आना आमतौर पर कम हो जाता है। अगर सर्जरी के कुछ महीने बाद भी आंख से पानी आता रहे, या चिपचिपा स्राव लौट आए, तो क्लिनिक को बताएं: एक सरल सिरिंजिंग जांच से रास्ता देखा जा सकता है और आगे के कदमों पर बात की जा सकती है।'
+            ),
+          ],
+        },
       ],
     },
     {
@@ -201,6 +231,10 @@ const guide: Guide = {
       a: t('If a tube is placed, it is usually removed in the clinic after a few weeks to a few months, depending on the surgeon’s plan. Removal takes only seconds and generally does not need anaesthesia.', 'अगर ट्यूब डाली जाती है, तो सर्जन की योजना के अनुसार आमतौर पर कुछ हफ़्तों से कुछ महीनों बाद क्लिनिक में निकाली जाती है। निकालने में कुछ ही सेकंड लगते हैं और आमतौर पर एनेस्थीसिया की ज़रूरत नहीं होती।'),
     },
     {
+      q: t('When can I go back to work after DCR surgery?', 'DCR सर्जरी के बाद काम पर कब लौट सकते हैं?'),
+      a: t('Many people return to desk work after about a week, once the stitches are out or the wound has settled, and some feel ready sooner. Physical, dusty or outdoor work may need longer, because heavy lifting, bending and hard nose-blowing should be avoided for the first couple of weeks. Bruising beside the nose usually fades within about two weeks. Your surgeon will advise you based on your healing and your job.', 'कई लोग लगभग एक हफ़्ते बाद, टांके हटने या घाव ठीक होने पर, दफ़्तरी काम पर लौट आते हैं, और कुछ उससे पहले भी तैयार महसूस करते हैं। मेहनत वाले, धूल भरे या बाहर के काम में ज़्यादा समय लग सकता है, क्योंकि पहले दो-एक हफ़्ते भारी सामान उठाने, झुकने और ज़ोर से नाक छिड़कने से बचना चाहिए। नाक के पास का नील आमतौर पर लगभग दो हफ़्तों में कम हो जाता है। सर्जन आपके भराव और काम के हिसाब से सलाह देंगे।'),
+    },
+    {
       q: t('Which doctor treats a blocked tear duct in Lucknow?', 'लखनऊ में बंद आंसू नली का इलाज कौन करता है?'),
       a: t('Blocked tear ducts are treated by oculoplastic (eye plastic) surgeons, who specialise in the tear drainage system, and endoscopic DCR is also performed by some ENT surgeons. In Lucknow, Dr. Saumika Singh assesses watering eyes and performs DCR at Alyantra Medicity Superspeciality Hospital, Gomti Nagar.', 'बंद आंसू नली का इलाज ओकुलोप्लास्टिक सर्जन करते हैं, जो आंसू निकासी तंत्र के विशेषज्ञ हैं; कुछ ENT सर्जन भी एंडोस्कोपिक DCR करते हैं। लखनऊ में डॉ. सौमिका सिंह अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में आंखों से पानी आने की जांच और DCR करती हैं।'),
     },
@@ -235,7 +269,8 @@ const guide: Guide = {
   },
 
   reviewerNotes: [
-    'Endoscopic DCR is described neutrally as an approach that exists; the page says she performs external DCR. Edit if she also offers endoscopic DCR.',
+    'Confirmed (2026-11-11): she does NOT perform endoscopic DCR. The page says so explicitly, describes endoscopic DCR neutrally as an approach other surgeons offer, and says she will advise on referral if it suits a patient better.',
+    'Recovery section expanded in Batch 3 (home care, return to work/driving/exercise/travel, persistent watering) plus a return-to-work FAQ: confirm the timings (about a week off desk work, about two weeks before gym/swimming, ask before air travel in the first couple of weeks).',
     'Confirm anaesthesia options (local + sedation vs GA) and stay (day care / one night) at Alyantra.',
     'Confirm typical tube-removal interval and incision length (1–1.5 cm).',
     '"Published success rates for both are high" — intentionally no number; add a cited figure only if desired.',
