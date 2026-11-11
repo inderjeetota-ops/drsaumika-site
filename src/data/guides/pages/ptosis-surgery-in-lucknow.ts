@@ -6,7 +6,7 @@ const guide: Guide = {
   slug: 'ptosis-surgery-in-lucknow',
   primaryKeyword: 'ptosis surgery in Lucknow',
   secondaryKeywords: ['drooping eyelid surgery Lucknow', 'drooping eyelid doctor Lucknow', 'ptosis correction', 'levator resection', 'frontalis sling surgery', 'congenital ptosis surgery', 'ptosis surgery recovery', 'ptosis surgery cost'],
-  hindiKeywords: ['टोसिस सर्जरी लखनऊ', 'झुकी हुई पलक का इलाज', 'ptosis ka ilaj', 'पलक झुकने का ऑपरेशन', 'ptosis kya hota hai'],
+  hindiKeywords: ['टोसिस सर्जरी लखनऊ', 'झुकी हुई पलक का इलाज', 'झुकी हुई पलक', 'पलक का गिरना', 'ptosis ka ilaj', 'पलक झुकने का ऑपरेशन', 'ptosis kya hota hai'],
 
   metaTitle: t(
     'Ptosis Surgery in Lucknow – Drooping Eyelid | Dr Saumika Singh',

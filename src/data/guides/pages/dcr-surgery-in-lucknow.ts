@@ -13,7 +13,7 @@ const guide: Guide = {
     'लखनऊ में DCR सर्जरी – बंद आंसू नली का इलाज | डॉ. सौमिका सिंह'
   ),
   metaDescription: t(
-    'DCR (dacryocystorhinostomy) surgery in Lucknow for a blocked tear duct and watering eye, by oculoplasty surgeon Dr Saumika Singh, Gomti Nagar: procedure, recovery, risks and cost.',
+    'DCR surgery in Lucknow for a blocked tear duct and watering eye by oculoplasty surgeon Dr Saumika Singh, Gomti Nagar: procedure, recovery, risks and cost.',
     'लखनऊ में बंद आंसू नली और आंखों से पानी आने के लिए DCR सर्जरी – डॉ. सौमिका सिंह, गोमती नगर। ऑपरेशन कैसे होता है, रिकवरी, जोखिम और खर्च।'
   ),
   h1: t('DCR Surgery in Lucknow – Blocked Tear Duct Treatment', 'लखनऊ में DCR सर्जरी – बंद आंसू नली का इलाज'),

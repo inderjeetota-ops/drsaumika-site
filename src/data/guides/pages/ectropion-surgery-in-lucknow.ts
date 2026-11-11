@@ -9,7 +9,7 @@ const guide: Guide = {
   hindiKeywords: ['एक्ट्रोपियन सर्जरी लखनऊ', 'पलक बाहर की ओर मुड़ना', 'निचली पलक का लटकना', 'पलक बाहर पलटने का इलाज'],
 
   metaTitle: t(
-    'Ectropion Surgery in Lucknow – Outward Eyelid | Dr Saumika Singh',
+    'Ectropion Surgery in Lucknow – Outward Eyelid | Dr Saumika',
     'लखनऊ में एक्ट्रोपियन सर्जरी – बाहर मुड़ी पलक का इलाज | डॉ. सौमिका सिंह'
   ),
   metaDescription: t(

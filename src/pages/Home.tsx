@@ -12,6 +12,7 @@ import { surgicalCases } from '../data/surgicalOutcomes';
 import SurgicalCaseCard from '../components/SurgicalCaseCard';
 import { publications, isDoctorAuthor, formatRef } from '../data/publications';
 import { BookOpen } from 'lucide-react';
+import { getGuideEntry, isPublished } from '../data/guides';
 
 
 const OrbitalIcon = (props: React.SVGProps<SVGSVGElement>) => (
@@ -300,6 +301,19 @@ export default function Home() {
                       <span>{language === 'hi' ? 'डॉ. सिंह के बारे में और पढ़ें' : 'Read more about Dr. Singh'}</span>
                       <ArrowRight className="h-4 w-4 transform group-hover/readmore:translate-x-1 transition-transform duration-300" aria-hidden="true" />
                     </Link>
+                    {isPublished(getGuideEntry('oculoplastic-surgeon-in-lucknow')) && (
+                      <p className="text-sm text-navy/80 text-left">
+                        {language === 'hi' ? 'जानें कि ' : 'Looking for an '}
+                        <Link
+                          to={language === 'hi' ? '/hi/oculoplastic-surgeon-in-lucknow' : '/oculoplastic-surgeon-in-lucknow'}
+                          className="font-semibold text-navy underline decoration-gold/60 underline-offset-2 hover:text-gold"
+                          onClick={(e) => e.stopPropagation()}
+                        >
+                          {language === 'hi' ? 'लखनऊ में ओकुलोप्लास्टिक सर्जन' : 'oculoplastic surgeon in Lucknow'}
+                        </Link>
+                        {language === 'hi' ? ' के रूप में डॉ. सिंह किन समस्याओं का इलाज करती हैं और परामर्श कैसे बुक करें।' : '? See the conditions Dr. Singh treats and how to book.'}
+                      </p>
+                    )}
                   </div>
                 </div>
               </div>

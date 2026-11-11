@@ -5,7 +5,7 @@ const t = (en: string, hi: string): L => ({ en, hi });
 const guide: Guide = {
   slug: 'oculoplasty-surgery-cost-in-lucknow',
   primaryKeyword: 'oculoplasty surgery cost in Lucknow',
-  secondaryKeywords: ['ptosis surgery cost Lucknow', 'DCR surgery cost Lucknow', 'blepharoplasty cost in Lucknow', 'eyelid surgery cost', 'affordable oculoplastic surgery Lucknow', 'is eyelid surgery covered by insurance'],
+  secondaryKeywords: ['ptosis surgery cost Lucknow', 'DCR surgery cost Lucknow', 'eyelid surgery cost', 'affordable oculoplastic surgery Lucknow', 'is eyelid surgery covered by insurance'],
   hindiKeywords: ['ओकुलोप्लास्टी सर्जरी का खर्च लखनऊ', 'पलक सर्जरी का खर्च', 'DCR ऑपरेशन का खर्च', 'ptosis surgery cost in hindi'],
 
   metaTitle: t(
@@ -13,7 +13,7 @@ const guide: Guide = {
     'लखनऊ में ओकुलोप्लास्टी सर्जरी का खर्च – किन बातों पर निर्भर | डॉ. सौमिका'
   ),
   metaDescription: t(
-    'What decides the cost of ptosis, DCR, blepharoplasty and other oculoplasty surgery in Lucknow: procedure, anaesthesia, hospital stay, implants, tests and insurance. Questions to ask.',
+    'What decides the cost of ptosis, DCR, blepharoplasty and other oculoplasty surgery in Lucknow: procedure, anaesthesia, stay, implants, tests and insurance.',
     'लखनऊ में टोसिस, DCR, ब्लेफेरोप्लास्टी और अन्य ओकुलोप्लास्टी सर्जरी का खर्च किन बातों पर निर्भर करता है: प्रक्रिया, एनेस्थीसिया, अस्पताल, इम्प्लांट, जांच और इंश्योरेंस।'
   ),
   h1: t('Oculoplasty Surgery Cost in Lucknow – What Affects the Price', 'लखनऊ में ओकुलोप्लास्टी सर्जरी का खर्च – किन बातों पर निर्भर करता है'),
@@ -128,10 +128,18 @@ const guide: Guide = {
       h2: t('Choosing on cost alone: what to watch for', 'सिर्फ़ खर्च देखकर चुनना: किन बातों का ध्यान रखें'),
       paras: [
         t(
-          'Affordable care is important, and simpler options — such as treating a chalazion with warm compresses first, or combining two procedures in one sitting — can genuinely reduce cost. However, a much lower price is sometimes achieved by skipping important steps. Be cautious if the quote does not include examination of the whole eye, laboratory examination of a removed lump, or follow-up care. Eyelid surgery that removes too much tissue, or misses a cancer, can be far more costly to put right later.',
-          'किफ़ायती इलाज ज़रूरी है, और सरल विकल्प — जैसे चालाज़ियन का पहले गर्म सिकाई से इलाज, या दो प्रक्रियाएं एक ही बार में करना — सच में खर्च कम कर सकते हैं। लेकिन कई बार बहुत कम कीमत ज़रूरी चरण छोड़कर हासिल की जाती है। अगर अनुमान में पूरी आंख की जांच, निकाली गई गांठ की लैब जांच, या फ़ॉलो-अप देखभाल शामिल नहीं है तो सावधान रहें। बहुत ज़्यादा टिश्यू निकालने वाली या कैंसर को नज़रअंदाज़ करने वाली पलक सर्जरी को बाद में ठीक करना कहीं ज़्यादा महंगा पड़ सकता है।'
+          'Keeping costs down matters, and simpler options — such as treating a chalazion with warm compresses first, or combining two procedures in one sitting — can genuinely reduce cost. However, a much lower price is sometimes achieved by skipping important steps. Be cautious if the quote does not include examination of the whole eye, laboratory examination of a removed lump, or follow-up care. Eyelid surgery that removes too much tissue, or misses a cancer, can be far more costly to put right later.',
+          'खर्च कम रखना ज़रूरी है, और सरल विकल्प — जैसे चालाज़ियन का पहले गर्म सिकाई से इलाज, या दो प्रक्रियाएं एक ही बार में करना — सच में खर्च कम कर सकते हैं। लेकिन कई बार बहुत कम कीमत ज़रूरी चरण छोड़कर हासिल की जाती है। अगर अनुमान में पूरी आंख की जांच, निकाली गई गांठ की लैब जांच, या फ़ॉलो-अप देखभाल शामिल नहीं है तो सावधान रहें। बहुत ज़्यादा टिश्यू निकालने वाली या कैंसर को नज़रअंदाज़ करने वाली पलक सर्जरी को बाद में ठीक करना कहीं ज़्यादा महंगा पड़ सकता है।'
         ),
       ],
+      callout: {
+        tone: 'urgent',
+        title: t('Do not delay urgent eye care over cost', 'खर्च की वजह से आंख के इमरजेंसी इलाज में देर न करें'),
+        text: t(
+          'Some eye problems cannot wait for an estimate. Go to an emergency department or eye casualty the same day for an eye injury or cut eyelid, a chemical splash (rinse with plenty of clean water first), sudden loss of vision, a sudden drooping eyelid with double vision or headache, or a painful red swelling around the eye with fever. Cost and insurance can be sorted out after you have been seen.',
+          'कुछ आंख की समस्याएं खर्च के अनुमान का इंतज़ार नहीं कर सकतीं। आंख में चोट या पलक कटने, केमिकल गिरने (पहले साफ़ पानी से अच्छी तरह धोएं), अचानक नज़र जाने, दोहरी नज़र या सिरदर्द के साथ अचानक पलक झुकने, या बुखार के साथ आंख के आसपास दर्द भरी लाल सूजन होने पर उसी दिन इमरजेंसी या आंख के अस्पताल जाएं। खर्च और इंश्योरेंस की बात दिखाने के बाद भी हो सकती है।'
+        ),
+      },
     },
   ],
 
@@ -185,6 +193,7 @@ const guide: Guide = {
   references: [
     { label: 'Does insurance cover eyelid surgery?', source: 'American Academy of Ophthalmology (EyeSmart)', url: 'https://www.aao.org/eye-health/ask-ophthalmologist-q/does-insurance-cover-eyelid-surgery' },
     { label: 'Eyelid surgery', source: 'American Academy of Ophthalmology (EyeSmart)', url: 'https://www.aao.org/eye-health/treatments/eyelid-surgery' },
+    { label: 'Eyelid problems', source: 'NHS (UK)', url: 'https://www.nhs.uk/conditions/eyelid-problems/' },
   ],
 
   schema: { type: 'MedicalWebPage', name: 'Oculoplasty surgery cost in Lucknow' },

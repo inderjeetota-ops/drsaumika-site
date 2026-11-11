@@ -1540,11 +1540,11 @@ export default function ServiceDetail() {
 
   const seoData: Record<string, { title: string; desc: string }> = {
     'eyelid-disorders-eyelid-surgery': {
-      title: "Eyelid Surgery in Lucknow – Ptosis, Entropion | Dr Saumika",
+      title: "Eyelid Surgery in Lucknow – Eyelid Specialist | Dr Saumika",
       desc: "Eyelid surgery in Lucknow for ptosis (drooping eyelid), entropion, ectropion, eyelid lumps and tumours by oculoplasty surgeon Dr. Saumika Singh, Gomti Nagar."
     },
     'watering-eyes-tear-drainage-disorders': {
-      title: "Watering Eyes & DCR Treatment in Lucknow | Dr Saumika Singh",
+      title: "Watering Eyes & Tear Duct Treatment in Lucknow | Dr Saumika",
       desc: "Watering eyes and blocked tear duct treatment in Lucknow, including DCR surgery and baby tear-duct probing, by oculoplasty surgeon Dr. Saumika Singh."
     },
     'orbital-disorders-orbital-surgery': {
@@ -1564,7 +1564,7 @@ export default function ServiceDetail() {
       desc: "Emergency and reconstructive surgery for eye, eyelid and orbital trauma by Dr. Saumika Singh, oculoplasty specialist in Lucknow."
     },
     'botox-eyelid-cosmetic-surgery-periocular-aesthetics': {
-      title: "Botox & Cosmetic Eyelid Surgery in Lucknow | Dr Saumika Singh",
+      title: "Botox Around the Eyes in Lucknow – Aesthetics | Dr Saumika",
       desc: "Botox around the eyes, blepharoplasty and cosmetic eyelid surgery in Lucknow by oculoplasty specialist Dr. Saumika Singh, Gomti Nagar."
     },
     'why-choose-an-oculoplasty-ocular-oncology-specialist': {
@@ -1576,17 +1576,17 @@ export default function ServiceDetail() {
   // Query-matched H1s for the three hub pages (SEO: H1 aligned with the search phrase)
   const hubH1: Record<string, { en: string; hi: string }> = {
     'eyelid-disorders-eyelid-surgery': { en: 'Eyelid Surgery in Lucknow – Eyelid Disorders & Treatment', hi: 'लखनऊ में पलक सर्जरी – पलक विकार और उपचार' },
-    'watering-eyes-tear-drainage-disorders': { en: 'Watering Eyes & Tear Duct (DCR) Treatment in Lucknow', hi: 'लखनऊ में आंखों से पानी आना और आंसू नली (DCR) का उपचार' },
-    'botox-eyelid-cosmetic-surgery-periocular-aesthetics': { en: 'Botox & Cosmetic Eyelid Surgery in Lucknow', hi: 'लखनऊ में बोटॉक्स और कॉस्मेटिक पलक सर्जरी' },
+    'watering-eyes-tear-drainage-disorders': { en: 'Watering Eyes & Tear Duct Treatment in Lucknow', hi: 'लखनऊ में आंखों से पानी आना और आंसू नली का उपचार' },
+    'botox-eyelid-cosmetic-surgery-periocular-aesthetics': { en: 'Botox Around the Eyes & Periocular Aesthetics in Lucknow', hi: 'लखनऊ में आंखों के आसपास बोटॉक्स और सौंदर्य उपचार' },
   };
 
   const seoDataHi: Record<string, { title: string; desc: string }> = {
     'eyelid-disorders-eyelid-surgery': {
-      title: "लखनऊ में पलक सर्जरी – टोसिस, एंट्रोपियन, एक्ट्रोपियन | डॉ. सौमिका सिंह",
+      title: "लखनऊ में पलक सर्जरी – पलक रोग विशेषज्ञ | डॉ. सौमिका सिंह",
       desc: "लखनऊ में डॉ. सौमिका सिंह द्वारा पलक विकारों — प्टोसिस (पलक का झुकना), एंट्रोपियन, एक्ट्रोपियन और पलक के ट्यूमर — का विशेषज्ञ निदान और सर्जिकल उपचार।"
     },
     'watering-eyes-tear-drainage-disorders': {
-      title: "लखनऊ में आंखों से पानी आने का इलाज – आंसू नली व DCR | डॉ. सौमिका सिंह",
+      title: "लखनऊ में आंखों से पानी आने का इलाज – आंसू नली | डॉ. सौमिका सिंह",
       desc: "लखनऊ में डॉ. सौमिका सिंह द्वारा आंखों से पानी आने और आंसू नली (लैक्रिमल) के विकारों का विशेषज्ञ उपचार, जिसमें DCR सर्जरी शामिल है।"
     },
     'orbital-disorders-orbital-surgery': {
@@ -1606,7 +1606,7 @@ export default function ServiceDetail() {
       desc: "लखनऊ में ओकुलोप्लास्टी विशेषज्ञ डॉ. सौमिका सिंह द्वारा आँख, पलक और ऑर्बिट की चोटों के लिए आपातकालीन और पुनर्निर्माण सर्जरी।"
     },
     'botox-eyelid-cosmetic-surgery-periocular-aesthetics': {
-      title: "लखनऊ में बोटॉक्स और कॉस्मेटिक पलक सर्जरी | डॉ. सौमिका सिंह",
+      title: "लखनऊ में आंखों के आसपास बोटॉक्स – सौंदर्य उपचार | डॉ. सौमिका सिंह",
       desc: "लखनऊ में ओकुलोप्लास्टी विशेषज्ञ डॉ. सौमिका सिंह द्वारा कॉस्मेटिक पलक सर्जरी, बोटॉक्स और आँखों के आसपास के सौंदर्य उपचार।"
     },
     'why-choose-an-oculoplasty-ocular-oncology-specialist': {
