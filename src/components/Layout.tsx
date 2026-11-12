@@ -3,6 +3,7 @@ import { Outlet, useLocation, useNavigationType } from 'react-router-dom';
 import { Navbar } from './Navbar';
 import { Footer } from './Footer';
 import { AnimatePresence, m } from 'motion/react';
+import { scrollToSection } from '../lib/scrollToSection';
 
 function PageScrollManager() {
   const location = useLocation();
@@ -30,53 +31,27 @@ function PageScrollManager() {
     prevPathnameRef.current = pathname;
     prevHashRef.current = hash;
 
-    // If it's a same-page hash change and it came from navbar, navbar already handles smooth scrolling
-    if (isSamePage && isHashChanging && fromNavbar) {
+    // Same-page click from the navbar: the navbar has already started the smooth
+    // scroll. Starting a second one here interrupted it and caused a visible jerk.
+    if (isSamePage && fromNavbar) {
       return;
     }
 
     if (hash) {
       const id = hash.replace('#', '');
-      const element = document.getElementById(id);
-      const behavior = isFirstRender ? 'auto' : (isSamePage ? 'smooth' : 'auto');
-      
-      if (element) {
-        const elementPosition = element.getBoundingClientRect().top;
-        const offsetPosition = elementPosition + window.scrollY - 80; // Account for navbar height
-        window.scrollTo({
-          top: offsetPosition,
-          behavior
-        });
-      } else {
-        // Fallback with a slight delay if element is not immediately available
-        requestAnimationFrame(() => {
-          const delayedElement = document.getElementById(id);
-          if (delayedElement) {
-            const elementPosition = delayedElement.getBoundingClientRect().top;
-            const offsetPosition = elementPosition + window.scrollY - 80;
-            window.scrollTo({
-              top: offsetPosition,
-              behavior
-            });
-          }
-        });
+      // Opening a link like /#conditions directly jumps straight there; clicking a
+      // menu link (from this or another page) scrolls smoothly, once.
+      const behavior: ScrollBehavior = isFirstRender ? 'instant' : 'smooth';
+      if (scrollToSection(id, behavior) === null) {
+        // Element not rendered yet: try once more on the next frame
+        requestAnimationFrame(() => scrollToSection(id, behavior));
       }
-    } else {
-      // For different-page transitions or clicking back to a page without a hash, scroll to top
-      if (!isSamePage) {
-        window.scrollTo({
-          top: 0,
-          left: 0,
-          behavior: 'auto'
-        });
-      } else if (isHashChanging) {
-        // Same-page, hash cleared
-        window.scrollTo({
-          top: 0,
-          left: 0,
-          behavior: isFirstRender ? 'auto' : 'smooth'
-        });
-      }
+    } else if (!isSamePage) {
+      // New page: start at the top straight away
+      window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+    } else if (isHashChanging) {
+      // Same page, hash cleared
+      window.scrollTo({ top: 0, left: 0, behavior: isFirstRender ? 'instant' : 'smooth' });
     }
   }, [location, navType]);
 

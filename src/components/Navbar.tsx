@@ -4,6 +4,7 @@ import { Menu, X, Globe } from 'lucide-react';
 import { cn } from '../lib/utils';
 import { AnimatePresence, m } from 'motion/react';
 import { useLanguage, getLocalizedPath } from '../context/LanguageContext';
+import { scrollToSection } from '../lib/scrollToSection';
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -135,26 +136,18 @@ export function Navbar() {
     }
 
     setActiveSection(path);
-    
-    isScrollingRef.current = true;
-    
+
     if (location.pathname !== '/') {
       // If we are not on the home page, navigate to home with the hash
       navigate(`/${path}`, { state: { fromNavbar: true } });
     } else {
       // If on home page, scroll to element with a slight delay for mobile transitions
+      isScrollingRef.current = true;
       setTimeout(() => {
-        const id = path.replace('#', '');
-        const element = document.getElementById(id);
-        
-        if (element) {
-          const offsetPosition = Math.max(0, element.getBoundingClientRect().top + window.scrollY - 80);
+        const offsetPosition = scrollToSection(path.replace('#', ''), 'smooth');
+
+        if (offsetPosition !== null) {
           targetScrollYRef.current = offsetPosition;
-          
-          window.scrollTo({
-            top: offsetPosition,
-            behavior: "smooth"
-          });
           
           // Update URL without full page reload, using React Router
           navigate(`/${path}`, { replace: true, state: { fromNavbar: true } });
