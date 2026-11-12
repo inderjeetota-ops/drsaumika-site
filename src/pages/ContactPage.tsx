@@ -17,6 +17,7 @@ export default function ContactPage() {
           "@type": "MedicalClinic",
           "@id": "https://drsaumika.in/#clinic",
           "name": "Dr. Saumika Singh — Oculoplasty, Orbit & Ocular Oncology Clinic",
+          "alternateName": "Dr Saumika Singh - Oculoplasty & Ocular Oncology Surgeon",
           "image": "https://drsaumika.in/dr-saumika.jpg",
           "url": "https://drsaumika.in/",
           "telephone": "+91-7460088838",
