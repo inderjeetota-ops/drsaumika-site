@@ -120,6 +120,9 @@ export default function Home() {
             "cssSelector": ["h1", "h2", ".text-justify p"]
           },
           "name": "Dr. Saumika Singh",
+          // Same name as the Google Business Profile, so Google and AI tools link the two.
+          "alternateName": "Dr Saumika Singh - Oculoplasty & Ocular Oncology Surgeon",
+          "jobTitle": "Oculoplasty & Ocular Oncology Surgeon",
           "medicalSpecialty": "https://schema.org/Surgical",
           "description": "Oculoplasty, Orbit & Ocular Oncology Surgeon — MBBS, MS (Ophth), FICO (UK)",
           "image": "https://drsaumika.in/dr-saumika.jpg",

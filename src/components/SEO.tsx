@@ -48,7 +48,7 @@ export default function SEO({ title, description, path, image = DEFAULT_IMAGE, j
         </>
       )}
       <meta property="og:image:alt" content={title} />
-      <meta property="og:site_name" content="Dr. Saumika Singh — Oculoplasty Specialist" />
+      <meta property="og:site_name" content="Dr. Saumika Singh — Oculoplasty & Ocular Oncology Surgeon" />
 
       {/* Twitter Card */}
       <meta name="twitter:card" content="summary_large_image" />

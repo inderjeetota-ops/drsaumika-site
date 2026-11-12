@@ -141,6 +141,9 @@ export default function About() {
         '@type': 'Physician',
         '@id': `${SITE_URL}/#physician`,
         name: 'Dr. Saumika Singh',
+        // Same name as the Google Business Profile, so Google and AI tools link the two.
+        alternateName: 'Dr Saumika Singh - Oculoplasty & Ocular Oncology Surgeon',
+        jobTitle: 'Oculoplasty & Ocular Oncology Surgeon',
         image: `${SITE_URL}/dr-saumika.jpg`,
         url: `${SITE_URL}/`,
         medicalSpecialty: 'https://schema.org/Surgical',
