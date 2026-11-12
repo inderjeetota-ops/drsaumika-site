@@ -2,7 +2,7 @@ import React from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
 import SEO from '../components/SEO';
-import { getCaseBySlug } from '../data/surgicalOutcomes';
+import { getCaseBySlug, stageSrcSet } from '../data/surgicalOutcomes';
 
 const SITE_URL = 'https://drsaumika.in';
 
@@ -16,6 +16,8 @@ export default function SurgicalOutcomeDetail() {
 
   const basePath = `${prefix}/surgical-outcomes/${c.slug}`;
   const imgUrl = (file: string) => `/surgical-outcomes/${c.slug}/${file}`;
+  const n = c.stages.length >= 4 ? 4 : c.stages.length === 3 ? 3 : 2;
+  const sizes = `(min-width: 1024px) ${Math.round(1000 / n)}px, (min-width: 640px) 50vw, 100vw`;
   const cols = c.stages.length >= 4 ? 'lg:grid-cols-4' : c.stages.length === 3 ? 'lg:grid-cols-3' : 'lg:grid-cols-2';
   const T = {
     home: language === 'hi' ? 'होम' : 'Home',
@@ -63,7 +65,7 @@ export default function SurgicalOutcomeDetail() {
         </nav>
 
         <h1 className="mt-4 text-2xl md:text-3xl font-bold text-[#002147]">{L(c.title)}</h1>
-        <p className="mt-2 pb-4 font-medium italic text-[#C5A059] border-b border-[#C5A059]/40">{L(c.technique)}</p>
+        <p className="mt-2 pb-4 font-medium italic text-gold-dark border-b border-[#C5A059]/40">{L(c.technique)}</p>
 
         <div className="mt-6 space-y-4 leading-relaxed text-gray-800">
           {L(c.narrative).split('\n\n').map((para, i) => <p key={i}>{para}</p>)}
@@ -75,7 +77,7 @@ export default function SurgicalOutcomeDetail() {
               <figcaption className="bg-[#002147] px-3 py-2 text-center text-xs font-semibold uppercase tracking-wide text-white">
                 {i + 1}. {L(s.label)}
               </figcaption>
-              <img src={imgUrl(s.image)} width={s.width} height={s.height} alt={L(s.alt)} loading="lazy" className="h-auto w-full" />
+              <img src={imgUrl(s.image)} srcSet={stageSrcSet(c.slug, s)} sizes={sizes} width={s.width} height={s.height} alt={L(s.alt)} loading="lazy" className="h-auto w-full" />
               <div className="bg-[#eef1f8] px-3 py-3 text-sm text-gray-700">{L(s.caption)}</div>
             </figure>
           ))}

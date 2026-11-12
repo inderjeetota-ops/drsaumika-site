@@ -44,9 +44,9 @@ export function Footer() {
                   {language === 'en' ? 'Specialist Oculoplastic Care' : 'विशेषज्ञ ओकुलोप्लास्टी देखभाल'}
                 </span>
               </div>
-              <h3 className="text-2xl font-bold text-white tracking-wide leading-tight mb-4">
+              <p className="text-2xl font-bold text-white tracking-wide leading-tight mb-4">
                 {t('home.drName').replace('\n', ' ')}
-              </h3>
+              </p>
               <p className="text-gold font-medium text-sm tracking-wide mb-4 max-w-sm">
                 {t('home.subtitle')}
               </p>
@@ -63,7 +63,7 @@ export function Footer() {
           <div className="lg:col-span-5 flex flex-col items-center lg:items-end justify-start w-full">
             <div className="bg-white/5 border border-white/10 backdrop-blur-sm p-5 rounded-xl flex flex-col items-center text-center shadow-lg hover:border-gold/30 transition-all duration-300 group max-w-[240px]">
               <div className="bg-white p-2 rounded-lg shadow-inner group-hover:scale-[1.02] transition-transform duration-300">
-                <img src="/qr-code.png" alt="Scan QR Code to contact Dr. Saumika Singh Clinic" loading="lazy" className="w-20 h-20 sm:w-24 sm:h-24 object-contain" />
+                <img src="/qr-code-192.png" width="192" height="192" alt="Scan QR Code to contact Dr. Saumika Singh Clinic" loading="lazy" className="w-20 h-20 sm:w-24 sm:h-24 object-contain" />
               </div>
               <span className="text-xs font-bold text-gold mt-3 tracking-wider uppercase">{scanText}</span>
               <span className="text-[10px] text-ivory-dark/60 mt-1 max-w-[160px] leading-relaxed">{scanSubtext}</span>

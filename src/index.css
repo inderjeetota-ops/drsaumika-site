@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import "tailwindcss";
 
 @theme {
@@ -8,6 +7,8 @@
   --color-navy-light: #003366;
   --color-gold: #C5A059;
   --color-gold-light: #D4B06D;
+  /* Darker gold for small text on light backgrounds (5.3:1 on ivory, WCAG AA). Keep --color-gold for icons, lines and text on navy. */
+  --color-gold-dark: #81642D;
   
   --font-sans: 'Calibri', 'Trebuchet MS', ui-sans-serif, system-ui, sans-serif;
 }

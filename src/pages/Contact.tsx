@@ -43,7 +43,7 @@ export default function Contact({ isEmbedded = false }: { isEmbedded?: boolean }
           transition={{ duration: 0.6 }}
           className="text-center mb-16 md:mb-20"
         >
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold/10 border border-gold/20 text-gold text-xs font-semibold tracking-widest uppercase mb-4">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold/10 border border-gold/20 text-gold-dark text-xs font-semibold tracking-widest uppercase mb-4">
             <Sparkles className="h-3 w-3 animate-pulse" />
             <span>{language === 'en' ? 'Get In Touch' : 'संपर्क करें'}</span>
           </div>
@@ -86,8 +86,8 @@ export default function Contact({ isEmbedded = false }: { isEmbedded?: boolean }
               <div className="space-y-6 sm:space-y-8">
                 {/* Address Row */}
                 <div className="flex items-start group/row">
-                  <a href="https://www.google.com/maps/search/?api=1&query=Alyantra+Medicity,+Vibhuti+Khand,+Gomti+Nagar,+Lucknow,+Uttar+Pradesh" target="_blank" rel="noopener noreferrer" className="p-3 rounded-xl bg-gold/5 border border-gold/10 text-gold mr-4 group-hover/row:bg-gold/10 group-hover/row:border-gold/30 transition-all duration-300 flex-shrink-0 block cursor-pointer">
-                    <MapPin className="h-5 w-5" />
+                  <a href="https://www.google.com/maps/search/?api=1&query=Alyantra+Medicity,+Vibhuti+Khand,+Gomti+Nagar,+Lucknow,+Uttar+Pradesh" target="_blank" rel="noopener noreferrer" aria-label={language === 'en' ? 'Open Alyantra Medicity, Gomti Nagar in Google Maps' : 'अलयंत्रा मेडिसिटी, गोमती नगर को गूगल मैप्स में खोलें'} className="p-3 rounded-xl bg-gold/5 border border-gold/10 text-gold mr-4 group-hover/row:bg-gold/10 group-hover/row:border-gold/30 transition-all duration-300 flex-shrink-0 block cursor-pointer">
+                    <MapPin className="h-5 w-5" aria-hidden="true" />
                   </a>
                   <div>
                     <h3 className="font-bold text-navy text-sm tracking-wider uppercase mb-1">{t('contact.addressTitle')}</h3>
@@ -117,8 +117,8 @@ export default function Contact({ isEmbedded = false }: { isEmbedded?: boolean }
 
                 {/* Phone Row */}
                 <div className="flex items-start group/row">
-                  <a href="tel:+917460088838" onClick={() => trackEvent('contact_click', { method: 'phone' })} className="p-3 rounded-xl bg-gold/5 border border-gold/10 text-gold mr-4 group-hover/row:bg-gold/10 group-hover/row:border-gold/30 transition-all duration-300 flex-shrink-0 block cursor-pointer">
-                    <Phone className="h-5 w-5" />
+                  <a href="tel:+917460088838" onClick={() => trackEvent('contact_click', { method: 'phone' })} aria-label={language === 'en' ? 'Call +91 74600 88838' : '+91 74600 88838 पर कॉल करें'} className="p-3 rounded-xl bg-gold/5 border border-gold/10 text-gold mr-4 group-hover/row:bg-gold/10 group-hover/row:border-gold/30 transition-all duration-300 flex-shrink-0 block cursor-pointer">
+                    <Phone className="h-5 w-5" aria-hidden="true" />
                   </a>
                   <div>
                     <h3 className="font-bold text-navy text-sm tracking-wider uppercase mb-1">{t('contact.phoneTitle')}</h3>
@@ -134,8 +134,8 @@ export default function Contact({ isEmbedded = false }: { isEmbedded?: boolean }
 
                 {/* Email Row */}
                 <div className="flex items-start group/row">
-                  <a href="mailto:contact@drsaumika.in" onClick={() => trackEvent('contact_click', { method: 'email' })} className="p-3 rounded-xl bg-gold/5 border border-gold/10 text-gold mr-4 group-hover/row:bg-gold/10 group-hover/row:border-gold/30 transition-all duration-300 flex-shrink-0 block cursor-pointer">
-                    <Mail className="h-5 w-5" />
+                  <a href="mailto:contact@drsaumika.in" onClick={() => trackEvent('contact_click', { method: 'email' })} aria-label={language === 'en' ? 'Email contact@drsaumika.in' : 'contact@drsaumika.in पर ईमेल करें'} className="p-3 rounded-xl bg-gold/5 border border-gold/10 text-gold mr-4 group-hover/row:bg-gold/10 group-hover/row:border-gold/30 transition-all duration-300 flex-shrink-0 block cursor-pointer">
+                    <Mail className="h-5 w-5" aria-hidden="true" />
                   </a>
                   <div>
                     <h3 className="font-bold text-navy text-sm tracking-wider uppercase mb-1">{t('contact.emailTitle')}</h3>

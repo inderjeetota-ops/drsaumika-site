@@ -1547,7 +1547,7 @@ export default function ServiceDetail() {
       <div id="service-not-found" className="flex flex-col items-center justify-center min-h-[60vh] text-center p-8">
         <SEO title="Service Not Found" description="The requested service could not be found." path={language === 'hi' ? `/hi/services/${id || 'not-found'}` : `/services/${id || 'not-found'}`} noindex />
         <h1 id="service-not-found-heading" className="text-3xl font-bold text-navy mb-4">Service Not Found</h1>
-        <Link id="service-not-found-back" to="/" className="text-gold font-bold hover:text-navy transition-colors">
+        <Link id="service-not-found-back" to="/" className="text-gold-dark font-bold hover:text-navy transition-colors">
           &larr; Back to Home
         </Link>
       </div>
@@ -1725,14 +1725,14 @@ export default function ServiceDetail() {
         }}
       />
       <div id="service-detail-container" className="w-full max-w-[1200px] mx-auto p-4 md:p-8">
-        <Link id="service-detail-back-link" to="/#conditions" aria-label={`Back to ${t('nav.home')}`} className="inline-flex items-center text-navy/60 hover:text-gold transition-colors mb-8 font-medium focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 rounded-sm">
+        <Link id="service-detail-back-link" to="/#conditions" aria-label={`Back to ${t('nav.home')}`} className="inline-flex items-center text-navy/75 hover:text-gold-dark transition-colors mb-8 font-medium focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 rounded-sm">
           <ArrowLeft className="w-4 h-4 mr-2" aria-hidden="true" />
           {t('nav.home')}
         </Link>
 
         <m.div
           id="service-detail-card"
-          initial={{ opacity: 0, y: 20 }}
+          initial={false}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           className="bento-card bg-white/80 backdrop-blur-md p-8 md:p-12 relative overflow-hidden"
@@ -1744,7 +1744,7 @@ export default function ServiceDetail() {
               {(effectiveId && hubH1[effectiveId]?.[language === 'hi' ? 'hi' : 'en']) || t(service.titleKey)}
             </h1>
             {service.subKey && t(service.subKey) && (
-              <p id="service-detail-subheading" className="text-lg md:text-2xl font-semibold text-gold mb-8 leading-snug">
+              <p id="service-detail-subheading" className="text-lg md:text-2xl font-semibold text-gold-dark mb-8 leading-snug">
                 {t(service.subKey)}
               </p>
             )}
@@ -1770,7 +1770,7 @@ export default function ServiceDetail() {
               <span className="hidden sm:inline text-gold/40" aria-hidden="true">|</span>
               <Link
                 to={language === 'hi' ? '/hi/about' : '/about'}
-                className="inline-flex items-center gap-1 font-semibold text-gold hover:text-navy transition-colors focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 rounded-sm"
+                className="inline-flex items-center gap-1 font-semibold text-gold-dark hover:text-navy transition-colors focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 rounded-sm"
               >
                 {language === 'hi' ? 'सर्जन के बारे में' : 'About the surgeon'}
                 <ArrowRight className="w-3.5 h-3.5 flex-shrink-0" aria-hidden="true" />

@@ -186,13 +186,13 @@ export default function PrivacyPolicy() {
             <ul className="mt-3 space-y-1 text-gray-700">
               <li>
                 <span className="font-semibold text-[#002147]">{language === 'hi' ? 'ईमेल' : 'Email'}: </span>
-                <a href={`mailto:${CONTACT_EMAIL}`} className="text-[#C5A059] hover:underline">
+                <a href={`mailto:${CONTACT_EMAIL}`} className="text-gold-dark hover:underline">
                   {CONTACT_EMAIL}
                 </a>
               </li>
               <li>
                 <span className="font-semibold text-[#002147]">{language === 'hi' ? 'फ़ोन' : 'Phone'}: </span>
-                <a href={`tel:${CONTACT_PHONE.replace(/\s/g, '')}`} className="text-[#C5A059] hover:underline">
+                <a href={`tel:${CONTACT_PHONE.replace(/\s/g, '')}`} className="text-gold-dark hover:underline">
                   {CONTACT_PHONE}
                 </a>
               </li>

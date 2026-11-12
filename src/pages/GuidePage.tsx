@@ -5,7 +5,7 @@ import { useLanguage } from '../context/LanguageContext';
 import SEO from '../components/SEO';
 import SurgicalCaseCard from '../components/SurgicalCaseCard';
 import RichText, { localisePath, stripMarkup } from '../components/guide/RichText';
-import { getGuideEntry, loadGuide, hubs, isPublished, guideIndex } from '../data/guides';
+import { getGuideEntry, loadGuide, getLoadedGuide, hubs, isPublished, guideIndex } from '../data/guides';
 import type { Guide, GuideBlock, L } from '../data/guides';
 import { getCaseBySlug } from '../data/surgicalOutcomes';
 import { trackEvent } from '../lib/analytics';
@@ -19,10 +19,12 @@ const WHATSAPP = 'https://wa.me/917460088838';
 export default function GuidePage({ slug }: { slug: string }) {
   const { language } = useLanguage();
   // undefined = still loading, null = no content file for this slug
-  const [guide, setGuide] = useState<Guide | null | undefined>(undefined);
+  const [guide, setGuide] = useState<Guide | null | undefined>(() => getLoadedGuide(slug));
   const entry = getGuideEntry(slug);
 
   useEffect(() => {
+    const cached = getLoadedGuide(slug);
+    if (cached !== undefined) { setGuide(cached); return; }
     let alive = true;
     setGuide(undefined);
     loadGuide(slug).then((g) => { if (alive) setGuide(g); }).catch(() => { if (alive) setGuide(null); });
@@ -204,13 +206,13 @@ export default function GuidePage({ slug }: { slug: string }) {
         noindex={!published}
       />
       <div className="w-full max-w-[1200px] mx-auto p-4 md:p-8">
-        <nav aria-label="Breadcrumb" className="mb-6 text-sm text-navy/60">
+        <nav aria-label="Breadcrumb" className="mb-6 text-sm text-navy/75">
           <ol className="flex flex-wrap items-center gap-1">
             {crumbs.map((c, i) => (
               <li key={i} className="flex items-center gap-1">
                 {i > 0 && <span aria-hidden="true" className="mx-1 text-gold">›</span>}
                 {i < crumbs.length - 1 ? (
-                  <Link to={c.item.replace(SITE_URL, '')} className="hover:text-gold transition-colors">{c.name}</Link>
+                  <Link to={c.item.replace(SITE_URL, '')} className="hover:text-gold-dark transition-colors">{c.name}</Link>
                 ) : (
                   <span aria-current="page" className="text-navy/80">{c.name}</span>
                 )}
@@ -259,7 +261,7 @@ export default function GuidePage({ slug }: { slug: string }) {
             </section>
 
             <nav aria-label={hi ? 'इस पेज पर' : 'On this page'} className="mb-12 border-l-2 border-gold/40 pl-4">
-              <p className="text-xs font-bold uppercase tracking-widest text-gold mb-2">{hi ? 'इस पेज पर' : 'On this page'}</p>
+              <p className="text-xs font-bold uppercase tracking-widest text-gold-dark mb-2">{hi ? 'इस पेज पर' : 'On this page'}</p>
               <ol className="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-1.5 text-sm">
                 {guide.sections.map((s) => (
                   <li key={s.id}><a href={`#${s.id}`} className="text-navy/70 hover:text-gold transition-colors">{T(s.h2)}</a></li>
@@ -290,7 +292,7 @@ export default function GuidePage({ slug }: { slug: string }) {
                     </li>
                   ))}
                 </ul>
-                <Link to={P('/about')} className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-gold hover:text-navy">
+                <Link to={P('/about')} className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-gold-dark hover:text-navy">
                   {hi ? 'योग्यताएँ और अनुभव देखें' : 'See qualifications and experience'} <ArrowRight className="w-3.5 h-3.5" aria-hidden="true" />
                 </Link>
               </section>

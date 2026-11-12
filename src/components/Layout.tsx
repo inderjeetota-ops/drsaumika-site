@@ -1,4 +1,4 @@
-import React, { useLayoutEffect, useRef, Suspense } from 'react';
+import React, { useEffect, useLayoutEffect, useRef, Suspense } from 'react';
 import { Outlet, useLocation, useNavigationType } from 'react-router-dom';
 import { Navbar } from './Navbar';
 import { Footer } from './Footer';
@@ -85,7 +85,13 @@ function PageScrollManager() {
 
 export function Layout() {
   const location = useLocation();
-  
+  // No fade on the first page load: the prerendered page is already visible,
+  // and fading it from opacity 0 delayed LCP. In-site navigation still fades.
+  const isFirstPageRef = useRef(true);
+  useEffect(() => {
+    isFirstPageRef.current = false;
+  }, []);
+
   return (
     <div className="min-h-screen flex flex-col bg-ivory text-navy font-sans">
       <Navbar />
@@ -93,7 +99,7 @@ export function Layout() {
         <PageScrollManager />
         <m.div
           key={location.pathname}
-          initial={{ opacity: 0 }}
+          initial={isFirstPageRef.current ? false : { opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.25, ease: "easeOut" }}
           className="h-full"

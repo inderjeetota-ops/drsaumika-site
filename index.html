@@ -16,21 +16,30 @@
 
         var GA_MEASUREMENT_ID = 'G-NXLC2MZWH1'; // GA4 Measurement ID for drsaumika.in
 
-        var s = document.createElement('script');
-        s.async = true;
-        s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_MEASUREMENT_ID;
-        document.head.appendChild(s);
-
+        // Set up the queue straight away so no page view or event is lost...
         window.dataLayer = window.dataLayer || [];
         function gtag(){ dataLayer.push(arguments); }
         window.gtag = gtag;
         gtag('js', new Date());
         gtag('config', GA_MEASUREMENT_ID);
+
+        // ...but download gtag.js only after the page has loaded and the browser
+        // is idle, so it doesn't compete with the page itself (PageSpeed, Nov 2026).
+        function loadGtag() {
+          var s = document.createElement('script');
+          s.async = true;
+          s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_MEASUREMENT_ID;
+          document.head.appendChild(s);
+        }
+        function whenIdle() {
+          if ('requestIdleCallback' in window) requestIdleCallback(loadGtag, { timeout: 3000 });
+          else setTimeout(loadGtag, 1);
+        }
+        if (document.readyState === 'complete') whenIdle();
+        else window.addEventListener('load', whenIdle, { once: true });
       })();
     </script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" as="image" href="/dr-saumika.webp" type="image/webp">
+    <link rel="preload" as="image" href="/dr-saumika-320.webp" imagesrcset="/dr-saumika-320.webp 320w, /dr-saumika.webp 1200w" imagesizes="160px" type="image/webp">
     
       <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   </head>

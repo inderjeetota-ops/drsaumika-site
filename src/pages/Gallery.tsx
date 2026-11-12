@@ -45,10 +45,10 @@ export default function Gallery({ isEmbedded = false }: { isEmbedded?: boolean }
             <div className="absolute bottom-0 right-0 w-48 h-48 bg-gold/5 rounded-full blur-2xl pointer-events-none" />
 
             <div className="flex-1 relative z-10">
-              <h3 className="text-xl font-bold text-white mb-3 flex items-center gap-2">
+              <h2 className="text-xl font-bold text-white mb-3 flex items-center gap-2">
                 <ImageIcon className="h-5 w-5 text-gold" />
                 <span>{language === 'hi' ? 'अतिरिक्त फोटो गैलरी' : 'Extended Case Gallery'}</span>
-              </h3>
+              </h2>
               <p className="text-xs sm:text-sm text-ivory-dark/75 leading-relaxed max-w-xl italic font-light">
                 {t('gallery.note')}
               </p>
@@ -136,7 +136,7 @@ export default function Gallery({ isEmbedded = false }: { isEmbedded?: boolean }
                       
                       <div className="space-y-2 mt-1">
                         <div className="flex items-center gap-2">
-                          <span className="text-[10px] font-bold uppercase tracking-widest text-gold bg-gold/10 px-2.5 py-1 rounded-md border border-gold/10">
+                          <span className="text-[10px] font-bold uppercase tracking-widest text-gold-dark bg-gold/10 px-2.5 py-1 rounded-md border border-gold/10">
                             {language === 'hi' ? 'क्लीनिकल केस' : 'Clinical Case'}
                           </span>
                         </div>

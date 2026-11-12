@@ -2,7 +2,7 @@
  * @license
  * SPDX-License-Identifier: Apache-2.0
  */
-import React, { lazy } from 'react';
+import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { LazyMotion, domAnimation } from 'motion/react';
 import { Layout } from './components/Layout';
@@ -10,21 +10,41 @@ import { LanguageProvider } from './context/LanguageContext';
 import ScrollToTop from './components/ScrollToTop';
 import Home from './pages/Home'; // eager — primary landing page, keep it instant
 import guideList from './data/guides/index.json';
+import { lazyWithPreload } from './lib/lazyWithPreload';
+import { loadGuide } from './data/guides';
 
 // Lazy routes: each becomes its own chunk, downloaded only when the route is visited.
-const GalleryPage = lazy(() => import('./pages/GalleryPage'));
-const ContactPage = lazy(() => import('./pages/ContactPage'));
-const ServiceDetail = lazy(() => import('./pages/ServiceDetail'));
-const SurgicalOutcomes = lazy(() => import('./pages/SurgicalOutcomes'));
-const SurgicalOutcomeDetail = lazy(() => import('./pages/SurgicalOutcomeDetail'));
-const Publications = lazy(() => import('./pages/Publications'));
-const PrivacyPolicy = lazy(() => import('./pages/PrivacyPolicy'));
-const About = lazy(() => import('./pages/About'));
-const NotFoundPage = lazy(() => import('./pages/NotFoundPage'));
-const GuidePage = lazy(() => import('./pages/GuidePage'));
+const GalleryPage = lazyWithPreload(() => import('./pages/GalleryPage'));
+const ContactPage = lazyWithPreload(() => import('./pages/ContactPage'));
+const ServiceDetail = lazyWithPreload(() => import('./pages/ServiceDetail'));
+const SurgicalOutcomes = lazyWithPreload(() => import('./pages/SurgicalOutcomes'));
+const SurgicalOutcomeDetail = lazyWithPreload(() => import('./pages/SurgicalOutcomeDetail'));
+const Publications = lazyWithPreload(() => import('./pages/Publications'));
+const PrivacyPolicy = lazyWithPreload(() => import('./pages/PrivacyPolicy'));
+const About = lazyWithPreload(() => import('./pages/About'));
+const NotFoundPage = lazyWithPreload(() => import('./pages/NotFoundPage'));
+const GuidePage = lazyWithPreload(() => import('./pages/GuidePage'));
 
 // Patient guides (flat, query-matched URLs such as /ptosis-surgery-in-lucknow), English + Hindi.
 const guideSlugs: string[] = (guideList as { slug: string }[]).map((g) => g.slug);
+
+// Fetch the code for the page being opened before the first render, so React
+// draws the full page straight away instead of a blank placeholder.
+// In-site navigation after that still loads pages lazily.
+export function preloadForPath(pathname: string): Promise<unknown> {
+  const base = (pathname.replace(/^\/hi(?=\/|$)/, '') || '/').replace(/\/+$/, '') || '/';
+  if (base === '/' || base === '/conditions') return Promise.resolve();
+  const [first, second] = base.slice(1).split('/');
+  if (first === 'gallery') return GalleryPage.preload();
+  if (first === 'contact') return ContactPage.preload();
+  if (first === 'services') return ServiceDetail.preload();
+  if (first === 'surgical-outcomes') return second ? SurgicalOutcomeDetail.preload() : SurgicalOutcomes.preload();
+  if (first === 'publications') return Publications.preload();
+  if (first === 'privacy') return PrivacyPolicy.preload();
+  if (first === 'about') return About.preload();
+  if (!second && guideSlugs.includes(first)) return Promise.all([GuidePage.preload(), loadGuide(first)]);
+  return NotFoundPage.preload();
+}
 
 export default function App() {
   return (
