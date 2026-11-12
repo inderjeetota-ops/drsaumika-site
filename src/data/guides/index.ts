@@ -10,12 +10,17 @@ export const isPublished = (g?: GuideIndexEntry) => !!(g && g.reviewedOn);
 
 // Each guide's full content lives in its own chunk, loaded only when that page is visited.
 const loaders = import.meta.glob<{ default: Guide }>('./pages/*.ts');
+const loadedGuides = new Map<string, Guide | null>();
 export async function loadGuide(slug: string): Promise<Guide | null> {
   const loader = loaders[`./pages/${slug}.ts`];
   if (!loader) return null;
   const mod = await loader();
+  loadedGuides.set(slug, mod.default);
   return mod.default;
 }
+// Already-loaded guide (e.g. preloaded before the first render), or undefined.
+export const getLoadedGuide = (slug: string): Guide | null | undefined =>
+  loaders[`./pages/${slug}.ts`] ? loadedGuides.get(slug) : null;
 
 // Existing umbrella service pages that act as hubs for the guides.
 export const hubs: Record<GuideIndexEntry['hub'], { path: string | null; label: L }> = {

@@ -225,7 +225,7 @@ export default function About() {
         <header className="mt-4 flex flex-col gap-6 sm:flex-row sm:items-center">
           <div className="flex-shrink-0">
             <picture>
-              <source srcSet="/dr-saumika.webp" type="image/webp" />
+              <source srcSet="/dr-saumika-320.webp 320w, /dr-saumika.webp 1200w" sizes="160px" type="image/webp" />
               <img
                 src="/dr-saumika.jpg"
                 alt="Dr. Saumika Singh, oculoplasty and ocular oncology surgeon"
@@ -237,7 +237,7 @@ export default function About() {
           </div>
           <div>
             <h1 className="text-3xl font-bold text-[#002147] md:text-4xl">{L(STR.heading)}</h1>
-            <p className="mt-2 text-sm font-semibold text-[#C5A059]">{L(STR.roleLine)}</p>
+            <p className="mt-2 text-sm font-semibold text-gold-dark">{L(STR.roleLine)}</p>
           </div>
         </header>
 
@@ -285,7 +285,7 @@ export default function About() {
         <section className="mt-10">
           <h2 className="text-xl font-semibold text-[#002147]">{L(STR.researchHeading)}</h2>
           <p className="mt-2 text-gray-700">{L(STR.researchBody)}</p>
-          <Link to={`${prefix}/publications`} className="mt-2 inline-block text-[#C5A059] hover:underline">
+          <Link to={`${prefix}/publications`} className="mt-2 inline-block text-gold-dark hover:underline">
             {L(STR.researchLink)} →
           </Link>
         </section>
@@ -303,13 +303,13 @@ export default function About() {
             </p>
             <p className="mt-2">
               <span className="font-semibold text-[#002147]">{L(STR.phoneLabel)}: </span>
-              <a href={`tel:${CONTACT_PHONE_TEL}`} className="text-[#C5A059] hover:underline">
+              <a href={`tel:${CONTACT_PHONE_TEL}`} className="text-gold-dark hover:underline">
                 {CONTACT_PHONE_DISPLAY}
               </a>
             </p>
             <p className="mt-2">
               <span className="font-semibold text-[#002147]">{L(STR.emailLabel)}: </span>
-              <a href={`mailto:${CONTACT_EMAIL}`} className="text-[#C5A059] hover:underline">
+              <a href={`mailto:${CONTACT_EMAIL}`} className="text-gold-dark hover:underline">
                 {CONTACT_EMAIL}
               </a>
             </p>

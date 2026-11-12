@@ -190,14 +190,14 @@ export default function Home() {
         
         <div className="relative z-10 grid lg:grid-cols-12 gap-10 lg:gap-12 items-center">
           <m.div 
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
             className="lg:col-span-12 max-w-4xl mx-auto flex flex-col justify-center text-left items-start h-full w-full"
           >
             <div className="w-full">
               {/* Premium Specialist Badge */}
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold/10 border border-gold/20 text-gold text-xs font-semibold tracking-widest uppercase mb-6">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold/10 border border-gold/20 text-gold-dark text-xs font-semibold tracking-widest uppercase mb-6">
                 <Sparkles className="h-3 w-3 animate-pulse" />
                 <span>{t('home.specialist')}</span>
               </div>
@@ -212,7 +212,7 @@ export default function Home() {
                 <div className="relative p-1 rounded-2xl bg-gradient-to-br from-gold to-gold-light shadow-xl flex-shrink-0 group">
                   <div className="w-20 h-24 sm:w-28 sm:h-36 md:w-32 md:h-40 rounded-xl overflow-hidden bg-white">
                     <picture>
-                      <source srcSet="/dr-saumika.webp" type="image/webp" />
+                      <source srcSet="/dr-saumika-320.webp 320w, /dr-saumika.webp 1200w" sizes="160px" type="image/webp" />
                       <img src="/dr-saumika.jpg" alt="Dr. Saumika Singh, oculoplasty and ocular oncology surgeon" width="1194" height="1317" className="w-full h-full object-cover transform group-hover:scale-[1.05] transition-transform duration-500" />
                     </picture>
                   </div>
@@ -246,7 +246,7 @@ export default function Home() {
                 
                 <div className="flex items-center gap-2 mb-4">
                   <Sparkles className="h-4 w-4 text-gold animate-pulse" />
-                  <span className="text-xs font-bold uppercase tracking-widest text-gold">{language === 'hi' ? 'डॉ. सौमिका सिंह के बारे में' : 'About Dr. Saumika Singh'}</span>
+                  <span className="text-xs font-bold uppercase tracking-widest text-gold-dark">{language === 'hi' ? 'डॉ. सौमिका सिंह के बारे में' : 'About Dr. Saumika Singh'}</span>
                 </div>
                 
                 <div className="space-y-4 text-navy/80 text-sm leading-relaxed text-justify">
@@ -263,7 +263,7 @@ export default function Home() {
                           e.stopPropagation();
                           setIsAboutExpanded(true);
                         }}
-                        className="inline-flex items-center gap-1.5 text-sm font-semibold text-gold hover:text-navy transition-colors cursor-pointer py-1"
+                        className="inline-flex items-center gap-1.5 text-sm font-semibold text-gold-dark hover:text-navy transition-colors cursor-pointer py-1"
                         aria-expanded={false}
                       >
                         <span>{language === 'hi' ? 'और पढ़ें...' : 'Read more...'}</span>
@@ -276,7 +276,7 @@ export default function Home() {
                           e.stopPropagation();
                           setIsAboutExpanded(false);
                         }}
-                        className="inline-flex items-center gap-1 text-xs font-semibold text-gold hover:text-navy transition-colors cursor-pointer py-1 mb-1"
+                        className="inline-flex items-center gap-1 text-xs font-semibold text-gold-dark hover:text-navy transition-colors cursor-pointer py-1 mb-1"
                         aria-expanded={true}
                       >
                         <span>{language === 'hi' ? 'कम पढ़ें' : 'Show less'}</span>
@@ -295,7 +295,7 @@ export default function Home() {
                     </p>
                     <Link
                       to={language === 'hi' ? '/hi/about' : '/about'}
-                      className="inline-flex items-center gap-1.5 text-sm font-bold text-gold hover:text-navy transition-colors group/readmore focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 rounded-sm"
+                      className="inline-flex items-center gap-1.5 text-sm font-bold text-gold-dark hover:text-navy transition-colors group/readmore focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 rounded-sm"
                       onClick={(e) => e.stopPropagation()}
                     >
                       <span>{language === 'hi' ? 'डॉ. सिंह के बारे में और पढ़ें' : 'Read more about Dr. Singh'}</span>
@@ -352,7 +352,7 @@ export default function Home() {
               {t('home.whyDesc')}
             </p>
             <div className="w-24 h-0.5 bg-gold/40 mx-auto my-8" />
-            <h3 className="text-2xl md:text-3xl font-bold text-gold mb-2">
+            <h3 className="text-2xl md:text-3xl font-bold text-gold-dark mb-2">
               {t('home.conditionsTreated')}
             </h3>
           </div>
@@ -441,7 +441,7 @@ export default function Home() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16 md:mb-20"
           >
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold/10 border border-gold/20 text-gold text-xs font-semibold tracking-widest uppercase mb-4">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold/10 border border-gold/20 text-gold-dark text-xs font-semibold tracking-widest uppercase mb-4">
               <Sparkles className="h-3 w-3 animate-pulse" />
               <span>{language === 'hi' ? 'सर्जिकल परिणाम' : 'Surgical Results'}</span>
             </div>
@@ -522,7 +522,7 @@ export default function Home() {
                     </React.Fragment>
                   ))}
                 </p>
-                <p className="text-sm italic text-navy/60 mt-auto pt-4 border-t border-gold/10">
+                <p className="text-sm italic text-navy/75 mt-auto pt-4 border-t border-gold/10">
                   {formatRef(p)}
                 </p>
               </div>

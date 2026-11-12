@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
-import type { SurgicalCase } from '../data/surgicalOutcomes';
+import { stageSrcSet, type SurgicalCase } from '../data/surgicalOutcomes';
 
 export default function SurgicalCaseCard({ c }: { c: SurgicalCase; key?: React.Key }) {
   const { language, t } = useLanguage();
@@ -18,6 +18,8 @@ export default function SurgicalCaseCard({ c }: { c: SurgicalCase; key?: React.K
       <div className="aspect-[4/3] overflow-hidden bg-gray-100 relative">
         <img
           src={`/surgical-outcomes/${c.slug}/${cover.image}`}
+          srcSet={stageSrcSet(c.slug, cover)}
+          sizes="(min-width: 1024px) 400px, (min-width: 640px) 50vw, 100vw"
           width={cover.width}
           height={cover.height}
           alt={L(cover.alt)}
@@ -35,7 +37,7 @@ export default function SurgicalCaseCard({ c }: { c: SurgicalCase; key?: React.K
             <span key={tag.en} className="rounded-full bg-[#eef1f8] px-2.5 py-0.5 text-xs font-medium text-[#002147]">{L(tag)}</span>
           ))}
         </div>
-        <h3 className="mt-3 text-lg font-semibold text-[#002147] group-hover:text-[#C5A059] transition-colors duration-300">{L(c.title)}</h3>
+        <h2 className="mt-3 text-lg font-semibold text-[#002147] group-hover:text-gold-dark transition-colors duration-300">{L(c.title)}</h2>
         <p className="mt-1 text-sm italic text-gray-600">{L(c.technique)}</p>
       </div>
     </Link>
