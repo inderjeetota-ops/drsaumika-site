@@ -7,7 +7,6 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { LazyMotion, domAnimation } from 'motion/react';
 import { Layout } from './components/Layout';
 import { LanguageProvider } from './context/LanguageContext';
-import ScrollToTop from './components/ScrollToTop';
 import Home from './pages/Home'; // eager — primary landing page, keep it instant
 import guideList from './data/guides/index.json';
 import { lazyWithPreload } from './lib/lazyWithPreload';
@@ -51,7 +50,6 @@ export default function App() {
     <BrowserRouter>
       <LanguageProvider>
         <LazyMotion features={domAnimation} strict>
-          <ScrollToTop />
           <Routes>
             <Route path="/" element={<Layout />}>
               <Route index element={<Home />} />
