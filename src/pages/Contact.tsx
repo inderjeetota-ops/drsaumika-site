@@ -4,27 +4,28 @@ import {  MapPin, Phone, Mail, Clock, MessageCircle, Send, Calendar, ArrowRight,
 import { useLanguage } from '../context/LanguageContext';
 import { trackEvent } from '../lib/analytics';
 
+// Optional country code (+ and 1-3 digits) followed by exactly 10 digits; spaces and hyphens ignored.
+const isValidPhone = (value: string) => /^(\+?\d{1,3})?\d{10}$/.test(value.replace(/[\s-]/g, ''));
+
 export default function Contact({ isEmbedded = false }: { isEmbedded?: boolean }) {
-  const [phoneError, setPhoneError] = React.useState("");
+  // Shown after a failed submit; re-checked on every keystroke so it clears as
+  // soon as the number becomes valid (not only on the next submit).
+  const [phoneError, setPhoneError] = React.useState(false);
   const { t, language } = useLanguage();
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     const formData = new FormData(e.currentTarget);
-    const phoneValue = formData.get("phone") as string;
-    
-    // Remove spaces and hyphens
-    const cleanPhone = phoneValue.replace(/[\s-]/g, '');
-    
-    // Regex for optional country code (+ or just numbers, max 3 digits) followed by exactly 10 digits
-    const valid = /^(\+?\d{1,3})?\d{10}$/.test(cleanPhone);
-    
-    if (!valid) {
+    if (!isValidPhone(formData.get("phone") as string)) {
       e.preventDefault();
-      setPhoneError(t('contact.phoneError'));
+      setPhoneError(true);
     } else {
-      setPhoneError("");
+      setPhoneError(false);
       trackEvent('generate_lead', { method: 'contact_form' });
     }
+  };
+
+  const handlePhoneChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    if (phoneError && isValidPhone(e.target.value)) setPhoneError(false);
   };
 
   return (
@@ -238,11 +239,15 @@ export default function Contact({ isEmbedded = false }: { isEmbedded?: boolean }
                       type="tel" 
                       name="phone"
                       required
+                      autoComplete="tel"
+                      onChange={handlePhoneChange}
+                      aria-invalid={phoneError}
+                      aria-describedby={phoneError ? 'contact_phone_error' : undefined}
                       className={`w-full bg-white/[0.04] border ${phoneError ? 'border-red-500' : 'border-white/10 hover:border-white/20'} focus:border-gold focus:ring-1 focus:ring-gold px-4 py-3.5 text-white placeholder-white/35 rounded-xl transition-all duration-300 text-sm focus:outline-none`}
                       placeholder="+91"
                     />
                     {phoneError && (
-                      <p className="text-red-400 text-xs mt-2 font-medium">{phoneError}</p>
+                      <p id="contact_phone_error" role="alert" className="text-red-400 text-xs mt-2 font-medium">{t('contact.phoneError')}</p>
                     )}
                   </div>
                 </div>
