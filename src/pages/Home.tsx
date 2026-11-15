@@ -76,7 +76,7 @@ const EyelidIcon = (props: React.SVGProps<SVGSVGElement>) => (
 const HOME_SURGICAL_SLUGS = [
   'tarsal-cyst-misdiagnosed-chalazion',
   'sebaceous-gland-carcinoma-lower-eyelid',
-  'congenital-ptosis-marcus-gunn',
+  'congenital-ptosis-lps-resection',
 ];
 const homeSurgicalCases = HOME_SURGICAL_SLUGS
   .map((slug) => surgicalCases.find((c) => c.slug === slug))
