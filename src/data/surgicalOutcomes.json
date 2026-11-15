@@ -170,5 +170,45 @@
       "hi": "सही निदान ही सही उपचार की दिशा में पहला कदम है।"
     },
     "collageImage": "collage.webp", "year": 2026, "consent": true, "featured": false
+  },
+  {
+    "slug": "congenital-ptosis-lps-resection",
+    "title": { "en": "Moderate Simple Congenital Ptosis with Fair LPS Action", "hi": "मध्यम सरल जन्मजात प्टोसिस, मध्यम (फेयर) LPS क्रिया के साथ" },
+    "metaTitle": { "en": "Congenital Ptosis Corrected by LPS Resection | Dr Saumika Singh", "hi": "LPS रिसेक्शन द्वारा जन्मजात प्टोसिस का सुधार | डॉ. सौमिका सिंह" },
+    "technique": { "en": "LPS Resection with Individualised Titration for Lid Symmetry and Contour", "hi": "पलक की सममिति और बनावट हेतु व्यक्तिगत टाइट्रेशन के साथ LPS रिसेक्शन" },
+    "relatedService": "eyelid-disorders-eyelid-surgery",
+    "relatedServiceName": { "en": "Eyelid Disorders & Eyelid Surgery", "hi": "पलक के विकार एवं पलक की सर्जरी" },
+    "tags": [
+      { "en": "Ptosis", "hi": "प्टोसिस" },
+      { "en": "Eyelid", "hi": "पलक" },
+      { "en": "Congenital", "hi": "जन्मजात" }
+    ],
+    "metaDescription": {
+      "en": "Adult with left upper eyelid droop since birth: moderate simple congenital ptosis corrected by LPS resection, achieving near-perfect lid symmetry. Dr Saumika Singh, Lucknow.",
+      "hi": "जन्म से बाईं ऊपरी पलक गिरी हुई: मध्यम सरल जन्मजात प्टोसिस का LPS रिसेक्शन द्वारा सुधार, लगभग पूर्ण पलक सममिति। डॉ. सौमिका सिंह, लखनऊ।"
+    },
+    "stages": [
+      {
+        "label": { "en": "Pre-operative", "hi": "ऑपरेशन से पहले" },
+        "image": "stage-1-preop.webp", "width": 1600, "height": 889,
+        "alt": { "en": "Pre-operative photograph showing moderate simple congenital ptosis of the left upper eyelid", "hi": "बाईं ऊपरी पलक की मध्यम सरल जन्मजात प्टोसिस दर्शाती ऑपरेशन-पूर्व तस्वीर" },
+        "caption": { "en": "Pre-operative picture showing moderate simple congenital ptosis of the left upper eyelid with fair LPS action.", "hi": "ऑपरेशन-पूर्व तस्वीर: बाईं ऊपरी पलक की मध्यम सरल जन्मजात प्टोसिस, मध्यम (फेयर) LPS क्रिया के साथ।" }
+      },
+      {
+        "label": { "en": "Post-operative", "hi": "ऑपरेशन के बाद" },
+        "image": "stage-2-postop.webp", "width": 1600, "height": 889,
+        "alt": { "en": "Post-operative photograph after LPS resection showing near-perfect eyelid symmetry and good lid contour", "hi": "LPS रिसेक्शन के बाद लगभग पूर्ण पलक सममिति और अच्छी पलक बनावट दर्शाती तस्वीर" },
+        "caption": { "en": "Post-operative picture after LPS resection showing near-perfect eyelid symmetry with good lid contour.", "hi": "LPS रिसेक्शन के बाद की तस्वीर, जिसमें पलकों की लगभग पूर्ण सममिति और अच्छी बनावट दिख रही है।" }
+      }
+    ],
+    "narrative": {
+      "en": "This adult came with complaints of drooping of the left upper eyelid since birth. A detailed examination showed moderate simple congenital ptosis with fair levator palpebrae superioris (LPS) action and a good Bell's phenomenon. The patient was planned for LPS resection surgery, with individualised titration of the LPS muscle, to achieve near-perfect eyelid symmetry with a good lid contour.\n\nEyelid droop (ptosis) can have multiple causes. A detailed assessment guides us to the underlying cause and helps plan an individualised approach to achieve satisfactory outcomes.",
+      "hi": "यह वयस्क रोगी जन्म से बाईं ऊपरी पलक के गिरे होने की शिकायत के साथ आया। विस्तृत जांच में मध्यम सरल जन्मजात प्टोसिस पाई गई, जिसमें लीवेटर पैल्पेब्री सुपीरियोरिस (LPS) मांसपेशी की क्रिया मध्यम (फेयर) थी और बेल्स फिनोमेनन अच्छा था। रोगी के लिए LPS रिसेक्शन सर्जरी की योजना बनाई गई, जिसमें LPS मांसपेशी का व्यक्तिगत टाइट्रेशन किया गया, ताकि पलकों में लगभग पूर्ण सममिति और अच्छी बनावट प्राप्त हो सके।\n\nपलक का गिरना (प्टोसिस) कई कारणों से हो सकता है। विस्तृत मूल्यांकन हमें मूल कारण तक पहुँचाता है और संतोषजनक परिणाम के लिए व्यक्तिगत उपचार की योजना बनाने में मदद करता है।"
+    },
+    "takeaway": {
+      "en": "Not all ptosis are the same. Each requires a detailed examination, which leads us to choosing the best-fit surgery for the patient to give a good surgical outcome.",
+      "hi": "हर प्टोसिस एक जैसी नहीं होती। प्रत्येक की विस्तृत जांच आवश्यक है, जो हमें रोगी के लिए सबसे उपयुक्त सर्जरी चुनने में मदद करती है, ताकि अच्छा शल्य परिणाम मिल सके।"
+    },
+    "collageImage": "collage.webp", "year": 2026, "consent": true, "featured": true
   }
 ]
