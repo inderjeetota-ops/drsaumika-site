@@ -210,5 +210,45 @@
       "hi": "हर प्टोसिस एक जैसी नहीं होती। प्रत्येक की विस्तृत जांच आवश्यक है, जो हमें रोगी के लिए सबसे उपयुक्त सर्जरी चुनने में मदद करती है, ताकि अच्छा शल्य परिणाम मिल सके।"
     },
     "collageImage": "collage.webp", "year": 2026, "consent": true, "featured": true
+  },
+  {
+    "slug": "dermatochalasis-upper-blepharoplasty",
+    "title": { "en": "Dermatochalasis of Both Upper Eyelids", "hi": "दोनों ऊपरी पलकों का डर्मेटोकैलेसिस" },
+    "metaTitle": { "en": "Dermatochalasis Treated by Upper Blepharoplasty | Dr Saumika Singh", "hi": "अपर ब्लेफेरोप्लास्टी द्वारा डर्मेटोकैलेसिस का उपचार | डॉ. सौमिका सिंह" },
+    "technique": { "en": "Bilateral Upper Eyelid Blepharoplasty to Reveal Natural Lid Creases", "hi": "स्वाभाविक पलक क्रीज़ को उभारने हेतु दोनों ऊपरी पलकों की ब्लेफेरोप्लास्टी" },
+    "relatedService": "botox-eyelid-cosmetic-surgery-periocular-aesthetics",
+    "relatedServiceName": { "en": "Botox, Eyelid Cosmetic Surgery & Periocular Aesthetics", "hi": "बोटॉक्स, आईलिड कॉस्मेटिक सर्जरी और पेरिओकुलर एस्थेटिक्स" },
+    "tags": [
+      { "en": "Blepharoplasty", "hi": "ब्लेफेरोप्लास्टी" },
+      { "en": "Eyelid", "hi": "पलक" },
+      { "en": "Aesthetic", "hi": "सौंदर्य" }
+    ],
+    "metaDescription": {
+      "en": "Loose, overhanging upper eyelid skin (dermatochalasis) treated by bilateral upper blepharoplasty, revealing well-defined lid creases. Dr Saumika Singh, Lucknow.",
+      "hi": "ऊपरी पलकों की ढीली, लटकती त्वचा (डर्मेटोकैलेसिस) का दोनों आँखों की अपर ब्लेफेरोप्लास्टी द्वारा उपचार, स्पष्ट पलक क्रीज़ के साथ। डॉ. सौमिका सिंह, लखनऊ।"
+    },
+    "stages": [
+      {
+        "label": { "en": "Pre-operative", "hi": "ऑपरेशन से पहले" },
+        "image": "stage-1-preop.webp", "width": 1600, "height": 888,
+        "alt": { "en": "Pre-operative photograph showing loose, overhanging upper eyelid skin of both eyes, with the eyelid margin (red) and skin fold (yellow) marked close together", "hi": "दोनों आँखों की ऊपरी पलकों की ढीली, लटकती त्वचा दर्शाती ऑपरेशन-पूर्व तस्वीर, जिसमें पलक का किनारा (लाल) और त्वचा की तह (पीला) पास-पास चिह्नित हैं" },
+        "caption": { "en": "Pre-operative picture showing loose, overhanging upper eyelid skin of both eyes concealing the lid creases. Red: eyelid margin; yellow: skin fold.", "hi": "ऑपरेशन-पूर्व तस्वीर: दोनों आँखों की ऊपरी पलकों की ढीली, लटकती त्वचा, जिसके नीचे पलक की क्रीज़ छिपी है। लाल: पलक का किनारा; पीला: त्वचा की तह।" }
+      },
+      {
+        "label": { "en": "Post-operative", "hi": "ऑपरेशन के बाद" },
+        "image": "stage-2-postop.webp", "width": 1600, "height": 888,
+        "alt": { "en": "Post-operative photograph after bilateral upper blepharoplasty showing well-defined lid creases, with a good distance between the eyelid margin (red) and lid crease (yellow)", "hi": "दोनों ऊपरी पलकों की ब्लेफेरोप्लास्टी के बाद स्पष्ट पलक क्रीज़ दर्शाती तस्वीर, जिसमें पलक के किनारे (लाल) और क्रीज़ (पीला) के बीच अच्छी दूरी है" },
+        "caption": { "en": "Post-operative picture after bilateral upper blepharoplasty showing well-defined lid creases with a good margin–crease distance (MCD). Red: eyelid margin; yellow: lid crease.", "hi": "दोनों ऊपरी पलकों की ब्लेफेरोप्लास्टी के बाद की तस्वीर, जिसमें स्पष्ट पलक क्रीज़ और किनारे से क्रीज़ की अच्छी दूरी (MCD) दिख रही है। लाल: पलक का किनारा; पीला: पलक की क्रीज़।" }
+      }
+    ],
+    "narrative": {
+      "en": "This patient came with cosmetic concerns about loose, overhanging upper eyelid skin in both eyes, present for many years. On examination, the picture fitted perfectly with dermatochalasis: excess, lax skin of the upper eyelids that hangs over the lid margin and hides the natural lid crease.\n\nThe patient underwent upper eyelid blepharoplasty of both eyes. This gave a significant reduction of the excess overhanging skin, revealing beautiful, well-defined lid creases. In the photographs, the red dot marks the eyelid margin and the yellow dot marks the lid crease. Before surgery the two almost meet, because the crease is hidden under the overhanging skin; after surgery there is a good margin–crease distance in both eyes.",
+      "hi": "यह रोगी दोनों आँखों की ऊपरी पलकों की ढीली, लटकती त्वचा को लेकर कॉस्मेटिक चिंता के साथ आया, जो कई वर्षों से थी। जांच में यह पूरी तरह डर्मेटोकैलेसिस का मामला था: ऊपरी पलकों की अतिरिक्त, ढीली त्वचा, जो पलक के किनारे पर लटकती है और स्वाभाविक पलक क्रीज़ को छिपा देती है।\n\nरोगी की दोनों आँखों की ऊपरी पलक की ब्लेफेरोप्लास्टी की गई। इससे लटकती अतिरिक्त त्वचा में उल्लेखनीय कमी आई और सुंदर, स्पष्ट पलक क्रीज़ उभर आईं। तस्वीरों में लाल बिंदु पलक के किनारे को और पीला बिंदु पलक की क्रीज़ को दर्शाता है। सर्जरी से पहले दोनों लगभग मिले हुए हैं, क्योंकि क्रीज़ लटकती त्वचा के नीचे छिपी है; सर्जरी के बाद दोनों आँखों में किनारे से क्रीज़ की अच्छी दूरी दिखती है।"
+    },
+    "takeaway": {
+      "en": "Heavy upper eyelids can be due to excess skin, a weak eyelid muscle (ptosis), or both. A detailed eyelid examination helps us find the cause and choose the right surgery for each patient.",
+      "hi": "भारी ऊपरी पलकें अतिरिक्त त्वचा, पलक की कमज़ोर मांसपेशी (प्टोसिस), या दोनों के कारण हो सकती हैं। पलक की विस्तृत जांच हमें कारण पहचानने और हर रोगी के लिए सही सर्जरी चुनने में मदद करती है।"
+    },
+    "collageImage": "collage.webp", "year": 2026, "consent": true, "featured": false
   }
 ]
