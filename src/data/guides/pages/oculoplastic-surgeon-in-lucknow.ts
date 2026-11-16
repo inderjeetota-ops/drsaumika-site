@@ -15,13 +15,13 @@ const guide: Guide = {
     'लखनऊ में ओकुलोप्लास्टिक सर्जन – डॉ. सौमिका सिंह'
   ),
   metaDescription: t(
-    'Oculoplastic surgeon in Lucknow Dr Saumika Singh, fellowship-trained, treats eyelid, tear duct, orbit and eye tumour conditions at Alyantra Medicity, Gomti Nagar.',
-    'डॉ. सौमिका सिंह लखनऊ में अलयंत्रा मेडिसिटी, गोमती नगर में फ़ेलोशिप-प्रशिक्षित ओकुलोप्लास्टिक व ओकुलर ऑन्कोलॉजी सर्जन हैं — पलक, आंसू नली, ऑर्बिट और आंख के ट्यूमर का इलाज।'
+    'Oculoplastic surgeon in Lucknow Dr Saumika Singh, fellowship-trained, treats eyelid, tear duct, orbit, eye socket and eye tumour conditions. Book now.',
+    'डॉ. सौमिका सिंह लखनऊ में फ़ेलोशिप-प्रशिक्षित ओकुलोप्लास्टिक व ओकुलर ऑन्कोलॉजी सर्जन हैं — पलक, आंसू नली, ऑर्बिट और आंख के ट्यूमर का इलाज।'
   ),
   h1: t('Oculoplastic Surgeon in Lucknow – Dr. Saumika Singh', 'लखनऊ में ओकुलोप्लास्टिक सर्जन – डॉ. सौमिका सिंह'),
   lead: t(
-    'Dr. Saumika Singh is an oculoplastic surgeon in Lucknow, consulting at Alyantra Medicity Superspeciality Hospital, Gomti Nagar, who specialises in surgery of the eyelids, tear ducts, orbit (eye socket) and tumours around the eye. An oculoplastic surgeon is an ophthalmologist — an eye surgeon — who has completed additional fellowship training in oculoplasty, so they can treat problems such as drooping eyelids, watering eyes, eyelid lumps, eye injuries and artificial-eye fitting while protecting vision and the health of the eye. This page explains what an oculoplastic surgeon treats, Dr. Singh’s verifiable qualifications, and how to book a consultation in Lucknow.',
-    'डॉ. सौमिका सिंह लखनऊ में ओकुलोप्लास्टिक सर्जन हैं, जो अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में परामर्श देती हैं। वे पलकों, आंसू नलियों, ऑर्बिट (आंख का गड्ढा) और आंख के आसपास के ट्यूमर की सर्जरी में विशेषज्ञ हैं। ओकुलोप्लास्टिक सर्जन एक नेत्र रोग विशेषज्ञ (आई सर्जन) होते हैं जिन्होंने ओकुलोप्लास्टी में अतिरिक्त फ़ेलोशिप प्रशिक्षण लिया हो, इसलिए वे झुकी पलक, आंखों से पानी आना, पलक की गांठ, आंख की चोट और कृत्रिम आंख जैसी समस्याओं का इलाज नज़र और आंख की सेहत की रक्षा करते हुए कर सकते हैं। इस पेज पर जानें कि ओकुलोप्लास्टिक सर्जन किन समस्याओं का इलाज करते हैं, डॉ. सिंह की प्रमाणित योग्यताएं क्या हैं, और लखनऊ में परामर्श कैसे बुक करें।'
+    'Dr. Saumika Singh is an oculoplastic surgeon in Lucknow who specialises in surgery of the eyelids, tear ducts, orbit (eye socket) and tumours around the eye. An oculoplastic surgeon is an ophthalmologist — an eye surgeon — who has completed additional fellowship training in oculoplasty, so they can treat problems such as drooping eyelids, watering eyes, eyelid lumps, eye injuries and artificial-eye fitting while protecting vision and the health of the eye. This page explains what an oculoplastic surgeon treats, Dr. Singh’s verifiable qualifications, and how to book a consultation in Lucknow.',
+    'डॉ. सौमिका सिंह लखनऊ में ओकुलोप्लास्टिक सर्जन हैं। वे पलकों, आंसू नलियों, ऑर्बिट (आंख का गड्ढा) और आंख के आसपास के ट्यूमर की सर्जरी में विशेषज्ञ हैं। ओकुलोप्लास्टिक सर्जन एक नेत्र रोग विशेषज्ञ (आई सर्जन) होते हैं जिन्होंने ओकुलोप्लास्टी में अतिरिक्त फ़ेलोशिप प्रशिक्षण लिया हो, इसलिए वे झुकी पलक, आंखों से पानी आना, पलक की गांठ, आंख की चोट और कृत्रिम आंख जैसी समस्याओं का इलाज नज़र और आंख की सेहत की रक्षा करते हुए कर सकते हैं। इस पेज पर जानें कि ओकुलोप्लास्टिक सर्जन किन समस्याओं का इलाज करते हैं, डॉ. सिंह की प्रमाणित योग्यताएं क्या हैं, और लखनऊ में परामर्श कैसे बुक करें।'
   ),
   atAGlance: [
     t('**Specialty:** Oculoplasty, orbit and ocular oncology', '**विशेषज्ञता:** ओकुलोप्लास्टी, ऑर्बिट और ओकुलर ऑन्कोलॉजी'),
@@ -163,14 +163,6 @@ const guide: Guide = {
           'फ़ोन, WhatsApp या संपर्क फ़ॉर्म से बुक करें, और पुरानी आंखों की रिपोर्ट, स्कैन और दवाओं की सूची साथ लाएं। डॉ. सिंह इतिहास लेकर आंख, पलक और आंसू तंत्र की जांच करती हैं, ज़रूरी जांचें कराती हैं, और निदान, इलाज के विकल्प (बिना सर्जरी वाले भी), जोखिम और रिकवरी समझाती हैं। ड्रॉप्स डाली जा सकती हैं, इसलिए तुरंत गाड़ी न चलाने की योजना रखें। पूरी जानकारी [ओकुलोप्लास्टी परामर्श में क्या होता है](/oculoplasty-consultation-what-to-expect) पेज पर है।'
         ),
       ],
-      callout: {
-        tone: 'urgent',
-        title: t('Do not wait for an appointment if…', 'अपॉइंटमेंट का इंतज़ार न करें अगर…'),
-        text: t(
-          'You have a sudden loss of vision, a sudden droopy eyelid with double vision or headache, a painful red swelling around the eye with fever, a chemical splash, or an injury that has cut the eyelid or may have damaged the eye. Go to the nearest emergency department immediately.',
-          'अचानक नज़र चली जाए, अचानक पलक झुके और साथ में दोहरा दिखे या सिरदर्द हो, आंख के आसपास बुखार के साथ दर्द भरी लाल सूजन हो, आंख में केमिकल गिरे, या चोट से पलक कट गई हो या आंख को नुकसान हुआ हो — तो तुरंत नज़दीकी इमरजेंसी में जाएं।'
-        ),
-      },
     },
   ],
 
@@ -239,6 +231,8 @@ const guide: Guide = {
   schema: { type: 'Physician', name: 'Dr. Saumika Singh' },
 
   reviewerNotes: [
+    'Pre-applied on 16 Nov 2026 from her ptosis/ectropion review: urgent/emergency boxes removed, hospital name taken out of the opening paragraph, search description and FAQ answers (kept in the \'Where\' line and credentials), and home-care/risk wording trimmed. Please check the page reads well without them.',
+    'The hospital address, timings and booking details are kept in the location section and booking FAQ, because this page is about where to find you.',
     'Confirm the Google Maps search link resolves to her GBP listing; replace with the exact place URL if available.',
     'Visiting centres intentionally not named ("visits other centres as required").',
     'Confirm she treats children and that paediatric GA is available at Alyantra.',

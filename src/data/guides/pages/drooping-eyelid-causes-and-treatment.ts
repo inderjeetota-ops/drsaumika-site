@@ -24,7 +24,7 @@ const guide: Guide = {
   atAGlance: [
     t('**Most common adult cause:** age-related stretching of the lifting-muscle tendon (aponeurotic ptosis)', '**वयस्कों में सबसे आम कारण:** उम्र के साथ उठाने वाली मांसपेशी के टेंडन का खिंचना (एपोन्यूरोटिक टोसिस)'),
     t('**Biggest clue:** how fast it started — gradual over years is usually different from sudden over hours or days', '**सबसे बड़ा सुराग:** यह कितनी तेज़ी से शुरू हुआ — सालों में धीरे-धीरे आना आमतौर पर घंटों या दिनों में अचानक आने से अलग होता है'),
-    t('**Emergency signs:** sudden droop with double vision, severe headache, unequal pupils, face weakness or slurred speech', '**इमरजेंसी संकेत:** अचानक झुकाव के साथ दोहरा दिखना, तेज़ सिरदर्द, असमान पुतलियां, चेहरे में कमज़ोरी या लड़खड़ाती आवाज़'),
+    t('**Warning signs:** sudden droop with double vision, severe headache, unequal pupils, face weakness or slurred speech', '**चेतावनी संकेत:** अचानक झुकाव के साथ दोहरा दिखना, तेज़ सिरदर्द, असमान पुतलियां, चेहरे में कमज़ोरी या लड़खड़ाती आवाज़'),
     t('**Look-alikes:** extra eyelid skin or a drooping brow can mimic ptosis', '**मिलते-जुलते कारण:** पलक की अतिरिक्त त्वचा या झुकी भौंह टोसिस जैसी दिख सकती है'),
     t('**Treatment:** depends on the cause — treat the underlying condition, or surgery for structural ptosis', '**इलाज:** कारण पर निर्भर — अंदरूनी बीमारी का इलाज, या संरचनात्मक टोसिस में सर्जरी'),
     t('**Where:** Alyantra Medicity Superspeciality Hospital, Gomti Nagar, Lucknow', '**कहां:** अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर, लखनऊ'),
@@ -39,15 +39,11 @@ const guide: Guide = {
           'Most people searching “why is my eyelid drooping” have a slow change that can be examined in a routine appointment. A smaller group have a droop that is the first sign of something affecting the nerves, muscles or blood vessels of the brain. The key question is: **did it start suddenly?**',
           'जो लोग “मेरी पलक क्यों झुक रही है” खोजते हैं, उनमें ज़्यादातर में बदलाव धीमा होता है और सामान्य अपॉइंटमेंट में जांच हो सकती है। एक छोटे समूह में झुकाव दिमाग की नसों, मांसपेशियों या रक्त-वाहिकाओं की किसी समस्या का पहला संकेत होता है। मुख्य सवाल है: **क्या यह अचानक शुरू हुआ?**'
         ),
-      ],
-      callout: {
-        tone: 'urgent',
-        title: t('Go to an emergency department the same day if…', 'इन स्थितियों में उसी दिन इमरजेंसी में जाएं…'),
-        text: t(
-          'a droop appears suddenly (over hours or a few days) **and** comes with double vision, a severe or unusual headache, pain around the eye or neck, one pupil larger or smaller than the other, weakness or numbness of the face, arm or leg, slurred speech, or difficulty swallowing or breathing. These can point to a stroke, a bulging blood vessel (aneurysm) pressing on a nerve, or a myasthenic crisis. Do not wait for an eyelid appointment, and do not drive yourself.',
-          'अगर पलक अचानक (घंटों या कुछ दिनों में) झुके **और** साथ में दोहरा दिखना, तेज़ या असामान्य सिरदर्द, आंख या गर्दन के आसपास दर्द, एक पुतली दूसरी से बड़ी या छोटी, चेहरे/हाथ/पैर में कमज़ोरी या सुन्नपन, बोलने में लड़खड़ाहट, या निगलने/सांस लेने में तकलीफ़ हो। ये स्ट्रोक, नस पर दबाव डालती रक्त-वाहिका की उभार (एन्यूरिज़्म) या मायस्थीनिक क्राइसिस के संकेत हो सकते हैं। पलक के अपॉइंटमेंट का इंतज़ार न करें और खुद गाड़ी न चलाएं।'
+        t(
+          '**Go to an emergency department the same day if:** a droop appears suddenly (over hours or a few days) **and** comes with double vision, a severe or unusual headache, pain around the eye or neck, one pupil larger or smaller than the other, weakness or numbness of the face, arm or leg, slurred speech, or difficulty swallowing or breathing. These can point to a stroke, a bulging blood vessel (aneurysm) pressing on a nerve, or a myasthenic crisis. Do not wait for an eyelid appointment, and do not drive yourself.',
+          '**इन स्थितियों में उसी दिन इमरजेंसी में जाएं:** अगर पलक अचानक (घंटों या कुछ दिनों में) झुके **और** साथ में दोहरा दिखना, तेज़ या असामान्य सिरदर्द, आंख या गर्दन के आसपास दर्द, एक पुतली दूसरी से बड़ी या छोटी, चेहरे/हाथ/पैर में कमज़ोरी या सुन्नपन, बोलने में लड़खड़ाहट, या निगलने/सांस लेने में तकलीफ़ हो। ये स्ट्रोक, नस पर दबाव डालती रक्त-वाहिका की उभार (एन्यूरिज़्म) या मायस्थीनिक क्राइसिस के संकेत हो सकते हैं। पलक के अपॉइंटमेंट का इंतज़ार न करें और खुद गाड़ी न चलाएं।'
         ),
-      },
+      ],
     },
     {
       id: 'causes-overview',
@@ -204,7 +200,7 @@ const guide: Guide = {
   whyDrSaumika: [
     t('Fellowship-trained in Oculoplasty & Ocular Oncology (Dr. Shroff’s Charity Eye Hospital, New Delhi, 2022) after MS in Ophthalmology', 'नेत्र विज्ञान में MS के बाद ओकुलोप्लास्टी व ओकुलर ऑन्कोलॉजी में फ़ेलोशिप-प्रशिक्षित (डॉ. श्रॉफ़्स चैरिटी आई हॉस्पिटल, नई दिल्ली, 2022)'),
     t('As an eye surgeon, she examines the eyelid together with the pupils, eye movements and the eye surface, and refers for neurological or medical care when the pattern calls for it', 'नेत्र सर्जन होने के नाते वे पलक के साथ पुतलियों, आंख की गति और आंख की सतह की भी जांच करती हैं, और लक्षण ज़रूरत बताएं तो न्यूरोलॉजिकल या मेडिकल इलाज के लिए रेफ़र करती हैं'),
-    t('Her practice includes ptosis surgery (levator surgery and frontalis sling) in adults and children, and removal and biopsy of eyelid lumps', 'उनके कार्य में वयस्कों और बच्चों में टोसिस सर्जरी (लेवेटर सर्जरी और फ्रंटालिस स्लिंग) और पलक की गांठों को हटाना व बायोप्सी शामिल हैं'),
+    t('Her practice includes ptosis correction customised for every adult and child, and removal and biopsy of eyelid lumps', 'उनके कार्य में हर वयस्क और बच्चे के लिए व्यक्तिगत रूप से तय टोसिस सुधार, और पलक की गांठों को हटाना व बायोप्सी शामिल हैं'),
     t('Registered with the Uttar Pradesh Medical Council (Reg. No. 137106); consults at Alyantra Medicity Superspeciality Hospital, Gomti Nagar', 'उत्तर प्रदेश मेडिकल काउंसिल में पंजीकृत (पंजीकरण सं. 137106); अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में परामर्श'),
   ],
 
@@ -239,13 +235,13 @@ const guide: Guide = {
     },
     {
       q: t('Which doctor treats a drooping eyelid in Lucknow?', 'लखनऊ में झुकी पलक का इलाज कौन-सा डॉक्टर करता है?'),
-      a: t('An oculoplastic surgeon, an eye surgeon with extra training in the eyelids, tear ducts and orbit, can assess the cause and operate when needed. In Lucknow, Dr. Saumika Singh sees patients with drooping eyelids at Alyantra Medicity Superspeciality Hospital, Gomti Nagar. A sudden droop with red-flag symptoms needs an emergency department first.', 'ओकुलोप्लास्टिक सर्जन, यानी पलक, आंसू नली और ऑर्बिट की सर्जरी में अतिरिक्त प्रशिक्षण वाले नेत्र सर्जन, कारण की जांच कर सकते हैं और ज़रूरत पर ऑपरेशन करते हैं। लखनऊ में डॉ. सौमिका सिंह अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में झुकी पलक के मरीज़ देखती हैं। खतरे के संकेतों के साथ अचानक झुकाव में पहले इमरजेंसी विभाग जाएं।'),
+      a: t('An oculoplastic surgeon, an eye surgeon with extra training in the eyelids, tear ducts and orbit, can assess the cause and operate when needed. In Lucknow, Dr. Saumika Singh sees patients with drooping eyelids.', 'ओकुलोप्लास्टिक सर्जन, यानी पलक, आंसू नली और ऑर्बिट की सर्जरी में अतिरिक्त प्रशिक्षण वाले नेत्र सर्जन, कारण की जांच कर सकते हैं और ज़रूरत पर ऑपरेशन करते हैं। लखनऊ में डॉ. सौमिका सिंह झुकी पलक के मरीज़ देखती हैं।'),
     },
   ],
 
   cta: {
     title: t('Get your drooping eyelid examined in Lucknow', 'लखनऊ में अपनी झुकी हुई पलक की जांच करवाएं'),
-    text: t('Bring older photographs that show when the droop began, any previous eye reports, and a list of your medicines. If the droop is sudden or comes with the red-flag symptoms above, go to an emergency department first.', 'पुरानी तस्वीरें जिनसे पता चले झुकाव कब शुरू हुआ, पुरानी आंख की रिपोर्ट और अपनी दवाओं की सूची साथ लाएं। अगर झुकाव अचानक है या ऊपर बताए खतरे के संकेत हैं, तो पहले इमरजेंसी विभाग जाएं।'),
+    text: t('Bring older photographs that show when the droop began, any previous eye reports, and a list of your medicines.', 'पुरानी तस्वीरें जिनसे पता चले झुकाव कब शुरू हुआ, पुरानी आंख की रिपोर्ट और अपनी दवाओं की सूची साथ लाएं।'),
   },
 
   related: [
@@ -272,6 +268,9 @@ const guide: Guide = {
   },
 
   reviewerNotes: [
+    'Pre-applied on 16 Nov 2026 from her ptosis/ectropion review: urgent/emergency boxes removed, hospital name taken out of the opening paragraph, search description and FAQ answers (kept in the \'Where\' line and credentials), and home-care/risk wording trimmed. Please check the page reads well without them.',
+    'Judgement call: the \'When is a drooping eyelid an emergency?\' section keeps the sudden-droop red flags (stroke, aneurysm, myasthenic crisis) as a normal paragraph instead of a red box, because it is the core of this page. Remove it if you prefer.',
+    '\'Why Dr Saumika\' now uses your wording \'ptosis correction customised for every adult and child\'.',
     'Confirm she is comfortable with the statement that prescription lifting drops exist for mild acquired ptosis (generic wording, no brand or dose), and that lid crutches are mentioned as a non-surgical option.',
     'Confirm the medical statements on third-nerve palsy (large pupil = same-day assessment), Horner syndrome (prompt work-up, often imaging) and myasthenia (rest/ice-pack test, antibodies, neurology-led care).',
     'Confirm the assessment steps (MRD1, levator function, fatigue test, visual field) match her routine, and that she refers for neurology/medical work-up as described.',

@@ -13,13 +13,13 @@ const guide: Guide = {
     'लखनऊ में ब्लेफेरोप्लास्टी – पलक लिफ़्ट | डॉ. सौमिका सिंह'
   ),
   metaDescription: t(
-    'Blepharoplasty in Lucknow by Dr Saumika Singh, Gomti Nagar: upper and lower eyelid surgery for heavy lids and under-eye bags, suitability, recovery and risks.',
-    'लखनऊ में ब्लेफेरोप्लास्टी – डॉ. सौमिका सिंह, गोमती नगर। भारी पलकों और आंखों के नीचे की थैलियों के लिए ऊपरी व निचली पलक सर्जरी, रिकवरी, जोखिम और खर्च।'
+    'Blepharoplasty in Lucknow by Dr Saumika Singh: upper and lower eyelid surgery for heavy lids and under-eye bags, suitability, recovery and risks.',
+    'लखनऊ में ब्लेफेरोप्लास्टी – डॉ. सौमिका सिंह। भारी पलकों और आंखों के नीचे की थैलियों के लिए ऊपरी व निचली पलक सर्जरी, रिकवरी, जोखिम और खर्च।'
   ),
   h1: t('Blepharoplasty in Lucknow – Upper & Lower Eyelid Lift', 'लखनऊ में ब्लेफेरोप्लास्टी – ऊपरी व निचली पलक लिफ़्ट'),
   lead: t(
-    'Blepharoplasty in Lucknow is performed by Dr. Saumika Singh, an oculoplasty (eye plastic) surgeon at Alyantra Medicity Superspeciality Hospital, Gomti Nagar, to remove or reposition excess eyelid skin and fat. Blepharoplasty is eyelid surgery that treats heavy, hooded upper eyelids and puffy lower-eyelid bags. Upper-lid surgery can be functional, when overhanging skin blocks the upper field of vision, or cosmetic, when the aim is a fresher appearance; lower-lid surgery is usually cosmetic. Because the eyelids protect the eye, the operation is planned around eyelid closure and eye-surface health as well as appearance.',
-    'लखनऊ में ब्लेफेरोप्लास्टी डॉ. सौमिका सिंह करती हैं, जो अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में ओकुलोप्लास्टी (आई प्लास्टिक) सर्जन हैं। इसमें पलकों की अतिरिक्त त्वचा और चर्बी को हटाया या सही जगह पर किया जाता है। ब्लेफेरोप्लास्टी पलकों की सर्जरी है जो भारी, लटकती ऊपरी पलकों और निचली पलकों के नीचे की सूजी हुई थैलियों का इलाज करती है। ऊपरी पलक की सर्जरी फ़ंक्शनल हो सकती है — जब लटकती त्वचा ऊपर की नज़र रोकती है — या सौंदर्य के लिए, जब उद्देश्य तरोताज़ा दिखना हो; निचली पलक की सर्जरी आमतौर पर सौंदर्य के लिए होती है। पलकें आंख की रक्षा करती हैं, इसलिए ऑपरेशन की योजना सुंदरता के साथ-साथ पलक के बंद होने और आंख की सतह की सेहत को ध्यान में रखकर बनाई जाती है।'
+    'Blepharoplasty in Lucknow is performed by Dr. Saumika Singh, an oculoplasty (eye plastic) surgeon, to remove or reposition excess eyelid skin and fat. Blepharoplasty is eyelid surgery that treats heavy, hooded upper eyelids and puffy lower-eyelid bags. Upper-lid surgery can be functional, when overhanging skin blocks the upper field of vision, or cosmetic, when the aim is a fresher appearance; lower-lid surgery is usually cosmetic. Because the eyelids protect the eye, the operation is planned around eyelid closure and eye-surface health as well as appearance.',
+    'लखनऊ में ब्लेफेरोप्लास्टी डॉ. सौमिका सिंह करती हैं, जो ओकुलोप्लास्टी (आई प्लास्टिक) सर्जन हैं। इसमें पलकों की अतिरिक्त त्वचा और चर्बी को हटाया या सही जगह पर किया जाता है। ब्लेफेरोप्लास्टी पलकों की सर्जरी है जो भारी, लटकती ऊपरी पलकों और निचली पलकों के नीचे की सूजी हुई थैलियों का इलाज करती है। ऊपरी पलक की सर्जरी फ़ंक्शनल हो सकती है — जब लटकती त्वचा ऊपर की नज़र रोकती है — या सौंदर्य के लिए, जब उद्देश्य तरोताज़ा दिखना हो; निचली पलक की सर्जरी आमतौर पर सौंदर्य के लिए होती है। पलकें आंख की रक्षा करती हैं, इसलिए ऑपरेशन की योजना सुंदरता के साथ-साथ पलक के बंद होने और आंख की सतह की सेहत को ध्यान में रखकर बनाई जाती है।'
   ),
   atAGlance: [
     t('**Upper blepharoplasty:** removes excess skin (and some fat) from heavy, hooded upper lids', '**ऊपरी ब्लेफेरोप्लास्टी:** भारी, लटकती ऊपरी पलकों से अतिरिक्त त्वचा (और कुछ चर्बी) हटाना'),
@@ -112,21 +112,19 @@ const guide: Guide = {
       table: {
         head: [t('Time after surgery', 'सर्जरी के बाद समय'), t('What to expect', 'क्या उम्मीद करें')],
         rows: [
-          [t('Days 1–3', '1–3 दिन'), t('Swelling and bruising peak; cold compresses as advised, head raised on pillows, lubricating drops and ointment', 'सूजन और नील सबसे ज़्यादा; सलाह के अनुसार ठंडी सिकाई, तकिए से सिर ऊंचा, चिकनाई वाली ड्रॉप्स और ऑइंटमेंट')],
+          [t('Days 1–3', '1–3 दिन'), t('Swelling and bruising peak; lubricating drops and ointment as advised', 'सूजन और नील सबसे ज़्यादा; सलाह के अनुसार चिकनाई वाली ड्रॉप्स और ऑइंटमेंट')],
           [t('Days 5–7', '5–7 दिन'), t('Stitches usually removed; eyes may feel tight or dry and vision may blur slightly from ointment', 'टांके आमतौर पर हटाए जाते हैं; आंखें कसी या सूखी लग सकती हैं और ऑइंटमेंट से नज़र थोड़ी धुंधली हो सकती है')],
           [t('Around 2 weeks', 'लगभग 2 हफ़्ते'), t('Most bruising has faded; many people return to work and social activities, using light camouflage make-up once cleared', 'ज़्यादातर नील कम हो चुका होता है; कई लोग काम और सामाजिक जीवन में लौट आते हैं, अनुमति के बाद हल्के मेकअप के साथ')],
           [t('3–6 months', '3–6 महीने'), t('Residual swelling settles and the scar softens and fades', 'बची हुई सूजन कम होती है और निशान नरम व हल्का हो जाता है')],
         ],
       },
       bullets: [
-        t('Avoid bending, heavy lifting, strenuous exercise and swimming for about two weeks, or as advised', 'लगभग दो हफ़्ते या सलाह के अनुसार झुकने, भारी सामान उठाने, कड़े व्यायाम और तैराकी से बचें'),
         t('Do not wear contact lenses until your surgeon says it is safe; sunglasses help outdoors', 'सर्जन की अनुमति तक कॉन्टैक्ट लेंस न पहनें; बाहर धूप का चश्मा मददगार है'),
       ],
       subsections: [
         {
           h3: t('Caring for your eyes at home', 'घर पर आंखों की देखभाल'),
           bullets: [
-            t('Use cold compresses for short periods in the first 48 hours, as advised, and keep the head raised when resting and sleeping', 'पहले 48 घंटों में सलाह के अनुसार थोड़ी-थोड़ी देर ठंडी सिकाई करें, और आराम करते व सोते समय सिर ऊंचा रखें'),
             t('Use lubricating drops and ointment as prescribed; dryness and a gritty feeling are common in the first weeks', 'चिकनाई वाली ड्रॉप्स और ऑइंटमेंट निर्देशानुसार लगाएं; पहले कुछ हफ़्तों में सूखापन और किरकिरापन आम है'),
             t('Clean the stitch lines gently only as shown, keep them dry for the first few days, and do not rub the eyes', 'टांकों की रेखाएं सिर्फ़ बताए गए तरीके से धीरे से साफ़ करें, पहले कुछ दिन उन्हें सूखा रखें, और आंखें न मलें'),
             t('Keep eye make-up and creams off the wounds until your surgeon says the skin has healed', 'जब तक सर्जन न कहें कि त्वचा भर गई है, घावों पर आई मेकअप और क्रीम न लगाएं'),
@@ -161,14 +159,6 @@ const guide: Guide = {
           ],
         },
       ],
-      callout: {
-        tone: 'urgent',
-        title: t('Emergency warning signs after eyelid surgery', 'पलक सर्जरी के बाद इमरजेंसी चेतावनी संकेत'),
-        text: t(
-          'Contact the clinic immediately, or go to the nearest emergency department, if you develop severe or rapidly increasing pain, a tense, bulging or very swollen eye, bleeding that does not stop with gentle pressure, or any loss of vision. Bleeding behind the eye is rare but can threaten sight and must be treated at once.',
-          'अगर तेज़ या तेज़ी से बढ़ता दर्द, तनी हुई, उभरी या बहुत सूजी आंख, हल्के दबाव से न रुकने वाला ख़ून, या नज़र में कोई कमी हो, तो तुरंत क्लिनिक से संपर्क करें या नज़दीकी इमरजेंसी में जाएं। आंख के पीछे ख़ून जमना दुर्लभ है लेकिन नज़र के लिए ख़तरनाक हो सकता है और इसका तुरंत इलाज ज़रूरी है।'
-        ),
-      },
     },
     {
       id: 'risks',
@@ -180,7 +170,7 @@ const guide: Guide = {
         t('Asymmetry between the two sides, or a visible or thickened scar', 'दोनों तरफ़ असमानता, या दिखने वाला या मोटा निशान'),
         t('Lower lid pulled down or rounded at the outer corner after lower-lid surgery', 'निचली पलक सर्जरी के बाद पलक का नीचे खिंचना या बाहरी कोने का गोल होना'),
         t('Removing too little or, more seriously, too much skin or fat — which is why a conservative, eye-safe approach is used', 'बहुत कम या, ज़्यादा गंभीर रूप से, बहुत ज़्यादा त्वचा या चर्बी निकलना — इसलिए सावधानीपूर्ण, आंख के लिए सुरक्षित तरीका अपनाया जाता है'),
-        t('Infection, and rarely bleeding behind the eye affecting vision', 'संक्रमण, और बहुत कम मामलों में आंख के पीछे ख़ून जमना जिससे नज़र पर असर हो'),
+        t('Infection', 'संक्रमण'),
       ],
     },
     {
@@ -205,7 +195,7 @@ const guide: Guide = {
   faqs: [
     {
       q: t('Is blepharoplasty painful?', 'क्या ब्लेफेरोप्लास्टी में दर्द होता है?'),
-      a: t('It is usually done under local anaesthesia, sometimes with light sedation. The numbing injections sting briefly; after that most people feel only pressure. Afterwards, discomfort is usually mild and controlled with simple painkillers. Severe pain is not normal and should be reported immediately.', 'यह आमतौर पर लोकल एनेस्थीसिया में, कभी-कभी हल्के सिडेशन के साथ होती है। सुन्न करने वाले इंजेक्शन थोड़ी देर चुभते हैं; उसके बाद ज़्यादातर लोगों को सिर्फ़ दबाव महसूस होता है। बाद में तकलीफ़ आमतौर पर हल्की होती है और सामान्य दर्द-निवारक से संभल जाती है। तेज़ दर्द सामान्य नहीं है — तुरंत बताएं।'),
+      a: t('It is usually done under local anaesthesia, sometimes with light sedation. The numbing injections sting briefly; after that most people feel only pressure. Afterwards, discomfort is usually mild and controlled with simple painkillers.', 'यह आमतौर पर लोकल एनेस्थीसिया में, कभी-कभी हल्के सिडेशन के साथ होती है। सुन्न करने वाले इंजेक्शन थोड़ी देर चुभते हैं; उसके बाद ज़्यादातर लोगों को सिर्फ़ दबाव महसूस होता है। बाद में तकलीफ़ आमतौर पर हल्की होती है और सामान्य दर्द-निवारक से संभल जाती है।'),
     },
     {
       q: t('How long does blepharoplasty recovery take?', 'ब्लेफेरोप्लास्टी की रिकवरी में कितना समय लगता है?'),
@@ -233,7 +223,7 @@ const guide: Guide = {
     },
     {
       q: t('Who performs blepharoplasty in Lucknow?', 'लखनऊ में ब्लेफेरोप्लास्टी कौन करता है?'),
-      a: t('Blepharoplasty is performed by oculoplastic surgeons (eye surgeons who specialise in the eyelids) as well as by plastic surgeons. An oculoplastic surgeon also assesses the health of the eye itself. In Lucknow, Dr. Saumika Singh performs upper and lower blepharoplasty at Alyantra Medicity Superspeciality Hospital, Gomti Nagar.', 'ब्लेफेरोप्लास्टी ओकुलोप्लास्टिक सर्जन (पलकों में विशेषज्ञ नेत्र सर्जन) और प्लास्टिक सर्जन दोनों करते हैं। ओकुलोप्लास्टिक सर्जन आंख की सेहत की भी जांच करते हैं। लखनऊ में डॉ. सौमिका सिंह अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में ऊपरी व निचली ब्लेफेरोप्लास्टी करती हैं।'),
+      a: t('Blepharoplasty is performed by oculoplastic surgeons (eye surgeons who specialise in the eyelids) as well as by plastic surgeons. An oculoplastic surgeon also assesses the health of the eye itself. In Lucknow, Dr. Saumika Singh performs upper and lower blepharoplasty.', 'ब्लेफेरोप्लास्टी ओकुलोप्लास्टिक सर्जन (पलकों में विशेषज्ञ नेत्र सर्जन) और प्लास्टिक सर्जन दोनों करते हैं। ओकुलोप्लास्टिक सर्जन आंख की सेहत की भी जांच करते हैं। लखनऊ में डॉ. सौमिका सिंह ऊपरी व निचली ब्लेफेरोप्लास्टी करती हैं।'),
     },
   ],
 
@@ -266,6 +256,8 @@ const guide: Guide = {
   },
 
   reviewerNotes: [
+    'Pre-applied on 16 Nov 2026 from her ptosis/ectropion review: urgent/emergency boxes removed, hospital name taken out of the opening paragraph, search description and FAQ answers (kept in the \'Where\' line and credentials), and home-care/risk wording trimmed. Please check the page reads well without them.',
+    'Removed: cold compresses, head-raised sleeping, the bending/lifting/swimming bullet, and \'rarely bleeding behind the eye\' from the risks.',
     'Confirm lower blepharoplasty approaches she uses (transconjunctival, fat repositioning, skin pinch) and whether she combines canthal tightening.',
     'Confirm anaesthesia (local ± sedation) and that both upper lids take around an hour.',
     'Fillers deliberately not mentioned (not confirmed).',

@@ -18,8 +18,8 @@ const guide: Guide = {
   ),
   h1: t('Oculoplasty Surgery Cost in Lucknow – What Affects the Price', 'लखनऊ में ओकुलोप्लास्टी सर्जरी का खर्च – किन बातों पर निर्भर करता है'),
   lead: t(
-    'Oculoplasty surgery cost in Lucknow depends mainly on which procedure you need, how complex it is, the type of anaesthesia, the hospital package and whether implants, grafts or extra tests are required — so there is no single price that applies to everyone. This guide from Dr. Saumika Singh, oculoplasty surgeon at Alyantra Medicity Superspeciality Hospital, Gomti Nagar, explains what goes into the cost of eyelid, tear-duct and orbital surgery, how health insurance usually treats functional and cosmetic procedures, and what to ask for so that your estimate is clear before you decide.',
-    'लखनऊ में ओकुलोप्लास्टी सर्जरी का खर्च मुख्य रूप से इस पर निर्भर करता है कि आपको कौन-सी प्रक्रिया चाहिए, वह कितनी जटिल है, एनेस्थीसिया का प्रकार, अस्पताल का पैकेज, और क्या इम्प्लांट, ग्राफ़्ट या अतिरिक्त जांचों की ज़रूरत है — इसलिए सब पर लागू होने वाली कोई एक कीमत नहीं होती। अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर की ओकुलोप्लास्टी सर्जन डॉ. सौमिका सिंह की यह मार्गदर्शिका बताती है कि पलक, आंसू नली और ऑर्बिट की सर्जरी के खर्च में क्या-क्या शामिल होता है, हेल्थ इंश्योरेंस आमतौर पर फ़ंक्शनल और सौंदर्य प्रक्रियाओं को कैसे देखता है, और निर्णय से पहले साफ़ अनुमान के लिए क्या पूछें।'
+    'Oculoplasty surgery cost in Lucknow depends mainly on which procedure you need, how complex it is, the type of anaesthesia, the hospital package and whether implants, grafts or extra tests are required — so there is no single price that applies to everyone. This guide from Dr. Saumika Singh, oculoplasty surgeon, explains what goes into the cost of eyelid, tear-duct and orbital surgery, how health insurance usually treats functional and cosmetic procedures, and what to ask for so that your estimate is clear before you decide.',
+    'लखनऊ में ओकुलोप्लास्टी सर्जरी का खर्च मुख्य रूप से इस पर निर्भर करता है कि आपको कौन-सी प्रक्रिया चाहिए, वह कितनी जटिल है, एनेस्थीसिया का प्रकार, अस्पताल का पैकेज, और क्या इम्प्लांट, ग्राफ़्ट या अतिरिक्त जांचों की ज़रूरत है — इसलिए सब पर लागू होने वाली कोई एक कीमत नहीं होती। ओकुलोप्लास्टी सर्जन डॉ. सौमिका सिंह की यह मार्गदर्शिका बताती है कि पलक, आंसू नली और ऑर्बिट की सर्जरी के खर्च में क्या-क्या शामिल होता है, हेल्थ इंश्योरेंस आमतौर पर फ़ंक्शनल और सौंदर्य प्रक्रियाओं को कैसे देखता है, और निर्णय से पहले साफ़ अनुमान के लिए क्या पूछें।'
   ),
   atAGlance: [
     t('**No fixed price:** every estimate is individual, given after examination', '**कोई तय कीमत नहीं:** हर अनुमान व्यक्तिगत होता है, जांच के बाद दिया जाता है'),
@@ -68,7 +68,7 @@ const guide: Guide = {
       subsections: [
         {
           h3: t('Ptosis surgery', 'टोसिस सर्जरी'),
-          paras: [t('Levator surgery under local anaesthesia is usually simpler than a frontalis sling, which may need sling material and, in children, general anaesthesia. [Read about ptosis surgery](/ptosis-surgery-in-lucknow).', 'लोकल एनेस्थीसिया में लेवेटर सर्जरी आमतौर पर फ्रंटालिस स्लिंग से सरल होती है, जिसमें स्लिंग सामग्री और बच्चों में जनरल एनेस्थीसिया की ज़रूरत हो सकती है। [टोसिस सर्जरी के बारे में पढ़ें](/ptosis-surgery-in-lucknow)।')],
+          paras: [t('Levator surgery or MMCR (Müller muscle–conjunctival resection) under local anaesthesia is usually simpler than a frontalis sling, which may need sling material and, in children, general anaesthesia. [Read about ptosis surgery](/ptosis-surgery-in-lucknow).', 'लोकल एनेस्थीसिया में लेवेटर सर्जरी या MMCR (मुलर मसल–कंजंक्टाइवल रिसेक्शन) आमतौर पर फ्रंटालिस स्लिंग से सरल होती है, जिसमें स्लिंग सामग्री और बच्चों में जनरल एनेस्थीसिया की ज़रूरत हो सकती है। [टोसिस सर्जरी के बारे में पढ़ें](/ptosis-surgery-in-lucknow)।')],
         },
         {
           h3: t('DCR (tear duct) surgery', 'DCR (आंसू नली) सर्जरी'),
@@ -132,14 +132,6 @@ const guide: Guide = {
           'खर्च कम रखना ज़रूरी है, और सरल विकल्प — जैसे चालाज़ियन का पहले गर्म सिकाई से इलाज, या दो प्रक्रियाएं एक ही बार में करना — सच में खर्च कम कर सकते हैं। लेकिन कई बार बहुत कम कीमत ज़रूरी चरण छोड़कर हासिल की जाती है। अगर अनुमान में पूरी आंख की जांच, निकाली गई गांठ की लैब जांच, या फ़ॉलो-अप देखभाल शामिल नहीं है तो सावधान रहें। बहुत ज़्यादा टिश्यू निकालने वाली या कैंसर को नज़रअंदाज़ करने वाली पलक सर्जरी को बाद में ठीक करना कहीं ज़्यादा महंगा पड़ सकता है।'
         ),
       ],
-      callout: {
-        tone: 'urgent',
-        title: t('Do not delay urgent eye care over cost', 'खर्च की वजह से आंख के इमरजेंसी इलाज में देर न करें'),
-        text: t(
-          'Some eye problems cannot wait for an estimate. Go to an emergency department or eye casualty the same day for an eye injury or cut eyelid, a chemical splash (rinse with plenty of clean water first), sudden loss of vision, a sudden drooping eyelid with double vision or headache, or a painful red swelling around the eye with fever. Cost and insurance can be sorted out after you have been seen.',
-          'कुछ आंख की समस्याएं खर्च के अनुमान का इंतज़ार नहीं कर सकतीं। आंख में चोट या पलक कटने, केमिकल गिरने (पहले साफ़ पानी से अच्छी तरह धोएं), अचानक नज़र जाने, दोहरी नज़र या सिरदर्द के साथ अचानक पलक झुकने, या बुखार के साथ आंख के आसपास दर्द भरी लाल सूजन होने पर उसी दिन इमरजेंसी या आंख के अस्पताल जाएं। खर्च और इंश्योरेंस की बात दिखाने के बाद भी हो सकती है।'
-        ),
-      },
     },
   ],
 
@@ -153,7 +145,7 @@ const guide: Guide = {
   faqs: [
     {
       q: t('How much does ptosis surgery cost in Lucknow?', 'लखनऊ में टोसिस सर्जरी का खर्च कितना है?'),
-      a: t('It depends on one or both eyes, the technique (levator surgery or sling), the sling material, anaesthesia and the hospital package. An individual estimate is given after examination.', 'यह एक या दोनों आंखों, तकनीक (लेवेटर सर्जरी या स्लिंग), स्लिंग सामग्री, एनेस्थीसिया और अस्पताल के पैकेज पर निर्भर करता है। जांच के बाद व्यक्तिगत अनुमान दिया जाता है।'),
+      a: t('It depends on one or both eyes, the technique (levator surgery, MMCR or sling), the sling material, anaesthesia and the hospital package. An individual estimate is given after examination.', 'यह एक या दोनों आंखों, तकनीक (लेवेटर सर्जरी, MMCR या स्लिंग), स्लिंग सामग्री, एनेस्थीसिया और अस्पताल के पैकेज पर निर्भर करता है। जांच के बाद व्यक्तिगत अनुमान दिया जाता है।'),
     },
     {
       q: t('How much does DCR surgery cost in Lucknow?', 'लखनऊ में DCR सर्जरी का खर्च कितना है?'),
@@ -199,6 +191,8 @@ const guide: Guide = {
   schema: { type: 'MedicalWebPage', name: 'Oculoplasty surgery cost in Lucknow' },
 
   reviewerNotes: [
+    'Pre-applied on 16 Nov 2026 from her ptosis/ectropion review: urgent/emergency boxes removed, hospital name taken out of the opening paragraph, search description and FAQ answers (kept in the \'Where\' line and credentials), and home-care/risk wording trimmed. Please check the page reads well without them.',
+    'MMCR added to the ptosis cost paragraph and FAQ (\'levator surgery, MMCR or sling\').',
     'No prices are published (per decision B5). If Dr Saumika later approves price ranges, add a table here.',
     'Confirm Alyantra has an insurance/TPA desk and which insurers/schemes (CGHS, Ayushman Bharat) are accepted before naming any.',
     '"20-minute chalazion procedure" — confirm typical duration.',

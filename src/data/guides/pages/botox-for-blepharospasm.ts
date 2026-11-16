@@ -18,8 +18,8 @@ const guide: Guide = {
   ),
   h1: t('Botox for Blepharospasm – Involuntary Blinking and Eyelid Spasm', 'ब्लेफेरोस्पाज़्म के लिए बोटॉक्स – पलकें बार-बार झपकना और आंख फड़कना'),
   lead: t(
-    'Botox for blepharospasm is a series of tiny injections that relax the muscles around the eyes, so that involuntary blinking and forced eyelid closure ease for a few months at a time, and it is the usual first-line treatment for blepharospasm and for hemifacial spasm. Most eyelid twitching is a harmless, short-lived flutter that never needs injections, so the first step is to work out which problem you have. Dr. Saumika Singh, an oculoplasty surgeon at Alyantra Medicity Superspeciality Hospital, Gomti Nagar, Lucknow, offers medical Botox for blepharospasm and hemifacial spasm after an eye and eyelid examination.',
-    'ब्लेफेरोस्पाज़्म (blepharospasm) के लिए बोटॉक्स आंख के आसपास की मांसपेशियों में लगाए जाने वाले बहुत छोटे इंजेक्शन हैं, जिनसे बार-बार अपने आप पलकें झपकना और पलकों का ज़ोर से बंद हो जाना कुछ महीनों के लिए कम हो जाता है; ब्लेफेरोस्पाज़्म और चेहरे के एक तरफ़ फड़कने (हेमीफेशियल स्पाज़्म) में यही आमतौर पर पहला इलाज है। ज़्यादातर आंख फड़कना हानिरहित और थोड़े समय का होता है और उसमें इंजेक्शन की ज़रूरत नहीं पड़ती, इसलिए सबसे पहले यह समझना ज़रूरी है कि आपको कौन-सी समस्या है। लखनऊ के गोमती नगर में अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल की ओकुलोप्लास्टी सर्जन डॉ. सौमिका सिंह आंख और पलक की जांच के बाद ब्लेफेरोस्पाज़्म और हेमीफेशियल स्पाज़्म के लिए मेडिकल बोटॉक्स करती हैं।'
+    'Botox for blepharospasm is a series of tiny injections that relax the muscles around the eyes, so that involuntary blinking and forced eyelid closure ease for a few months at a time, and it is the usual first-line treatment for blepharospasm and for hemifacial spasm. Most eyelid twitching is a harmless, short-lived flutter that never needs injections, so the first step is to work out which problem you have. Dr. Saumika Singh, an oculoplasty surgeon in Lucknow, offers medical Botox for blepharospasm and hemifacial spasm after an eye and eyelid examination.',
+    'ब्लेफेरोस्पाज़्म (blepharospasm) के लिए बोटॉक्स आंख के आसपास की मांसपेशियों में लगाए जाने वाले बहुत छोटे इंजेक्शन हैं, जिनसे बार-बार अपने आप पलकें झपकना और पलकों का ज़ोर से बंद हो जाना कुछ महीनों के लिए कम हो जाता है; ब्लेफेरोस्पाज़्म और चेहरे के एक तरफ़ फड़कने (हेमीफेशियल स्पाज़्म) में यही आमतौर पर पहला इलाज है। ज़्यादातर आंख फड़कना हानिरहित और थोड़े समय का होता है और उसमें इंजेक्शन की ज़रूरत नहीं पड़ती, इसलिए सबसे पहले यह समझना ज़रूरी है कि आपको कौन-सी समस्या है। लखनऊ की ओकुलोप्लास्टी सर्जन डॉ. सौमिका सिंह आंख और पलक की जांच के बाद ब्लेफेरोस्पाज़्म और हेमीफेशियल स्पाज़्म के लिए मेडिकल बोटॉक्स करती हैं।'
   ),
   atAGlance: [
     t('**What it treats:** blepharospasm (both eyelids) and hemifacial spasm (one side of the face)', '**किसके लिए:** ब्लेफेरोस्पाज़्म (दोनों पलकें) और हेमीफेशियल स्पाज़्म (चेहरे का एक तरफ़)'),
@@ -92,14 +92,6 @@ const guide: Guide = {
           'अगर फड़कना कुछ हफ़्तों से ज़्यादा चले, बार-बार लौटे, दोनों आंखों में हो, पलकें बंद हो जाएं या आंख खोलना मुश्किल लगे, या पढ़ने, काम या गाड़ी चलाने में दिक्कत होने लगे, तो आंखों की जांच करवाएं। अगर फड़कन गाल या मुंह तक फैले तब भी जांच करवाएं, क्योंकि **हेमीफेशियल स्पाज़्म में आमतौर पर दिमाग़ का MRI स्कैन ज़रूरी होता है**, जिससे देखा जाता है कि कोई रक्त नली या दूसरा कारण चेहरे की नस पर दबाव तो नहीं डाल रहा; स्कैन और ज़रूरत हो तो न्यूरोलॉजिस्ट को रेफ़रल इलाज के साथ ही तय किया जाता है। अगर फड़कन के साथ दूसरे नस संबंधी लक्षण हों — जैसे पलक झुकना, कमज़ोरी या शरीर में कहीं और अजीब हरकतें — तो भी चिकित्सकीय जांच ज़रूरी है, जिसमें न्यूरोलॉजिस्ट शामिल हो सकते हैं। डॉ. सौमिका सिंह सबसे पहले आंख, पलकों और आंसू की परत की जांच करती हैं, क्योंकि ड्राई आई और पलक की सूजन भी ऐसे ही लग सकती है या ऐंठन बढ़ा सकती है।'
         ),
       ],
-      callout: {
-        tone: 'urgent',
-        title: t('Get same-day medical help for these symptoms', 'इन लक्षणों में उसी दिन चिकित्सकीय मदद लें'),
-        text: t(
-          'Go to an emergency department or an eye casualty the same day if eyelid twitching or spasm comes with **sudden** weakness, drooping or numbness of one side of the face, arm or leg, slurred speech, double vision, a severe headache, or a sudden change in vision. Seek same-day eye care too if a twitching eye is also red, painful, swollen or discharging, or if you cannot open the eye at all. These are not features of simple eyelid twitching or typical blepharospasm and need urgent assessment.',
-          'अगर पलक फड़कने या ऐंठन के साथ चेहरे, हाथ या पैर के एक तरफ़ **अचानक** कमज़ोरी, झुकाव या सुन्नपन, बोलने में लड़खड़ाहट, दोहरा दिखना, तेज़ सिरदर्द या नज़र में अचानक बदलाव हो, तो उसी दिन इमरजेंसी विभाग या आई कैज़ुअल्टी में जाएं। अगर फड़कती आंख लाल, दर्दभरी, सूजी हुई हो या उसमें से स्राव आ रहा हो, या आप आंख बिल्कुल खोल न पा रहे हों, तब भी उसी दिन आंखों की जांच करवाएं। ये साधारण आंख फड़कने या सामान्य ब्लेफेरोस्पाज़्म के लक्षण नहीं हैं और इनकी तुरंत जांच ज़रूरी है।'
-        ),
-      },
     },
     {
       id: 'how-botox-works',
@@ -222,7 +214,7 @@ const guide: Guide = {
     },
     {
       q: t('Who should I see for repeated blinking and eyelid spasm in Lucknow?', 'लखनऊ में बार-बार पलकें झपकने और ऐंठन के लिए किसे दिखाएं?'),
-      a: t('Start with an eye examination to rule out dry eye and other eye problems. An oculoplastic surgeon is trained in the eyelid muscles and in botulinum toxin treatment around the eye. In Lucknow, Dr. Saumika Singh sees these patients at Alyantra Medicity Superspeciality Hospital, Gomti Nagar, and arranges a scan or neurology referral when needed.', 'सबसे पहले आंखों की जांच करवाएं ताकि ड्राई आई और आंख की दूसरी समस्याएं देखी जा सकें। ओकुलोप्लास्टिक सर्जन पलक की मांसपेशियों और आंख के आसपास बोटुलिनम टॉक्सिन के इलाज में प्रशिक्षित होते हैं। लखनऊ में डॉ. सौमिका सिंह अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में ऐसे मरीज़ देखती हैं और ज़रूरत हो तो स्कैन या न्यूरोलॉजिस्ट को रेफ़रल की व्यवस्था करती हैं।'),
+      a: t('Start with an eye examination to rule out dry eye and other eye problems. An oculoplastic surgeon is trained in the eyelid muscles and in botulinum toxin treatment around the eye. In Lucknow, Dr. Saumika Singh sees these patients, and arranges a scan or neurology referral when needed.', 'सबसे पहले आंखों की जांच करवाएं ताकि ड्राई आई और आंख की दूसरी समस्याएं देखी जा सकें। ओकुलोप्लास्टिक सर्जन पलक की मांसपेशियों और आंख के आसपास बोटुलिनम टॉक्सिन के इलाज में प्रशिक्षित होते हैं। लखनऊ में डॉ. सौमिका सिंह ऐसे मरीज़ देखती हैं और ज़रूरत हो तो स्कैन या न्यूरोलॉजिस्ट को रेफ़रल की व्यवस्था करती हैं।'),
     },
   ],
 
@@ -255,6 +247,7 @@ const guide: Guide = {
   },
 
   reviewerNotes: [
+    'Pre-applied on 16 Nov 2026 from her ptosis/ectropion review: urgent/emergency boxes removed, hospital name taken out of the opening paragraph, search description and FAQ answers (kept in the \'Where\' line and credentials), and home-care/risk wording trimmed. Please check the page reads well without them.',
     'Confirm that she personally gives the Botox injections for blepharospasm and hemifacial spasm (hub page says it is offered) and that the visit is outpatient with a short injection session.',
     'Confirm the injection-visit details: whether a numbing cream/ice is used, how many sites, and whether she treats the cheek/mouth muscles in hemifacial spasm (page says "sometimes").',
     'Confirm the typical onset (about 1–2 weeks to full effect; effect begins within days) and re-treatment interval wording ("every few months"); no doses or exact unit numbers are given on purpose.',

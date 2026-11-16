@@ -14,12 +14,12 @@ const guide: Guide = {
   ),
   metaDescription: t(
     'Eyelid growth removal in Lucknow by oculoplasty surgeon Dr Saumika Singh: papilloma, skin tag, mole and cyst removal, biopsy, healing, risks and warning signs.',
-    'लखनऊ में आंख की पलक पर मस्सा, तिल, सिस्ट या स्किन टैग हटाना – ओकुलोप्लास्टी सर्जन डॉ. सौमिका सिंह, गोमती नगर। जांच, बायोप्सी, टांके, रिकवरी, जोखिम और चेतावनी संकेत।'
+    'लखनऊ में आंख की पलक पर मस्सा, तिल, सिस्ट या स्किन टैग हटाना – ओकुलोप्लास्टी सर्जन डॉ. सौमिका सिंह। जांच, बायोप्सी, टांके, रिकवरी, जोखिम और चेतावनी संकेत।'
   ),
   h1: t('Eyelid Growth Removal in Lucknow – Papilloma, Skin Tag, Mole and Cyst', 'लखनऊ में आंख की पलक पर मस्सा, तिल और सिस्ट हटाना'),
   lead: t(
-    'Eyelid growth removal in Lucknow is done by Dr. Saumika Singh, an oculoplasty surgeon at Alyantra Medicity Superspeciality Hospital, Gomti Nagar, who removes harmless growths such as papillomas, skin tags, moles and cysts from the eyelid and checks the removed tissue under the microscope when needed. Most small eyelid growths are benign, and many do not have to be removed at all. Removal is usually advised when a growth rubs the eye, catches on lashes, bleeds, keeps growing, bothers you cosmetically, or looks unusual and needs a diagnosis. Because the eyelid edge is delicate, the work is best planned by a surgeon who also protects lashes, eyelid closure and the tear drainage openings.',
-    'लखनऊ में आंख की पलक पर मस्सा, तिल, सिस्ट या स्किन टैग हटाने का काम डॉ. सौमिका सिंह करती हैं, जो अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में ओकुलोप्लास्टी सर्जन हैं। ज़रूरत पड़ने पर हटाए गए टिश्यू की माइक्रोस्कोप से जांच भी करवाई जाती है। पलक पर उभरी ज़्यादातर छोटी ग्रोथ हानिरहित (बिनाइन) होती हैं और कई को हटाना ज़रूरी भी नहीं होता। हटाने की सलाह तब दी जाती है जब ग्रोथ आंख को रगड़े, पलकों में अटके, खून आए, बढ़ती जाए, सुंदरता के लिहाज़ से परेशान करे, या अजीब दिखे और उसकी पहचान ज़रूरी हो। पलक का किनारा बहुत नाज़ुक होता है, इसलिए यह काम ऐसे सर्जन से करवाना ठीक है जो पलकों, पलक के बंद होने और आंसू निकलने के छेदों को भी सुरक्षित रखे।'
+    'Eyelid growth removal in Lucknow is done by Dr. Saumika Singh, an oculoplasty surgeon, who removes harmless growths such as papillomas, skin tags, moles and cysts from the eyelid and checks the removed tissue under the microscope when needed. Most small eyelid growths are benign, and many do not have to be removed at all. Removal is usually advised when a growth rubs the eye, catches on lashes, bleeds, keeps growing, bothers you cosmetically, or looks unusual and needs a diagnosis. Because the eyelid edge is delicate, the work is best planned by a surgeon who also protects lashes, eyelid closure and the tear drainage openings.',
+    'लखनऊ में आंख की पलक पर मस्सा, तिल, सिस्ट या स्किन टैग हटाने का काम डॉ. सौमिका सिंह करती हैं, जो ओकुलोप्लास्टी सर्जन हैं। ज़रूरत पड़ने पर हटाए गए टिश्यू की माइक्रोस्कोप से जांच भी करवाई जाती है। पलक पर उभरी ज़्यादातर छोटी ग्रोथ हानिरहित (बिनाइन) होती हैं और कई को हटाना ज़रूरी भी नहीं होता। हटाने की सलाह तब दी जाती है जब ग्रोथ आंख को रगड़े, पलकों में अटके, खून आए, बढ़ती जाए, सुंदरता के लिहाज़ से परेशान करे, या अजीब दिखे और उसकी पहचान ज़रूरी हो। पलक का किनारा बहुत नाज़ुक होता है, इसलिए यह काम ऐसे सर्जन से करवाना ठीक है जो पलकों, पलक के बंद होने और आंसू निकलने के छेदों को भी सुरक्षित रखे।'
   ),
   atAGlance: [
     t('**What it covers:** papilloma and skin tag, seborrhoeic keratosis, mole (naevus), cysts and milia on or near the eyelid', '**किनके लिए:** पलक पर या उसके पास पैपिलोमा व स्किन टैग, सेबोरिक कैराटोसिस, मस्सा/तिल (नेवस), सिस्ट और मिलिया'),
@@ -121,14 +121,6 @@ const guide: Guide = {
         t('The eyelid margin looks distorted, thickened or pulled, or the growth feels hard and fixed', 'पलक का किनारा टेढ़ा, मोटा या खिंचा दिखता है, या ग्रोथ सख्त और जमी हुई लगती है'),
         t('A “recurring” bump has returned in the same place after earlier treatment', 'पहले इलाज के बाद “बार-बार होने वाला” उभार उसी जगह लौट आया है'),
       ],
-      callout: {
-        tone: 'urgent',
-        title: t('Same-day eye care is needed if…', 'इन स्थितियों में उसी दिन आंख के डॉक्टर को दिखाएं'),
-        text: t(
-          'Seek same-day care at an eye hospital or emergency department if an eyelid swelling becomes hot, red and tender and the redness spreads to the cheek or forehead, especially with fever; if the eye hurts when it moves, looks pushed forward, or you have double vision or reduced vision; or if bleeding from a growth does not stop after ten minutes of firm, gentle pressure. These can signal infection or other problems that should not wait for a routine appointment.',
-          'अगर पलक की सूजन गर्म, लाल और छूने पर दर्द वाली हो जाए और लालिमा गाल या माथे तक फैले, खासकर बुखार के साथ; आंख हिलाने पर दर्द हो, आंख आगे की ओर उभरी दिखे, दोहरा दिखे या नज़र घटे; या किसी ग्रोथ से खून दस मिनट तक हल्के पर मज़बूत दबाव के बाद भी न रुके, तो उसी दिन आई हॉस्पिटल या इमरजेंसी में दिखाएं। ये संक्रमण या दूसरी समस्या के संकेत हो सकते हैं जिनमें सामान्य अपॉइंटमेंट का इंतज़ार नहीं करना चाहिए।'
-        ),
-      },
     },
     {
       id: 'why-eyelid-specialist',
@@ -247,7 +239,7 @@ const guide: Guide = {
     },
     {
       q: t('Which doctor should I see for eyelid growth removal in Lucknow?', 'लखनऊ में पलक की ग्रोथ हटवाने के लिए किस डॉक्टर को दिखाएं?'),
-      a: t('An oculoplastic surgeon is trained to remove growths near the lashes and eyelid margin while protecting eyelid function, and to recognise ones that need tests. In Lucknow, Dr. Saumika Singh sees patients with eyelid growths at Alyantra Medicity Superspeciality Hospital, Gomti Nagar, by appointment.', 'ओकुलोप्लास्टिक सर्जन को पलकों और पलक के किनारे के पास की ग्रोथ को, पलक के कार्य को सुरक्षित रखते हुए, हटाने और जांच की ज़रूरत वाली ग्रोथ पहचानने का प्रशिक्षण मिला होता है। लखनऊ में डॉ. सौमिका सिंह अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में अपॉइंटमेंट पर पलक की ग्रोथ के मरीज़ देखती हैं।'),
+      a: t('An oculoplastic surgeon is trained to remove growths near the lashes and eyelid margin while protecting eyelid function, and to recognise ones that need tests. In Lucknow, Dr. Saumika Singh sees patients with eyelid growths by appointment.', 'ओकुलोप्लास्टिक सर्जन को पलकों और पलक के किनारे के पास की ग्रोथ को, पलक के कार्य को सुरक्षित रखते हुए, हटाने और जांच की ज़रूरत वाली ग्रोथ पहचानने का प्रशिक्षण मिला होता है। लखनऊ में डॉ. सौमिका सिंह अपॉइंटमेंट पर पलक की ग्रोथ के मरीज़ देखती हैं।'),
     },
   ],
 
@@ -283,12 +275,13 @@ const guide: Guide = {
   },
 
   reviewerNotes: [
+    'Pre-applied on 16 Nov 2026 from her ptosis/ectropion review: urgent/emergency boxes removed, hospital name taken out of the opening paragraph, search description and FAQ answers (kept in the \'Where\' line and credentials), and home-care/risk wording trimmed. Please check the page reads well without them.',
     'Image /photo-gallery-2.webp (papilloma): confirm it is the correct lesion type, that consent covers publication on this page, and that the caption wording is acceptable.',
     'Confirm the methods described: local-anaesthesia excision, fine stitches or skin glue where needed, day-care. If she also uses cautery, shave excision or other techniques, add them; no laser is mentioned.',
     'Confirm that removed tissue is routinely sent for histopathology (the page says "usually"), and in which cases she may not send it (e.g. obvious milia, very small skin tags).',
     'Confirm she is happy to remove milia in clinic (stated as "can be lifted out in clinic if persistent") and treat hidrocystoma/epidermoid cysts by excision with the cyst wall.',
     'Confirm healing and recovery wording: swelling settles over days to a couple of weeks; stitches removed at a follow-up visit (no specific day count given).',
-    'Confirm the warning-sign list, the urgent same-day callout (spreading redness with fever, pain on eye movement, double vision, bleeding not stopping after ten minutes of pressure) and the "ten minutes" figure.',
+    'Confirm the warning-sign list.',
     'Confirm statements about viral warts, mole colour change in adolescence/pregnancy, and the risk list (scar, pigment change, lash loss/notch, recurrence).',
     'Confirm the insurance wording (cosmetic removal generally not covered; medical reasons may be considered with documentation) and the statement that no cost figure is given.',
     'Confirm the whyDrSaumika bullet about telling harmless growths from ones needing tests (based on ocular oncology training).',

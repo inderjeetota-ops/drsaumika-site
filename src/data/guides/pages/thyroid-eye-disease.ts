@@ -18,8 +18,8 @@ const guide: Guide = {
   ),
   h1: t('Thyroid Eye Disease – Symptoms, Stages and Treatment', 'थायराइड आई डिज़ीज़ – थायराइड से आंखें उभरना: लक्षण और इलाज'),
   lead: t(
-    'Thyroid eye disease is an autoimmune condition in which the tissues around the eyes become inflamed and swollen, causing gritty red eyes, puffy eyelids, a staring look, bulging eyes and sometimes double vision. It is most often linked to Graves’ disease, but it can also appear with normal thyroid blood tests. Most people have a mild form that settles with simple care, while a smaller number need medical or surgical treatment, and a few have a sight-threatening form that needs urgent attention. Dr. Saumika Singh, an oculoplasty and orbit surgeon at Alyantra Medicity Superspeciality Hospital, Gomti Nagar, Lucknow, assesses and manages thyroid eye disease alongside your endocrinologist.',
-    'थायराइड आई डिज़ीज़ (थायराइड से आंखें उभरना) एक ऑटोइम्यून बीमारी है, जिसमें आंखों के आसपास के टिश्यू में सूजन आ जाती है। इससे आंखों में किरकिरापन और लालिमा, पलकों में सूजन, घूरती हुई-सी नज़र, उभरी हुई आंखें और कभी-कभी दोहरा दिखना हो सकता है। यह अक्सर ग्रेव्स रोग (Graves’ disease) से जुड़ी होती है, पर थायराइड की खून की जांच सामान्य होने पर भी हो सकती है। ज़्यादातर लोगों में यह हल्की रहती है और सामान्य देखभाल से संभल जाती है; कुछ को दवा या सर्जरी की ज़रूरत पड़ती है, और कुछ में यह नज़र के लिए ख़तरा बन सकती है, जिसमें तुरंत इलाज चाहिए। लखनऊ में अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में ओकुलोप्लास्टी व ऑर्बिट सर्जन डॉ. सौमिका सिंह आपके एंडोक्राइनोलॉजिस्ट के साथ मिलकर थायराइड आई डिज़ीज़ की जांच और प्रबंधन करती हैं।'
+    'Thyroid eye disease is an autoimmune condition in which the tissues around the eyes become inflamed and swollen, causing gritty red eyes, puffy eyelids, a staring look, bulging eyes and sometimes double vision. It is most often linked to Graves’ disease, but it can also appear with normal thyroid blood tests. Most people have a mild form that settles with simple care, while a smaller number need medical or surgical treatment, and a few have a sight-threatening form that needs urgent attention. Dr. Saumika Singh, an oculoplasty and orbit surgeon in Lucknow, assesses and manages thyroid eye disease alongside your endocrinologist.',
+    'थायराइड आई डिज़ीज़ (थायराइड से आंखें उभरना) एक ऑटोइम्यून बीमारी है, जिसमें आंखों के आसपास के टिश्यू में सूजन आ जाती है। इससे आंखों में किरकिरापन और लालिमा, पलकों में सूजन, घूरती हुई-सी नज़र, उभरी हुई आंखें और कभी-कभी दोहरा दिखना हो सकता है। यह अक्सर ग्रेव्स रोग (Graves’ disease) से जुड़ी होती है, पर थायराइड की खून की जांच सामान्य होने पर भी हो सकती है। ज़्यादातर लोगों में यह हल्की रहती है और सामान्य देखभाल से संभल जाती है; कुछ को दवा या सर्जरी की ज़रूरत पड़ती है, और कुछ में यह नज़र के लिए ख़तरा बन सकती है, जिसमें तुरंत इलाज चाहिए। लखनऊ में ओकुलोप्लास्टी व ऑर्बिट सर्जन डॉ. सौमिका सिंह आपके एंडोक्राइनोलॉजिस्ट के साथ मिलकर थायराइड आई डिज़ीज़ की जांच और प्रबंधन करती हैं।'
   ),
   atAGlance: [
     t('**What it is:** an autoimmune inflammation of the tissues around the eye, also called Graves’ eye disease or Graves’ orbitopathy', '**यह क्या है:** आंख के आसपास के टिश्यू की ऑटोइम्यून सूजन; इसे ग्रेव्स आई डिज़ीज़ या ग्रेव्स ऑर्बिटोपैथी भी कहते हैं'),
@@ -81,15 +81,11 @@ const guide: Guide = {
           'Most thyroid eye disease is uncomfortable rather than dangerous, but two complications can damage sight permanently if they are not treated quickly.',
           'ज़्यादातर थायराइड आई डिज़ीज़ तकलीफ़देह होती है, ख़तरनाक नहीं, पर दो जटिलताएं ऐसी हैं जो जल्दी इलाज न होने पर नज़र को स्थायी नुकसान पहुंचा सकती हैं।'
         ),
-      ],
-      callout: {
-        tone: 'urgent',
-        title: t('Get same-day eye care or go to an emergency department if you have:', 'इनमें से कुछ भी हो तो उसी दिन आंखों के डॉक्टर को दिखाएं या इमरजेंसी में जाएं:'),
-        text: t(
-          '**Signs of optic-nerve compression:** vision that becomes dim or blurred, colours that look washed out or faded, a dark patch in the vision, or one eye seeing noticeably worse than the other. **Signs of corneal exposure:** you cannot close the eye, or you have a painful red eye, light sensitivity, a white or hazy spot on the clear front of the eye, or new discharge. Do not wait for your next scheduled appointment.',
-          '**ऑप्टिक नर्व पर दबाव के संकेत:** नज़र का धुंधला या मद्धम होना, रंग फीके या बेरंग दिखना, नज़र में काला धब्बा, या एक आंख का दूसरी से साफ़ कम दिखना। **कॉर्निया के खुले रहने के संकेत:** आंख बंद न हो पाना, या आंख में दर्द के साथ लालिमा, रोशनी से परेशानी, आंख की साफ़ सतह पर सफ़ेद या धुंधला धब्बा, या नया स्राव। अगली तय अपॉइंटमेंट का इंतज़ार न करें।'
+        t(
+          '**Get same-day eye care or go to an emergency department if you have:** **Signs of optic-nerve compression:** vision that becomes dim or blurred, colours that look washed out or faded, a dark patch in the vision, or one eye seeing noticeably worse than the other. **Signs of corneal exposure:** you cannot close the eye, or you have a painful red eye, light sensitivity, a white or hazy spot on the clear front of the eye, or new discharge. Do not wait for your next scheduled appointment.',
+          '**इनमें से कुछ भी हो तो उसी दिन आंखों के डॉक्टर को दिखाएं या इमरजेंसी में जाएं:** **ऑप्टिक नर्व पर दबाव के संकेत:** नज़र का धुंधला या मद्धम होना, रंग फीके या बेरंग दिखना, नज़र में काला धब्बा, या एक आंख का दूसरी से साफ़ कम दिखना। **कॉर्निया के खुले रहने के संकेत:** आंख बंद न हो पाना, या आंख में दर्द के साथ लालिमा, रोशनी से परेशानी, आंख की साफ़ सतह पर सफ़ेद या धुंधला धब्बा, या नया स्राव। अगली तय अपॉइंटमेंट का इंतज़ार न करें।'
         ),
-      },
+      ],
     },
     {
       id: 'who-gets-it',
@@ -266,7 +262,7 @@ const guide: Guide = {
     },
     {
       q: t('Which doctor should I see for bulging eyes in Lucknow?', 'लखनऊ में उभरी हुई आंखों के लिए किस डॉक्टर को दिखाएं?'),
-      a: t('Start with an eye doctor, ideally an oculoplasty/orbit specialist, and keep your endocrinologist involved for the thyroid. In Lucknow, Dr. Saumika Singh sees patients with thyroid eye disease at Alyantra Medicity Superspeciality Hospital, Gomti Nagar. If vision is dimming or the eye is painful and cannot close, seek same-day care.', 'शुरुआत आंखों के डॉक्टर से करें, बेहतर हो कि ओकुलोप्लास्टी/ऑर्बिट विशेषज्ञ से, और थायराइड के लिए अपने एंडोक्राइनोलॉजिस्ट को साथ रखें। लखनऊ में डॉ. सौमिका सिंह अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में थायराइड आई डिज़ीज़ के मरीज़ देखती हैं। नज़र घट रही हो या आंख दर्द के साथ बंद न हो रही हो तो उसी दिन इलाज लें।'),
+      a: t('Start with an eye doctor, ideally an oculoplasty/orbit specialist, and keep your endocrinologist involved for the thyroid. In Lucknow, Dr. Saumika Singh sees patients with thyroid eye disease.', 'शुरुआत आंखों के डॉक्टर से करें, बेहतर हो कि ओकुलोप्लास्टी/ऑर्बिट विशेषज्ञ से, और थायराइड के लिए अपने एंडोक्राइनोलॉजिस्ट को साथ रखें। लखनऊ में डॉ. सौमिका सिंह थायराइड आई डिज़ीज़ के मरीज़ देखती हैं।'),
     },
     {
       q: t('Is thyroid eye disease contagious or inherited?', 'क्या थायराइड आई डिज़ीज़ संक्रामक या अनुवांशिक है?'),
@@ -302,6 +298,8 @@ const guide: Guide = {
   },
 
   reviewerNotes: [
+    'Pre-applied on 16 Nov 2026 from her ptosis/ectropion review: urgent/emergency boxes removed, hospital name taken out of the opening paragraph, search description and FAQ answers (kept in the \'Where\' line and credentials), and home-care/risk wording trimmed. Please check the page reads well without them.',
+    'Judgement call: the \'When is thyroid eye disease an emergency?\' section keeps the optic-nerve and corneal-exposure signs as a normal paragraph instead of a red box, because they are sight-threatening. \'Sleeping with the head raised to reduce morning puffiness\' is kept as TED self-care (not post-op advice); remove it if you prefer.',
     'Confirm the wording on orbital decompression: the page says it is performed by orbital surgeons and that the assessment will clarify who performs it. It does NOT say Dr Saumika performs it. Edit if she does (or does not) and in which setting.',
     'Confirm that squint surgery is correctly described as performed by squint/orbital surgeons (not by her), and that the page does not claim she does it.',
     'Confirm she is comfortable with the statement that eyelid retraction surgery falls within her eyelid-surgery practice, and with the described approach (releasing/lengthening tight lid tissues).',

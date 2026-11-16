@@ -13,13 +13,13 @@ const guide: Guide = {
     'लखनऊ में एंट्रोपियन सर्जरी – अंदर मुड़ी पलक का इलाज | डॉ. सौमिका सिंह'
   ),
   metaDescription: t(
-    'Entropion surgery in Lucknow for an inward-turning eyelid and lashes rubbing the eye, by Dr Saumika Singh, Gomti Nagar: causes, repair, recovery and risks.',
-    'लखनऊ में अंदर मुड़ी पलक और आंख में चुभती पलकों के लिए एंट्रोपियन सर्जरी – डॉ. सौमिका सिंह, गोमती नगर। कारण, सर्जरी, रिकवरी और जोखिम।'
+    'Entropion surgery in Lucknow for an inward-turning eyelid and lashes rubbing the eye, by Dr Saumika Singh: causes, repair, recovery and risks.',
+    'लखनऊ में अंदर मुड़ी पलक और आंख में चुभती पलकों के लिए एंट्रोपियन सर्जरी – डॉ. सौमिका सिंह। कारण, सर्जरी, रिकवरी और जोखिम।'
   ),
   h1: t('Entropion Surgery in Lucknow – Inward-Turning Eyelid Repair', 'लखनऊ में एंट्रोपियन सर्जरी – अंदर मुड़ी पलक का इलाज'),
   lead: t(
-    'Entropion surgery in Lucknow is performed by Dr. Saumika Singh, an oculoplasty surgeon at Alyantra Medicity Superspeciality Hospital, Gomti Nagar, to turn an inward-rolling eyelid back to its normal position so the eyelashes stop rubbing on the eye. Entropion is a condition in which the eyelid margin — most often the lower lid — turns in towards the eyeball. The lashes and skin then scratch the cornea with every blink, causing pain, redness, watering and a constant feeling that something is in the eye, and over time this can scar the cornea and affect vision. Surgery is the definitive treatment.',
-    'लखनऊ में एंट्रोपियन सर्जरी डॉ. सौमिका सिंह करती हैं, जो अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में ओकुलोप्लास्टी सर्जन हैं। इसका उद्देश्य अंदर मुड़ी पलक को सामान्य स्थिति में लाना है ताकि पलकों के बाल आंख पर रगड़ना बंद करें। एंट्रोपियन में पलक का किनारा — अक्सर निचली पलक — आंख की ओर अंदर मुड़ जाता है। तब हर बार झपकने पर बाल और त्वचा कॉर्निया को खरोंचते हैं, जिससे दर्द, लालिमा, पानी आना और आंख में कुछ गिरा होने जैसा एहसास लगातार बना रहता है। समय के साथ इससे कॉर्निया पर निशान पड़ सकता है और नज़र प्रभावित हो सकती है। लंबे समय तक ठीक रखने के लिए आमतौर पर सर्जरी ही मुख्य इलाज है।'
+    'Entropion surgery in Lucknow is performed by Dr. Saumika Singh, an oculoplasty surgeon, to turn an inward-rolling eyelid back to its normal position so the eyelashes stop rubbing on the eye. Entropion is a condition in which the eyelid margin — most often the lower lid — turns in towards the eyeball. The lashes and skin then scratch the cornea with every blink, causing pain, redness, watering and a constant feeling that something is in the eye, and over time this can scar the cornea and affect vision. Surgery is the definitive treatment.',
+    'लखनऊ में एंट्रोपियन सर्जरी डॉ. सौमिका सिंह करती हैं, जो ओकुलोप्लास्टी सर्जन हैं। इसका उद्देश्य अंदर मुड़ी पलक को सामान्य स्थिति में लाना है ताकि पलकों के बाल आंख पर रगड़ना बंद करें। एंट्रोपियन में पलक का किनारा — अक्सर निचली पलक — आंख की ओर अंदर मुड़ जाता है। तब हर बार झपकने पर बाल और त्वचा कॉर्निया को खरोंचते हैं, जिससे दर्द, लालिमा, पानी आना और आंख में कुछ गिरा होने जैसा एहसास लगातार बना रहता है। समय के साथ इससे कॉर्निया पर निशान पड़ सकता है और नज़र प्रभावित हो सकती है। लंबे समय तक ठीक रखने के लिए आमतौर पर सर्जरी ही मुख्य इलाज है।'
   ),
   atAGlance: [
     t('**What it is:** the eyelid turns inwards and the lashes rub on the eye', '**यह क्या है:** पलक अंदर मुड़ जाती है और बाल आंख पर रगड़ते हैं'),
@@ -62,14 +62,6 @@ const guide: Guide = {
           'कई लोग राहत के लिए चुभते बाल ख़ुद खींच देते हैं। इससे कुछ ही समय आराम मिलता है — बाल फिर उग आते हैं, अक्सर और सख़्त — और अंदर मुड़ी पलक का इलाज नहीं होता।'
         ),
       ],
-      callout: {
-        tone: 'urgent',
-        title: t('When entropion needs urgent attention', 'कब एंट्रोपियन में तुरंत इलाज ज़रूरी है'),
-        text: t(
-          'See an eye doctor the same day if the eye becomes increasingly painful and red, your vision drops, you see a white spot on the clear part of the eye, or light becomes very uncomfortable. These can be signs of a corneal ulcer, which can threaten sight and needs prompt treatment.',
-          'अगर आंख में दर्द और लालिमा बढ़ती जाए, नज़र कम हो, आंख के साफ़ हिस्से पर सफ़ेद धब्बा दिखे, या रोशनी बहुत चुभने लगे, तो उसी दिन नेत्र चिकित्सक को दिखाएं। ये कॉर्नियल अल्सर के संकेत हो सकते हैं, जो नज़र के लिए ख़तरा है और जिसका तुरंत इलाज ज़रूरी है।'
-        ),
-      },
     },
     {
       id: 'types',
@@ -143,7 +135,7 @@ const guide: Guide = {
       h2: t('Risks of entropion surgery', 'एंट्रोपियन सर्जरी के जोखिम'),
       bullets: [
         t('Bruising, swelling and temporary discomfort', 'नील, सूजन और अस्थायी तकलीफ़'),
-        t('Infection or bleeding (uncommon)', 'संक्रमण या ख़ून बहना (कम ही होता है)'),
+        t('Infection or bleeding', 'संक्रमण या ख़ून बहना'),
         t('Under-correction, so some lashes still touch the eye', 'कम सुधार — कुछ बाल अब भी आंख को छूते रहें'),
         t('Over-correction, turning the lid slightly outward', 'ज़्यादा सुधार — पलक थोड़ी बाहर मुड़ जाए'),
         t('Recurrence over time, especially with scarring causes', 'समय के साथ दोबारा होना, खासकर निशान वाले कारणों में'),
@@ -192,7 +184,7 @@ const guide: Guide = {
     },
     {
       q: t('Who treats entropion in Lucknow?', 'लखनऊ में एंट्रोपियन का इलाज कौन करता है?'),
-      a: t('Entropion is treated by oculoplastic surgeons — eye surgeons with specialist training in eyelid surgery. In Lucknow, Dr. Saumika Singh assesses and operates on entropion at Alyantra Medicity Superspeciality Hospital, Gomti Nagar.', 'एंट्रोपियन का इलाज ओकुलोप्लास्टिक सर्जन करते हैं — पलक की सर्जरी में विशेष प्रशिक्षण वाले नेत्र सर्जन। लखनऊ में डॉ. सौमिका सिंह अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में एंट्रोपियन की जांच और सर्जरी करती हैं।'),
+      a: t('Entropion is treated by oculoplastic surgeons — eye surgeons with specialist training in eyelid surgery. In Lucknow, Dr. Saumika Singh assesses and operates on entropion.', 'एंट्रोपियन का इलाज ओकुलोप्लास्टिक सर्जन करते हैं — पलक की सर्जरी में विशेष प्रशिक्षण वाले नेत्र सर्जन। लखनऊ में डॉ. सौमिका सिंह एंट्रोपियन की जांच और सर्जरी करती हैं।'),
     },
   ],
 
@@ -223,6 +215,7 @@ const guide: Guide = {
   },
 
   reviewerNotes: [
+    'Pre-applied on 16 Nov 2026 from her ptosis/ectropion review: urgent/emergency boxes removed, hospital name taken out of the opening paragraph, search description and FAQ answers (kept in the \'Where\' line and credentials), and home-care/risk wording trimmed. Please check the page reads well without them.',
     'Confirm she uses Botox and bandage contact lenses as temporary measures for entropion.',
     'Confirm the cicatricial techniques named (tarsal fracture / lamellar repositioning, mucous membrane graft).',
     'Trachoma is mentioned as a cause of cicatricial entropion; confirm wording is appropriate for the Lucknow audience.',

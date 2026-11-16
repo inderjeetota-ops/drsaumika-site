@@ -39,15 +39,11 @@ const guide: Guide = {
           'Extra eyelid skin develops slowly over years. If your eyelid dropped over hours or days, do not assume it is skin or ageing.',
           'अतिरिक्त पलक की त्वचा सालों में धीरे-धीरे बनती है। अगर आपकी पलक घंटों या दिनों में झुकी है, तो इसे त्वचा या उम्र का असर न मानें।'
         ),
-      ],
-      callout: {
-        tone: 'urgent',
-        title: t('A NEW sudden droop needs same-day care', 'नया अचानक झुकाव उसी दिन जांच मांगता है'),
-        text: t(
-          'Go to an emergency department the same day if an eyelid droops suddenly, especially with double vision, a severe headache, unequal pupils, weakness or numbness of the face, arm or leg, slurred speech, or difficulty swallowing or breathing. These can signal a stroke, an aneurysm or a nerve or muscle emergency. See [drooping eyelid causes and treatment](/drooping-eyelid-causes-and-treatment).',
-          'अगर कोई पलक अचानक झुके, खासकर दोहरा दिखने, तेज़ सिरदर्द, असमान पुतलियां, चेहरे/हाथ/पैर में कमज़ोरी या सुन्नपन, लड़खड़ाती आवाज़, या निगलने/सांस लेने में तकलीफ़ के साथ, तो उसी दिन इमरजेंसी में जाएं। ये स्ट्रोक, एन्यूरिज़्म या नस/मांसपेशी की इमरजेंसी के संकेत हो सकते हैं। देखें [झुकी हुई पलक के कारण और इलाज](/drooping-eyelid-causes-and-treatment)।'
+        t(
+          '**A NEW sudden droop needs same-day care.** Go to an emergency department the same day if an eyelid droops suddenly, especially with double vision, a severe headache, unequal pupils, weakness or numbness of the face, arm or leg, slurred speech, or difficulty swallowing or breathing. These can signal a stroke, an aneurysm or a nerve or muscle emergency. See [drooping eyelid causes and treatment](/drooping-eyelid-causes-and-treatment).',
+          '**नया अचानक झुकाव उसी दिन जांच मांगता है।** अगर कोई पलक अचानक झुके, खासकर दोहरा दिखने, तेज़ सिरदर्द, असमान पुतलियां, चेहरे/हाथ/पैर में कमज़ोरी या सुन्नपन, लड़खड़ाती आवाज़, या निगलने/सांस लेने में तकलीफ़ के साथ, तो उसी दिन इमरजेंसी में जाएं। ये स्ट्रोक, एन्यूरिज़्म या नस/मांसपेशी की इमरजेंसी के संकेत हो सकते हैं। देखें [झुकी हुई पलक के कारण और इलाज](/drooping-eyelid-causes-and-treatment)।'
         ),
-      },
+      ],
     },
     {
       id: 'comparison-table',
@@ -67,7 +63,7 @@ const guide: Guide = {
           [t('Cause', 'कारण'), t('Weak or stretched lifting muscle or tendon, nerve or muscle disease, or present from birth', 'उठाने वाली मांसपेशी या टेंडन की कमज़ोरी/खिंचाव, नस या मांसपेशी रोग, या जन्मजात'), t('Skin loses elasticity with age and sun exposure; fat may bulge; can run in families', 'उम्र और धूप से त्वचा की लोच घटती है; चर्बी उभर सकती है; परिवार में चल सकता है')],
           [t('Effect on vision', 'नज़र पर असर'), t('Blocks the upper field of vision if the lid covers the pupil', 'पलक पुतली को ढके तो ऊपर की नज़र रुकती है'), t('Can block the upper and side vision when the fold is heavy', 'तह भारी हो तो ऊपर और बगल की नज़र रुक सकती है')],
           [t('Age pattern', 'उम्र का पैटर्न'), t('Any age, including infants and children', 'किसी भी उम्र में, शिशुओं और बच्चों में भी'), t('Mostly middle-aged and older adults', 'ज़्यादातर मध्यम आयु और बुज़ुर्ग')],
-          [t('Typical surgery', 'आमतौर पर सर्जरी'), t('Levator surgery or frontalis sling (see [ptosis surgery](/ptosis-surgery-in-lucknow))', 'लेवेटर सर्जरी या फ्रंटालिस स्लिंग (देखें [टोसिस सर्जरी](/ptosis-surgery-in-lucknow))'), t('Upper-lid blepharoplasty (see [blepharoplasty](/blepharoplasty-in-lucknow))', 'ऊपरी पलक की ब्लेफेरोप्लास्टी (देखें [ब्लेफेरोप्लास्टी](/blepharoplasty-in-lucknow))')],
+          [t('Typical surgery', 'आमतौर पर सर्जरी'), t('Levator surgery, MMCR or frontalis sling (see [ptosis surgery](/ptosis-surgery-in-lucknow))', 'लेवेटर सर्जरी, MMCR या फ्रंटालिस स्लिंग (देखें [टोसिस सर्जरी](/ptosis-surgery-in-lucknow))'), t('Upper-lid blepharoplasty (see [blepharoplasty](/blepharoplasty-in-lucknow))', 'ऊपरी पलक की ब्लेफेरोप्लास्टी (देखें [ब्लेफेरोप्लास्टी](/blepharoplasty-in-lucknow))')],
           [t('Other options', 'अन्य विकल्प'), t('Treat the underlying cause; observation if mild', 'अंदरूनी कारण का इलाज; हल्का हो तो निगरानी'), t('Observation if it does not bother you', 'तकलीफ़ न हो तो निगरानी')],
         ],
       },
@@ -110,7 +106,7 @@ const guide: Guide = {
         ),
       ],
       bullets: [
-        t('Look straight into a mirror in good light, relaxed, with the forehead not tensed. Does the edge of the upper lid cut across the coloured part (iris) lower than usual, or does a fold of skin hide the edge?', 'अच्छी रोशनी में आईने में सीधे देखें, माथा ढीला रखें। क्या ऊपरी पलक का किनारा आइरिस (रंगीन हिस्से) को सामान्य से नीचे काटता है, या त्वचा की तह किनारे को छिपा रही है?'),
+        t('Look straight into a mirror in good light, relaxed, with the forehead not tensed. Does the edge of the upper lid cut across the cornea (black circular part of the eye) lower than usual, or does a fold of skin hide the edge?', 'अच्छी रोशनी में आईने में सीधे देखें, माथा ढीला रखें। क्या ऊपरी पलक का किनारा कॉर्निया (आंख का काला गोल हिस्सा) को सामान्य से नीचे काटता है, या त्वचा की तह किनारे को छिपा रही है?'),
         t('Compare the two eyes. A lid edge that sits at different heights on each side points towards ptosis; a similar skin fold on both sides can be dermatochalasis', 'दोनों आंखों की तुलना करें। हर तरफ़ पलक का किनारा अलग ऊंचाई पर हो तो टोसिस की ओर इशारा है; दोनों तरफ़ एक जैसी त्वचा की तह डर्मेटोकैलेसिस हो सकती है'),
         t('Notice whether your eyebrows are working hard: raised, wrinkled forehead, or a tired ache above the brows by evening', 'देखें कि क्या भौंहें ज़्यादा काम कर रही हैं: ऊपर उठी हुई, माथे पर सलवटें, या शाम तक भौंहों के ऊपर थकान का दर्द'),
         t('Compare old photographs. Passport or ID photos help show whether the change is new and how fast it developed', 'पुरानी तस्वीरें मिलाएं। पासपोर्ट या ID की फ़ोटो से पता चलता है कि बदलाव नया है या नहीं और कितनी तेज़ी से आया'),
@@ -158,8 +154,8 @@ const guide: Guide = {
           h3: t('Mostly low lid margin: ptosis surgery', 'ज़्यादातर पलक का किनारा नीचे: टोसिस सर्जरी'),
           paras: [
             t(
-              'If the lid edge is low, [ptosis surgery](/ptosis-surgery-in-lucknow) tightens or reattaches the lifting muscle, or uses a frontalis sling when the muscle is very weak. Removing skin alone will not raise a ptotic lid. If a nerve or muscle disease is the cause, that is treated first.',
-              'अगर पलक का किनारा नीचा है, तो [टोसिस सर्जरी](/ptosis-surgery-in-lucknow) उठाने वाली मांसपेशी को कसती या दोबारा जोड़ती है, और मांसपेशी बहुत कमज़ोर हो तो फ्रंटालिस स्लिंग इस्तेमाल होती है। सिर्फ़ त्वचा हटाने से टोसिस वाली पलक नहीं उठती। अगर कारण नस या मांसपेशी रोग है, तो पहले उसका इलाज होता है।'
+              'If the lid edge is low, [ptosis surgery](/ptosis-surgery-in-lucknow) tightens or reattaches the lifting muscle, shortens the Müller muscle from inside the lid (MMCR) for mild ptosis with good muscle function, or uses a frontalis sling when the muscle is very weak. Removing skin alone will not raise a ptotic lid. If a nerve or muscle disease is the cause, that is treated first.',
+              'अगर पलक का किनारा नीचा है, तो [टोसिस सर्जरी](/ptosis-surgery-in-lucknow) उठाने वाली मांसपेशी को कसती या दोबारा जोड़ती है, अच्छी मांसपेशी क्षमता वाले हल्के टोसिस में पलक के अंदर से मुलर मांसपेशी को छोटा करती है (MMCR), और मांसपेशी बहुत कमज़ोर हो तो फ्रंटालिस स्लिंग इस्तेमाल होती है। सिर्फ़ त्वचा हटाने से टोसिस वाली पलक नहीं उठती। अगर कारण नस या मांसपेशी रोग है, तो पहले उसका इलाज होता है।'
             ),
           ],
         },
@@ -196,7 +192,7 @@ const guide: Guide = {
 
   whyDrSaumika: [
     t('Fellowship-trained in Oculoplasty & Ocular Oncology (Dr. Shroff’s Charity Eye Hospital, New Delhi, 2022) after MS in Ophthalmology', 'नेत्र विज्ञान में MS के बाद ओकुलोप्लास्टी व ओकुलर ऑन्कोलॉजी में फ़ेलोशिप-प्रशिक्षित (डॉ. श्रॉफ़्स चैरिटी आई हॉस्पिटल, नई दिल्ली, 2022)'),
-    t('Her practice includes both ptosis surgery (levator surgery and frontalis sling) and upper and lower blepharoplasty, so the choice is made from the examination, not from one operation', 'उनके कार्य में टोसिस सर्जरी (लेवेटर सर्जरी और फ्रंटालिस स्लिंग) और ऊपरी व निचली ब्लेफेरोप्लास्टी दोनों शामिल हैं, इसलिए चुनाव जांच से होता है, किसी एक ऑपरेशन से नहीं'),
+    t('Her practice includes both ptosis correction customised for every adult and child and upper and lower blepharoplasty, so the choice is made from the examination, not from one operation', 'उनके कार्य में हर वयस्क और बच्चे के लिए व्यक्तिगत रूप से तय टोसिस सुधार और ऊपरी व निचली ब्लेफेरोप्लास्टी दोनों शामिल हैं, इसलिए चुनाव जांच से होता है, किसी एक ऑपरेशन से नहीं'),
     t('As an eye surgeon, she checks vision, the pupils, eyelid closure and the eye surface before planning any eyelid lift or skin removal', 'नेत्र सर्जन होने के नाते वे पलक उठाने या त्वचा हटाने की योजना से पहले नज़र, पुतलियां, पलक का बंद होना और आंख की सतह जांचती हैं'),
     t('Registered with the Uttar Pradesh Medical Council (Reg. No. 137106); consults at Alyantra Medicity Superspeciality Hospital, Gomti Nagar', 'उत्तर प्रदेश मेडिकल काउंसिल में पंजीकृत (पंजीकरण सं. 137106); अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में परामर्श'),
   ],
@@ -204,7 +200,7 @@ const guide: Guide = {
   faqs: [
     {
       q: t('How do I know if I have ptosis or hooded eyes?', 'मुझे टोसिस है या hooded eyes, कैसे पता चलेगा?'),
-      a: t('In ptosis the edge of the upper lid sits low, often covering part of the coloured iris or the pupil. In hooded eyes the edge is normal but a skin fold hangs over it. The two overlap, so only a measured examination can tell, and you may have both.', 'टोसिस में ऊपरी पलक का किनारा नीचे रहता है और अक्सर आइरिस या पुतली का हिस्सा ढकता है। hooded eyes में किनारा सामान्य होता है पर त्वचा की तह उसके ऊपर लटकती है। दोनों आपस में मिल जाते हैं, इसलिए नाप-जोख वाली जांच से ही पता चलता है, और दोनों भी हो सकते हैं।'),
+      a: t('In ptosis the edge of the upper lid sits low, often covering part of the cornea (black circular part of the eye) or the pupil. In hooded eyes the edge is normal but a skin fold hangs over it. The two overlap, so only a measured examination can tell, and you may have both.', 'टोसिस में ऊपरी पलक का किनारा नीचे रहता है और अक्सर कॉर्निया (आंख का काला गोल हिस्सा) या पुतली का हिस्सा ढकता है। hooded eyes में किनारा सामान्य होता है पर त्वचा की तह उसके ऊपर लटकती है। दोनों आपस में मिल जाते हैं, इसलिए नाप-जोख वाली जांच से ही पता चलता है, और दोनों भी हो सकते हैं।'),
     },
     {
       q: t('Will blepharoplasty fix a droopy eyelid?', 'क्या ब्लेफेरोप्लास्टी से झुकी हुई पलक ठीक हो जाती है?'),
@@ -260,6 +256,9 @@ const guide: Guide = {
   },
 
   reviewerNotes: [
+    'Pre-applied on 16 Nov 2026 from her ptosis/ectropion review: urgent/emergency boxes removed, hospital name taken out of the opening paragraph, search description and FAQ answers (kept in the \'Where\' line and credentials), and home-care/risk wording trimmed. Please check the page reads well without them.',
+    'Judgement call: the opening \'Is a new droop just extra skin?\' section keeps the sudden-droop warning as a normal paragraph instead of a red box. Remove it if you prefer.',
+    'MMCR added to the treatment table and the ptosis-surgery paragraph; \'iris\' changed to \'cornea (black circular part of the eye)\' to match the ptosis page.',
     'Confirm she is happy with the statement that ptosis repair and blepharoplasty are often combined through the same crease incision in one sitting.',
     'Brow lifting is NOT in the confirmed-services list; the page says it may be discussed and tells readers to ask who should perform it. Confirm or adjust that wording (and whether she does or refers brow procedures).',
     'Confirm the self-observation tips, especially the caution that lifting the skin fold with a finger can mask ptosis, and the measurement steps (MRD1, levator function, brow position, visual field) match her routine.',

@@ -26,7 +26,7 @@ const guide: Guide = {
     t('**Key warning sign:** a “chalazion” returning in the same spot', '**मुख्य चेतावनी संकेत:** “चालाज़ियन” का ठीक उसी जगह लौटना'),
     t('**Other signs:** eyelash loss over the lump, bleeding or ulcer, distorted lid margin, yellowish firm thickening', '**अन्य संकेत:** गांठ पर बाल झड़ना, खून आना या घाव, पलक के किनारे का बिगड़ना, पीली-सी सख्त मोटाई'),
     t('**Test:** biopsy, with microscope (histopathology) examination of removed tissue', '**जांच:** बायोप्सी, यानी निकाले गए ऊतक की माइक्रोस्कोप (हिस्टोपैथोलॉजी) जांच'),
-    t('**Urgent:** rapid growth, bleeding or ulceration, bulging eye or double vision', '**जल्दी दिखाएं:** तेज़ी से बढ़ना, खून या घाव, आंख उभरना या दोहरा दिखना'),
+    t('**Get checked soon:** rapid growth, bleeding or ulceration, bulging eye or double vision', '**जल्दी दिखाएं:** तेज़ी से बढ़ना, खून या घाव, आंख उभरना या दोहरा दिखना'),
     t('**Where:** Alyantra Medicity Superspeciality Hospital, Gomti Nagar, Lucknow', '**कहां:** अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर, लखनऊ'),
   ],
 
@@ -113,14 +113,6 @@ const guide: Guide = {
           [t('One-sided red eye or blepharitis that does not respond to treatment', 'एक ही आंख की लालिमा या ब्लेफेराइटिस जो इलाज से नहीं जाती'), t('Some eyelid cancers imitate long-standing “conjunctivitis” or blepharitis', 'कुछ पलक के कैंसर पुरानी “कंजंक्टिवाइटिस” या ब्लेफेराइटिस की नकल करते हैं')],
           [t('Older age with a new, persistent lump', 'बड़ी उम्र में नई, टिकी रहने वाली गांठ'), t('Sebaceous gland carcinoma is more often found in older adults', 'सीबेशियस ग्लैंड कार्सिनोमा बड़ी उम्र में ज़्यादा मिलता है')],
         ],
-      },
-      callout: {
-        tone: 'urgent',
-        title: t('When to be seen quickly', 'कब जल्दी दिखाएं'),
-        text: t(
-          'See an eye specialist urgently, within days, for a lump that is growing quickly, bleeding or ulcerated, or that comes with the eye looking pushed forward or double vision. Seek same-day care or go to an emergency department if redness and swelling are spreading across the eyelid or face with fever, pain on moving the eye or reduced vision, as these can be signs of cellulitis.',
-          'जो गांठ तेज़ी से बढ़ रही हो, खून या घाव कर रही हो, या जिसके साथ आंख बाहर की ओर उभरी दिखे या दोहरा दिखे, उसके लिए नेत्र विशेषज्ञ को कुछ ही दिनों में तुरंत दिखाएं। अगर पलक या चेहरे पर लालिमा और सूजन फैल रही हो और साथ में बुखार, आंख हिलाने पर दर्द या नज़र कम होना हो, तो उसी दिन दिखाएं या इमरजेंसी में जाएं, क्योंकि ये सेल्युलाइटिस के लक्षण हो सकते हैं।'
-        ),
       },
     },
     {
@@ -215,7 +207,7 @@ const guide: Guide = {
     },
     {
       q: t('Which doctor should I see for a recurring chalazion in Lucknow?', 'लखनऊ में बार-बार होने वाली गुहेरी के लिए किसे दिखाएं?'),
-      a: t('An oculoplastic surgeon with ocular oncology training can assess the lump, perform the biopsy and, if needed, treat and reconstruct the eyelid. In Lucknow, Dr. Saumika Singh sees patients at Alyantra Medicity Superspeciality Hospital, Gomti Nagar, by appointment. Bring all earlier reports.', 'ओकुलर ऑन्कोलॉजी प्रशिक्षण वाले ओकुलोप्लास्टिक सर्जन गांठ की जांच, बायोप्सी और ज़रूरत हो तो इलाज व पलक का पुनर्निर्माण कर सकते हैं। लखनऊ में डॉ. सौमिका सिंह अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में अपॉइंटमेंट पर मरीज़ देखती हैं। पुरानी सभी रिपोर्ट साथ लाएं।'),
+      a: t('An oculoplastic surgeon with ocular oncology training can assess the lump, perform the biopsy and, if needed, treat and reconstruct the eyelid. In Lucknow, Dr. Saumika Singh sees patients by appointment. Bring all earlier reports.', 'ओकुलर ऑन्कोलॉजी प्रशिक्षण वाले ओकुलोप्लास्टिक सर्जन गांठ की जांच, बायोप्सी और ज़रूरत हो तो इलाज व पलक का पुनर्निर्माण कर सकते हैं। लखनऊ में डॉ. सौमिका सिंह अपॉइंटमेंट पर मरीज़ देखती हैं। पुरानी सभी रिपोर्ट साथ लाएं।'),
     },
   ],
 
@@ -256,6 +248,7 @@ const guide: Guide = {
   },
 
   reviewerNotes: [
+    'Pre-applied on 16 Nov 2026 from her ptosis/ectropion review: urgent/emergency boxes removed, hospital name taken out of the opening paragraph, search description and FAQ answers (kept in the \'Where\' line and credentials), and home-care/risk wording trimmed. Please check the page reads well without them.',
     'Confirm the case descriptions match the consented case pages exactly (tarsal cyst: large persistent upper-eyelid swelling, previously treated as chalazion elsewhere, atypical features, excision biopsy, complete resolution, no recurrence; SGC: left lower eyelid, wide local excision with clear margins, cryotherapy, reconstruction, good healing at 2 weeks).',
     'Confirm the photo /photo-gallery-7.webp (recurrent chalazion) has patient consent for use on this page and that it fits the topic; caption wording to confirm.',
     'Confirm the warning-sign list and the "within days" urgency wording for rapidly growing, bleeding or ulcerated lumps.',

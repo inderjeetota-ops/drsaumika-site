@@ -13,13 +13,13 @@ const guide: Guide = {
     'लखनऊ में चालाज़ियन (पलक की गांठ) का इलाज | डॉ. सौमिका सिंह'
   ),
   metaDescription: t(
-    'Chalazion treatment in Lucknow by oculoplasty surgeon Dr Saumika Singh, Gomti Nagar: chalazion vs stye, home care, incision and curettage, recovery and risks.',
-    'लखनऊ में आंख की पलक पर गांठ (चालाज़ियन/गुहेरी) का इलाज – डॉ. सौमिका सिंह, अलयंत्रा मेडिसिटी, गोमती नगर। अंजनी से फ़र्क, घरेलू देखभाल, छोटा ऑपरेशन, रिकवरी और जोखिम।'
+    'Chalazion treatment in Lucknow by oculoplasty surgeon Dr Saumika Singh: chalazion vs stye, home care, incision and curettage, recovery and risks.',
+    'लखनऊ में आंख की पलक पर गांठ (चालाज़ियन/गुहेरी) का इलाज – डॉ. सौमिका सिंह। अंजनी से फ़र्क, घरेलू देखभाल, छोटा ऑपरेशन, रिकवरी और जोखिम।'
   ),
   h1: t('Chalazion Treatment in Lucknow – Eyelid Lump That Won’t Go Away', 'लखनऊ में आंख की पलक पर गांठ (चालाज़ियन) का इलाज'),
   lead: t(
-    'Chalazion treatment in Lucknow is offered by Dr. Saumika Singh, an oculoplasty surgeon at Alyantra Medicity Superspeciality Hospital, Gomti Nagar, for the firm eyelid lump that does not go away. A chalazion is a blocked oil gland in the eyelid, and many settle with a few weeks of warm compresses and eyelid hygiene. When a lump persists, grows, blurs vision or simply bothers you, a short procedure called incision and curettage drains it, usually through the inside of the eyelid so that no scar is expected on the skin. Because a lump that keeps returning needs a closer look, a proper eyelid examination always comes first.',
-    'लखनऊ में आंख की पलक पर गांठ (चालाज़ियन/गुहेरी) का इलाज डॉ. सौमिका सिंह करती हैं, जो अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में ओकुलोप्लास्टी सर्जन हैं। चालाज़ियन (chalazion) पलक की तेल वाली ग्रंथि के बंद होने से बनी सख्त गांठ है, और कई बार यह कुछ हफ़्तों की गर्म सिकाई और पलक की सफ़ाई से अपने आप बैठ जाती है। अगर गांठ टिकी रहे, बढ़ती जाए, नज़र धुंधली करे या परेशान करे, तो “इन्सीज़न एंड क्यूरेटाज” नामक छोटी प्रक्रिया से उसे साफ़ किया जाता है, जो आमतौर पर पलक के अंदर की ओर से होती है, इसलिए त्वचा पर निशान की उम्मीद नहीं रहती। जो गांठ बार-बार लौटे उसे ज़्यादा ध्यान से देखना ज़रूरी है, इसलिए पहले पलक की पूरी जांच होती है।'
+    'Chalazion treatment in Lucknow is offered by Dr. Saumika Singh, an oculoplasty surgeon, for the firm eyelid lump that does not go away. A chalazion is a blocked oil gland in the eyelid, and many settle with a few weeks of warm compresses and eyelid hygiene. When a lump persists, grows, blurs vision or simply bothers you, a short procedure called incision and curettage drains it, usually through the inside of the eyelid so that no scar is expected on the skin. Because a lump that keeps returning needs a closer look, a proper eyelid examination always comes first.',
+    'लखनऊ में आंख की पलक पर गांठ (चालाज़ियन/गुहेरी) का इलाज डॉ. सौमिका सिंह करती हैं, जो ओकुलोप्लास्टी सर्जन हैं। चालाज़ियन (chalazion) पलक की तेल वाली ग्रंथि के बंद होने से बनी सख्त गांठ है, और कई बार यह कुछ हफ़्तों की गर्म सिकाई और पलक की सफ़ाई से अपने आप बैठ जाती है। अगर गांठ टिकी रहे, बढ़ती जाए, नज़र धुंधली करे या परेशान करे, तो “इन्सीज़न एंड क्यूरेटाज” नामक छोटी प्रक्रिया से उसे साफ़ किया जाता है, जो आमतौर पर पलक के अंदर की ओर से होती है, इसलिए त्वचा पर निशान की उम्मीद नहीं रहती। जो गांठ बार-बार लौटे उसे ज़्यादा ध्यान से देखना ज़रूरी है, इसलिए पहले पलक की पूरी जांच होती है।'
   ),
   atAGlance: [
     t('**What it is:** a blocked oil (meibomian) gland in the eyelid forming a firm, usually not very painful lump', '**यह क्या है:** पलक की तेल (मीबोमियन) ग्रंथि के बंद होने से बनी सख्त गांठ, जिसमें आमतौर पर ज़्यादा दर्द नहीं होता'),
@@ -177,7 +177,7 @@ const guide: Guide = {
           bullets: [
             t('The chalazion can come back, and new ones can form, especially if blepharitis or rosacea continues', 'चालाज़ियन लौट सकता है, और नए भी बन सकते हैं, खासकर अगर ब्लेफेराइटिस या रोज़ेशिया बनी रहे'),
             t('Bruising, bleeding or infection', 'नील, खून बहना या संक्रमण'),
-            t('A small notch in the lid edge or loss or misdirection of a few eyelashes (uncommon)', 'पलक के किनारे में छोटा गड्ढा या कुछ बालों का झड़ना/टेढ़ा उगना (कम होता है)'),
+            t('A small notch in the lid edge or loss or misdirection of a few eyelashes', 'पलक के किनारे में छोटा गड्ढा या कुछ बालों का झड़ना/टेढ़ा उगना'),
             t('A skin mark or colour change if a skin cut was needed', 'अगर त्वचा पर चीरा लगाना पड़ा हो तो निशान या रंग में बदलाव'),
             t('Residual hardness that settles slowly, or incomplete clearance needing a second procedure', 'बची हुई सख्ती जो धीरे-धीरे बैठती है, या अधूरी सफ़ाई जिसके लिए दूसरी बार प्रक्रिया ज़रूरी हो'),
           ],
@@ -186,21 +186,13 @@ const guide: Guide = {
     },
     {
       id: 'biopsy-and-urgent',
-      h2: t('When an eyelid lump needs a biopsy, or urgent care', 'पलक की गांठ में बायोप्सी या तुरंत इलाज कब ज़रूरी है'),
+      h2: t('When does an eyelid lump need a biopsy?', 'पलक की गांठ में बायोप्सी कब ज़रूरी है?'),
       paras: [
         t(
           'Most chalazia are harmless, but not every lump that looks like one is a chalazion. A lump that returns in exactly the same spot, or has unusual features such as lash loss over it, a distorted lid edge or bleeding, should be assessed and the removed tissue examined under the microscope. This is explained in detail in our guide on [recurring chalazion and when it could be eyelid cancer](/recurring-chalazion-or-eyelid-cancer).',
           'ज़्यादातर चालाज़ियन नुकसानदेह नहीं होते, पर चालाज़ियन जैसी दिखने वाली हर गांठ चालाज़ियन नहीं होती। जो गांठ ठीक उसी जगह बार-बार लौटे, या जिसमें असामान्य लक्षण हों, जैसे उस पर बाल झड़ना, पलक का किनारा बिगड़ना या खून आना, उसकी जांच करवानी चाहिए और निकाले गए ऊतक को माइक्रोस्कोप से देखा जाना चाहिए। इसका विस्तार से वर्णन हमारे [बार-बार होने वाले चालाज़ियन और कब यह पलक का कैंसर हो सकता है](/recurring-chalazion-or-eyelid-cancer) वाले गाइड में है।'
         ),
       ],
-      callout: {
-        tone: 'urgent',
-        title: t('Same-day or emergency care', 'उसी दिन या इमरजेंसी में दिखाएं'),
-        text: t(
-          'See an eye doctor the same day, or go to an emergency department, if an eyelid lump comes with swelling and redness spreading across the eyelid or face, fever, pain when moving the eye, reduced vision, double vision or the eye looking pushed forward. These can be signs of a spreading infection of the eyelid or around the eye (cellulitis), which needs prompt treatment and is not a problem to manage with warm compresses at home.',
-          'अगर पलक की गांठ के साथ पलक या चेहरे पर फैलती सूजन और लालिमा, बुखार, आंख हिलाने पर दर्द, नज़र कम होना, दोहरा दिखना या आंख बाहर की ओर उभरी दिखे, तो उसी दिन नेत्र डॉक्टर को दिखाएं या इमरजेंसी में जाएं। ये पलक या आंख के आसपास फैलते संक्रमण (सेल्युलाइटिस) के लक्षण हो सकते हैं, जिसमें तुरंत इलाज चाहिए; इसे घर पर गर्म सिकाई से संभालने की कोशिश न करें।'
-        ),
-      },
     },
   ],
 
@@ -242,7 +234,7 @@ const guide: Guide = {
     },
     {
       q: t('Which doctor treats chalazion in Lucknow?', 'लखनऊ में चालाज़ियन का इलाज कौन करता है?'),
-      a: t('Any ophthalmologist can assess a chalazion; an oculoplastic surgeon adds focused training in eyelid surgery and eyelid lumps. In Lucknow, Dr. Saumika Singh sees patients with chalazion at Alyantra Medicity Superspeciality Hospital, Gomti Nagar, by appointment.', 'चालाज़ियन की जांच कोई भी नेत्र रोग विशेषज्ञ कर सकता है; ओकुलोप्लास्टिक सर्जन के पास पलक की सर्जरी और पलक की गांठों का अतिरिक्त प्रशिक्षण होता है। लखनऊ में डॉ. सौमिका सिंह अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में अपॉइंटमेंट पर चालाज़ियन के मरीज़ देखती हैं।'),
+      a: t('Any ophthalmologist can assess a chalazion; an oculoplastic surgeon adds focused training in eyelid surgery and eyelid lumps. In Lucknow, Dr. Saumika Singh sees patients with chalazion by appointment.', 'चालाज़ियन की जांच कोई भी नेत्र रोग विशेषज्ञ कर सकता है; ओकुलोप्लास्टिक सर्जन के पास पलक की सर्जरी और पलक की गांठों का अतिरिक्त प्रशिक्षण होता है। लखनऊ में डॉ. सौमिका सिंह अपॉइंटमेंट पर चालाज़ियन के मरीज़ देखती हैं।'),
     },
   ],
 
@@ -277,6 +269,8 @@ const guide: Guide = {
   },
 
   reviewerNotes: [
+    'Pre-applied on 16 Nov 2026 from her ptosis/ectropion review: urgent/emergency boxes removed, hospital name taken out of the opening paragraph, search description and FAQ answers (kept in the \'Where\' line and credentials), and home-care/risk wording trimmed. Please check the page reads well without them.',
+    'Section heading changed to \'When does an eyelid lump need a biopsy?\' now that the urgent-care box is gone.',
     'Confirm the procedure is performed under local anaesthesia in adults and older children, and general anaesthesia for young children; confirm the age cut-off you use.',
     'Confirm the typical duration of the procedure (deliberately stated only as "short"; Batch 1 checklist mentions "20-minute") and day-care discharge.',
     'Confirm the incision approach: transconjunctival (from inside the lid) as the usual route, skin incision for lumps pointing outwards.',

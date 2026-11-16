@@ -172,22 +172,14 @@ const guide: Guide = {
         t('Dry eyes, an eyelid that does not close fully, or a recent eye operation may make eyelid surgery riskier, so the timing and the need are weighed carefully', 'सूखी आंखें, पलक का पूरी तरह बंद न होना या हाल की आंख की सर्जरी, पलक सर्जरी को जोखिम भरा बना सकती हैं, इसलिए समय और ज़रूरत को सावधानी से तोला जाता है'),
         t('If the concern is purely cosmetic, there are non-surgical choices such as [Botox around the eyes](/services/botox-eyelid-cosmetic-surgery-periocular-aesthetics) for certain lines, and doing nothing is also a valid decision', 'अगर चिंता सिर्फ़ कॉस्मेटिक है, तो कुछ रेखाओं के लिए [आंखों के आसपास बोटॉक्स](/services/botox-eyelid-cosmetic-surgery-periocular-aesthetics) जैसे गैर-सर्जिकल विकल्प हैं, और कुछ न करना भी एक सही फ़ैसला है'),
       ],
-      callout: {
-        tone: 'urgent',
-        title: t('When not to wait for a consultation', 'कब परामर्श का इंतज़ार न करें'),
-        text: t(
-          'Seek same-day medical or eye care for a **sudden** droop with double vision, severe headache, a different-sized pupil, weakness or slurred speech (go to an emergency department), sudden loss or blurring of vision, or a painful, red, swollen eyelid with fever. A rapidly growing, bleeding or non-healing eyelid lump also needs prompt examination. These are not cosmetic or insurance questions.',
-          '**अचानक** पलक झुकना और साथ में दोहरा दिखना, तेज़ सिरदर्द, पुतलियों का अलग आकार, कमज़ोरी या बोलने में लड़खड़ाहट हो तो इमरजेंसी में जाएं; अचानक नज़र जाना या धुंधली होना, या दर्द वाली, लाल, सूजी पलक के साथ बुखार हो तो उसी दिन डॉक्टर/आंख की जांच कराएं। तेज़ी से बढ़ती, खून बहाती या न भरने वाली पलक की गांठ की भी जल्दी जांच ज़रूरी है। ये कॉस्मेटिक या बीमा के सवाल नहीं हैं।'
-        ),
-      },
     },
     {
       id: 'risks-and-limits',
       h2: t('Does “functional” mean lower risk, and are results certain?', 'क्या “फ़ंक्शनल” का मतलब कम जोखिम है, और क्या नतीजे पक्के होते हैं?'),
       paras: [
         t(
-          'No. Calling surgery functional or cosmetic changes the paperwork, not the biology. Both can involve bruising and swelling, dry or irritated eyes, uneven eyelids or creases, a visible scar line, difficulty closing the eyes fully, bleeding or infection, and in rare cases serious bleeding behind the eye that threatens vision. Results vary between people, and a further adjustment is needed in some. Removing skin does not guarantee that every symptom, such as brow ache, will disappear.',
-          'नहीं। सर्जरी को फ़ंक्शनल या कॉस्मेटिक कहने से कागज़ी कार्रवाई बदलती है, शरीर का विज्ञान नहीं। दोनों में नील और सूजन, आंखों में सूखापन या जलन, असमान पलकें या सिलवट, निशान की रेखा, आंख पूरी तरह बंद करने में दिक्कत, खून बहना या संक्रमण, और बहुत कम मामलों में आंख के पीछे गंभीर खून बहना शामिल हो सकता है जो नज़र के लिए ख़तरा है। नतीजे लोगों में अलग होते हैं, और कुछ में दोबारा समायोजन की ज़रूरत पड़ती है। त्वचा हटाने से हर लक्षण, जैसे भौंह दर्द, पक्का ठीक हो जाए, ऐसा नहीं कहा जा सकता।'
+          'No. Calling surgery functional or cosmetic changes the paperwork, not the biology. Both can involve bruising and swelling, dry or irritated eyes, uneven eyelids or creases, a visible scar line, difficulty closing the eyes fully, bleeding or infection. Results vary between people, and a further adjustment is needed in some. Removing skin does not guarantee that every symptom, such as brow ache, will disappear.',
+          'नहीं। सर्जरी को फ़ंक्शनल या कॉस्मेटिक कहने से कागज़ी कार्रवाई बदलती है, शरीर का विज्ञान नहीं। दोनों में नील और सूजन, आंखों में सूखापन या जलन, असमान पलकें या सिलवट, निशान की रेखा, आंख पूरी तरह बंद करने में दिक्कत, खून बहना या संक्रमण शामिल हो सकते हैं। नतीजे लोगों में अलग होते हैं, और कुछ में दोबारा समायोजन की ज़रूरत पड़ती है। त्वचा हटाने से हर लक्षण, जैसे भौंह दर्द, पक्का ठीक हो जाए, ऐसा नहीं कहा जा सकता।'
         ),
         t(
           'A good surgeon will also be honest if your concern is mainly cosmetic, or if your symptoms point to a cause that surgery will not fix. The full list of risks is in the [blepharoplasty guide](/blepharoplasty-in-lucknow).',
@@ -275,6 +267,7 @@ const guide: Guide = {
   },
 
   reviewerNotes: [
+    'Pre-applied on 16 Nov 2026 from her ptosis/ectropion review: urgent/emergency boxes removed, hospital name taken out of the opening paragraph, search description and FAQ answers (kept in the \'Where\' line and credentials), and home-care/risk wording trimmed. Please check the page reads well without them.',
     'Confirm whether a visual-field test (and which type) is available and routinely used at Alyantra or arranged elsewhere; the page says "where available" and "often" without naming a device. Edit if it is not part of her routine.',
     'Confirm the documentation list (history, measurements, photographs, visual-field test, written report) matches what she provides for insurance pre-authorisation, and that she is happy to provide a written report.',
     'Insurance wording is generic: purely cosmetic surgery usually excluded; functional cases may be considered with documentation; pre-authorisation via the hospital insurance/TPA desk. No insurer, scheme or approval rate is named. Confirm Alyantra has an insurance/TPA desk (already referenced in the cost page).',

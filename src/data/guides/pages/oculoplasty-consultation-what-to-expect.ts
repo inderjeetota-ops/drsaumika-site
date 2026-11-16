@@ -13,13 +13,13 @@ const guide: Guide = {
     'ओकुलोप्लास्टी परामर्श: पहली मुलाकात में क्या होता है | डॉ. सौमिका'
   ),
   metaDescription: t(
-    'Oculoplasty consultation, what to expect: how to book, what to bring, tests, questions to ask and next steps with Dr Saumika Singh, Gomti Nagar, Lucknow.',
-    'ओकुलोप्लास्टी परामर्श में क्या उम्मीद करें: अपॉइंटमेंट कैसे लें, क्या लेकर जाएं, कौन-सी जांचें होती हैं, क्या सवाल पूछें। डॉ. सौमिका सिंह, गोमती नगर, लखनऊ।'
+    'Oculoplasty consultation, what to expect: how to book, what to bring, tests, questions to ask and next steps with Dr Saumika Singh, Lucknow.',
+    'ओकुलोप्लास्टी परामर्श में क्या उम्मीद करें: अपॉइंटमेंट कैसे लें, क्या लेकर जाएं, कौन-सी जांचें होती हैं, क्या सवाल पूछें। डॉ. सौमिका सिंह, लखनऊ।'
   ),
   h1: t('Oculoplasty Consultation: What to Expect at Your First Visit', 'ओकुलोप्लास्टी परामर्श: पहली मुलाकात में क्या होता है'),
   lead: t(
-    'At an oculoplasty consultation you can expect a conversation about your symptoms and medical history, a careful examination of your eyes, eyelids and tear system, sometimes a few simple tests, and a discussion of the treatment options, risks and next steps. Nothing is booked for surgery at the first visit unless you decide it is right for you. This guide from Dr. Saumika Singh’s clinic at Alyantra Medicity Superspeciality Hospital, Gomti Nagar, Lucknow, explains how to book, what to bring, what happens step by step, what to ask, and what follows the visit, so that you can arrive prepared and relaxed.',
-    'ओकुलोप्लास्टी परामर्श में आपसे आपके लक्षणों और स्वास्थ्य इतिहास के बारे में बातचीत होती है, आंखों, पलकों और आंसू तंत्र की सावधानी से जांच होती है, कभी-कभी कुछ सरल टेस्ट होते हैं, और फिर इलाज के विकल्पों, जोखिमों और अगले कदमों पर चर्चा होती है। पहली मुलाकात में सर्जरी तब तक तय नहीं होती जब तक आप खुद उसे सही न समझें। अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर, लखनऊ में डॉ. सौमिका सिंह के क्लिनिक की यह मार्गदर्शिका बताती है कि अपॉइंटमेंट कैसे लें, क्या लेकर जाएं, कदम-दर-कदम क्या होता है, क्या पूछें, और मुलाकात के बाद क्या होता है — ताकि आप तैयार और निश्चिंत होकर आएं।'
+    'At an oculoplasty consultation you can expect a conversation about your symptoms and medical history, a careful examination of your eyes, eyelids and tear system, sometimes a few simple tests, and a discussion of the treatment options, risks and next steps. Nothing is booked for surgery at the first visit unless you decide it is right for you. This guide from Dr. Saumika Singh’s clinic in Lucknow, explains how to book, what to bring, what happens step by step, what to ask, and what follows the visit, so that you can arrive prepared and relaxed.',
+    'ओकुलोप्लास्टी परामर्श में आपसे आपके लक्षणों और स्वास्थ्य इतिहास के बारे में बातचीत होती है, आंखों, पलकों और आंसू तंत्र की सावधानी से जांच होती है, कभी-कभी कुछ सरल टेस्ट होते हैं, और फिर इलाज के विकल्पों, जोखिमों और अगले कदमों पर चर्चा होती है। पहली मुलाकात में सर्जरी तब तक तय नहीं होती जब तक आप खुद उसे सही न समझें। लखनऊ में डॉ. सौमिका सिंह के क्लिनिक की यह मार्गदर्शिका बताती है कि अपॉइंटमेंट कैसे लें, क्या लेकर जाएं, कदम-दर-कदम क्या होता है, क्या पूछें, और मुलाकात के बाद क्या होता है — ताकि आप तैयार और निश्चिंत होकर आएं।'
   ),
   atAGlance: [
     t('**Where:** Alyantra Medicity Superspeciality Hospital, Vibhuti Khand, Gomti Nagar, Lucknow', '**कहां:** अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, विभूति खंड, गोमती नगर, लखनऊ'),
@@ -39,8 +39,8 @@ const guide: Guide = {
           'आप फ़ोन या WhatsApp से, या [संपर्क पेज](/contact) के ज़रिए संदेश भेजकर अपॉइंटमेंट बुक कर सकते हैं। परामर्श अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, विभूति खंड, गोमती नगर में सोमवार से शनिवार, सुबह 10 से शाम 6 बजे के बीच, पूर्व अपॉइंटमेंट द्वारा होते हैं। डॉ. सिंह ज़रूरत के अनुसार अन्य केंद्रों पर भी जाती हैं, इसलिए बुकिंग के समय स्थान की पुष्टि कर लें। रेफ़रल पत्र की ज़रूरत नहीं है, पर पिछले डॉक्टर के नोट्स काम आते हैं।'
         ),
         t(
-          'When you call or message, say briefly what the problem is (for example “drooping eyelid”, “watering eye”, “eyelid lump” or “child with sticky eye”) so that the right time slot and equipment can be planned. If your problem is urgent, see the warning box further down this page.',
-          'फ़ोन या संदेश करते समय संक्षेप में समस्या बताएं (जैसे “झुकी पलक”, “आंख से पानी आना”, “पलक की गांठ” या “बच्चे की चिपचिपी आंख”), ताकि सही समय और ज़रूरी उपकरणों की योजना बन सके। अगर समस्या आपातकालीन है, तो इस पेज पर आगे दिया गया चेतावनी बॉक्स देखें।'
+          'When you call or message, say briefly what the problem is (for example “drooping eyelid”, “watering eye”, “eyelid lump” or “child with sticky eye”) so that the right time slot and equipment can be planned.',
+          'फ़ोन या संदेश करते समय संक्षेप में समस्या बताएं (जैसे “झुकी पलक”, “आंख से पानी आना”, “पलक की गांठ” या “बच्चे की चिपचिपी आंख”), ताकि सही समय और ज़रूरी उपकरणों की योजना बन सके।'
         ),
       ],
     },
@@ -156,14 +156,6 @@ const guide: Guide = {
           'पलक, आंसू नली और ऑर्बिट की समस्याओं की आमतौर पर सामने बैठकर जांच ज़रूरी होती है, क्योंकि नाप-जोख, स्लिट-लैम्प से देखना और सिरिंजिंग जैसे टेस्ट वीडियो कॉल पर भरोसेमंद ढंग से नहीं हो सकते। अगर आप लखनऊ के बाहर रहते हैं, तो क्लिनिक को फ़ोन या संदेश करके पूछें कि अपनी विज़िट की योजना कैसे बनाएं, क्या जांचें उसी यात्रा में हो सकती हैं, और क्या आप रिपोर्ट पहले भेज सकते हैं।'
         ),
       ],
-      callout: {
-        tone: 'urgent',
-        title: t('Do not wait for a routine appointment if…', 'सामान्य अपॉइंटमेंट का इंतज़ार न करें अगर…'),
-        text: t(
-          'You have an eye injury or a cut eyelid, a chemical splash in the eye (rinse with plenty of clean water straight away and keep rinsing on the way), sudden loss of vision, a **sudden** drooping eyelid with double vision or headache, an eye that bulges with pain or loss of vision, or a painful red swelling around the eye with fever. Go to the nearest emergency department or eye casualty immediately.',
-          'आंख में चोट लगी हो या पलक कट गई हो, आंख में केमिकल गिरा हो (तुरंत खूब साफ़ पानी से धोएं और रास्ते में भी धोते रहें), अचानक नज़र चली जाए, **अचानक** पलक झुके और साथ में दोहरा दिखे या सिरदर्द हो, आंख दर्द या नज़र कम होने के साथ बाहर उभर आए, या आंख के आसपास बुखार के साथ दर्द भरी लाल सूजन हो — तो तुरंत नज़दीकी इमरजेंसी विभाग या आई कैज़ुअल्टी में जाएं।'
-        ),
-      },
     },
   ],
 
@@ -232,13 +224,14 @@ const guide: Guide = {
   schema: { type: 'MedicalWebPage', name: 'Oculoplasty consultation' },
 
   reviewerNotes: [
+    'Pre-applied on 16 Nov 2026 from her ptosis/ectropion review: urgent/emergency boxes removed, hospital name taken out of the opening paragraph, search description and FAQ answers (kept in the \'Where\' line and credentials), and home-care/risk wording trimmed. Please check the page reads well without them.',
+    'The hospital address and timings are kept in the booking section, because this page explains how to book.',
     'Confirm the "Why" bullet that options are explained in English or Hindi (languages she consults in). Add any other language she uses, or delete the bullet.',
     'Confirm the visit steps match her routine: slit-lamp, eyelid measurements, dilation only when needed, syringing at the first visit for watering eyes, photographs with consent.',
     'How long a first visit takes is deliberately not stated; the page tells patients to ask the clinic. Supply a typical range if you want one.',
     'Online/teleconsultation is NOT claimed. The page says in-person examination is usually needed and suggests sending reports in advance; confirm whether reports may be sent by WhatsApp/email, and whether you offer any video consultation.',
     'Confirm no referral letter is needed (also stated on the Batch 1 surgeon page) and that the clinic can plan same-trip tests for out-of-town patients.',
     'Confirm that insurance/TPA documents can be reviewed at the consultation (page says "discussed individually") and the child-visit wording (dilating drops may be used in children; babies fed before the visit).',
-    'Confirm the emergency first-aid wording for chemical splash (rinse with clean water).',
     'References verified by fetch: NHS eyelid-problems (urgent advice section present), AAO eyelid-surgery, AAO what-is-ptosis, Oculofacial Society home. None of these pages specifically describe consultations; they support the urgent-symptom and condition statements only. AAO eye-exam and NHS eye-tests URLs could not be verified and were not used.',
   ],
 };
