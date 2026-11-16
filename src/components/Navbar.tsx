@@ -42,6 +42,7 @@ export function Navbar() {
     { name: language === 'hi' ? 'परिचय' : 'About', path: '/about' },
     { name: t('nav.conditions'), path: '#conditions' },
     { name: t('nav.surgicalOutcomes'), path: '#surgical-outcomes' },
+    { name: t('nav.patientGuides'), path: '#patient-guides' },
     { name: t('nav.publications'), path: '#publications' },
     { name: t('nav.gallery'), path: '#gallery' },
     { name: t('nav.contact'), path: '#contact' },
@@ -65,7 +66,7 @@ export function Navbar() {
     }
 
     // 3. Middle sections check
-    const sections = ['home', 'conditions', 'surgical-outcomes', 'publications', 'gallery', 'contact'];
+    const sections = ['home', 'conditions', 'surgical-outcomes', 'patient-guides', 'publications', 'gallery', 'contact'];
     let currentSection = '#home';
     for (const id of sections) {
       const el = document.getElementById(id);

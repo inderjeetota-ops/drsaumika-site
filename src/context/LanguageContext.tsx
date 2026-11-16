@@ -17,6 +17,7 @@ const translations = {
     'nav.contact': 'Contact',
     'nav.surgicalOutcomes': 'Surgical Outcomes',
     'nav.publications': 'Publications',
+    'nav.patientGuides': 'Patient Guides',
     'nav.bookNow': 'Book Now',
     
     // Home - Hero
@@ -133,6 +134,7 @@ const translations = {
     'nav.contact': 'संपर्क करें',
     'nav.surgicalOutcomes': 'सर्जरी के परिणाम',
     'nav.publications': 'प्रकाशन',
+    'nav.patientGuides': 'रोगी मार्गदर्शिकाएँ',
     'nav.bookNow': 'अपॉइंटमेंट बुक करें',
     
     // Home - Hero

@@ -13,6 +13,9 @@ import SurgicalCaseCard from '../components/SurgicalCaseCard';
 import { publications, isDoctorAuthor, formatRef } from '../data/publications';
 import { BookOpen } from 'lucide-react';
 import { getGuideEntry, isPublished } from '../data/guides';
+import { GuideCard, publishedGuides } from '../components/guide/GuideCard';
+
+const homeGuides = publishedGuides().slice(0, 6);
 
 
 const OrbitalIcon = (props: React.SVGProps<SVGSVGElement>) => (
@@ -476,6 +479,43 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Patient Guides teaser — only Dr Saumika-approved guides; hidden until at least one is published */}
+      {homeGuides.length > 0 && (
+      <section id="patient-guides" className="py-20 px-4 sm:px-6 lg:px-8 bg-white relative overflow-hidden">
+        <div className="max-w-7xl mx-auto relative z-10">
+          <div className="text-center mb-12">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold/10 border border-gold/20 text-gold-dark text-xs font-semibold tracking-widest uppercase mb-4">
+              <BookOpen className="h-3 w-3" aria-hidden="true" />
+              <span>{language === 'hi' ? 'रोगी शिक्षा' : 'Patient education'}</span>
+            </div>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-navy mb-4 tracking-tight">
+              {t('nav.patientGuides')}
+            </h2>
+            <p className="text-sm sm:text-base text-navy/70 max-w-2xl mx-auto leading-relaxed">
+              {language === 'hi'
+                ? 'सर्जरी, रिकवरी और जोखिमों पर सरल भाषा में मार्गदर्शिकाएँ — डॉ. सौमिका सिंह द्वारा चिकित्सकीय समीक्षा की गई।'
+                : 'Plain-language guides to surgery, recovery and risks — medically reviewed by Dr. Saumika Singh.'}
+            </p>
+            <div className="w-16 h-[3px] bg-gold mx-auto mt-6 rounded-full" />
+          </div>
+          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {homeGuides.map((g) => (
+              <li key={g.slug}><GuideCard g={g} language={language} /></li>
+            ))}
+          </ul>
+          <div className="mt-10 flex justify-center">
+            <Link
+              to={`${language === 'hi' ? '/hi' : ''}/patient-guides`}
+              className="inline-flex items-center gap-2 px-8 py-3.5 bg-gradient-to-r from-navy to-[#001d3d] hover:from-[#0f2a4a] hover:to-navy text-ivory font-bold tracking-wider uppercase text-xs rounded-full transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5 active:scale-95 group"
+            >
+              {language === 'hi' ? 'सभी मार्गदर्शिकाएँ देखें' : 'View all patient guides'}
+              <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" aria-hidden="true" />
+            </Link>
+          </div>
+        </div>
+      </section>
+      )}
 
       {/* Publications Teaser */}
       <section id="publications" className="py-24 px-4 sm:px-6 lg:px-8 bg-ivory relative overflow-hidden">
