@@ -13,8 +13,8 @@ const guide: Guide = {
     'लखनऊ में टोसिस सर्जरी – झुकी हुई पलक का इलाज | डॉ. सौमिका सिंह'
   ),
   metaDescription: t(
-    'Ptosis surgery in Lucknow by oculoplasty surgeon Dr Saumika Singh, Gomti Nagar: causes of drooping eyelid, levator and sling surgery, recovery, risks and cost.',
-    'लखनऊ में टोसिस (झुकी पलक) सर्जरी – ओकुलोप्लास्टी सर्जन डॉ. सौमिका सिंह, अलयंत्रा मेडिसिटी, गोमती नगर। कारण, लेवेटर व स्लिंग सर्जरी, रिकवरी, जोखिम और खर्च।'
+    'Ptosis surgery in Lucknow by oculoplasty surgeon Dr Saumika Singh: causes of drooping eyelid, surgical procedures, recovery, risks and cost.',
+    'लखनऊ में टोसिस (झुकी पलक) सर्जरी – ओकुलोप्लास्टी सर्जन डॉ. सौमिका सिंह। झुकी पलक के कारण, सर्जिकल प्रक्रियाएं, रिकवरी, जोखिम और खर्च।'
   ),
   h1: t('Ptosis Surgery in Lucknow – Drooping Eyelid Correction', 'लखनऊ में टोसिस सर्जरी – झुकी हुई पलक का इलाज'),
   lead: t(
@@ -23,7 +23,7 @@ const guide: Guide = {
   ),
   atAGlance: [
     t('**What it treats:** a drooping upper eyelid (ptosis) in adults and children', '**किसके लिए:** वयस्कों और बच्चों में झुकी हुई ऊपरी पलक (टोसिस)'),
-    t('**Main techniques:** levator muscle surgery (resection/advancement) or frontalis sling', '**मुख्य तकनीकें:** लेवेटर मांसपेशी सर्जरी (रिसेक्शन/एडवांसमेंट) या फ्रंटालिस स्लिंग'),
+    t('**Main techniques:** levator muscle surgery (resection/advancement), Müller muscle–conjunctival resection (MMCR) or frontalis sling', '**मुख्य तकनीकें:** लेवेटर मांसपेशी सर्जरी (रिसेक्शन/एडवांसमेंट), मुलर मसल–कंजंक्टाइवल रिसेक्शन (MMCR) या फ्रंटालिस स्लिंग'),
     t('**Anaesthesia:** usually local in adults; general anaesthesia for children', '**बेहोशी:** वयस्कों में आमतौर पर लोकल; बच्चों में जनरल एनेस्थीसिया'),
     t('**Hospital stay:** usually day care (same-day discharge)', '**अस्पताल में रुकना:** आमतौर पर डे-केयर (उसी दिन छुट्टी)'),
     t('**Swelling and bruising:** typically settle over 1–3 weeks', '**सूजन और नील:** आमतौर पर 1–3 हफ़्तों में कम हो जाते हैं'),
@@ -36,8 +36,8 @@ const guide: Guide = {
       h2: t('What is ptosis (drooping eyelid)?', 'टोसिस (झुकी हुई पलक) क्या है?'),
       paras: [
         t(
-          'Ptosis means the upper eyelid sits lower than it should. In a normal eyelid, the edge of the lid rests just over the top of the coloured part of the eye (the iris). When the eyelid droops, it can cover part of the pupil, narrow the field of vision from above, and make one eye look smaller or sleepier than the other. It can affect one eye or both.',
-          'टोसिस का मतलब है कि ऊपरी पलक अपनी सामान्य जगह से नीचे रहती है। सामान्य रूप से पलक का किनारा आंख के रंगीन हिस्से (आइरिस) के ऊपरी भाग को थोड़ा-सा ढकता है। जब पलक झुकती है तो वह पुतली के हिस्से को ढक सकती है, ऊपर की ओर देखने का दायरा कम कर सकती है और एक आंख दूसरी से छोटी या “नींद भरी” दिख सकती है। यह एक या दोनों आंखों में हो सकता है।'
+          'Ptosis means the upper eyelid sits lower than it should. In a normal eyelid, the edge of the lid rests just over the top of the cornea (black circular part of the eye). When the eyelid droops, it can cover part of the pupil, narrow the field of vision from above, and make one eye look smaller or sleepier than the other. It can affect one eye or both.',
+          'टोसिस का मतलब है कि ऊपरी पलक अपनी सामान्य जगह से नीचे रहती है। सामान्य रूप से पलक का किनारा कॉर्निया (आंख का काला गोल हिस्सा) के ऊपरी भाग को थोड़ा-सा ढकता है। जब पलक झुकती है तो वह पुतली के हिस्से को ढक सकती है, ऊपर की ओर देखने का दायरा कम कर सकती है और एक आंख दूसरी से छोटी या “नींद भरी” दिख सकती है। यह एक या दोनों आंखों में हो सकता है।'
         ),
         t(
           'Ptosis is different from excess eyelid skin (dermatochalasis), where the eyelid margin is in the right place but folds of loose skin hang over it. The two often occur together in older adults, and they need different operations — ptosis surgery lifts the eyelid margin, while [blepharoplasty](/blepharoplasty-in-lucknow) removes excess skin. Telling them apart is one of the first things an oculoplastic surgeon checks.',
@@ -57,14 +57,6 @@ const guide: Guide = {
         t('The droop gets worse when you are tired, or varies through the day (this needs a medical check before any surgery)', 'थकान में झुकाव बढ़ जाता है या दिन भर में बदलता रहता है (सर्जरी से पहले इसकी मेडिकल जांच ज़रूरी है)'),
         t('A previous eyelid or eye operation has left one lid lower than the other', 'पहले हुई पलक या आंख की सर्जरी के बाद एक पलक दूसरी से नीचे रह गई है'),
       ],
-      callout: {
-        tone: 'urgent',
-        title: t('When a drooping eyelid is an emergency', 'कब झुकी पलक इमरजेंसी है'),
-        text: t(
-          'Go to the nearest emergency department immediately if a droop appears **suddenly** together with double vision, a severe headache, a larger or smaller pupil on one side, neck pain, weakness or numbness of the face, arm or leg, or slurred speech. These can be signs of a nerve problem, an aneurysm or a stroke, which need urgent medical care — not eyelid surgery.',
-          'अगर पलक **अचानक** झुके और साथ में दोहरा दिखना, तेज़ सिरदर्द, एक तरफ़ की पुतली बड़ी या छोटी होना, गर्दन में दर्द, चेहरे/हाथ/पैर में कमज़ोरी या सुन्नपन, या बोलने में लड़खड़ाहट हो, तो तुरंत नज़दीकी इमरजेंसी में जाएं। ये नस की समस्या, एन्यूरिज़्म या स्ट्रोक के संकेत हो सकते हैं, जिनमें पलक सर्जरी नहीं बल्कि तत्काल इलाज चाहिए।'
-        ),
-      },
     },
     {
       id: 'types-of-ptosis',
@@ -99,7 +91,7 @@ const guide: Guide = {
       ],
       steps: [
         t('Take a history: when the droop started, whether it varies through the day, any double vision, previous surgery, thyroid or neurological conditions, and medicines such as blood thinners', 'इतिहास लेना: झुकाव कब शुरू हुआ, क्या यह दिन भर में बदलता है, दोहरा दिखना, पहले की सर्जरी, थायरॉइड या नस संबंधी बीमारियां, और ब्लड थिनर जैसी दवाएं'),
-        t('Measure the eyelid height, the eyelid crease and how far the lifting (levator) muscle moves the lid — this measurement largely decides between levator surgery and a sling', 'पलक की ऊंचाई, पलक की सिलवट (क्रीज़) और लेवेटर मांसपेशी पलक को कितना उठाती है — यह नाप ही काफ़ी हद तक तय करता है कि लेवेटर सर्जरी होगी या स्लिंग'),
+        t('Measure the eyelid height, the eyelid crease and how far the lifting (levator) muscle moves the lid — this measurement largely decides between levator surgery, MMCR and a sling', 'पलक की ऊंचाई, पलक की सिलवट (क्रीज़) और लेवेटर मांसपेशी पलक को कितना उठाती है — यह नाप ही काफ़ी हद तक तय करता है कि लेवेटर सर्जरी, MMCR या स्लिंग में से कौन-सी होगी'),
         t('Check vision, the pupils, eye movements, eyelid closure and the tear film, because an eye that does not close or lubricate well needs a more cautious lift', 'नज़र, पुतलियां, आंखों की गति, पलक का बंद होना और आंसू की परत की जांच — क्योंकि जो आंख ठीक से बंद नहीं होती या सूखी रहती है, उसमें पलक कम उठाई जाती है'),
         t('Look for signs of myasthenia or a nerve problem, and arrange tests or referral when needed', 'मायस्थीनिया या नस की समस्या के संकेत देखना, और ज़रूरत हो तो जांच या रेफ़रल'),
         t('In children, check for lazy eye (amblyopia) and focusing problems such as astigmatism, together with an orthoptic/paediatric eye assessment', 'बच्चों में लेज़ी आई (एम्ब्लियोपिया) और एस्टिगमैटिज़्म जैसी नज़र की समस्याओं की जांच, साथ में बच्चों की आंखों की जांच'),
@@ -111,8 +103,8 @@ const guide: Guide = {
       h2: t('Ptosis surgery options', 'टोसिस सर्जरी के विकल्प'),
       paras: [
         t(
-          'Dr. Saumika Singh’s ptosis work includes levator muscle surgery and frontalis sling surgery. The choice is made for each eyelid after assessment — there is no single operation that suits every droop.',
-          'डॉ. सौमिका सिंह टोसिस के लिए लेवेटर मांसपेशी सर्जरी और फ्रंटालिस स्लिंग सर्जरी करती हैं। हर पलक के लिए विकल्प जांच के बाद तय होता है — हर झुकाव के लिए एक ही ऑपरेशन सही नहीं होता।'
+          'Dr. Saumika Singh’s ptosis work includes levator muscle surgery, Müller muscle–conjunctival resection (MMCR) and frontalis sling surgery. The choice is made for each eyelid after assessment — there is no single operation that suits every droop.',
+          'डॉ. सौमिका सिंह टोसिस के लिए लेवेटर मांसपेशी सर्जरी, मुलर मसल–कंजंक्टाइवल रिसेक्शन (MMCR) और फ्रंटालिस स्लिंग सर्जरी करती हैं। हर पलक के लिए विकल्प जांच के बाद तय होता है — हर झुकाव के लिए एक ही ऑपरेशन सही नहीं होता।'
         ),
       ],
       subsections: [
@@ -122,6 +114,15 @@ const guide: Guide = {
             t(
               'Through a small cut hidden in the natural eyelid crease, the surgeon finds the levator muscle and its tendon, then shortens, tightens or reattaches it to the eyelid plate (tarsus). In adults this is usually done under local anaesthesia, so the surgeon can ask you to open your eyes during the operation and fine-tune the height and curve. It is the most common approach for age-related and contact-lens-related ptosis and for many children with fair muscle function.',
               'पलक की प्राकृतिक सिलवट में छोटे चीरे से सर्जन लेवेटर मांसपेशी और उसके टेंडन तक पहुंचते हैं और उसे छोटा करते, कसते या पलक की प्लेट (टार्सस) से दोबारा जोड़ते हैं। वयस्कों में यह आमतौर पर लोकल एनेस्थीसिया में होता है, ताकि ऑपरेशन के दौरान आपसे आंख खोलने को कहा जा सके और पलक की ऊंचाई व आकार ठीक किया जा सके। उम्र और कॉन्टैक्ट लेंस से जुड़े टोसिस और ठीक-ठाक मांसपेशी वाले कई बच्चों में यही तरीका सबसे आम है।'
+            ),
+          ],
+        },
+        {
+          h3: t('Müller muscle–conjunctival resection, MMCR (for mild ptosis with good muscle function)', 'मुलर मसल–कंजंक्टाइवल रिसेक्शन, MMCR (अच्छी मांसपेशी क्षमता वाले हल्के टोसिस के लिए)'),
+          paras: [
+            t(
+              'For a mild droop where the lifting muscle works well, the eyelid can be lifted from the inside. The eyelid is gently turned over and a measured strip of Müller’s muscle (a small lifting muscle beneath the levator) and the thin lining of the inner eyelid (conjunctiva) is removed. Because there is no cut on the skin, there is no visible scar. An eye-drop test (phenylephrine) is often done beforehand to see how well the eyelid rises, which helps decide whether MMCR is suitable and how much to correct. It is usually done under local anaesthesia as a day-care procedure.',
+              'जब झुकाव हल्का हो और पलक उठाने वाली मांसपेशी अच्छी तरह काम करती हो, तो पलक को अंदर की ओर से उठाया जा सकता है। पलक को धीरे से पलटकर मुलर मांसपेशी (लेवेटर के नीचे स्थित एक छोटी उठाने वाली मांसपेशी) और पलक की अंदरूनी पतली परत (कंजंक्टाइवा) की नपी-तुली पट्टी निकाली जाती है। त्वचा पर कोई चीरा नहीं लगता, इसलिए कोई निशान नहीं दिखता। पहले अक्सर एक आई-ड्रॉप टेस्ट (फ़िनाइलएफ़्रिन) किया जाता है, जिससे पता चलता है कि पलक कितनी उठती है — इससे तय होता है कि MMCR उपयुक्त है या नहीं और कितना सुधार करना है। यह आमतौर पर लोकल एनेस्थीसिया में डे-केयर प्रक्रिया के रूप में होता है।'
             ),
           ],
         },
@@ -153,7 +154,7 @@ const guide: Guide = {
         t('The eyelid is marked while you are sitting up, and photographs are taken', 'बैठी अवस्था में पलक पर निशान लगाए जाते हैं और तस्वीरें ली जाती हैं'),
         t('Local anaesthetic is injected into the eyelid (or the child is put to sleep by the anaesthetist)', 'पलक में लोकल एनेस्थीसिया का इंजेक्शन दिया जाता है (या बच्चे को एनेस्थेटिस्ट बेहोश करते हैं)'),
         t('The operation itself usually takes about 30–90 minutes per eyelid, depending on the technique', 'तकनीक के अनुसार ऑपरेशन में आमतौर पर प्रति पलक लगभग 30–90 मिनट लगते हैं'),
-        t('Fine stitches close the crease incision; a light pad or ointment may be applied', 'बारीक टांकों से चीरा बंद किया जाता है; हल्का पैड या ऑइंटमेंट लगाया जा सकता है'),
+        t('Fine stitches close the incision; a light pad or ointment may be applied', 'बारीक टांकों से चीरा बंद किया जाता है; हल्का पैड या ऑइंटमेंट लगाया जा सकता है'),
         t('Most patients go home the same day with drops, ointment, painkillers and written aftercare advice', 'ज़्यादातर मरीज़ उसी दिन ड्रॉप्स, ऑइंटमेंट, दर्द की दवा और लिखित देखभाल निर्देशों के साथ घर जाते हैं'),
       ],
     },
@@ -169,7 +170,7 @@ const guide: Guide = {
       table: {
         head: [t('Time after surgery', 'सर्जरी के बाद समय'), t('What to expect', 'क्या उम्मीद करें')],
         rows: [
-          [t('First 48 hours', 'पहले 48 घंटे'), t('Swelling, mild discomfort, some oozing; cold compresses (as advised) and sleeping with the head raised help', 'सूजन, हल्की तकलीफ़, थोड़ा रिसाव; सलाह के अनुसार ठंडी सिकाई और सिर ऊंचा रखकर सोना मददगार')],
+          [t('First 48 hours', 'पहले 48 घंटे'), t('Swelling, mild discomfort, some oozing', 'सूजन, हल्की तकलीफ़, थोड़ा रिसाव')],
           [t('Days 5–10', '5–10 दिन'), t('Stitches removed if non-absorbable; bruising starts to fade; light desk work often possible', 'न घुलने वाले टांके हों तो हटाए जाते हैं; नील कम होने लगता है; हल्का दफ़्तरी काम अक्सर संभव')],
           [t('Weeks 2–3', '2–3 हफ़्ते'), t('Most visible swelling settles; avoid swimming, eye make-up and heavy exercise until cleared', 'ज़्यादातर दिखने वाली सूजन कम हो जाती है; अनुमति मिलने तक तैराकी, आई मेकअप और भारी व्यायाम से बचें')],
           [t('Weeks 6–12', '6–12 हफ़्ते'), t('Eyelid height and crease settle; the final result is usually judged around this time', 'पलक की ऊंचाई और सिलवट स्थिर हो जाती है; अंतिम परिणाम आमतौर पर इसी समय आंका जाता है')],
@@ -177,18 +178,14 @@ const guide: Guide = {
       },
       bullets: [
         t('Do not rub the eye; use drops and ointment exactly as prescribed', 'आंख न मलें; ड्रॉप्स और ऑइंटमेंट निर्देशानुसार ही लगाएं'),
-        t('Avoid bending, heavy lifting and strenuous exercise for about the first week', 'लगभग पहले हफ़्ते तक झुकने, भारी सामान उठाने और कड़े व्यायाम से बचें'),
-        t('Seek urgent review for severe or increasing pain, rapidly increasing swelling, bleeding that does not stop with gentle pressure, or any drop in vision', 'तेज़ या बढ़ता दर्द, तेज़ी से बढ़ती सूजन, हल्के दबाव से न रुकने वाला खून, या नज़र कम होने पर तुरंत संपर्क करें'),
       ],
       subsections: [
         {
           h3: t('Caring for your eyelids at home', 'घर पर पलकों की देखभाल'),
           bullets: [
-            t('Use cold compresses (a clean cold pack wrapped in a cloth) for short periods in the first 48 hours, as advised; never put ice directly on the skin', 'पहले 48 घंटों में सलाह के अनुसार थोड़ी-थोड़ी देर ठंडी सिकाई करें (कपड़े में लपेटा साफ़ ठंडा पैक); बर्फ़ सीधे त्वचा पर कभी न रखें'),
             t('Clean the stitch line gently only as shown, and apply ointment to the wound if it has been prescribed', 'टांकों की रेखा सिर्फ़ बताए गए तरीके से धीरे से साफ़ करें, और अगर ऑइंटमेंट लिखा गया हो तो घाव पर लगाएं'),
             t('Keep the eye moist: lubricating drops by day and ointment at night are often needed while the eyelid settles', 'आंख को नम रखें: पलक के स्थिर होने तक अक्सर दिन में चिकनाई वाली ड्रॉप्स और रात में ऑइंटमेंट की ज़रूरत होती है'),
-            t('Sleep with the head raised for the first few nights and try not to sleep face-down', 'पहली कुछ रातें सिर ऊंचा रखकर सोएं और पेट के बल सोने से बचें'),
-            t('Keep soap and shampoo out of the eyes for the first week; wash the face around the eyes rather than over them', 'पहले हफ़्ते साबुन और शैम्पू आंखों में न जाने दें; चेहरा आंखों के ऊपर से नहीं, उनके आसपास से धोएं'),
+            t('Avoid using water around the operated eye until your surgeon advises', 'सर्जन की सलाह तक ऑपरेशन वाली आंख के आसपास पानी का इस्तेमाल न करें'),
           ],
         },
         {
@@ -233,10 +230,9 @@ const guide: Guide = {
         t('Under-correction (still low) or over-correction (too high), or a difference between the two sides', 'कम सुधार (पलक अब भी नीची) या ज़्यादा सुधार (बहुत ऊंची), या दोनों तरफ़ फ़र्क'),
         t('An uneven eyelid curve or crease', 'पलक के आकार या सिलवट में असमानता'),
         t('Dry eye or difficulty closing the eye fully, which usually improves but may need long-term lubricants', 'सूखी आंख या आंख पूरी तरह बंद न होना — जो आमतौर पर सुधरता है, पर लंबे समय तक ड्रॉप्स की ज़रूरत पड़ सकती है'),
-        t('Bleeding, infection or a visible scar (uncommon with a crease incision)', 'खून बहना, संक्रमण या दिखने वाला निशान (सिलवट वाले चीरे में कम ही होता है)'),
+        t('Bleeding, infection or a visible scar', 'खून बहना, संक्रमण या दिखने वाला निशान'),
         t('With a sling: infection or exposure of the sling material, or a droop that returns over time', 'स्लिंग में: स्लिंग सामग्री में संक्रमण या बाहर दिखना, या समय के साथ झुकाव लौटना'),
         t('A further adjustment or revision operation in some patients', 'कुछ मरीज़ों में दोबारा समायोजन या रिविज़न सर्जरी'),
-        t('Very rarely, serious bleeding behind the eye that threatens vision — an emergency that needs immediate attention', 'बहुत ही कम, आंख के पीछे गंभीर खून बहना जो नज़र के लिए ख़तरा हो — यह तुरंत इलाज वाली इमरजेंसी है'),
       ],
     },
     {
@@ -258,8 +254,8 @@ const guide: Guide = {
       h2: t('Ptosis surgery cost in Lucknow', 'लखनऊ में टोसिस सर्जरी का खर्च'),
       paras: [
         t(
-          'There is no single fixed price, because the cost depends on whether one or both eyes are treated, the technique (levator surgery or a sling, and the sling material), local or general anaesthesia, the hospital package, and whether other procedures are combined. You will receive an individual estimate after your assessment. See [what affects oculoplasty surgery cost](/oculoplasty-surgery-cost-in-lucknow) for the full list of factors and questions to ask.',
-          'टोसिस सर्जरी की कोई एक तय कीमत नहीं होती, क्योंकि खर्च इन बातों पर निर्भर करता है: एक या दोनों आंखें, तकनीक (लेवेटर सर्जरी या स्लिंग, और स्लिंग की सामग्री), लोकल या जनरल एनेस्थीसिया, अस्पताल का पैकेज, और क्या कोई दूसरी प्रक्रिया साथ में हो रही है। जांच के बाद आपको व्यक्तिगत अनुमान दिया जाएगा। सभी कारकों और पूछने योग्य सवालों के लिए [ओकुलोप्लास्टी सर्जरी के खर्च](/oculoplasty-surgery-cost-in-lucknow) पेज देखें।'
+          'There is no single fixed price, because the cost depends on whether one or both eyes are treated, the technique (levator surgery, MMCR or a sling, and the sling material), local or general anaesthesia, the hospital package, and whether other procedures are combined. You will receive an individual estimate after your assessment. See [what affects oculoplasty surgery cost](/oculoplasty-surgery-cost-in-lucknow) for the full list of factors and questions to ask.',
+          'टोसिस सर्जरी की कोई एक तय कीमत नहीं होती, क्योंकि खर्च इन बातों पर निर्भर करता है: एक या दोनों आंखें, तकनीक (लेवेटर सर्जरी, MMCR या स्लिंग, और स्लिंग की सामग्री), लोकल या जनरल एनेस्थीसिया, अस्पताल का पैकेज, और क्या कोई दूसरी प्रक्रिया साथ में हो रही है। जांच के बाद आपको व्यक्तिगत अनुमान दिया जाएगा। सभी कारकों और पूछने योग्य सवालों के लिए [ओकुलोप्लास्टी सर्जरी के खर्च](/oculoplasty-surgery-cost-in-lucknow) पेज देखें।'
         ),
         t(
           'Ptosis that blocks vision is usually treated as a functional (medical) problem, and many health insurance policies consider such surgery; purely cosmetic eyelid surgery is generally not covered. Coverage depends on your policy and on pre-authorisation, so check with your insurer or TPA and the hospital desk before the operation.',
@@ -271,7 +267,7 @@ const guide: Guide = {
 
   whyDrSaumika: [
     t('Long-term fellowship in Oculoplasty & Ocular Oncology at Dr. Shroff’s Charity Eye Hospital, New Delhi, after MS in Ophthalmology', 'नेत्र विज्ञान में MS के बाद डॉ. श्रॉफ़्स चैरिटी आई हॉस्पिटल, नई दिल्ली से ओकुलोप्लास्टी व ओकुलर ऑन्कोलॉजी में दीर्घकालिक फ़ेलोशिप'),
-    t('Her eyelid practice includes ptosis correction by levator resection and frontalis sling, in adults and children', 'उनके पलक संबंधी कार्य में वयस्कों और बच्चों में लेवेटर रिसेक्शन और फ्रंटालिस स्लिंग द्वारा टोसिस सुधार शामिल है'),
+    t('Her eyelid practice includes ptosis correction customised for every adult and child', 'उनके पलक संबंधी कार्य में हर वयस्क और बच्चे के लिए व्यक्तिगत रूप से तय टोसिस सुधार शामिल है'),
     t('As an eye surgeon, she assesses vision, eye surface and eyelid closure along with appearance — important for a safe lift', 'नेत्र सर्जन होने के नाते वे सुंदरता के साथ-साथ नज़र, आंख की सतह और पलक बंद होने की भी जांच करती हैं — जो सुरक्षित सुधार के लिए ज़रूरी है'),
     t('Registered with the Uttar Pradesh Medical Council (Reg. No. 137106); consults at Alyantra Medicity Superspeciality Hospital, Gomti Nagar', 'उत्तर प्रदेश मेडिकल काउंसिल में पंजीकृत (पंजीकरण सं. 137106); अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में परामर्श'),
   ],
@@ -287,7 +283,7 @@ const guide: Guide = {
     },
     {
       q: t('Can ptosis be treated without surgery?', 'क्या टोसिस का इलाज बिना सर्जरी के हो सकता है?'),
-      a: t('It depends on the cause. Ptosis due to myasthenia gravis or a nerve problem is treated medically first. For some mild acquired ptosis, prescription eye drops that temporarily lift the lid exist, but they are not suitable for everyone and do not correct a stretched or weak muscle. Exercises do not fix true ptosis. For most structural ptosis, surgery is the only lasting correction.', 'यह कारण पर निर्भर है। मायस्थीनिया ग्रेविस या नस से जुड़े टोसिस का पहले दवाओं से इलाज होता है। कुछ हल्के टोसिस में ऐसी डॉक्टर द्वारा लिखी आई ड्रॉप्स मौजूद हैं जो अस्थायी रूप से पलक उठाती हैं, लेकिन ये हर किसी के लिए उपयुक्त नहीं और खिंची या कमज़ोर मांसपेशी को ठीक नहीं करतीं। व्यायाम से असली टोसिस ठीक नहीं होता। ज़्यादातर संरचनात्मक टोसिस में स्थायी सुधार सिर्फ़ सर्जरी से होता है।'),
+      a: t('It depends on the cause. Ptosis due to myasthenia gravis or a nerve problem is treated medically first.', 'यह कारण पर निर्भर है। मायस्थीनिया ग्रेविस या नस से जुड़े टोसिस का पहले दवाओं से इलाज होता है।'),
     },
     {
       q: t('Can ptosis come back after surgery?', 'क्या सर्जरी के बाद टोसिस वापस आ सकता है?'),
@@ -299,7 +295,7 @@ const guide: Guide = {
     },
     {
       q: t('Will there be a visible scar?', 'क्या निशान दिखेगा?'),
-      a: t('For levator surgery, the incision is placed in the natural eyelid crease, so once healed it is usually hard to see when the eyes are open. Sling surgery may need tiny cuts near the eyebrow, which usually fade over time. Healing varies from person to person.', 'लेवेटर सर्जरी में चीरा पलक की प्राकृतिक सिलवट में लगाया जाता है, इसलिए ठीक होने के बाद आंख खुली होने पर यह आमतौर पर मुश्किल से दिखता है। स्लिंग सर्जरी में भौंह के पास छोटे चीरे लग सकते हैं, जो समय के साथ आमतौर पर हल्के हो जाते हैं। हर व्यक्ति में भराव अलग होता है।'),
+      a: t('For levator surgery, the incision is placed in the natural eyelid crease, so once healed it is usually hard to see when the eyes are open. MMCR is done from the inside of the eyelid, so there is no skin incision or visible scar. Sling surgery may need tiny cuts near the eyebrow, which usually fade over time. Healing varies from person to person.', 'लेवेटर सर्जरी में चीरा पलक की प्राकृतिक सिलवट में लगाया जाता है, इसलिए ठीक होने के बाद आंख खुली होने पर यह आमतौर पर मुश्किल से दिखता है। MMCR पलक के अंदर की ओर से किया जाता है, इसलिए त्वचा पर न चीरा लगता है, न निशान दिखता है। स्लिंग सर्जरी में भौंह के पास छोटे चीरे लग सकते हैं, जो समय के साथ आमतौर पर हल्के हो जाते हैं। हर व्यक्ति में भराव अलग होता है।'),
     },
     {
       q: t('Is ptosis surgery covered by health insurance?', 'क्या टोसिस सर्जरी हेल्थ इंश्योरेंस में कवर होती है?'),
@@ -307,7 +303,7 @@ const guide: Guide = {
     },
     {
       q: t('Which doctor should I see for a drooping eyelid in Lucknow?', 'लखनऊ में झुकी पलक के लिए किस डॉक्टर को दिखाएं?'),
-      a: t('An oculoplastic surgeon is an eye surgeon with additional training in eyelid, tear-duct and orbit surgery, so they can assess both the eyelid and the health of the eye. In Lucknow, Dr. Saumika Singh sees patients with ptosis at Alyantra Medicity Superspeciality Hospital, Gomti Nagar. If the droop is sudden and comes with double vision, headache or weakness, go to an emergency department instead.', 'ओकुलोप्लास्टिक सर्जन एक नेत्र सर्जन होते हैं जिन्होंने पलक, आंसू नली और ऑर्बिट की सर्जरी में अतिरिक्त प्रशिक्षण लिया हो, इसलिए वे पलक और आंख दोनों की जांच कर सकते हैं। लखनऊ में डॉ. सौमिका सिंह अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में टोसिस के मरीज़ देखती हैं। अगर झुकाव अचानक हो और साथ में दोहरा दिखना, सिरदर्द या कमज़ोरी हो, तो इमरजेंसी में जाएं।'),
+      a: t('An oculoplastic surgeon is an eye surgeon with additional training in eyelid, tear-duct and orbit surgery, so they can assess both the eyelid and the health of the eye. In Lucknow, Dr. Saumika Singh sees patients with ptosis at Alyantra Medicity Superspeciality Hospital, Gomti Nagar.', 'ओकुलोप्लास्टिक सर्जन एक नेत्र सर्जन होते हैं जिन्होंने पलक, आंसू नली और ऑर्बिट की सर्जरी में अतिरिक्त प्रशिक्षण लिया हो, इसलिए वे पलक और आंख दोनों की जांच कर सकते हैं। लखनऊ में डॉ. सौमिका सिंह अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में टोसिस के मरीज़ देखती हैं।'),
     },
   ],
 
@@ -337,17 +333,13 @@ const guide: Guide = {
   schema: {
     type: 'MedicalProcedure',
     name: 'Ptosis surgery (blepharoptosis repair)',
-    alternateName: ['Drooping eyelid surgery', 'Levator resection', 'Frontalis sling surgery'],
+    alternateName: ['Drooping eyelid surgery', 'Levator resection', 'Müller muscle–conjunctival resection (MMCR)', 'Frontalis sling surgery'],
     procedureType: 'SurgicalProcedure',
     bodyLocation: 'Upper eyelid',
   },
 
   reviewerNotes: [
-    'Confirm the operating time range (30–90 min per eyelid) and same-day discharge as typical at Alyantra.',
-    'Confirm which sling materials she uses (silicone rod / autologous fascia) before publishing; edit the sentence if only one.',
-    'Confirm whether she performs posterior-approach (Müller muscle–conjunctival resection) surgery; it is deliberately not mentioned.',
-    'Prescription lifting drops (oxymetazoline) are mentioned generically in an FAQ — confirm she is happy with this wording.',
-    'Confirm the children’s surgery timing wording ("often before school age").',
+    'Approved by Dr Saumika on 16 Nov 2026 with amendments (review doc comments applied). The new MMCR wording was added on her request; confirm it on the live page.',
   ],
 };
 

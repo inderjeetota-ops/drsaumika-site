@@ -18,8 +18,8 @@ const guide: Guide = {
   ),
   h1: t('Ectropion Surgery in Lucknow – Outward-Turning Eyelid Repair', 'लखनऊ में एक्ट्रोपियन सर्जरी – बाहर मुड़ी पलक का इलाज'),
   lead: t(
-    'Ectropion surgery in Lucknow is performed by Dr. Saumika Singh, an oculoplasty surgeon at Alyantra Medicity Superspeciality Hospital, Gomti Nagar, to return an outward-turning eyelid to its normal position against the eye. Ectropion is a condition in which the eyelid — usually the lower lid — sags or turns away from the eyeball, exposing its pink inner lining. Because the eye is no longer properly covered and tears cannot reach the drainage opening, ectropion typically causes watering, redness, irritation and a gritty feeling, and it is treated by tightening, lifting or lengthening the eyelid depending on the cause.',
-    'लखनऊ में एक्ट्रोपियन सर्जरी डॉ. सौमिका सिंह करती हैं, जो अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में ओकुलोप्लास्टी सर्जन हैं। इसका उद्देश्य बाहर मुड़ी पलक को फिर से आंख से सटाकर उसकी सामान्य जगह पर लाना है। एक्ट्रोपियन में पलक — आमतौर पर निचली पलक — ढीली होकर आंख से दूर बाहर की ओर मुड़ जाती है, और उसकी अंदर की गुलाबी परत दिखने लगती है। आंख ठीक से ढकी नहीं रहती और आंसू निकासी के छेद तक नहीं पहुंच पाते, इसलिए आमतौर पर पानी आना, लालिमा, जलन और किरकिरापन होता है। कारण के अनुसार पलक को कसकर, उठाकर या लंबा करके इसका इलाज किया जाता है।'
+    'Ectropion surgery in Lucknow is performed by Dr. Saumika Singh, an oculoplasty surgeon, to return an outward-turning eyelid to its normal position against the eye. Ectropion is a condition in which the eyelid — usually the lower lid — sags or turns away from the eyeball, exposing its pink inner lining. Because the eye is no longer properly covered and tears cannot reach the drainage opening, ectropion typically causes watering, redness, irritation and a gritty feeling, and it is treated by tightening, lifting or lengthening the eyelid depending on the cause.',
+    'लखनऊ में एक्ट्रोपियन सर्जरी डॉ. सौमिका सिंह करती हैं, जो ओकुलोप्लास्टी सर्जन हैं। इसका उद्देश्य बाहर मुड़ी पलक को फिर से आंख से सटाकर उसकी सामान्य जगह पर लाना है। एक्ट्रोपियन में पलक — आमतौर पर निचली पलक — ढीली होकर आंख से दूर बाहर की ओर मुड़ जाती है, और उसकी अंदर की गुलाबी परत दिखने लगती है। आंख ठीक से ढकी नहीं रहती और आंसू निकासी के छेद तक नहीं पहुंच पाते, इसलिए आमतौर पर पानी आना, लालिमा, जलन और किरकिरापन होता है। कारण के अनुसार पलक को कसकर, उठाकर या लंबा करके इसका इलाज किया जाता है।'
   ),
   atAGlance: [
     t('**What it is:** the eyelid (usually lower) turns outwards, away from the eye', '**यह क्या है:** पलक (आमतौर पर निचली) आंख से दूर बाहर की ओर मुड़ जाती है'),
@@ -56,14 +56,6 @@ const guide: Guide = {
         t('Sore skin below the eye from wiping away tears', 'आंसू पोंछते रहने से आंख के नीचे की त्वचा में जलन'),
         t('Sensitivity to light and, in severe cases, blurred vision', 'रोशनी से तकलीफ़, और गंभीर मामलों में धुंधला दिखना'),
       ],
-      callout: {
-        tone: 'urgent',
-        title: t('When to seek urgent care', 'कब तुरंत इलाज लें'),
-        text: t(
-          'See an eye doctor the same day if an eye with ectropion becomes very red and painful, you notice reduced vision, or you develop increasing sensitivity to light. These can be signs that the exposed cornea is damaged or infected. Sudden eyelid drooping with weakness of one side of the face needs emergency assessment for stroke.',
-          'अगर एक्ट्रोपियन वाली आंख बहुत लाल और दर्द भरी हो जाए, नज़र कम लगे, या रोशनी से तकलीफ़ बढ़ने लगे तो उसी दिन नेत्र चिकित्सक को दिखाएं। ये खुली कॉर्निया को नुकसान या संक्रमण के संकेत हो सकते हैं। अगर चेहरे के एक तरफ़ अचानक कमज़ोरी के साथ पलक लटकने लगे, तो स्ट्रोक की आशंका के लिए तुरंत इमरजेंसी जाएं।'
-        ),
-      },
     },
     {
       id: 'types',
@@ -74,7 +66,7 @@ const guide: Guide = {
         rows: [
           [t('Involutional (age-related)', 'इनवोल्यूशनल (उम्र से जुड़ा)'), t('The eyelid tendons and supporting tissues stretch with age', 'उम्र के साथ पलक के टेंडन और सहायक ऊतक खिंच जाते हैं'), t('Horizontal tightening, often a lateral tarsal strip; extra repair of the inner part if needed', 'पलक को क्षैतिज रूप से कसना, अक्सर लेटरल टार्सल स्ट्रिप; ज़रूरत हो तो भीतरी हिस्से की अतिरिक्त मरम्मत')],
           [t('Cicatricial (scarring)', 'सिकाट्रिशियल (निशान से)'), t('Shortened skin pulls the lid down — after burns, injury, sun damage, skin conditions or previous surgery', 'छोटी हुई त्वचा पलक को नीचे खींचती है — जलने, चोट, धूप से नुकसान, त्वचा रोगों या पहले की सर्जरी के बाद'), t('Release of the scar and adding skin (graft or local flap), often combined with tightening', 'निशान को खोलना और त्वचा जोड़ना (ग्राफ़्ट या स्थानीय फ़्लैप), अक्सर कसने के साथ')],
-          [t('Paralytic', 'पैरालिटिक (लकवे से)'), t('Weakness of the facial nerve (for example Bell’s palsy) leaves the lid without muscle support', 'चेहरे की नस की कमज़ोरी (जैसे बेल्स पाल्सी) से पलक को मांसपेशी का सहारा नहीं मिलता'), t('Lubrication first; tightening or other support procedures if it does not recover', 'पहले लुब्रिकेशन; ठीक न हो तो कसना या सहारा देने वाली अन्य प्रक्रियाएं')],
+          [t('Paralytic', 'पैरालिटिक (लकवे से)'), t('Weakness of the facial nerve (for example Bell’s palsy)', 'चेहरे की नस की कमज़ोरी (जैसे बेल्स पाल्सी)'), t('Lubrication first; tightening or other support procedures if it does not recover', 'पहले लुब्रिकेशन; ठीक न हो तो कसना या सहारा देने वाली अन्य प्रक्रियाएं')],
           [t('Mechanical', 'मैकेनिकल'), t('A lump, tumour or swelling weighs the lid down', 'कोई गांठ, ट्यूमर या सूजन पलक को नीचे खींचती है'), t('Treating the lump (and checking it under the microscope), then repairing the lid', 'गांठ का इलाज (और माइक्रोस्कोप से जांच), फिर पलक की मरम्मत')],
           [t('Congenital', 'जन्मजात'), t('Rare; present from birth', 'दुर्लभ; जन्म से'), t('Planned individually', 'व्यक्तिगत योजना')],
         ],
@@ -85,7 +77,7 @@ const guide: Guide = {
       h2: t('How ectropion is assessed', 'एक्ट्रोपियन की जांच कैसे होती है'),
       steps: [
         t('Examining how far the lid can be pulled away from the eye and how quickly it snaps back, to measure laxity', 'पलक को आंख से कितना दूर खींचा जा सकता है और वह कितनी जल्दी वापस आती है — ढीलापन मापने के लिए'),
-        t('Checking whether the skin is short or scarred by asking you to look up and open your mouth', 'आपसे ऊपर देखने और मुंह खोलने को कहकर देखना कि त्वचा छोटी या निशान वाली तो नहीं'),
+        t('Checking whether the skin is short or scarred', 'देखना कि त्वचा छोटी या निशान वाली तो नहीं'),
         t('Assessing facial nerve function, eyelid closure and the cornea under a slit lamp', 'चेहरे की नस का काम, पलक का बंद होना और स्लिट लैंप से कॉर्निया की जांच'),
         t('Checking the tear drainage opening and the tear duct, because a blocked duct can add to watering', 'आंसू निकासी छेद और आंसू नली की जांच, क्योंकि बंद नली भी पानी आने को बढ़ा सकती है'),
         t('Looking for any lump on the eyelid; suspicious lesions are sent for laboratory examination', 'पलक पर किसी गांठ की जांच; संदिग्ध गांठ को लैब जांच के लिए भेजा जाता है'),
@@ -99,8 +91,8 @@ const guide: Guide = {
           h3: t('Protecting the eye before surgery', 'सर्जरी से पहले आंख की सुरक्षा'),
           paras: [
             t(
-              'Lubricating drops by day and ointment at night protect the exposed surface and ease discomfort. Taping the lid at night can help temporarily. These measures relieve symptoms but do not correct the eyelid position. Wipe tears upwards and inwards, towards the nose, rather than pulling the lid down.',
-              'दिन में चिकनाई वाली ड्रॉप्स और रात में ऑइंटमेंट खुली सतह की रक्षा करते हैं और तकलीफ़ कम करते हैं। रात में पलक पर टेप लगाना अस्थायी रूप से मदद कर सकता है। इनसे लक्षणों में आराम मिलता है लेकिन पलक की स्थिति ठीक नहीं होती। आंसू पलक को नीचे खींचकर नहीं, बल्कि ऊपर और नाक की ओर पोंछें।'
+              'Lubricating drops by day and ointment at night protect the exposed surface and ease discomfort. Taping the lid at night can help temporarily. These measures relieve symptoms but do not correct the eyelid position.',
+              'दिन में चिकनाई वाली ड्रॉप्स और रात में ऑइंटमेंट खुली सतह की रक्षा करते हैं और तकलीफ़ कम करते हैं। रात में पलक पर टेप लगाना अस्थायी रूप से मदद कर सकता है। इनसे लक्षणों में आराम मिलता है लेकिन पलक की स्थिति ठीक नहीं होती।'
             ),
           ],
         },
@@ -150,7 +142,7 @@ const guide: Guide = {
         t('Bruising, swelling and mild discomfort (expected)', 'नील, सूजन और हल्की तकलीफ़ (सामान्य)'),
         t('Infection or bleeding (uncommon)', 'संक्रमण या ख़ून बहना (कम ही होता है)'),
         t('A change in the shape of the outer corner of the eye, which usually settles', 'आंख के बाहरी कोने के आकार में बदलाव, जो आमतौर पर ठीक हो जाता है'),
-        t('Under-correction, or the ectropion returning over time as tissues continue to age', 'कम सुधार, या समय के साथ ऊतकों की बढ़ती उम्र से एक्ट्रोपियन का लौटना'),
+        t('Under- or over-correction, or the ectropion returning over time as tissues continue to age', 'कम या ज़्यादा सुधार, या समय के साथ ऊतकों की बढ़ती उम्र से एक्ट्रोपियन का लौटना'),
         t('Watering that persists if a tear-duct blockage or other cause is also present', 'अगर आंसू नली की रुकावट या कोई दूसरा कारण भी हो तो पानी आना जारी रहना'),
         t('With grafts: colour or texture difference of the grafted skin, or partial graft failure', 'ग्राफ़्ट में: ग्राफ़्ट की त्वचा के रंग या बनावट में फ़र्क, या ग्राफ़्ट का आंशिक रूप से न टिकना'),
       ],
@@ -205,7 +197,7 @@ const guide: Guide = {
     },
     {
       q: t('Who treats ectropion in Lucknow?', 'लखनऊ में एक्ट्रोपियन का इलाज कौन करता है?'),
-      a: t('Ectropion is treated by oculoplastic surgeons, who are eye surgeons specialising in eyelid surgery. In Lucknow, Dr. Saumika Singh assesses and operates on ectropion at Alyantra Medicity Superspeciality Hospital, Gomti Nagar.', 'एक्ट्रोपियन का इलाज ओकुलोप्लास्टिक सर्जन करते हैं, जो पलक की सर्जरी में विशेषज्ञ नेत्र सर्जन होते हैं। लखनऊ में डॉ. सौमिका सिंह अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में एक्ट्रोपियन की जांच और सर्जरी करती हैं।'),
+      a: t('Ectropion is treated by oculoplastic surgeons, who are eye surgeons specialising in eyelid surgery. In Lucknow, Dr. Saumika Singh assesses and operates on ectropion.', 'एक्ट्रोपियन का इलाज ओकुलोप्लास्टिक सर्जन करते हैं, जो पलक की सर्जरी में विशेषज्ञ नेत्र सर्जन होते हैं। लखनऊ में डॉ. सौमिका सिंह एक्ट्रोपियन की जांच और सर्जरी करती हैं।'),
     },
   ],
 
@@ -238,9 +230,7 @@ const guide: Guide = {
   },
 
   reviewerNotes: [
-    'Confirm the gallery image (/photo-gallery-8) is consented for use on this page and that the caption is accurate.',
-    'Confirm graft donor sites she uses (upper lid / post-auricular) and that she performs flaps.',
-    'Confirm local anaesthesia + day care is typical.',
+    'Approved by Dr Saumika on 16 Nov 2026 with amendments (review doc comments applied).',
   ],
 };
 
