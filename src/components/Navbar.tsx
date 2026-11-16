@@ -171,7 +171,7 @@ export function Navbar() {
     <nav className="sticky top-0 z-50 w-full border-b border-gold/10 bg-ivory/80 backdrop-blur-lg shadow-sm">
       {/* Top Bar for Language */}
       <div className="bg-navy py-2 border-b border-gold/15">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-end">
+        <div className="max-w-[1440px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 flex justify-end">
           <div className="flex items-center space-x-3">
             <div className="flex items-center text-ivory/60 space-x-1.5">
               <Globe className="w-3.5 h-3.5 text-gold/80" />
@@ -210,7 +210,7 @@ export function Navbar() {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1440px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex-shrink-0 flex items-center mr-4">
             <Link to="/" className="flex items-center gap-3 group">
@@ -226,14 +226,14 @@ export function Navbar() {
           </div>
           
           {/* Desktop Nav */}
-          <div className="hidden lg:flex space-x-6 xl:space-x-8 items-center justify-end">
+          <div className="hidden min-[1360px]:flex gap-x-4 2xl:gap-x-6 items-center justify-end">
             {navLinks.map((link) => (
               <a
                 key={link.path}
                 href={link.path.startsWith("/") ? getLocalizedPath(link.path, language) : `/${link.path}`}
                 onClick={(e) => handleLinkClick(e, link.path)}
                 className={cn(
-                  "text-xs lg:text-sm uppercase tracking-wide font-medium transition-colors whitespace-nowrap hover:text-gold focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-ivory rounded-sm",
+                  "text-[13px] 2xl:text-sm uppercase tracking-wide font-medium transition-colors whitespace-nowrap hover:text-gold focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-ivory rounded-sm",
                   activeSection === link.path && location.pathname === '/'
                     ? "text-gold border-b-2 border-gold pb-1"
                     : "text-navy"
@@ -246,14 +246,14 @@ export function Navbar() {
             <a 
               href="/#contact" 
               onClick={(e) => handleLinkClick(e, '#contact')}
-              className="px-4 py-2 lg:px-5 lg:py-2.5 bg-navy text-ivory text-xs lg:text-sm uppercase tracking-wide font-medium whitespace-nowrap hover:bg-navy-light transition-colors focus:outline-none focus:ring-2 focus:ring-navy focus:ring-offset-2 focus:ring-offset-ivory rounded-sm"
+              className="px-3.5 py-2 2xl:px-5 2xl:py-2.5 bg-navy text-ivory text-[13px] 2xl:text-sm uppercase tracking-wide font-medium whitespace-nowrap hover:bg-navy-light transition-colors focus:outline-none focus:ring-2 focus:ring-navy focus:ring-offset-2 focus:ring-offset-ivory rounded-sm"
             >
               {t('nav.bookNow')}
             </a>
           </div>
 
           {/* Mobile Nav Button */}
-          <div className="lg:hidden flex items-center gap-4">
+          <div className="min-[1360px]:hidden flex items-center gap-4">
             <button
               onClick={() => setIsOpen(!isOpen)}
               aria-expanded={isOpen}
@@ -275,7 +275,7 @@ export function Navbar() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
-            className="absolute top-full left-0 right-0 lg:hidden border-b border-t border-gold/20 bg-ivory/95 backdrop-blur-lg shadow-lg overflow-hidden z-40"
+            className="absolute top-full left-0 right-0 min-[1360px]:hidden border-b border-t border-gold/20 bg-ivory/95 backdrop-blur-lg shadow-lg overflow-hidden z-40"
           >
             <div className="px-4 pt-2 pb-6 space-y-1">
               {navLinks.map((link) => (
