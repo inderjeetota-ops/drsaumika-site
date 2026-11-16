@@ -256,7 +256,7 @@ const guide: Guide = {
     'Confirm she is comfortable with the description of training as MBBS + MS/MD/DNB + fellowship; the page deliberately gives no fellowship duration.',
     'Confirm that radiotherapy/chemotherapy for eye tumours are described correctly as arranged with oncology teams (no claim that she delivers them).',
     'Confirm she is happy with the neutral comparison to plastic surgeons and dermatologists, and with the statement that surgery in young children is usually under general anaesthesia.',
-    'Confirm the “first aid” wording in the urgent box for chemical splash (rinse with clean water) and the examples of non-surgical options (warm compresses, lubricants, thyroid eye disease medicines, Botox for spasm).',
+    'Confirm the examples of non-surgical options (warm compresses, lubricants, thyroid eye disease medicines, Botox for spasm).',
     'The Hindi gloss “oculoplasty meaning in Hindi” sentence inside the first section deliberately mixes Hindi into the English text for search matching; remove if it reads awkwardly.',
     'The page names fillers/laser/orbital decompression nowhere (not confirmed services). The table lists “orbital tumour surgery” and “fracture repair” under the orbit, which matches the confirmed services list.',
     'References: verified by fetch (HTTP 200 with expected content): NHS eyelid-problems, AAO what-is-ptosis, AAO eyelid-surgery, EyeWiki Blepharoptosis, Oculofacial Society home page. ASOPRS now redirects patients to oculofacialsociety.org; asoprs.org/patients returned 404. The AAO “what is an oculoplastic surgeon” and EyeWiki Oculoplastics URLs could not be verified (404 or empty content) and were not used.',

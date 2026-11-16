@@ -281,7 +281,7 @@ const guide: Guide = {
     'Confirm that removed tissue is routinely sent for histopathology (the page says "usually"), and in which cases she may not send it (e.g. obvious milia, very small skin tags).',
     'Confirm she is happy to remove milia in clinic (stated as "can be lifted out in clinic if persistent") and treat hidrocystoma/epidermoid cysts by excision with the cyst wall.',
     'Confirm healing and recovery wording: swelling settles over days to a couple of weeks; stitches removed at a follow-up visit (no specific day count given).',
-    'Confirm the warning-sign list, the urgent same-day callout (spreading redness with fever, pain on eye movement, double vision, bleeding not stopping after ten minutes of pressure) and the "ten minutes" figure.',
+    'Confirm the warning-sign list.',
     'Confirm statements about viral warts, mole colour change in adolescence/pregnancy, and the risk list (scar, pigment change, lash loss/notch, recurrence).',
     'Confirm the insurance wording (cosmetic removal generally not covered; medical reasons may be considered with documentation) and the statement that no cost figure is given.',
     'Confirm the whyDrSaumika bullet about telling harmless growths from ones needing tests (based on ocular oncology training).',

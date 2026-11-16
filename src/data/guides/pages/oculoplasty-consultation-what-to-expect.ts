@@ -232,7 +232,6 @@ const guide: Guide = {
     'Online/teleconsultation is NOT claimed. The page says in-person examination is usually needed and suggests sending reports in advance; confirm whether reports may be sent by WhatsApp/email, and whether you offer any video consultation.',
     'Confirm no referral letter is needed (also stated on the Batch 1 surgeon page) and that the clinic can plan same-trip tests for out-of-town patients.',
     'Confirm that insurance/TPA documents can be reviewed at the consultation (page says "discussed individually") and the child-visit wording (dilating drops may be used in children; babies fed before the visit).',
-    'Confirm the emergency first-aid wording for chemical splash (rinse with clean water).',
     'References verified by fetch: NHS eyelid-problems (urgent advice section present), AAO eyelid-surgery, AAO what-is-ptosis, Oculofacial Society home. None of these pages specifically describe consultations; they support the urgent-symptom and condition statements only. AAO eye-exam and NHS eye-tests URLs could not be verified and were not used.',
   ],
 };

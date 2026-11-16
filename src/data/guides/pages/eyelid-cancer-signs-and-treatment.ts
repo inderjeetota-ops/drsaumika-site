@@ -304,7 +304,7 @@ const guide: Guide = {
     'Confirm map biopsies of the conjunctiva are something she does or arranges for sebaceous gland carcinoma.',
     'Confirm the sentence that cryotherapy is used as an adjunct only in selected cases, and that topical chemotherapy drops, radiotherapy and systemic therapy are arranged with oncology teams.',
     'Confirm whether staged reconstruction (after margins confirmed) is her usual practice, as written.',
-    'Confirm the urgent-callout wording and the monthly self-check advice (the monthly interval is a suggested wording, not from a cited source).',
+    'Confirm the monthly self-check advice (the monthly interval is a suggested wording, not from a cited source).',
     'Table descriptions of SCC, melanoma and Merkel cell carcinoma are general summaries and are not individually cited; please check them. The Asian-population remark for sebaceous gland carcinoma was deliberately omitted because the EyeWiki page fetched did not state it.',
     'Reference verification: EyeWiki Basal_Cell_Carcinoma, EyeWiki Sebaceous_Carcinoma and the three NHS non-melanoma pages were fetched and checked. AAO EyeSmart eyelid-cancer URLs and the StatPearls NBK page could not be verified (AAO returned only a page template; NCBI returned a bot check) so they were not used. EyeWiki Squamous cell carcinoma has no content, so it is not cited.',
     'Hindi: confirm “मोह्स माइक्रोग्राफ़िक सर्जरी” and “क्रायोथेरेपी” phrasing; the Hindi YouTube title “पलकों पर गठान के कैंसर की पहचान: लक्षण और कारण” informed the keywords.',

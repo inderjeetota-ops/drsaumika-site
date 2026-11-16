@@ -272,7 +272,7 @@ const guide: Guide = {
     'Confirm that surgical excision is typically done under local anaesthesia as day care for small/medium patches, and the alternatives she considers for large or multiple patches.',
     'Confirm whether she uses skin grafts/flaps for large xanthelasma; the step mentions this only as "in selected cases".',
     'Confirm whether she routinely sends the excised tissue for histopathology (the page says "may be sent").',
-    'Confirm the recovery timeline (stitch removal ~1 week, scar softening over months) and the wound-care wording (cold compresses, ointment); these are typical ranges, not clinic-specific figures.',
+    'Confirm the recovery timeline (stitch removal ~1 week, scar softening over months) and the wound-care wording (ointment as advised; cold compresses removed); these are typical ranges, not clinic-specific figures.',
     'Confirm she is happy with the neutral comparison table of laser, TCA peel, cryotherapy and radiofrequency; none is presented as her service.',
     'Confirm the recurrence wording (no figure quoted) and the statement that managing lipids "may help".',
     'Confirm the pre-treatment advice to ask a physician for a fasting lipid profile plus diabetes/thyroid checks.',
