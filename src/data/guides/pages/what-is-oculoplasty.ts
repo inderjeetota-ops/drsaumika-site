@@ -18,8 +18,8 @@ const guide: Guide = {
   ),
   h1: t('What Is Oculoplasty? Meaning of Oculoplastic Surgery Explained', 'ओकुलोप्लास्टी क्या है? – आंख की प्लास्टिक सर्जरी का पूरा परिचय'),
   lead: t(
-    'Oculoplasty (oculoplastic surgery) is the branch of eye surgery that deals with the eyelids, tear ducts, the orbit (eye socket) and the face around the eyes. It treats medical problems such as a drooping eyelid, a blocked tear duct or an eyelid tumour, and also appearance-related concerns around the eyes. The word joins “ocular” (of the eye) with “plastic” in its original sense of reshaping or rebuilding, not artificial material. It is also called eye plastic surgery, oculofacial plastic surgery, or ophthalmic plastic and reconstructive surgery, and it is practised by ophthalmologists with additional fellowship training. Dr. Saumika Singh practises oculoplasty and ocular oncology at Alyantra Medicity Superspeciality Hospital, Gomti Nagar, Lucknow.',
-    'ओकुलोप्लास्टी (ओकुलोप्लास्टिक सर्जरी) आंख की सर्जरी की वह शाखा है जो पलकों, आंसू नलियों, ऑर्बिट (आंख के गड्ढे) और आंखों के आसपास के चेहरे से जुड़ी समस्याओं का इलाज करती है। इसमें झुकी हुई पलक, बंद आंसू नली या पलक के ट्यूमर जैसी चिकित्सकीय समस्याएं भी आती हैं और आंखों के आसपास की सुंदरता से जुड़ी चिंताएं भी। इस शब्द में “ओकुलर” का मतलब आंख से जुड़ा है और “प्लास्टिक” का मतलब यहां किसी कृत्रिम पदार्थ से नहीं, बल्कि आकार सुधारने या दोबारा बनाने से है। इसे आंखों की प्लास्टिक सर्जरी भी कहा जाता है, और यह फ़ेलोशिप का अतिरिक्त प्रशिक्षण लेने वाले नेत्र रोग विशेषज्ञ (ऑप्थैल्मोलॉजिस्ट) करते हैं। डॉ. सौमिका सिंह लखनऊ के अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में ओकुलोप्लास्टी और ओकुलर ऑन्कोलॉजी की प्रैक्टिस करती हैं।'
+    'Oculoplasty (oculoplastic surgery) is the branch of eye surgery that deals with the eyelids, tear ducts, the orbit (eye socket) and the face around the eyes. It treats medical problems such as a drooping eyelid, a blocked tear duct or an eyelid tumour, and also appearance-related concerns around the eyes. The word joins “ocular” (of the eye) with “plastic” in its original sense of reshaping or rebuilding, not artificial material. It is also called eye plastic surgery, oculofacial plastic surgery, or ophthalmic plastic and reconstructive surgery, and it is practised by ophthalmologists with additional fellowship training. Dr. Saumika Singh practises oculoplasty and ocular oncology in Lucknow.',
+    'ओकुलोप्लास्टी (ओकुलोप्लास्टिक सर्जरी) आंख की सर्जरी की वह शाखा है जो पलकों, आंसू नलियों, ऑर्बिट (आंख के गड्ढे) और आंखों के आसपास के चेहरे से जुड़ी समस्याओं का इलाज करती है। इसमें झुकी हुई पलक, बंद आंसू नली या पलक के ट्यूमर जैसी चिकित्सकीय समस्याएं भी आती हैं और आंखों के आसपास की सुंदरता से जुड़ी चिंताएं भी। इस शब्द में “ओकुलर” का मतलब आंख से जुड़ा है और “प्लास्टिक” का मतलब यहां किसी कृत्रिम पदार्थ से नहीं, बल्कि आकार सुधारने या दोबारा बनाने से है। इसे आंखों की प्लास्टिक सर्जरी भी कहा जाता है, और यह फ़ेलोशिप का अतिरिक्त प्रशिक्षण लेने वाले नेत्र रोग विशेषज्ञ (ऑप्थैल्मोलॉजिस्ट) करते हैं। डॉ. सौमिका सिंह लखनऊ में ओकुलोप्लास्टी और ओकुलर ऑन्कोलॉजी की प्रैक्टिस करती हैं।'
   ),
   atAGlance: [
     t('**Short definition:** eye surgery of the eyelids, tear ducts, orbit and the area around the eyes', '**संक्षेप में:** पलकों, आंसू नलियों, ऑर्बिट और आंखों के आसपास की क्षेत्र की सर्जरी'),
@@ -140,14 +140,6 @@ const guide: Guide = {
         t('A blind or painful eye, an eye that has been removed, or an artificial eye that no longer fits', 'अंधी या दर्द भरी आंख, निकाली गई आंख, या कृत्रिम आंख जो अब ठीक से न बैठती हो'),
         t('Heavy eyelids, under-eye bags or eyelid twitching that interfere with daily life', 'भारी पलकें, आंखों के नीचे की थैलियां या पलक की फड़कन जो रोज़मर्रा के काम में दिक्कत करें'),
       ],
-      callout: {
-        tone: 'urgent',
-        title: t('Go to emergency care, do not wait for a clinic appointment, if…', 'इमरजेंसी में जाएं, क्लिनिक की अपॉइंटमेंट का इंतज़ार न करें अगर…'),
-        text: t(
-          'You have an eye injury or a cut eyelid, a chemical splash in the eye (rinse with clean water first and keep rinsing on the way), a **sudden** drooping eyelid with double vision or headache, an eye that bulges with pain or loss of vision, or a painful red swelling around the eye with fever. These need same-day examination at an emergency department or eye casualty.',
-          'आंख में चोट लगी हो या पलक कट गई हो, आंख में केमिकल गिरा हो (पहले साफ़ पानी से धोएं और रास्ते में भी धोते रहें), **अचानक** पलक झुके और साथ में दोहरा दिखे या सिरदर्द हो, आंख दर्द या नज़र कम होने के साथ बाहर उभर आए, या आंख के आसपास बुखार के साथ दर्द भरी लाल सूजन हो। इन सब में उसी दिन इमरजेंसी विभाग या आई कैज़ुअल्टी में जांच ज़रूरी है।'
-        ),
-      },
     },
     {
       id: 'children',
@@ -164,8 +156,8 @@ const guide: Guide = {
       h2: t('Is oculoplastic surgery safe? What are the risks?', 'क्या ओकुलोप्लास्टिक सर्जरी सुरक्षित है? जोखिम क्या हैं?'),
       paras: [
         t(
-          'Oculoplastic operations are established procedures, and many are done as day care under local anaesthesia. Like all surgery they carry risks, and no surgeon can promise a particular result. General risks include bleeding, infection, swelling and bruising, scarring, dry or irritated eyes, asymmetry between the two sides, and the chance that a further adjustment is needed. Rarely, serious bleeding behind the eye can threaten vision and needs emergency attention.',
-          'ओकुलोप्लास्टिक ऑपरेशन स्थापित प्रक्रियाएं हैं, और कई डे-केयर में लोकल एनेस्थीसिया के तहत होते हैं। हर सर्जरी की तरह इनमें भी जोखिम हैं, और कोई सर्जन किसी खास परिणाम का वादा नहीं कर सकता। आम जोखिमों में खून बहना, संक्रमण, सूजन और नील, निशान, सूखी या चुभती आंख, दोनों तरफ़ असमानता, और दोबारा समायोजन की ज़रूरत पड़ना शामिल हैं। बहुत ही कम, आंख के पीछे गंभीर खून बहने से नज़र को ख़तरा हो सकता है, जिसमें तुरंत इलाज चाहिए।'
+          'Oculoplastic operations are established procedures, and many are done as day care under local anaesthesia. Like all surgery they carry risks, and no surgeon can promise a particular result. General risks include bleeding, infection, swelling and bruising, scarring, dry or irritated eyes, asymmetry between the two sides, and the chance that a further adjustment is needed.',
+          'ओकुलोप्लास्टिक ऑपरेशन स्थापित प्रक्रियाएं हैं, और कई डे-केयर में लोकल एनेस्थीसिया के तहत होते हैं। हर सर्जरी की तरह इनमें भी जोखिम हैं, और कोई सर्जन किसी खास परिणाम का वादा नहीं कर सकता। आम जोखिमों में खून बहना, संक्रमण, सूजन और नील, निशान, सूखी या चुभती आंख, दोनों तरफ़ असमानता, और दोबारा समायोजन की ज़रूरत पड़ना शामिल हैं।'
         ),
         t(
           'Surgery is not always the answer. Many conditions have non-surgical options — for example warm compresses and lid hygiene for a chalazion, lubricants for dry eyes, medicines for thyroid eye disease or Botox for eyelid spasm — and a careful assessment often ends in advice to observe or treat medically first. A good consultation covers the benefits, the risks, the alternatives and what happens if you choose to wait.',
@@ -227,7 +219,7 @@ const guide: Guide = {
     },
     {
       q: t('Do I need a referral to see an oculoplastic surgeon in Lucknow?', 'क्या लखनऊ में ओकुलोप्लास्टिक सर्जन को दिखाने के लिए रेफ़रल चाहिए?'),
-      a: t('No referral is needed to book with Dr. Saumika Singh at Alyantra Medicity Superspeciality Hospital, Gomti Nagar. If another doctor has already seen you, bring their notes and reports. See the [consultation guide](/oculoplasty-consultation-what-to-expect) for what to bring.', 'अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में डॉ. सौमिका सिंह से अपॉइंटमेंट के लिए रेफ़रल ज़रूरी नहीं है। अगर किसी दूसरे डॉक्टर ने पहले देखा है, तो उनके नोट्स और रिपोर्ट साथ लाएं। क्या लाना है, इसके लिए [परामर्श गाइड](/oculoplasty-consultation-what-to-expect) देखें।'),
+      a: t('No referral is needed to book with Dr. Saumika Singh. If another doctor has already seen you, bring their notes and reports. See the [consultation guide](/oculoplasty-consultation-what-to-expect) for what to bring.', 'डॉ. सौमिका सिंह से अपॉइंटमेंट के लिए रेफ़रल ज़रूरी नहीं है। अगर किसी दूसरे डॉक्टर ने पहले देखा है, तो उनके नोट्स और रिपोर्ट साथ लाएं। क्या लाना है, इसके लिए [परामर्श गाइड](/oculoplasty-consultation-what-to-expect) देखें।'),
     },
   ],
 
@@ -260,6 +252,7 @@ const guide: Guide = {
   },
 
   reviewerNotes: [
+    'Pre-applied on 16 Nov 2026 from her ptosis/ectropion review: urgent/emergency boxes removed, hospital name taken out of the opening paragraph, search description and FAQ answers (kept in the \'Where\' line and credentials), and home-care/risk wording trimmed. Please check the page reads well without them.',
     'Confirm she is comfortable with the description of training as MBBS + MS/MD/DNB + fellowship; the page deliberately gives no fellowship duration.',
     'Confirm that radiotherapy/chemotherapy for eye tumours are described correctly as arranged with oncology teams (no claim that she delivers them).',
     'Confirm she is happy with the neutral comparison to plastic surgeons and dermatologists, and with the statement that surgery in young children is usually under general anaesthesia.',

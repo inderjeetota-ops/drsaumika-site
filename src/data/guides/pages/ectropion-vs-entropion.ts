@@ -86,7 +86,7 @@ const guide: Guide = {
         rows: [
           [t('Involutional (age-related)', 'इनवोल्यूशनल (उम्र से जुड़ा)'), t('Lid tendons and supporting tissues stretch, so the lid sags outwards', 'पलक के टेंडन और सहारा देने वाले ऊतक खिंचते हैं, और पलक बाहर लटकती है'), t('Lid tissues loosen and the muscle that holds the lid edge out weakens, so the lid rolls in', 'पलक के ऊतक ढीले होते हैं और किनारे को बाहर थामने वाली पकड़ कमज़ोर होती है, इसलिए पलक अंदर मुड़ती है')],
           [t('Cicatricial (scarring)', 'सिकाट्रिशियल (निशान से)'), t('Shortened, scarred lid skin pulls the lid down and out (burns, injury, skin disease, previous surgery)', 'छोटी, निशान वाली पलक की त्वचा पलक को नीचे-बाहर खींचती है (जलना, चोट, त्वचा रोग, पहले की सर्जरी)'), t('Scarring of the inner lining pulls the lid in (chemical injury, trachoma, severe inflammatory or autoimmune eye disease)', 'अंदरूनी परत पर निशान पलक को अंदर खींचते हैं (केमिकल चोट, ट्रेकोमा, गंभीर सूजन या ऑटोइम्यून आंख रोग)')],
-          [t('Paralytic (facial nerve palsy)', 'पैरालिटिक (चेहरे की नस का लकवा)'), t('Facial nerve weakness, e.g. Bell’s palsy, leaves the lid without muscle support', 'चेहरे की नस की कमज़ोरी, जैसे बेल्स पाल्सी, से पलक को मांसपेशी का सहारा नहीं मिलता'), t('Not a typical type', 'आम प्रकार नहीं')],
+          [t('Paralytic (facial nerve palsy)', 'पैरालिटिक (चेहरे की नस का लकवा)'), t('Facial nerve weakness, e.g. Bell’s palsy', 'चेहरे की नस की कमज़ोरी, जैसे बेल्स पाल्सी'), t('Not a typical type', 'आम प्रकार नहीं')],
           [t('Mechanical', 'मैकेनिकल'), t('A lump or swelling weighs the lid down and out', 'कोई गांठ या सूजन पलक को नीचे-बाहर खींचती है'), t('Not a typical type', 'आम प्रकार नहीं')],
           [t('Spastic', 'स्पास्टिक'), t('Not a typical type', 'आम प्रकार नहीं'), t('Temporary lid-muscle squeezing after eye irritation or surgery', 'आंख में जलन या सर्जरी के बाद पलक की मांसपेशी का अस्थायी भिंचना')],
           [t('Congenital (from birth)', 'जन्मजात'), t('Rare', 'दुर्लभ'), t('Rare; different from epiblepharon, a skin fold in some children that often improves with growth', 'दुर्लभ; एपिब्लेफ़ेरॉन से अलग, जो कुछ बच्चों में त्वचा की तह है और बढ़ती उम्र के साथ अक्सर सुधरती है')],
@@ -135,14 +135,6 @@ const guide: Guide = {
           ],
         },
       ],
-      callout: {
-        tone: 'urgent',
-        title: t('Same-day care is needed for', 'इन स्थितियों में उसी दिन इलाज ज़रूरी है'),
-        text: t(
-          'A painful red eye with blurred vision, or a white spot on the clear front of the eye (possible corneal ulcer); increasing sensitivity to light; or **sudden** drooping or weakness of one side of the face with the eyelid sagging, which can be a sign of facial palsy or stroke and needs emergency assessment. Do not wait for an eyelid appointment in these situations.',
-          'आंख में दर्द और लालिमा के साथ धुंधला दिखना, या आंख के साफ़ अगले हिस्से पर सफ़ेद धब्बा (संभावित कॉर्नियल अल्सर); रोशनी से तकलीफ़ का बढ़ना; या चेहरे के एक तरफ़ **अचानक** लटकाव या कमज़ोरी के साथ पलक का लटकना, जो चेहरे के लकवे या स्ट्रोक का संकेत हो सकता है और जिसकी इमरजेंसी जांच ज़रूरी है। इन स्थितियों में पलक के अपॉइंटमेंट का इंतज़ार न करें।'
-        ),
-      },
     },
     {
       id: 'temporary-measures',
@@ -154,7 +146,7 @@ const guide: Guide = {
         ),
       ],
       bullets: [
-        t('**Both:** lubricating drops by day and ointment at night, as advised by your doctor; wipe tears gently upwards towards the nose rather than dragging the lid down', '**दोनों में:** डॉक्टर की सलाह से दिन में चिकनाई वाली ड्रॉप्स और रात में ऑइंटमेंट; आंसू पलक को नीचे खींचकर नहीं, बल्कि नाक की ओर ऊपर हल्के से पोंछें'),
+        t('**Both:** lubricating drops by day and ointment at night, as advised by your doctor', '**दोनों में:** डॉक्टर की सलाह से दिन में चिकनाई वाली ड्रॉप्स और रात में ऑइंटमेंट'),
         t('**Ectropion:** night-time taping of the lid can help temporarily; ectropion from a temporary facial palsy may improve as the nerve recovers', '**एक्ट्रोपियन:** रात में पलक पर टेप अस्थायी मदद कर सकता है; अस्थायी चेहरे के लकवे से हुआ एक्ट्रोपियन नस ठीक होने पर सुधर सकता है'),
         t('**Entropion:** gently taping the lower lid skin down and out may keep the lashes off the eye for a while; a surgeon may also consider a bandage contact lens, temporary everting sutures or a Botox injection for a few months', '**एंट्रोपियन:** निचली पलक की त्वचा को हल्के से नीचे और बाहर टेप करने से कुछ समय तक बाल आंख से दूर रह सकते हैं; सर्जन बैंडेज कॉन्टैक्ट लेंस, अस्थायी एवर्टिंग टांके या कुछ महीनों के लिए बोटॉक्स इंजेक्शन पर भी विचार कर सकते हैं'),
         t('Do not keep pulling out rubbing lashes: relief is short-lived, and the turned lid remains', 'चुभते बाल बार-बार खींचते न रहें: राहत थोड़ी देर की होती है और मुड़ी पलक वैसी ही रहती है'),
@@ -170,8 +162,8 @@ const guide: Guide = {
           'उम्र से जुड़े एक्ट्रोपियन या एंट्रोपियन वाले ज़्यादातर लोगों में स्थायी सुधार के लिए सर्जरी चाहिए, जो आमतौर पर लोकल एनेस्थीसिया में डे-केयर प्रक्रिया होती है। दोनों में आम सिद्धांत है कि ढीली पलक को बाहरी कोने पर कसा जाए (जैसे लेटरल टार्सल स्ट्रिप से)। एंट्रोपियन में पलक के किनारे को बाहर थामने वाले निचली पलक के रिट्रैक्टर भी दोबारा जोड़े जाते हैं, या निशान कारण हो तो पलक के किनारे को घुमाया जाता है। निशान वाले एक्ट्रोपियन में कम पड़ी त्वचा की भरपाई ग्राफ़्ट या फ़्लैप से होती है। हर सर्जरी की तरह जोखिम हैं, जिनमें कम या ज़्यादा सुधार और समय के साथ दोबारा होना शामिल है, और परिणाम हर व्यक्ति में अलग होते हैं।'
         ),
         t(
-          'Dr. Saumika Singh performs both operations at Alyantra Medicity Superspeciality Hospital, Gomti Nagar. For full detail on assessment, techniques, recovery and risks, see the dedicated pages: [ectropion surgery in Lucknow](/ectropion-surgery-in-lucknow) and [entropion surgery in Lucknow](/entropion-surgery-in-lucknow). More on [eyelid conditions](/services/eyelid-disorders-eyelid-surgery) is on the services page.',
-          'डॉ. सौमिका सिंह दोनों ऑपरेशन अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में करती हैं। जांच, तकनीकों, रिकवरी और जोखिम की पूरी जानकारी के लिए अलग पेज देखें: [लखनऊ में एक्ट्रोपियन सर्जरी](/ectropion-surgery-in-lucknow) और [लखनऊ में एंट्रोपियन सर्जरी](/entropion-surgery-in-lucknow)। [पलक की समस्याओं](/services/eyelid-disorders-eyelid-surgery) के बारे में और जानकारी सेवाओं के पेज पर है।'
+          'Dr. Saumika Singh performs both operations. For full detail on assessment, techniques, recovery and risks, see the dedicated pages: [ectropion surgery in Lucknow](/ectropion-surgery-in-lucknow) and [entropion surgery in Lucknow](/entropion-surgery-in-lucknow). More on [eyelid conditions](/services/eyelid-disorders-eyelid-surgery) is on the services page.',
+          'डॉ. सौमिका सिंह दोनों ऑपरेशन करती हैं। जांच, तकनीकों, रिकवरी और जोखिम की पूरी जानकारी के लिए अलग पेज देखें: [लखनऊ में एक्ट्रोपियन सर्जरी](/ectropion-surgery-in-lucknow) और [लखनऊ में एंट्रोपियन सर्जरी](/entropion-surgery-in-lucknow)। [पलक की समस्याओं](/services/eyelid-disorders-eyelid-surgery) के बारे में और जानकारी सेवाओं के पेज पर है।'
         ),
       ],
     },
@@ -211,7 +203,7 @@ const guide: Guide = {
     },
     {
       q: t('Who treats ectropion and entropion in Lucknow?', 'लखनऊ में एक्ट्रोपियन और एंट्रोपियन का इलाज कौन करता है?'),
-      a: t('Both are treated by oculoplastic surgeons, who are eye surgeons with additional training in eyelid, tear-duct and orbit surgery. In Lucknow, Dr. Saumika Singh assesses and operates on both conditions at Alyantra Medicity Superspeciality Hospital, Gomti Nagar. If you have pain, a red eye with poor vision or sudden facial weakness, seek emergency care first.', 'दोनों का इलाज ओकुलोप्लास्टिक सर्जन करते हैं, जो पलक, आंसू नली और ऑर्बिट की सर्जरी में अतिरिक्त प्रशिक्षण वाले नेत्र सर्जन होते हैं। लखनऊ में डॉ. सौमिका सिंह अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में दोनों की जांच और सर्जरी करती हैं। दर्द, नज़र कम के साथ लाल आंख या अचानक चेहरे में कमज़ोरी हो तो पहले इमरजेंसी में जाएं।'),
+      a: t('Both are treated by oculoplastic surgeons, who are eye surgeons with additional training in eyelid, tear-duct and orbit surgery. In Lucknow, Dr. Saumika Singh assesses and operates on both conditions.', 'दोनों का इलाज ओकुलोप्लास्टिक सर्जन करते हैं, जो पलक, आंसू नली और ऑर्बिट की सर्जरी में अतिरिक्त प्रशिक्षण वाले नेत्र सर्जन होते हैं। लखनऊ में डॉ. सौमिका सिंह दोनों की जांच और सर्जरी करती हैं।'),
     },
   ],
 
@@ -244,6 +236,8 @@ const guide: Guide = {
   },
 
   reviewerNotes: [
+    'Pre-applied on 16 Nov 2026 from her ptosis/ectropion review: urgent/emergency boxes removed, hospital name taken out of the opening paragraph, search description and FAQ answers (kept in the \'Where\' line and credentials), and home-care/risk wording trimmed. Please check the page reads well without them.',
+    'As on the ectropion page: \'leaves the lid without muscle support\' and the \'wipe tears upwards\' advice were removed.',
     'All six reference URLs returned HTTP 200 and the content was checked: NHS Ectropion, NHS Eyelid problems (title only), AAO Entropion, AAO Ectropion, EyeWiki Entropion, EyeWiki Ectropion. No StatPearls entry cited (no confirmed ID for entropion/ectropion).',
     'Confirm the statement that Botox, a bandage contact lens and temporary everting sutures are options she may use for entropion (phrased as "a surgeon may consider").',
     'Trachoma and chemical injury are named as causes of cicatricial entropion (consistent with the Batch 1 entropion page); confirm wording suits the Lucknow audience.',

@@ -113,14 +113,6 @@ const guide: Guide = {
           'अगर सूजन लगातार रहे, बढ़ती जाए, सिर्फ़ एक तरफ़ हो, या पैरों/चेहरे की सूजन, सांस फूलना, असामान्य थकान, वज़न में बदलाव या झागदार पेशाब के साथ दिखे, तो जांच करवाएं। अगर आंखें किरकिरी, लाल या उभरी हुई भी लगें तो नेत्र रोग विशेषज्ञ को जल्दी दिखाएं, क्योंकि ये थायरॉइड से जुड़ी आंख की समस्या का संकेत हो सकते हैं।'
         ),
       ],
-      callout: {
-        tone: 'urgent',
-        title: t('Same-day care: do not wait for puffiness to settle', 'उसी दिन इलाज: सूजन के उतरने का इंतज़ार न करें'),
-        text: t(
-          'Go to an emergency department or see an eye doctor the **same day** if eyelid or under-eye swelling is sudden and painful or red and hot, comes with fever, or follows an injury; if you have blurred or lost vision, double vision, pain on moving the eye, or the eye looks pushed forward; or if swelling of the lips, face or tongue comes with difficulty breathing (a severe allergic reaction). These can be signs of an infection around the eye, bleeding, a nerve problem or an allergic emergency.',
-          'अगर पलक या आंख के नीचे की सूजन अचानक हो और दर्द वाली या लाल-गर्म हो, बुखार के साथ हो, या चोट के बाद आई हो; नज़र धुंधली हो या चली जाए, दोहरा दिखे, आंख हिलाने पर दर्द हो, या आंख आगे को धकेली हुई लगे; या होंठ, चेहरे या जीभ की सूजन के साथ सांस लेने में तकलीफ़ हो (गंभीर एलर्जी), तो **उसी दिन** इमरजेंसी में जाएं या नेत्र चिकित्सक को दिखाएं। ये आंख के आसपास संक्रमण, खून बहने, नस की समस्या या एलर्जी इमरजेंसी के संकेत हो सकते हैं।'
-        ),
-      },
     },
     {
       id: 'self-care',
@@ -159,8 +151,8 @@ const guide: Guide = {
           'निचली पलक की सर्जरी (लोअर ब्लेफेरोप्लास्टी) उन चर्बी की थैलियों के लिए है जो लगातार रहती हैं, व्यक्ति को परेशान करती हैं और जिनके पीछे कोई बीमारी नहीं है। चर्बी को आमतौर पर छांटा या दोबारा सही जगह पर रखा जाता है, अक्सर पलक की भीतरी सतह के चीरे से, और ज़रूरत हो तो ढीली त्वचा का भी साथ में उपचार हो सकता है। डॉ. सौमिका सिंह लोअर ब्लेफेरोप्लास्टी करती हैं; पूरी तकनीक, रिकवरी और जोखिम [ब्लेफेरोप्लास्टी पेज](/blepharoplasty-in-lucknow) पर समझाए गए हैं, और [फ़ंक्शनल बनाम कॉस्मेटिक पलक सर्जरी](/functional-vs-cosmetic-blepharoplasty) पेज बताता है कि ऐसे निर्णय कैसे लिए जाते हैं।'
         ),
         t(
-          'Surgery is not suitable for everyone. It is usually postponed or avoided when puffiness comes from an untreated medical or thyroid problem, when there is significant dry eye or a weak lower lid, or when expectations are unrealistic. Results vary, and risks such as bruising, dry eye, asymmetry, lid pulling down and, rarely, serious bleeding behind the eye exist. Surgery does not stop ageing, and it does not clear pigment-type dark circles.',
-          'सर्जरी हर किसी के लिए उपयुक्त नहीं है। जब सूजन किसी अनुपचारित बीमारी या थायरॉइड की समस्या से हो, जब काफ़ी सूखी आंख या कमज़ोर निचली पलक हो, या अपेक्षाएं अवास्तविक हों, तब इसे आमतौर पर टाल दिया जाता है या नहीं किया जाता। परिणाम व्यक्ति-दर-व्यक्ति अलग होते हैं, और नील, सूखी आंख, असमानता, पलक का नीचे खिंचना और बहुत कम मामलों में आंख के पीछे गंभीर खून बहने जैसे जोखिम होते हैं। सर्जरी उम्र बढ़ना नहीं रोकती और रंजकता वाले काले घेरों को साफ़ नहीं करती।'
+          'Surgery is not suitable for everyone. It is usually postponed or avoided when puffiness comes from an untreated medical or thyroid problem, when there is significant dry eye or a weak lower lid, or when expectations are unrealistic. Results vary, and risks such as bruising, dry eye, asymmetry and lid pulling down exist. Surgery does not stop ageing, and it does not clear pigment-type dark circles.',
+          'सर्जरी हर किसी के लिए उपयुक्त नहीं है। जब सूजन किसी अनुपचारित बीमारी या थायरॉइड की समस्या से हो, जब काफ़ी सूखी आंख या कमज़ोर निचली पलक हो, या अपेक्षाएं अवास्तविक हों, तब इसे आमतौर पर टाल दिया जाता है या नहीं किया जाता। परिणाम व्यक्ति-दर-व्यक्ति अलग होते हैं, और नील, सूखी आंख, असमानता और पलक का नीचे खिंचना जैसे जोखिम होते हैं। सर्जरी उम्र बढ़ना नहीं रोकती और रंजकता वाले काले घेरों को साफ़ नहीं करती।'
         ),
       ],
     },
@@ -230,7 +222,7 @@ const guide: Guide = {
     },
     {
       q: t('Which doctor should I see for under-eye bags in Lucknow?', 'लखनऊ में आंखों के नीचे की थैली के लिए किस डॉक्टर को दिखाएं?'),
-      a: t('An oculoplastic surgeon is an eye surgeon with extra training in the eyelids, so they can check the eye, look for medical causes and advise on surgery if it is appropriate. In Lucknow, Dr. Saumika Singh sees patients at Alyantra Medicity Superspeciality Hospital, Gomti Nagar. For skin-type dark circles, a dermatologist may also help.', 'ओकुलोप्लास्टिक सर्जन पलकों में अतिरिक्त प्रशिक्षण वाले नेत्र सर्जन होते हैं, इसलिए वे आंख की जांच, बीमारी वाले कारणों की पड़ताल और ज़रूरत हो तो सर्जरी पर सलाह दे सकते हैं। लखनऊ में डॉ. सौमिका सिंह अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में मरीज़ देखती हैं। त्वचा से जुड़े काले घेरों में त्वचा रोग विशेषज्ञ भी मदद कर सकते हैं।'),
+      a: t('An oculoplastic surgeon is an eye surgeon with extra training in the eyelids, so they can check the eye, look for medical causes and advise on surgery if it is appropriate. In Lucknow, Dr. Saumika Singh sees patients. For skin-type dark circles, a dermatologist may also help.', 'ओकुलोप्लास्टिक सर्जन पलकों में अतिरिक्त प्रशिक्षण वाले नेत्र सर्जन होते हैं, इसलिए वे आंख की जांच, बीमारी वाले कारणों की पड़ताल और ज़रूरत हो तो सर्जरी पर सलाह दे सकते हैं। लखनऊ में डॉ. सौमिका सिंह मरीज़ देखती हैं। त्वचा से जुड़े काले घेरों में त्वचा रोग विशेषज्ञ भी मदद कर सकते हैं।'),
     },
   ],
 
@@ -264,6 +256,7 @@ const guide: Guide = {
   },
 
   reviewerNotes: [
+    'Pre-applied on 16 Nov 2026 from her ptosis/ectropion review: urgent/emergency boxes removed, hospital name taken out of the opening paragraph, search description and FAQ answers (kept in the \'Where\' line and credentials), and home-care/risk wording trimmed. Please check the page reads well without them.',
     'Confirm she is comfortable with the statement that she performs lower blepharoplasty (per brief section 4) and that the "transconjunctival, fat trimmed or repositioned, skin treated if needed" summary matches her practice; the detail is kept short and delegated to the blepharoplasty page.',
     'Confirm the single-line statement that she does not offer fillers, and the neutral mention that some clinics use fillers for the hollow below a bag.',
     'Confirm the surgery-selection criteria (persistent fat bags, no medical cause, not in significant dry eye/weak lower lid/untreated thyroid problem) and the risk list wording, including rare serious bleeding behind the eye.',

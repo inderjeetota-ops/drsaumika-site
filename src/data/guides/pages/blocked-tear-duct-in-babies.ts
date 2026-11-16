@@ -57,15 +57,11 @@ const guide: Guide = {
         t('Symptoms that come and go, and are often worse with a cold, in wind or in cold weather', 'लक्षणों का आना-जाना, और सर्दी-ज़ुकाम, हवा या ठंड में बढ़ना'),
         t('A white, comfortable eye: the baby is not rubbing the eye or avoiding light, and the white of the eye is not red', 'सफ़ेद, आरामदेह आंख: बच्चा आंख नहीं मल रहा, रोशनी से बच नहीं रहा और आंख का सफ़ेद हिस्सा लाल नहीं है'),
         t('Sometimes a little swelling or a bluish bump at the inner corner, which needs a doctor’s check (see the warning below)', 'कभी-कभी भीतरी कोने पर हल्की सूजन या नीला उभार, जिसकी डॉक्टर से जांच ज़रूरी है (नीचे चेतावनी देखें)'),
-      ],
-      callout: {
-        tone: 'urgent',
-        title: t('See a doctor the same day (or go to emergency) if', 'उसी दिन डॉक्टर को दिखाएं (या इमरजेंसी जाएं) अगर'),
-        text: t(
-          'there is **swelling, redness, heat or pain at the inner corner of the eye** or on the cheek beside the nose (the tear sac may be infected, called dacryocystitis, or filled and bulging, called a dacryocele); the eyelids are swollen or red; your baby has a **fever** or seems unwell, feeds poorly or is unusually sleepy; or the eye looks **large, cloudy or hazy, waters a lot and the baby squeezes it shut or avoids light**. A big, cloudy, light-sensitive, watering eye can be a sign of congenital glaucoma, which is an eye emergency and is not a blocked tear duct. Do not wait for the tear duct to clear.',
-          'अगर **आंख के भीतरी कोने पर या नाक के बगल में गाल पर सूजन, लालिमा, गर्माहट या दर्द** हो (आंसू की थैली में संक्रमण, जिसे डैक्रायोसिस्टाइटिस कहते हैं, या थैली भरकर उभर गई हो, जिसे डैक्रायोसील कहते हैं); पलकें सूजी या लाल हों; शिशु को **बुखार** हो या वह बीमार लगे, ठीक से दूध न पिए या असामान्य रूप से सुस्त हो; या आंख **बड़ी, धुंधली या कोहरेदार दिखे, बहुत पानी आए और बच्चा आंख भींचे या रोशनी से बचे**। बड़ी, धुंधली, रोशनी से परेशान और पानी बहाती आंख जन्मजात ग्लूकोमा का संकेत हो सकती है, जो आंख की इमरजेंसी है और बंद आंसू नली नहीं है। नली खुलने का इंतज़ार न करें।'
+        t(
+          '**See a doctor the same day (or go to emergency) if:** there is **swelling, redness, heat or pain at the inner corner of the eye** or on the cheek beside the nose (the tear sac may be infected, called dacryocystitis, or filled and bulging, called a dacryocele); the eyelids are swollen or red; your baby has a **fever** or seems unwell, feeds poorly or is unusually sleepy; or the eye looks **large, cloudy or hazy, waters a lot and the baby squeezes it shut or avoids light**. A big, cloudy, light-sensitive, watering eye can be a sign of congenital glaucoma, which is an eye emergency and is not a blocked tear duct. Do not wait for the tear duct to clear.',
+          '**उसी दिन डॉक्टर को दिखाएं (या इमरजेंसी जाएं), अगर:** **आंख के भीतरी कोने पर या नाक के बगल में गाल पर सूजन, लालिमा, गर्माहट या दर्द** हो (आंसू की थैली में संक्रमण, जिसे डैक्रायोसिस्टाइटिस कहते हैं, या थैली भरकर उभर गई हो, जिसे डैक्रायोसील कहते हैं); पलकें सूजी या लाल हों; शिशु को **बुखार** हो या वह बीमार लगे, ठीक से दूध न पिए या असामान्य रूप से सुस्त हो; या आंख **बड़ी, धुंधली या कोहरेदार दिखे, बहुत पानी आए और बच्चा आंख भींचे या रोशनी से बचे**। बड़ी, धुंधली, रोशनी से परेशान और पानी बहाती आंख जन्मजात ग्लूकोमा का संकेत हो सकती है, जो आंख की इमरजेंसी है और बंद आंसू नली नहीं है। नली खुलने का इंतज़ार न करें।'
         ),
-      },
+      ],
     },
     {
       id: 'sticky-eye-vs-conjunctivitis',
@@ -186,7 +182,6 @@ const guide: Guide = {
         t('The blockage may remain or come back, so a repeat procedure or another option is sometimes needed', 'रुकावट बनी रह सकती है या लौट सकती है, इसलिए कभी-कभी दोबारा प्रक्रिया या कोई दूसरा विकल्प चाहिए'),
         t('Minor bleeding from the nose, or mild injury to the drainage channel, can occur', 'नाक से हल्का खून आना, या निकासी नली में हल्की चोट हो सकती है'),
         t('Infection is uncommon but possible; the risks of anaesthesia or sedation will be explained by the anaesthetist', 'संक्रमण कम होता है पर संभव है; एनेस्थीसिया या सिडेशन के जोखिम एनेस्थेटिस्ट समझाएंगे'),
-        t('Go back the same day for fever, increasing redness or swelling of the eyelid or inner corner, heavy bleeding, or a baby who seems unwell', 'बुखार, पलक या भीतरी कोने पर बढ़ती लालिमा या सूजन, ज़्यादा खून बहना, या शिशु के बीमार लगने पर उसी दिन वापस दिखाएं'),
       ],
     },
     {
@@ -235,7 +230,7 @@ const guide: Guide = {
     },
     {
       q: t('Where can I get a baby’s blocked tear duct treated in Lucknow?', 'लखनऊ में शिशु की बंद आंसू नली का इलाज कहां करवाएं?'),
-      a: t('Dr. Saumika Singh, an oculoplasty surgeon, assesses babies with blocked tear ducts and performs probing and syringing at Alyantra Medicity Superspeciality Hospital, Gomti Nagar, by appointment. If your baby has swelling at the inner corner, fever or a large cloudy eye, seek same-day care at the nearest hospital.', 'ओकुलोप्लास्टी सर्जन डॉ. सौमिका सिंह अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में अपॉइंटमेंट पर बंद आंसू नली वाले शिशुओं की जांच और प्रोबिंग व सिरिंजिंग करती हैं। अगर शिशु के भीतरी कोने पर सूजन, बुखार या बड़ी धुंधली आंख हो, तो नज़दीकी अस्पताल में उसी दिन दिखाएं।'),
+      a: t('Dr. Saumika Singh, an oculoplasty surgeon, assesses babies with blocked tear ducts and performs probing and syringing by appointment.', 'ओकुलोप्लास्टी सर्जन डॉ. सौमिका सिंह अपॉइंटमेंट पर बंद आंसू नली वाले शिशुओं की जांच और प्रोबिंग व सिरिंजिंग करती हैं।'),
     },
   ],
 
@@ -267,6 +262,8 @@ const guide: Guide = {
   },
 
   reviewerNotes: [
+    'Pre-applied on 16 Nov 2026 from her ptosis/ectropion review: urgent/emergency boxes removed, hospital name taken out of the opening paragraph, search description and FAQ answers (kept in the \'Where\' line and credentials), and home-care/risk wording trimmed. Please check the page reads well without them.',
+    'Judgement call: the same-day warning (infected tear sac, congenital glaucoma) is kept as a normal bullet in the signs list instead of a red box. The \'go back the same day\' aftercare bullet and the FAQ emergency line were removed.',
     'Probing timing: wording is “often around 12 months if it persists, or earlier with repeated infections / swollen sac; your doctor will advise”. Confirm this matches her practice (some centres probe earlier, some in-office under topical anaesthesia).',
     'Confirm probing/syringing in babies is done in the operating theatre under general anaesthesia or sedation at Alyantra, same-day discharge for many babies, and that she does not do in-office probing (the page only says other centres may).',
     'Confirm the massage technique (Crigler) steps and how many repetitions she advises; the page deliberately gives no numbers and asks parents to be shown by the doctor first.',

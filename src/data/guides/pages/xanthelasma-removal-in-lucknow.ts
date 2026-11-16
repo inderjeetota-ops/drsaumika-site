@@ -14,12 +14,12 @@ const guide: Guide = {
   ),
   metaDescription: t(
     'Xanthelasma removal in Lucknow by oculoplasty surgeon Dr Saumika Singh: yellow patches on eyelids, cholesterol link, surgical excision, risks and recurrence.',
-    'लखनऊ में ज़ैंथेलाज़्मा (पलकों पर पीले धब्बे) हटाना – ओकुलोप्लास्टी सर्जन डॉ. सौमिका सिंह, गोमती नगर। कोलेस्ट्रॉल से संबंध, सर्जरी, जोखिम और दोबारा होने की संभावना।'
+    'लखनऊ में ज़ैंथेलाज़्मा (पलकों पर पीले धब्बे) हटाना – ओकुलोप्लास्टी सर्जन डॉ. सौमिका सिंह। कोलेस्ट्रॉल से संबंध, सर्जरी, जोखिम और दोबारा होने की संभावना।'
   ),
   h1: t('Xanthelasma Removal in Lucknow – Yellow Patches on Eyelids', 'लखनऊ में ज़ैंथेलाज़्मा हटाना – आंख की पलकों पर पीले धब्बे'),
   lead: t(
-    'Xanthelasma removal in Lucknow is offered by Dr. Saumika Singh, an oculoplasty surgeon at Alyantra Medicity Superspeciality Hospital, Gomti Nagar, who removes these soft yellow eyelid patches by surgical excision. Xanthelasma is a harmless deposit of fatty material in the skin, usually near the inner corners of the eyelids; it does not harm vision and does not go away on its own. Removal is mainly a cosmetic choice, but because xanthelasma can be linked to raised blood cholesterol, a blood test and a physician review are sensible alongside any treatment. Other removal methods exist, and the patches can come back, so it helps to understand the options before deciding.',
-    'लखनऊ में ज़ैंथेलाज़्मा हटाने का काम डॉ. सौमिका सिंह करती हैं, जो अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में ओकुलोप्लास्टी सर्जन हैं; वे आंख की पलकों के इन पीले धब्बों को सर्जिकल एक्सिज़न (काटकर निकालने) से हटाती हैं। ज़ैंथेलाज़्मा त्वचा में चर्बी जैसे पदार्थ का हानिरहित जमाव है, जो आमतौर पर पलकों के भीतरी कोनों के पास दिखता है; इससे नज़र को नुकसान नहीं होता और यह अपने आप ठीक नहीं होता। इसे हटवाना मुख्यतः सौंदर्य का फ़ैसला है, लेकिन चूंकि इसका संबंध खून में बढ़े कोलेस्ट्रॉल से हो सकता है, इसलिए किसी भी इलाज के साथ खून की जांच और फ़िज़िशियन से सलाह समझदारी है। हटाने के दूसरे तरीके भी मौजूद हैं और धब्बे दोबारा आ सकते हैं, इसलिए फ़ैसले से पहले विकल्प समझ लेना उपयोगी है।'
+    'Xanthelasma removal in Lucknow is offered by Dr. Saumika Singh, an oculoplasty surgeon, who removes these soft yellow eyelid patches by surgical excision. Xanthelasma is a harmless deposit of fatty material in the skin, usually near the inner corners of the eyelids; it does not harm vision and does not go away on its own. Removal is mainly a cosmetic choice, but because xanthelasma can be linked to raised blood cholesterol, a blood test and a physician review are sensible alongside any treatment. Other removal methods exist, and the patches can come back, so it helps to understand the options before deciding.',
+    'लखनऊ में ज़ैंथेलाज़्मा हटाने का काम डॉ. सौमिका सिंह करती हैं, जो ओकुलोप्लास्टी सर्जन हैं; वे आंख की पलकों के इन पीले धब्बों को सर्जिकल एक्सिज़न (काटकर निकालने) से हटाती हैं। ज़ैंथेलाज़्मा त्वचा में चर्बी जैसे पदार्थ का हानिरहित जमाव है, जो आमतौर पर पलकों के भीतरी कोनों के पास दिखता है; इससे नज़र को नुकसान नहीं होता और यह अपने आप ठीक नहीं होता। इसे हटवाना मुख्यतः सौंदर्य का फ़ैसला है, लेकिन चूंकि इसका संबंध खून में बढ़े कोलेस्ट्रॉल से हो सकता है, इसलिए किसी भी इलाज के साथ खून की जांच और फ़िज़िशियन से सलाह समझदारी है। हटाने के दूसरे तरीके भी मौजूद हैं और धब्बे दोबारा आ सकते हैं, इसलिए फ़ैसले से पहले विकल्प समझ लेना उपयोगी है।'
   ),
   atAGlance: [
     t('**What it is:** soft, flat, yellowish plaques on the eyelids, usually near the nose side (xanthelasma palpebrarum)', '**यह क्या है:** पलकों पर नरम, चपटे, पीले उभार, आमतौर पर नाक की तरफ़ (ज़ैंथेलाज़्मा पैल्पेब्रेरम)'),
@@ -60,14 +60,6 @@ const guide: Guide = {
         t('If the lipids are raised, the physician will advise on diet, activity and any medicines; this treats the underlying cause but may not clear patches that are already there', 'अगर लिपिड बढ़े हों, तो फ़िज़िशियन खान-पान, गतिविधि और दवाओं पर सलाह देंगे; इससे मूल कारण का इलाज होता है, पर पहले से बने धब्बे साफ़ हों, यह ज़रूरी नहीं'),
         t('Normal lipids do not mean you must keep the patches; removal is still possible if they bother you', 'लिपिड सामान्य होने का मतलब यह नहीं कि धब्बे रखने ही होंगे; अगर परेशान करें तो हटवाना फिर भी संभव है'),
       ],
-      callout: {
-        tone: 'urgent',
-        title: t('When to get care quickly', 'कब तुरंत इलाज लें'),
-        text: t(
-          'Xanthelasma itself is not an emergency. But go to the nearest emergency department immediately for **chest pain or pressure, sudden breathlessness, weakness or numbness of the face, arm or leg, trouble speaking, or sudden loss of vision** — these are not caused by the eyelid patch and need urgent medical care. See an eyelid specialist soon if a yellow or pink lump on the eyelid grows quickly, bleeds, forms a crust or sore that does not heal, or if eyelashes are being lost from the area, because that is not typical of xanthelasma.',
-          'ज़ैंथेलाज़्मा अपने आप में इमरजेंसी नहीं है। लेकिन **सीने में दर्द या दबाव, अचानक सांस फूलना, चेहरे/हाथ/पैर में कमज़ोरी या सुन्नपन, बोलने में दिक्कत, या अचानक नज़र चली जाना** हो तो तुरंत नज़दीकी इमरजेंसी में जाएं — ये पलक के धब्बे की वजह से नहीं होते और इन्हें तत्काल चिकित्सा चाहिए। अगर पलक पर पीली या गुलाबी गांठ तेज़ी से बढ़े, खून आए, पपड़ी या न भरने वाला घाव बने, या उस जगह की पलकें झड़ने लगें, तो जल्द पलक विशेषज्ञ को दिखाएं, क्योंकि यह ज़ैंथेलाज़्मा की आम पहचान नहीं है। देखें [पलक के कैंसर के संकेत](/eyelid-cancer-signs-and-treatment)।'
-        ),
-      },
     },
     {
       id: 'do-you-need-treatment',
@@ -142,7 +134,7 @@ const guide: Guide = {
       table: {
         head: [t('Time', 'समय'), t('What to expect', 'क्या उम्मीद करें')],
         rows: [
-          [t('First few days', 'पहले कुछ दिन'), t('Mild swelling, a little bruising and tightness; cold compresses and ointment as advised', 'हल्की सूजन, थोड़ा नील और खिंचाव; सलाह के अनुसार ठंडी सिकाई और ऑइंटमेंट')],
+          [t('First few days', 'पहले कुछ दिन'), t('Mild swelling, a little bruising and tightness; ointment as advised', 'हल्की सूजन, थोड़ा नील और खिंचाव; सलाह के अनुसार ऑइंटमेंट')],
           [t('About 1 week', 'लगभग 1 हफ़्ता'), t('Stitches removed if they are not the dissolving type; many people return to routine work', 'अगर टांके घुलने वाले नहीं हैं तो हटाए जाते हैं; कई लोग रोज़मर्रा के काम पर लौट आते हैं')],
           [t('Weeks 2–6', '2–6 हफ़्ते'), t('Redness of the line fades gradually; avoid rubbing the area and use sun protection', 'रेखा की लालिमा धीरे-धीरे कम होती है; जगह को न रगड़ें और धूप से बचाव रखें')],
           [t('Several months', 'कई महीने'), t('The scar keeps softening and becomes less noticeable; the final look is judged after this', 'निशान नरम होता जाता है और कम दिखता है; अंतिम रूप इसके बाद ही आंका जाता है')],
@@ -172,7 +164,7 @@ const guide: Guide = {
         t('Change in skin colour at the site, lighter or darker than the surrounding skin', 'उस जगह त्वचा के रंग में बदलाव, आसपास की त्वचा से हल्का या गहरा'),
         t('Bleeding, bruising, infection, or stitch marks', 'खून बहना, नील, संक्रमण, या टांकों के निशान'),
         t('Incomplete removal, so that some yellow deposit remains and needs a second procedure', 'अधूरा निकलना, जिससे कुछ पीला जमाव रह जाए और दूसरी प्रक्रिया की ज़रूरत पड़े'),
-        t('Watering from the eye if the tear drainage opening is affected, which is uncommon', 'अगर आंसू निकासी का छिद्र प्रभावित हो तो आंख से पानी बहना, जो कम होता है'),
+        t('Watering from the eye if the tear drainage opening is affected', 'अगर आंसू निकासी का छिद्र प्रभावित हो तो आंख से पानी बहना'),
       ],
     },
     {
@@ -242,7 +234,7 @@ const guide: Guide = {
     },
     {
       q: t('Which doctor should I see for xanthelasma in Lucknow?', 'लखनऊ में ज़ैंथेलाज़्मा के लिए किस डॉक्टर को दिखाएं?'),
-      a: t('An oculoplastic (eyelid) surgeon is well placed to confirm the diagnosis and remove the patches safely near the eyelid margin and tear opening, while your physician looks after cholesterol. In Lucknow, Dr. Saumika Singh sees patients at Alyantra Medicity Superspeciality Hospital, Gomti Nagar.', 'पलक के किनारे और आंसू के छिद्र के नज़दीक निदान पक्का करने और धब्बे सुरक्षित रूप से हटाने के लिए ओकुलोप्लास्टिक (पलक) सर्जन उपयुक्त हैं, जबकि कोलेस्ट्रॉल की देखभाल आपके फ़िज़िशियन करते हैं। लखनऊ में डॉ. सौमिका सिंह अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में मरीज़ देखती हैं।'),
+      a: t('An oculoplastic (eyelid) surgeon is well placed to confirm the diagnosis and remove the patches safely near the eyelid margin and tear opening, while your physician looks after cholesterol. In Lucknow, Dr. Saumika Singh sees patients.', 'पलक के किनारे और आंसू के छिद्र के नज़दीक निदान पक्का करने और धब्बे सुरक्षित रूप से हटाने के लिए ओकुलोप्लास्टिक (पलक) सर्जन उपयुक्त हैं, जबकि कोलेस्ट्रॉल की देखभाल आपके फ़िज़िशियन करते हैं। लखनऊ में डॉ. सौमिका सिंह मरीज़ देखती हैं।'),
     },
   ],
 
@@ -276,6 +268,7 @@ const guide: Guide = {
   },
 
   reviewerNotes: [
+    'Pre-applied on 16 Nov 2026 from her ptosis/ectropion review: urgent/emergency boxes removed, hospital name taken out of the opening paragraph, search description and FAQ answers (kept in the \'Where\' line and credentials), and home-care/risk wording trimmed. Please check the page reads well without them.',
     'Confirm that surgical excision is typically done under local anaesthesia as day care for small/medium patches, and the alternatives she considers for large or multiple patches.',
     'Confirm whether she uses skin grafts/flaps for large xanthelasma; the step mentions this only as "in selected cases".',
     'Confirm whether she routinely sends the excised tissue for histopathology (the page says "may be sent").',

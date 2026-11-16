@@ -26,7 +26,6 @@ const guide: Guide = {
     t('**Surprising fact:** a dry eye can make the eye water more (reflex tearing)', '**हैरान करने वाली बात:** सूखी आंख से भी पानी ज़्यादा आ सकता है (रिफ़्लेक्स टियरिंग)'),
     t('**Key test:** a simple syringing (irrigation) of the tear passage, plus an eyelid and eye-surface exam', '**मुख्य जांच:** आंसू नली की सिरिंजिंग (धुलाई) और पलक व आंख की सतह की जांच'),
     t('**Treatment:** depends on the cause, from lid hygiene and lubricants to eyelid surgery or DCR', '**इलाज:** कारण पर निर्भर – पलक की सफ़ाई और लुब्रिकेंट से लेकर पलक सर्जरी या DCR तक'),
-    t('**Same-day care:** painful red eye with poor vision, injury or chemical splash, painful swelling at the inner corner', '**उसी दिन इलाज:** दर्द भरी लाल आंख के साथ नज़र कम होना, चोट या केमिकल, भीतरी कोने पर दर्द भरी सूजन'),
     t('**Where:** Alyantra Medicity Superspeciality Hospital, Gomti Nagar, Lucknow', '**कहां:** अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर, लखनऊ'),
   ],
 
@@ -140,15 +139,11 @@ const guide: Guide = {
           'Most watering is an annoyance rather than an emergency, but certain combinations need prompt care. Do not wait for a routine appointment if you notice any of the following.',
           'ज़्यादातर मामलों में पानी आना परेशानी होती है, इमरजेंसी नहीं, लेकिन कुछ लक्षणों के साथ तुरंत इलाज चाहिए। नीचे के लक्षण दिखें तो नियमित अपॉइंटमेंट का इंतज़ार न करें।'
         ),
-      ],
-      callout: {
-        tone: 'urgent',
-        title: t('Get same-day or emergency eye care for', 'इन स्थितियों में उसी दिन या इमरजेंसी में नेत्र चिकित्सक को दिखाएं'),
-        text: t(
-          'A painful red eye with reduced vision or marked light sensitivity; any eye injury; a chemical splash (rinse the eye straight away with plenty of clean running water for several minutes, then go to hospital without waiting for symptoms); a painful, red, spreading swelling at the inner corner of the eye, especially with fever; blood in the tears; or a white spot on the clear front of the eye. These can mean a corneal ulcer, a deep injury or an infected tear sac, all of which need prompt treatment.',
-          'आंख में दर्द और लालिमा के साथ नज़र कम होना या रोशनी से बहुत तकलीफ़; आंख में कोई भी चोट; केमिकल गिरना (तुरंत साफ़ बहते पानी से कई मिनट तक आंख धोएं, फिर लक्षणों का इंतज़ार किए बिना अस्पताल जाएं); आंख के भीतरी कोने पर दर्द भरी, लाल, फैलती सूजन, खासकर बुखार के साथ; आंसुओं में खून; या आंख के साफ़ अगले हिस्से पर सफ़ेद धब्बा। ये कॉर्नियल अल्सर, गहरी चोट या आंसू की थैली के संक्रमण के संकेत हो सकते हैं, जिनमें तुरंत इलाज ज़रूरी है।'
+        t(
+          '**Get same-day or emergency eye care for:** A painful red eye with reduced vision or marked light sensitivity; any eye injury; a chemical splash (rinse the eye straight away with plenty of clean running water for several minutes, then go to hospital without waiting for symptoms); a painful, red, spreading swelling at the inner corner of the eye, especially with fever; blood in the tears; or a white spot on the clear front of the eye. These can mean a corneal ulcer, a deep injury or an infected tear sac, all of which need prompt treatment.',
+          '**इन स्थितियों में उसी दिन या इमरजेंसी में नेत्र चिकित्सक को दिखाएं:** आंख में दर्द और लालिमा के साथ नज़र कम होना या रोशनी से बहुत तकलीफ़; आंख में कोई भी चोट; केमिकल गिरना (तुरंत साफ़ बहते पानी से कई मिनट तक आंख धोएं, फिर लक्षणों का इंतज़ार किए बिना अस्पताल जाएं); आंख के भीतरी कोने पर दर्द भरी, लाल, फैलती सूजन, खासकर बुखार के साथ; आंसुओं में खून; या आंख के साफ़ अगले हिस्से पर सफ़ेद धब्बा। ये कॉर्नियल अल्सर, गहरी चोट या आंसू की थैली के संक्रमण के संकेत हो सकते हैं, जिनमें तुरंत इलाज ज़रूरी है।'
         ),
-      },
+      ],
     },
     {
       id: 'assessment',
@@ -277,7 +272,7 @@ const guide: Guide = {
     },
     {
       q: t('Which doctor should I see for watering eyes in Lucknow?', 'लखनऊ में आंखों से पानी आने पर किस डॉक्टर को दिखाएं?'),
-      a: t('Start with an eye doctor. Persistent watering with a suspected eyelid or tear-drainage cause is handled by an oculoplastic surgeon, an eye surgeon trained in eyelids and tear ducts. In Lucknow, Dr. Saumika Singh consults at Alyantra Medicity Superspeciality Hospital, Gomti Nagar. For pain, injury or sudden vision loss, go to an eye emergency first.', 'शुरुआत नेत्र चिकित्सक से करें। पलक या आंसू निकासी के कारण की आशंका वाले लगातार पानी आने का इलाज ओकुलोप्लास्टिक सर्जन करते हैं, जो पलक और आंसू नली में प्रशिक्षित नेत्र सर्जन होते हैं। लखनऊ में डॉ. सौमिका सिंह अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में परामर्श करती हैं। दर्द, चोट या अचानक नज़र कम होने पर पहले आंखों की इमरजेंसी में जाएं।'),
+      a: t('Start with an eye doctor. Persistent watering with a suspected eyelid or tear-drainage cause is handled by an oculoplastic surgeon, an eye surgeon trained in eyelids and tear ducts. In Lucknow, Dr. Saumika Singh sees patients with watering eyes.', 'शुरुआत नेत्र चिकित्सक से करें। पलक या आंसू निकासी के कारण की आशंका वाले लगातार पानी आने का इलाज ओकुलोप्लास्टिक सर्जन करते हैं, जो पलक और आंसू नली में प्रशिक्षित नेत्र सर्जन होते हैं। लखनऊ में डॉ. सौमिका सिंह आंखों से पानी आने के मरीज़ देखती हैं।'),
     },
   ],
 
@@ -312,6 +307,8 @@ const guide: Guide = {
   },
 
   reviewerNotes: [
+    'Pre-applied on 16 Nov 2026 from her ptosis/ectropion review: urgent/emergency boxes removed, hospital name taken out of the opening paragraph, search description and FAQ answers (kept in the \'Where\' line and credentials), and home-care/risk wording trimmed. Please check the page reads well without them.',
+    'Judgement call: the \'When watering is an emergency\' section keeps its list (corneal ulcer, chemical splash, infected tear sac) as a normal paragraph instead of a red box. The \'Same-day care\' line in the at-a-glance box was removed.',
     'All six reference URLs returned HTTP 200 and were checked by page title/content (AAO Tearing, AAO What Is a Blocked Tear Duct, EyeWiki Dacryocystorhinostomy, EyeWiki Dacryocystitis, NHS Blepharitis, NHS Conjunctivitis). No StatPearls epiphora URL was cited because an ID could not be verified.',
     'Confirm the assessment list (slit lamp, dye disappearance test, syringing/irrigation, nasal exam or scans when needed) matches her routine workup.',
     'Confirm she is comfortable with the phrase "a narrowed punctum can sometimes be widened with a small procedure" and "other lacrimal techniques" (punctoplasty, probing, intubation are deliberately not named as services). Edit if she does not offer these.',

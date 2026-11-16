@@ -13,8 +13,8 @@ const guide: Guide = {
     'बच्चों में जन्मजात टोसिस: कब ऑपरेशन? | डॉ. सौमिका सिंह'
   ),
   metaDescription: t(
-    'Congenital ptosis in children explained for parents: signs of a droopy eyelid, lazy eye risk, timing of surgery, sling or levator options, recovery. Lucknow.',
-    'बच्चों में जन्मजात टोसिस (आंख की पलक का झुकना): लक्षण, लेज़ी आई का ख़तरा, सर्जरी का सही समय, स्लिंग या लेवेटर सर्जरी और रिकवरी। माता-पिता के लिए गाइड, लखनऊ।'
+    'Congenital ptosis in children explained for parents: signs of a droopy eyelid, lazy eye risk, timing of surgery, surgical options, recovery. Lucknow.',
+    'बच्चों में जन्मजात टोसिस (आंख की पलक का झुकना): लक्षण, लेज़ी आई का ख़तरा, सर्जरी का सही समय, सर्जरी के विकल्प और रिकवरी। माता-पिता के लिए गाइड, लखनऊ।'
   ),
   h1: t('Congenital Ptosis in Children – Droopy Eyelid From Birth', 'बच्चों में जन्मजात टोसिस – जन्म से झुकी हुई आंख की पलक'),
   lead: t(
@@ -59,14 +59,6 @@ const guide: Guide = {
         t('The lid does not follow the eye fully when the child looks down, so the white of the eye shows above the iris (lid lag)', 'नीचे देखने पर पलक आंख के साथ पूरी तरह नीचे नहीं आती, इसलिए आइरिस के ऊपर सफ़ेद हिस्सा दिखता है (लिड लैग)'),
         t('In a baby, the lid may jump up while feeding, which can point to Marcus Gunn jaw-winking (see below)', 'शिशु में दूध पीते समय पलक अचानक ऊपर उठ सकती है, जो मार्कस गन जॉ-विंकिंग का संकेत हो सकता है (नीचे देखें)'),
       ],
-      callout: {
-        tone: 'urgent',
-        title: t('Same-day assessment needed', 'उसी दिन जांच करवाएं'),
-        text: t(
-          'A droopy eyelid that appears **suddenly** in a child who did not have it before is not congenital ptosis and needs a same-day eye or emergency assessment. So does a droop that comes with a large or unequal pupil, an eye that turns in or out, double vision, a headache, vomiting, redness or swelling of the eyelid, or a new lump. These can signal a nerve problem, an infection or a growth in or around the eye, and they should not wait for a routine appointment.',
-          'अगर किसी बच्चे में पलक **अचानक** झुके जबकि पहले नहीं झुकी थी, तो यह जन्मजात टोसिस नहीं है और उसी दिन आंख या इमरजेंसी में दिखाना ज़रूरी है। यही बात तब भी लागू होती है जब झुकाव के साथ पुतली बड़ी या असमान हो, आंख अंदर या बाहर मुड़ी दिखे, दोहरा दिखे, सिरदर्द या उल्टी हो, पलक लाल या सूजी हो, या कोई नई गांठ दिखे। ये नस की समस्या, संक्रमण या आंख के आसपास किसी गांठ के संकेत हो सकते हैं, इसलिए सामान्य अपॉइंटमेंट का इंतज़ार न करें।'
-        ),
-      },
     },
     {
       id: 'why-it-matters',
@@ -158,17 +150,9 @@ const guide: Guide = {
         t('Because the child is still growing, the droop can return or the sling may need adjusting or replacing later', 'बच्चा बढ़ रहा होता है, इसलिए झुकाव लौट सकता है या स्लिंग को बाद में बदलना या ठीक करना पड़ सकता है'),
         t('The eye may not close fully at first, especially during sleep, so the surface can become dry or irritated; lubricants are needed and sometimes for longer', 'शुरू में आंख पूरी तरह बंद नहीं हो सकती, खासकर सोते समय, जिससे सतह सूखी या खुरदुरी हो सकती है; चिकनाई वाली दवाएं चाहिए और कभी-कभी लंबे समय तक'),
         t('The lid may lag when the child looks down, because surgery lifts the lid but does not restore normal muscle movement', 'नीचे देखने पर पलक पीछे रह सकती है, क्योंकि सर्जरी पलक उठाती है पर सामान्य मांसपेशी-गति नहीं लौटाती'),
-        t('Infection, bleeding, a visible scar or, with a sling, exposure of the sling material (all uncommon)', 'संक्रमण, खून बहना, दिखने वाला निशान या स्लिंग में स्लिंग सामग्री का बाहर दिखना (सभी कम होते हैं)'),
+        t('Infection, bleeding, a visible scar or, with a sling, exposure of the sling material', 'संक्रमण, खून बहना, दिखने वाला निशान या स्लिंग में स्लिंग सामग्री का बाहर दिखना'),
         t('Risks of general anaesthesia, which the anaesthetist will explain before the day', 'जनरल एनेस्थीसिया के जोखिम, जिन्हें एनेस्थेटिस्ट ऑपरेशन से पहले समझाएंगे'),
       ],
-      callout: {
-        tone: 'urgent',
-        title: t('After surgery: call or go the same day if', 'सर्जरी के बाद: उसी दिन संपर्क करें या आएं अगर'),
-        text: t(
-          'the eye becomes very red, swollen or painful, there is thick discharge or fever, the child seems unusually unwell, there is bleeding that does not stop with gentle pressure, the eye stays open and looks dry or cloudy, or you notice any sign that vision is reduced.',
-          'आंख बहुत लाल, सूजी या दर्दनाक हो जाए, गाढ़ा पानी/मवाद या बुखार हो, बच्चा असामान्य रूप से बीमार लगे, हल्के दबाव से खून न रुके, आंख खुली रहकर सूखी या धुंधली दिखे, या नज़र कम होने का कोई संकेत मिले।'
-        ),
-      },
     },
     {
       id: 'marcus-gunn',
@@ -204,7 +188,7 @@ const guide: Guide = {
 
   whyDrSaumika: [
     t('Long-term fellowship in Oculoplasty & Ocular Oncology at Dr. Shroff’s Charity Eye Hospital, New Delhi, after MS in Ophthalmology', 'नेत्र विज्ञान में MS के बाद डॉ. श्रॉफ़्स चैरिटी आई हॉस्पिटल, नई दिल्ली से ओकुलोप्लास्टी व ओकुलर ऑन्कोलॉजी में दीर्घकालिक फ़ेलोशिप'),
-    t('Her eyelid practice includes levator surgery and frontalis/tarsofrontal sling surgery, and a consented Marcus Gunn congenital ptosis case is described on this site', 'उनके पलक संबंधी कार्य में लेवेटर सर्जरी और फ्रंटालिस/टार्सोफ्रंटल स्लिंग सर्जरी शामिल है, और इस साइट पर सहमति से एक मार्कस गन जन्मजात टोसिस केस दिया गया है'),
+    t('Her eyelid practice includes ptosis correction customised for every adult and child, and a consented Marcus Gunn congenital ptosis case is described on this site', 'उनके पलक संबंधी कार्य में हर वयस्क और बच्चे के लिए व्यक्तिगत रूप से तय टोसिस सुधार शामिल है, और इस साइट पर सहमति से एक मार्कस गन जन्मजात टोसिस केस दिया गया है'),
     t('She assesses the eyelid together with the health of the eye, so that vision is protected and not only appearance', 'वे पलक के साथ आंख की सेहत की भी जांच करती हैं, ताकि सिर्फ़ दिखावट नहीं, नज़र भी सुरक्षित रहे'),
     t('Registered with the Uttar Pradesh Medical Council (Reg. No. 137106); consults at Alyantra Medicity Superspeciality Hospital, Gomti Nagar', 'उत्तर प्रदेश मेडिकल काउंसिल में पंजीकृत (पंजीकरण सं. 137106); अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में परामर्श'),
   ],
@@ -236,7 +220,7 @@ const guide: Guide = {
     },
     {
       q: t('Where can I get a child’s droopy eyelid assessed in Lucknow?', 'लखनऊ में बच्चे की झुकी पलक की जांच कहां करवाएं?'),
-      a: t('Dr. Saumika Singh, an oculoplasty surgeon, sees children with ptosis at Alyantra Medicity Superspeciality Hospital, Gomti Nagar, by appointment. Bring baby photographs showing the droop, any earlier eye reports and glasses details. If the droop is sudden or comes with a large pupil, eye turning or lid swelling, seek same-day care instead.', 'ओकुलोप्लास्टी सर्जन डॉ. सौमिका सिंह अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में अपॉइंटमेंट पर टोसिस वाले बच्चों को देखती हैं। झुकाव दिखाती बचपन की तस्वीरें, पुरानी आंखों की रिपोर्ट और चश्मे की जानकारी साथ लाएं। अगर झुकाव अचानक हो या साथ में बड़ी पुतली, आंख मुड़ना या पलक में सूजन हो, तो उसी दिन इलाज लें।'),
+      a: t('Dr. Saumika Singh, an oculoplasty surgeon, sees children with ptosis by appointment. Bring baby photographs showing the droop, any earlier eye reports and glasses details.', 'ओकुलोप्लास्टी सर्जन डॉ. सौमिका सिंह अपॉइंटमेंट पर टोसिस वाले बच्चों को देखती हैं। झुकाव दिखाती बचपन की तस्वीरें, पुरानी आंखों की रिपोर्ट और चश्मे की जानकारी साथ लाएं।'),
     },
   ],
 
@@ -269,6 +253,9 @@ const guide: Guide = {
   },
 
   reviewerNotes: [
+    'Pre-applied on 16 Nov 2026 from her ptosis/ectropion review: urgent/emergency boxes removed, hospital name taken out of the opening paragraph, search description and FAQ answers (kept in the \'Where\' line and credentials), and home-care/risk wording trimmed. Please check the page reads well without them.',
+    'Search description now says \'surgical options\' instead of naming sling/levator. \'Why Dr Saumika\' uses your wording \'ptosis correction customised for every adult and child\'.',
+    'MMCR was NOT added to this page, because congenital ptosis usually has poor muscle function. Tell us if you want it mentioned.',
     'Timing of surgery: wording is “early if the lid covers the pupil or vision is at risk; otherwise often planned when older, commonly before school age” and “no single best age”. Confirm this matches her practice (EyeWiki suggests deferring non-urgent cases to about 3–4 years for more accurate measurement).',
     'Confirm sling materials she uses; the page says “silicone or another material” (silicone is confirmed in the Marcus Gunn case). Edit if only silicone, or if autologous fascia is also used.',
     'Levator resection vs sling is described as chosen by levator function; no mm threshold is quoted. Confirm she is happy with that.',

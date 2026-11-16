@@ -74,14 +74,6 @@ const guide: Guide = {
         t('Long-lasting redness, scaling or thickening of one eyelid that does not settle with treatment for blepharitis', 'एक पलक में लंबे समय तक लालिमा, पपड़ी या मोटापन जो ब्लेफेराइटिस के इलाज से ठीक न हो'),
         t('A dark or pigmented spot that changes in size, shape or colour', 'काला या रंगीन धब्बा जिसका आकार, बनावट या रंग बदल रहा हो'),
       ],
-      callout: {
-        tone: 'urgent',
-        title: t('See a specialist urgently — within days, not weeks', 'विशेषज्ञ को तुरंत दिखाएं — दिनों में, हफ़्तों में नहीं'),
-        text: t(
-          'Seek an urgent specialist review if a lid lesion is **growing quickly or bleeding**, if a lump comes with the **eye looking pushed forward (bulging)**, **double vision** or **reduced eye movement**, or if there is **numbness of the cheek or forehead**. These can mean a growth is spreading deeper than the skin. If you cannot reach a specialist quickly, go to the nearest eye emergency or hospital.',
-          'अगर पलक की कोई गांठ **तेज़ी से बढ़ रही हो या खून दे रही हो**, गांठ के साथ **आंख आगे की ओर उभरी दिखे**, **दोहरा दिखाई दे** या **आंख की गति कम हो**, या **गाल या माथे में सुन्नपन** हो, तो विशेषज्ञ से तुरंत मिलें। ये संकेत हो सकते हैं कि बढ़त त्वचा से गहराई में जा रही है। अगर विशेषज्ञ जल्दी न मिल सके, तो नज़दीकी आंखों की इमरजेंसी या अस्पताल जाएं।'
-        ),
-      },
     },
     {
       id: 'types-of-eyelid-cancer',
@@ -277,7 +269,7 @@ const guide: Guide = {
 
   cta: {
     title: t('Have a lid lump that is changing or not healing?', 'पलक की ऐसी गांठ जो बदल रही है या ठीक नहीं हो रही?'),
-    text: t('Book an examination. Bring any previous reports, photographs showing how the lump has changed, and a list of your medicines. If it is growing fast, bleeding, or the eye looks pushed forward, ask for an urgent appointment.', 'जांच के लिए अपॉइंटमेंट लें। पुरानी रिपोर्ट, गांठ कैसे बदली यह दिखाने वाली तस्वीरें और अपनी दवाओं की सूची साथ लाएं। अगर गांठ तेज़ी से बढ़ रही हो, खून दे रही हो, या आंख आगे की ओर उभरी दिखे, तो जल्दी की अपॉइंटमेंट मांगें।'),
+    text: t('Book an examination. Bring any previous reports, photographs showing how the lump has changed, and a list of your medicines.', 'जांच के लिए अपॉइंटमेंट लें। पुरानी रिपोर्ट, गांठ कैसे बदली यह दिखाने वाली तस्वीरें और अपनी दवाओं की सूची साथ लाएं।'),
   },
 
   related: [
@@ -305,6 +297,7 @@ const guide: Guide = {
   },
 
   reviewerNotes: [
+    'Pre-applied on 16 Nov 2026 from her ptosis/ectropion review: urgent/emergency boxes removed, hospital name taken out of the opening paragraph, search description and FAQ answers (kept in the \'Where\' line and credentials), and home-care/risk wording trimmed. Please check the page reads well without them.',
     'Confirm the photo /photo-gallery-5.webp has patient consent for web use and state which tumour type it shows (BCC, SCC, SGC or other); the caption currently says only "an eyelid carcinoma".',
     'Confirm the SGC case description (wide local excision with clear margins, cryotherapy, reconstruction, good healing at 2 weeks) matches the consented case text.',
     'Confirm margin-control wording: frozen section / post-operative histopathology are described as general options and Mohs is mentioned only neutrally; edit if her practice uses a specific method (e.g. frozen section on site).',
