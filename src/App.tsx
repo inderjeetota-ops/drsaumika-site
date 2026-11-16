@@ -21,6 +21,7 @@ const SurgicalOutcomeDetail = lazyWithPreload(() => import('./pages/SurgicalOutc
 const Publications = lazyWithPreload(() => import('./pages/Publications'));
 const PrivacyPolicy = lazyWithPreload(() => import('./pages/PrivacyPolicy'));
 const About = lazyWithPreload(() => import('./pages/About'));
+const PatientGuides = lazyWithPreload(() => import('./pages/PatientGuides'));
 const NotFoundPage = lazyWithPreload(() => import('./pages/NotFoundPage'));
 const GuidePage = lazyWithPreload(() => import('./pages/GuidePage'));
 
@@ -41,6 +42,7 @@ export function preloadForPath(pathname: string): Promise<unknown> {
   if (first === 'publications') return Publications.preload();
   if (first === 'privacy') return PrivacyPolicy.preload();
   if (first === 'about') return About.preload();
+  if (first === 'patient-guides') return PatientGuides.preload();
   if (!second && guideSlugs.includes(first)) return Promise.all([GuidePage.preload(), loadGuide(first)]);
   return NotFoundPage.preload();
 }
@@ -65,6 +67,7 @@ export default function App() {
               <Route path="publications" element={<Publications />} />
               <Route path="privacy" element={<PrivacyPolicy />} />
               <Route path="about" element={<About />} />
+              <Route path="patient-guides" element={<PatientGuides />} />
 
               <Route path="hi" element={<Home />} />
               <Route path="hi/gallery" element={<GalleryPage />} />
@@ -78,6 +81,7 @@ export default function App() {
               <Route path="hi/publications" element={<Publications />} />
               <Route path="hi/privacy" element={<PrivacyPolicy />} />
               <Route path="hi/about" element={<About />} />
+              <Route path="hi/patient-guides" element={<PatientGuides />} />
               {guideSlugs.map((slug) => (
                 <React.Fragment key={slug}>
                   <Route path={slug} element={<GuidePage slug={slug} />} />

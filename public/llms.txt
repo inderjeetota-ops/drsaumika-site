@@ -33,6 +33,7 @@
 
 ## Patient guides (medically reviewed by Dr. Saumika Singh)
 
+- [All patient guides](https://drsaumika.in/patient-guides): Index of every guide Dr. Saumika Singh has medically reviewed.
 - [Ptosis (drooping eyelid) surgery in Lucknow](https://drsaumika.in/ptosis-surgery-in-lucknow): Causes of a drooping upper eyelid, assessment, surgical options (levator resection/advancement, Müller muscle–conjunctival resection (MMCR) and frontalis sling), recovery, risks and what affects cost.
 - [Ectropion (outward-turning eyelid) surgery in Lucknow](https://drsaumika.in/ectropion-surgery-in-lucknow): Types and causes of ectropion, symptoms, examination, surgical repair, recovery and risks.
 

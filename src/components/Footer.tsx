@@ -22,6 +22,7 @@ export function Footer() {
 
   const privacyPath = language === 'en' ? '/privacy' : '/hi/privacy';
   const aboutPath = language === 'en' ? '/about' : '/hi/about';
+  const guidesPath = language === 'en' ? '/patient-guides' : '/hi/patient-guides';
 
   return (
     <footer className="relative bg-gradient-to-b from-navy via-[#001d3d] to-[#000f24] text-ivory pt-20 pb-8 border-t border-gold/30 overflow-hidden">
@@ -85,6 +86,9 @@ export function Footer() {
               <p>&copy; {new Date().getFullYear()} {t('home.drName').replace('\n', ' ')}. All rights reserved.</p>
               <Link to={aboutPath} className="hover:text-gold transition-colors underline-offset-4 hover:underline">
                 {language === 'en' ? 'About Dr. Singh' : 'डॉ. सिंह के बारे में'}
+              </Link>
+              <Link to={guidesPath} className="hover:text-gold transition-colors underline-offset-4 hover:underline">
+                {language === 'en' ? 'Patient Guides' : 'रोगी मार्गदर्शिकाएँ'}
               </Link>
               <Link to={privacyPath} className="hover:text-gold transition-colors underline-offset-4 hover:underline">
                 {language === 'en' ? 'Privacy Policy' : 'गोपनीयता नीति'}
