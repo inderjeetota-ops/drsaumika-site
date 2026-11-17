@@ -5,6 +5,7 @@ import { cn } from '../lib/utils';
 import { AnimatePresence, m } from 'motion/react';
 import { useLanguage, getLocalizedPath } from '../context/LanguageContext';
 import { scrollToSection } from '../lib/scrollToSection';
+import { LanguageSwitch } from './LanguageSwitch';
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -177,35 +178,7 @@ export function Navbar() {
               <Globe className="w-3.5 h-3.5 text-gold/80" />
               <span className="text-[10px] uppercase tracking-wider font-bold text-ivory/75">Language:</span>
             </div>
-            <div className="relative flex bg-white/5 border border-white/10 rounded-full p-0.5 shadow-inner">
-              {/* Sliding background indicator */}
-              <div 
-                className={cn(
-                  "absolute top-0.5 bottom-0.5 rounded-full bg-ivory shadow-sm transition-all duration-300 ease-out z-0",
-                  language === 'en' ? "left-0.5 w-[calc(50%-2px)]" : "left-[calc(50%+2px)] w-[calc(50%-2px)]"
-                )}
-              />
-              <button
-                onClick={() => navigate(getLocalizedPath(location.pathname, 'en'))}
-                aria-label="Switch language to English"
-                className={cn(
-                  "relative z-10 w-20 py-1 text-xs font-bold transition-colors duration-300 rounded-full focus:outline-none text-center",
-                  language === 'en' ? "text-navy font-extrabold" : "text-ivory/70 hover:text-ivory"
-                )}
-              >
-                <span className="relative z-10">English</span>
-              </button>
-              <button
-                onClick={() => navigate(getLocalizedPath(location.pathname, 'hi'))}
-                aria-label="Switch language to Hindi"
-                className={cn(
-                  "relative z-10 w-20 py-1 text-xs font-bold transition-colors duration-300 rounded-full focus:outline-none text-center",
-                  language === 'hi' ? "text-navy font-extrabold" : "text-ivory/70 hover:text-ivory"
-                )}
-              >
-                <span className="relative z-10">हिंदी</span>
-              </button>
-            </div>
+            <LanguageSwitch />
           </div>
         </div>
       </div>
