@@ -11,21 +11,21 @@ const guide: Guide = {
   hindiKeywords: ['लखनऊ में ओकुलोप्लास्टिक सर्जन', 'आंखों की प्लास्टिक सर्जरी डॉक्टर लखनऊ', 'aankhon ki plastic surgery doctor lucknow', 'oculoplasty kya hai'],
 
   metaTitle: t(
-    'Oculoplastic Surgeon in Lucknow – Dr Saumika Singh',
-    'लखनऊ में ओकुलोप्लास्टिक सर्जन – डॉ. सौमिका सिंह'
+    'Oculoplastic Surgeon in Lucknow – Orbit and Ocular Oncology',
+    'लखनऊ में ओकुलोप्लास्टिक सर्जन – ऑर्बिट और ओकुलर ऑन्कोलॉजी'
   ),
   metaDescription: t(
-    'Oculoplastic surgeon in Lucknow Dr Saumika Singh, fellowship-trained, treats eyelid, tear duct, orbit, eye socket and eye tumour conditions. Book now.',
-    'डॉ. सौमिका सिंह लखनऊ में फ़ेलोशिप-प्रशिक्षित ओकुलोप्लास्टिक व ओकुलर ऑन्कोलॉजी सर्जन हैं — पलक, आंसू नली, ऑर्बिट और आंख के ट्यूमर का इलाज।'
+    'Oculoplastic surgeon in Lucknow Dr Saumika Singh: Oculoplasty, Orbit and Ocular Oncology, for eyelid, tear duct, eye socket and eye tumour care. Book now.',
+    'लखनऊ में ओकुलोप्लास्टिक सर्जन डॉ. सौमिका सिंह: ओकुलोप्लास्टी, ऑर्बिट और ओकुलर ऑन्कोलॉजी — पलक, आंसू नली, आंख के सॉकेट और आंख के ट्यूमर का इलाज। अभी बुक करें।'
   ),
-  h1: t('Oculoplastic Surgeon in Lucknow – Dr. Saumika Singh', 'लखनऊ में ओकुलोप्लास्टिक सर्जन – डॉ. सौमिका सिंह'),
+  h1: t('Oculoplastic Surgeon in Lucknow – Dr. Saumika Singh (Oculoplasty, Orbit and Ocular Oncology)', 'लखनऊ में ओकुलोप्लास्टिक सर्जन – डॉ. सौमिका सिंह (ओकुलोप्लास्टी, ऑर्बिट और ओकुलर ऑन्कोलॉजी)'),
   lead: t(
-    'Dr. Saumika Singh is an oculoplastic surgeon in Lucknow who specialises in surgery of the eyelids, tear ducts, orbit (eye socket) and tumours around the eye. An oculoplastic surgeon is an ophthalmologist — an eye surgeon — who has completed additional fellowship training in oculoplasty, so they can treat problems such as drooping eyelids, watering eyes, eyelid lumps, eye injuries and artificial-eye fitting while protecting vision and the health of the eye. This page explains what an oculoplastic surgeon treats, Dr. Singh’s verifiable qualifications, and how to book a consultation in Lucknow.',
-    'डॉ. सौमिका सिंह लखनऊ में ओकुलोप्लास्टिक सर्जन हैं। वे पलकों, आंसू नलियों, ऑर्बिट (आंख का गड्ढा) और आंख के आसपास के ट्यूमर की सर्जरी में विशेषज्ञ हैं। ओकुलोप्लास्टिक सर्जन एक नेत्र रोग विशेषज्ञ (आई सर्जन) होते हैं जिन्होंने ओकुलोप्लास्टी में अतिरिक्त फ़ेलोशिप प्रशिक्षण लिया हो, इसलिए वे झुकी पलक, आंखों से पानी आना, पलक की गांठ, आंख की चोट और कृत्रिम आंख जैसी समस्याओं का इलाज नज़र और आंख की सेहत की रक्षा करते हुए कर सकते हैं। इस पेज पर जानें कि ओकुलोप्लास्टिक सर्जन किन समस्याओं का इलाज करते हैं, डॉ. सिंह की प्रमाणित योग्यताएं क्या हैं, और लखनऊ में परामर्श कैसे बुक करें।'
+    'Dr. Saumika Singh is an oculoplastic surgeon in Lucknow whose practice covers Oculoplasty, Orbit and Ocular Oncology: surgery of the eyelids, tear ducts and orbit (eye socket), and the treatment of eye, eyelid and orbital tumours. An oculoplastic surgeon is an ophthalmologist — an eye surgeon — who has completed additional fellowship training in oculoplasty, so they can treat problems such as drooping eyelids, watering eyes, eyelid lumps and eye injuries. This page explains what an oculoplastic surgeon treats, Dr. Singh’s verifiable qualifications, and how to book a consultation in Lucknow.',
+    'डॉ. सौमिका सिंह लखनऊ में ओकुलोप्लास्टिक सर्जन हैं, जिनका काम ओकुलोप्लास्टी, ऑर्बिट और ओकुलर ऑन्कोलॉजी में है: पलकों, आंसू नलियों और ऑर्बिट (आंख का गड्ढा) की सर्जरी, और आंख, पलक व ऑर्बिट के ट्यूमर का इलाज। ओकुलोप्लास्टिक सर्जन एक नेत्र रोग विशेषज्ञ (आई सर्जन) होते हैं जिन्होंने ओकुलोप्लास्टी में अतिरिक्त फ़ेलोशिप प्रशिक्षण लिया हो, इसलिए वे झुकी पलक, आंखों से पानी आना, पलक की गांठ और आंख की चोट जैसी समस्याओं का इलाज कर सकते हैं। इस पेज पर जानें कि ओकुलोप्लास्टिक सर्जन किन समस्याओं का इलाज करते हैं, डॉ. सिंह की प्रमाणित योग्यताएं क्या हैं, और लखनऊ में परामर्श कैसे बुक करें।'
   ),
   atAGlance: [
-    t('**Specialty:** Oculoplasty, orbit and ocular oncology', '**विशेषज्ञता:** ओकुलोप्लास्टी, ऑर्बिट और ओकुलर ऑन्कोलॉजी'),
-    t('**Qualifications:** MBBS, MS (Ophthalmology), FICO; long-term fellowship in Oculoplasty & Ocular Oncology', '**योग्यता:** MBBS, MS (नेत्र विज्ञान), FICO; ओकुलोप्लास्टी व ओकुलर ऑन्कोलॉजी में दीर्घकालिक फ़ेलोशिप'),
+    t('**Specialty:** Oculoplasty, Orbit and Ocular Oncology', '**विशेषज्ञता:** ओकुलोप्लास्टी, ऑर्बिट और ओकुलर ऑन्कोलॉजी'),
+    t('**Qualifications:** MBBS, MS (Ophthalmology), FICO; Fellowship in Oculoplasty and Ocular Oncology', '**योग्यता:** MBBS, MS (नेत्र विज्ञान), FICO; ओकुलोप्लास्टी और ओकुलर ऑन्कोलॉजी में फ़ेलोशिप'),
     t('**Registration:** Uttar Pradesh Medical Council, Reg. No. 137106', '**पंजीकरण:** उत्तर प्रदेश मेडिकल काउंसिल, पंजीकरण सं. 137106'),
     t('**Primary centre:** Alyantra Medicity Superspeciality Hospital, Vibhuti Khand, Gomti Nagar, Lucknow', '**मुख्य केंद्र:** अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, विभूति खंड, गोमती नगर, लखनऊ'),
     t('**Hours:** Monday–Saturday, 10 AM – 6 PM, by appointment', '**समय:** सोमवार–शनिवार, सुबह 10 – शाम 6, पूर्व अपॉइंटमेंट द्वारा'),
@@ -59,17 +59,16 @@ const guide: Guide = {
         {
           h3: t('Watering eyes and tear-duct problems', 'आंखों से पानी आना और आंसू नली की समस्याएं'),
           bullets: [
-            t('Blocked tear duct in adults — [DCR surgery](/dcr-surgery-in-lucknow) with or without intubation, and dacryocystectomy', 'वयस्कों में बंद आंसू नली — इंट्यूबेशन के साथ या बिना [DCR सर्जरी](/dcr-surgery-in-lucknow), और डैक्रियोसिस्टेक्टॉमी'),
-            t('Blocked tear duct in babies — syringing and probing when needed', 'शिशुओं में बंद आंसू नली — ज़रूरत पड़ने पर सिरिंजिंग और प्रोबिंग'),
+            t('Blocked tear duct — [DCR surgery](/dcr-surgery-in-lucknow) with its combinations (fistulectomy, intubation, MMC with intubation, canalicular trephination), and dacryocystectomy (DCT)', 'बंद आंसू नली — [DCR सर्जरी](/dcr-surgery-in-lucknow) उसके संयोजनों (फ़िस्टुलेक्टॉमी, इंट्यूबेशन, MMC के साथ इंट्यूबेशन, कैनालिकुलर ट्रेफ़िनेशन) के साथ, और डैक्रियोसिस्टेक्टॉमी (DCT)'),
             t('Torn tear canals after injury (canalicular repair)', 'चोट से कटी आंसू नलियां (कैनालिकुलर रिपेयर)'),
           ],
         },
         {
           h3: t('Orbit, tumours and the eye socket', 'ऑर्बिट, ट्यूमर और आंख का सॉकेट'),
           bullets: [
-            t('Eyelid, conjunctival and orbital tumours, with excision and reconstruction — see [eye tumours](/services/eye-tumours-ocular-oncology)', 'पलक, कंजंक्टाइवा और ऑर्बिट के ट्यूमर, निकालना और पुनर्निर्माण — देखें [आंख के ट्यूमर](/services/eye-tumours-ocular-oncology)'),
+            t('Eye and eyelid tumours — see the ocular oncology section below', 'आंख और पलक के ट्यूमर — नीचे ओकुलर ऑन्कोलॉजी वाला भाग देखें'),
             t('Bulging eyes (proptosis), thyroid eye disease and orbital fractures — see [orbital disorders](/services/orbital-disorders-orbital-surgery)', 'उभरी आंखें (प्रॉप्टोसिस), थायरॉइड आई डिज़ीज़ और ऑर्बिट की हड्डी टूटना — देखें [ऑर्बिटल विकार](/services/orbital-disorders-orbital-surgery)'),
-            t('Removal of a blind, painful eye with an implant, socket reconstruction and [artificial eye rehabilitation](/services/socket-reconstruction-artificial-eye-rehabilitation)', 'अंधी, दर्द भरी आंख को इम्प्लांट के साथ निकालना, सॉकेट पुनर्निर्माण और [कृत्रिम आंख पुनर्वास](/services/socket-reconstruction-artificial-eye-rehabilitation)'),
+            t('Removal of a blind, painful eye or an eye with a tumour, with an implant and socket reconstruction. [Artificial eye rehabilitation](/services/socket-reconstruction-artificial-eye-rehabilitation) is purely cosmetic, done when the eye has no prospect of useful vision, or when a tumour requires removal of the eye to stop it spreading to the rest of the body.', 'अंधी, दर्द भरी आंख या ट्यूमर वाली आंख को निकालना, इम्प्लांट और सॉकेट पुनर्निर्माण के साथ। [कृत्रिम आंख पुनर्वास](/services/socket-reconstruction-artificial-eye-rehabilitation) केवल सौंदर्य के लिए होता है — जब आंख में उपयोगी रोशनी लौटने की कोई संभावना न हो, या जब ट्यूमर को शरीर के बाकी हिस्सों में फैलने से रोकने के लिए आंख निकालनी पड़े।'),
           ],
         },
         {
@@ -77,6 +76,37 @@ const guide: Guide = {
           bullets: [
             t('Therapeutic Botox for blepharospasm and hemifacial spasm', 'ब्लेफ़ेरोस्पाज़्म और हेमीफ़ेशियल स्पाज़्म के लिए उपचारात्मक बोटॉक्स'),
             t('Cosmetic Botox for lines around the eyes — see [Botox & periocular aesthetics](/services/botox-eyelid-cosmetic-surgery-periocular-aesthetics)', 'आंखों के आसपास की रेखाओं के लिए कॉस्मेटिक बोटॉक्स — देखें [बोटॉक्स और पेरिओकुलर एस्थेटिक्स](/services/botox-eyelid-cosmetic-surgery-periocular-aesthetics)'),
+          ],
+        },
+      ],
+    },
+    {
+      id: 'ocular-oncology',
+      h2: t('Ocular oncology: eye and eyelid tumours', 'ओकुलर ऑन्कोलॉजी: आंख और पलक के ट्यूमर'),
+      paras: [
+        t(
+          'Ocular oncology is the diagnosis and treatment of tumours of the eyelid, the surface of the eye (conjunctiva), the orbit and the inside of the eye. Dr. Saumika Singh treats all the tumours listed below herself and performs all the procedures listed. More detail is on the [eye tumours](/services/eye-tumours-ocular-oncology) page.',
+          'ओकुलर ऑन्कोलॉजी में पलक, आंख की सतह (कंजंक्टाइवा), ऑर्बिट और आंख के भीतर के ट्यूमर की पहचान और इलाज होता है। नीचे दिए गए सभी ट्यूमर का इलाज और सभी प्रक्रियाएं डॉ. सौमिका सिंह स्वयं करती हैं। ज़्यादा जानकारी [आंख के ट्यूमर](/services/eye-tumours-ocular-oncology) पेज पर है।'
+        ),
+      ],
+      subsections: [
+        {
+          h3: t('Tumours she treats', 'वे किन ट्यूमर का इलाज करती हैं'),
+          bullets: [
+            t('**Eyelid:** basal cell carcinoma, squamous cell carcinoma and sebaceous gland carcinoma', '**पलक:** बेसल सेल कार्सिनोमा, स्क्वैमस सेल कार्सिनोमा और सिबेशियस ग्लैंड कार्सिनोमा'),
+            t('**Conjunctiva (the surface of the eye):** ocular surface squamous neoplasia (OSSN) and conjunctival melanoma', '**कंजंक्टाइवा (आंख की सतह):** ओकुलर सरफ़ेस स्क्वैमस नियोप्लेज़िया (OSSN) और कंजंक्टाइवल मेलानोमा'),
+            t('**Orbit:** orbital tumours', '**ऑर्बिट:** ऑर्बिट के ट्यूमर'),
+            t('**Inside the eye:** retinoblastoma and choroidal melanoma', '**आंख के भीतर:** रेटिनोब्लास्टोमा और कोरॉइडल मेलानोमा'),
+          ],
+        },
+        {
+          h3: t('Procedures she performs', 'वे कौन-सी प्रक्रियाएं करती हैं'),
+          bullets: [
+            t('Excision with margin control, and reconstruction', 'मार्जिन कंट्रोल के साथ ट्यूमर निकालना, और पुनर्निर्माण'),
+            t('Topical chemotherapy with mitomycin C (MMC), 5-fluorouracil (5-FU) or interferon', 'माइटोमाइसिन C (MMC), 5-फ़्लोरोयूरेसिल (5-FU) या इंटरफ़ेरॉन से टॉपिकल कीमोथेरेपी'),
+            t('Cryotherapy', 'क्रायोथेरेपी'),
+            t('Enucleation and evisceration (removal of the eye or its contents) and exenteration (removal of the contents of the eye socket)', 'एन्यूक्लिएशन और एविसरेशन (आंख या उसके भीतरी हिस्से को निकालना) और एक्सेंटरेशन (आंख के सॉकेट की सामग्री निकालना)'),
+            t('Orbital biopsy', 'ऑर्बिटल बायोप्सी'),
           ],
         },
       ],
@@ -96,7 +126,7 @@ const guide: Guide = {
           [t('MBBS', 'MBBS'), t('Calcutta National Medical College, Kolkata', 'कलकत्ता नेशनल मेडिकल कॉलेज, कोलकाता'), t('2014', '2014')],
           [t('FICO', 'FICO'), t('International Council of Ophthalmology, UK', 'इंटरनेशनल काउंसिल ऑफ़ ऑफ़्थैल्मोलॉजी, UK'), t('2019', '2019')],
           [t('MS (Ophthalmology)', 'MS (नेत्र विज्ञान)'), t('Regional Institute of Ophthalmology, Kolkata', 'रीजनल इंस्टीट्यूट ऑफ़ ऑफ़्थैल्मोलॉजी, कोलकाता'), t('2020', '2020')],
-          [t('Long-term Fellowship, Oculoplasty & Ocular Oncology', 'दीर्घकालिक फ़ेलोशिप, ओकुलोप्लास्टी व ओकुलर ऑन्कोलॉजी'), t('Dr. Shroff’s Charity Eye Hospital, New Delhi', 'डॉ. श्रॉफ़्स चैरिटी आई हॉस्पिटल, नई दिल्ली'), t('2022', '2022')],
+          [t('Fellowship in Oculoplasty and Ocular Oncology', 'ओकुलोप्लास्टी और ओकुलर ऑन्कोलॉजी में फ़ेलोशिप'), t('Dr. Shroff’s Charity Eye Hospital, New Delhi', 'डॉ. श्रॉफ़्स चैरिटी आई हॉस्पिटल, नई दिल्ली'), t('2022', '2022')],
           [t('Consultant, Oculoplasty', 'कंसल्टेंट, ओकुलोप्लास्टी'), t('Sadhuram Eye Hospital, Hyderabad', 'साधुराम आई हॉस्पिटल, हैदराबाद'), t('2023–2024', '2023–2024')],
           [t('Consultant, Oculoplasty', 'कंसल्टेंट, ओकुलोप्लास्टी'), t('Chandra Superspecialty Eye Hospital, Lucknow', 'चंद्रा सुपरस्पेशलिटी आई हॉस्पिटल, लखनऊ'), t('2025–2026', '2025–2026')],
         ],
@@ -170,12 +200,12 @@ const guide: Guide = {
     src: '/dr-saumika.webp',
     width: 1194,
     height: 1317,
-    alt: t('Dr. Saumika Singh, oculoplastic and ocular oncology surgeon in Lucknow', 'डॉ. सौमिका सिंह, लखनऊ में ओकुलोप्लास्टिक व ओकुलर ऑन्कोलॉजी सर्जन'),
-    caption: t('Dr. Saumika Singh, MS (Ophthalmology), FICO — Oculoplasty, Orbit & Ocular Oncology, Lucknow.', 'डॉ. सौमिका सिंह, MS (नेत्र विज्ञान), FICO — ओकुलोप्लास्टी, ऑर्बिट और ओकुलर ऑन्कोलॉजी, लखनऊ।'),
+    alt: t('Dr. Saumika Singh, oculoplastic, orbit and ocular oncology surgeon in Lucknow', 'डॉ. सौमिका सिंह, लखनऊ में ओकुलोप्लास्टिक, ऑर्बिट व ओकुलर ऑन्कोलॉजी सर्जन'),
+    caption: t('Dr. Saumika Singh, MS (Ophthalmology), FICO — Oculoplasty, Orbit and Ocular Oncology, Lucknow.', 'डॉ. सौमिका सिंह, MS (नेत्र विज्ञान), FICO — ओकुलोप्लास्टी, ऑर्बिट और ओकुलर ऑन्कोलॉजी, लखनऊ।'),
   },
 
   whyDrSaumika: [
-    t('Fellowship training dedicated to Oculoplasty & Ocular Oncology, after MS in Ophthalmology', 'नेत्र विज्ञान में MS के बाद ओकुलोप्लास्टी व ओकुलर ऑन्कोलॉजी को समर्पित फ़ेलोशिप प्रशिक्षण'),
+    t('Fellowship in Oculoplasty and Ocular Oncology, after MS in Ophthalmology', 'नेत्र विज्ञान में MS के बाद ओकुलोप्लास्टी और ओकुलर ऑन्कोलॉजी में फ़ेलोशिप'),
     t('One specialist for eyelid, tear duct, orbit, tumour and socket problems, so care is not split between departments', 'पलक, आंसू नली, ऑर्बिट, ट्यूमर और सॉकेट की समस्याओं के लिए एक ही विशेषज्ञ, ताकि इलाज अलग-अलग विभागों में न बंटे'),
     t('Publishes and presents research in ophthalmology, and documents consented case outcomes', 'नेत्र विज्ञान में शोध प्रकाशित करती और प्रस्तुत करती हैं, और सहमति प्राप्त केस परिणामों का दस्तावेज़ीकरण करती हैं'),
     t('Consults in both English and Hindi', 'अंग्रेज़ी और हिंदी दोनों में परामर्श'),
@@ -200,11 +230,15 @@ const guide: Guide = {
     },
     {
       q: t('Does Dr. Saumika Singh treat children?', 'क्या डॉ. सौमिका सिंह बच्चों का इलाज करती हैं?'),
-      a: t('Yes. She treats children with conditions such as congenital ptosis, blocked tear ducts and eyelid lumps. Surgery in young children is usually done under general anaesthesia with a paediatric anaesthetist.', 'हां। वे जन्मजात टोसिस, बंद आंसू नली और पलक की गांठ जैसी समस्याओं वाले बच्चों का इलाज करती हैं। छोटे बच्चों की सर्जरी आमतौर पर बच्चों के एनेस्थेटिस्ट के साथ जनरल एनेस्थीसिया में होती है।'),
+      a: t('Yes. She treats children with conditions such as congenital ptosis and eyelid lumps. Surgery in young children is usually done under general anaesthesia with a paediatric anaesthetist.', 'हां। वे जन्मजात टोसिस और पलक की गांठ जैसी समस्याओं वाले बच्चों का इलाज करती हैं। छोटे बच्चों की सर्जरी आमतौर पर बच्चों के एनेस्थेटिस्ट के साथ जनरल एनेस्थीसिया में होती है।'),
     },
     {
       q: t('How do I book an appointment?', 'अपॉइंटमेंट कैसे बुक करें?'),
       a: t('Call or WhatsApp +91 74600 88838, email contact@drsaumika.in, or use the contact form on this website. Consultations at Alyantra Medicity Superspeciality Hospital, Gomti Nagar are Monday to Saturday, 10 AM to 6 PM, by appointment.', '+91 74600 88838 पर फ़ोन या WhatsApp करें, contact@drsaumika.in पर ईमेल करें, या इस वेबसाइट का संपर्क फ़ॉर्म इस्तेमाल करें। अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में परामर्श सोमवार से शनिवार, सुबह 10 से शाम 6 बजे तक, पूर्व अपॉइंटमेंट द्वारा होता है।'),
+    },
+    {
+      q: t('When should I not wait for an appointment?', 'कब अपॉइंटमेंट का इंतज़ार नहीं करना चाहिए?'),
+      a: t('Do not wait for an appointment if you have a sudden loss of vision, a sudden droopy eyelid with double vision or headache, a painful red swelling around the eye with fever, a chemical splash, or an injury that has cut the eyelid or may have damaged the eye. Go to the nearest emergency department immediately.', 'अपॉइंटमेंट का इंतज़ार न करें अगर अचानक नज़र चली जाए, अचानक पलक झुके और साथ में दोहरा दिखे या सिरदर्द हो, आंख के आसपास बुखार के साथ दर्द भरी लाल सूजन हो, आंख में केमिकल गिरे, या चोट से पलक कट गई हो या आंख को नुकसान हुआ हो — तो तुरंत नज़दीकी इमरजेंसी में जाएं।'),
     },
   ],
 
@@ -231,12 +265,8 @@ const guide: Guide = {
   schema: { type: 'Physician', name: 'Dr. Saumika Singh' },
 
   reviewerNotes: [
-    'Pre-applied on 16 Nov 2026 from her ptosis/ectropion review: urgent/emergency boxes removed, hospital name taken out of the opening paragraph, search description and FAQ answers (kept in the \'Where\' line and credentials), and home-care/risk wording trimmed. Please check the page reads well without them.',
-    'The hospital address, timings and booking details are kept in the location section and booking FAQ, because this page is about where to find you.',
-    'Confirm the Google Maps search link resolves to her GBP listing; replace with the exact place URL if available.',
+    'Approved by Dr Saumika on 21 Nov 2026. Rewritten from her answered review (17 Nov plan): repositioned as Oculoplasty, Orbit and Ocular Oncology; exact degree title "Fellowship in Oculoplasty and Ocular Oncology" where the fellowship is named (S1); new ocular oncology section listing the tumours she treats and procedures she performs herself (S2, S3 "All"); no team or tumour board named (S4); artificial eye described as purely cosmetic, not vision-protecting; infant tear-duct probing removed (only what she performs); urgent advice in an FAQ, not the opening.',
     'Visiting centres intentionally not named ("visits other centres as required").',
-    'Confirm she treats children and that paediatric GA is available at Alyantra.',
-    'Dates for Sadhuram (2023–2024) and Chandra (2025–2026) are from the About page; confirm the Chandra end date is accurate.',
   ],
 };
 
