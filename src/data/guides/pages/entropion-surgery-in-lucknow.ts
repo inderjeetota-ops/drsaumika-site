@@ -18,15 +18,15 @@ const guide: Guide = {
   ),
   h1: t('Entropion Surgery in Lucknow – Inward-Turning Eyelid Repair', 'लखनऊ में एंट्रोपियन सर्जरी – अंदर मुड़ी पलक का इलाज'),
   lead: t(
-    'Entropion surgery in Lucknow is performed by Dr. Saumika Singh, an oculoplasty surgeon, to turn an inward-rolling eyelid back to its normal position so the eyelashes stop rubbing on the eye. Entropion is a condition in which the eyelid margin — most often the lower lid — turns in towards the eyeball. The lashes and skin then scratch the cornea with every blink, causing pain, redness, watering and a constant feeling that something is in the eye, and over time this can scar the cornea and affect vision. Surgery is the definitive treatment.',
-    'लखनऊ में एंट्रोपियन सर्जरी डॉ. सौमिका सिंह करती हैं, जो ओकुलोप्लास्टी सर्जन हैं। इसका उद्देश्य अंदर मुड़ी पलक को सामान्य स्थिति में लाना है ताकि पलकों के बाल आंख पर रगड़ना बंद करें। एंट्रोपियन में पलक का किनारा — अक्सर निचली पलक — आंख की ओर अंदर मुड़ जाता है। तब हर बार झपकने पर बाल और त्वचा कॉर्निया को खरोंचते हैं, जिससे दर्द, लालिमा, पानी आना और आंख में कुछ गिरा होने जैसा एहसास लगातार बना रहता है। समय के साथ इससे कॉर्निया पर निशान पड़ सकता है और नज़र प्रभावित हो सकती है। लंबे समय तक ठीक रखने के लिए आमतौर पर सर्जरी ही मुख्य इलाज है।'
+    'Entropion surgery in Lucknow is performed by Dr. Saumika Singh, an oculoplasty surgeon, to turn an inward-rolling eyelid back to its normal position so the eyelashes stop rubbing on the eye. Entropion is a condition in which the eyelid margin turns in towards the eyeball. The lashes and skin then scratch the cornea with every blink, causing pain, redness, watering and a constant feeling that something is in the eye, and over time this can scar the cornea and affect vision. Surgery is the definitive treatment.',
+    'लखनऊ में एंट्रोपियन सर्जरी डॉ. सौमिका सिंह करती हैं, जो ओकुलोप्लास्टी सर्जन हैं। इसका उद्देश्य अंदर मुड़ी पलक को सामान्य स्थिति में लाना है ताकि पलकों के बाल आंख पर रगड़ना बंद करें। एंट्रोपियन में पलक का किनारा आंख की ओर अंदर मुड़ जाता है। तब हर बार झपकने पर बाल और त्वचा कॉर्निया को खरोंचते हैं, जिससे दर्द, लालिमा, पानी आना और आंख में कुछ गिरा होने जैसा एहसास लगातार बना रहता है। समय के साथ इससे कॉर्निया पर निशान पड़ सकता है और नज़र प्रभावित हो सकती है। लंबे समय तक ठीक रखने के लिए आमतौर पर सर्जरी ही मुख्य इलाज है।'
   ),
   atAGlance: [
     t('**What it is:** the eyelid turns inwards and the lashes rub on the eye', '**यह क्या है:** पलक अंदर मुड़ जाती है और बाल आंख पर रगड़ते हैं'),
-    t('**Why it matters:** constant rubbing can scratch, infect and scar the cornea', '**क्यों ज़रूरी:** लगातार रगड़ से कॉर्निया पर खरोंच, संक्रमण और निशान हो सकते हैं'),
+    t('**Why it matters:** constant rubbing can scar the cornea, thereby affecting vision', '**क्यों ज़रूरी:** लगातार रगड़ से कॉर्निया पर निशान पड़ सकता है, जिससे नज़र प्रभावित होती है'),
     t('**Main cause:** age-related laxity; also scarring of the inner eyelid lining', '**मुख्य कारण:** उम्र से ढीलापन; पलक की अंदरूनी परत पर निशान भी'),
-    t('**Treatment:** eyelid tightening and repositioning surgery, usually under local anaesthesia', '**इलाज:** पलक को कसने और सही स्थिति में लाने की सर्जरी, आमतौर पर लोकल एनेस्थीसिया में'),
-    t('**Recovery:** most bruising settles in 1–2 weeks', '**रिकवरी:** ज़्यादातर नील 1–2 हफ़्तों में कम हो जाता है'),
+    t('**Treatment:** eyelid tightening and repositioning surgery, usually under local anaesthesia; graft cases under general anaesthesia', '**इलाज:** पलक को कसने और सही स्थिति में लाने की सर्जरी, आमतौर पर लोकल एनेस्थीसिया में; ग्राफ़्ट वाले मामलों में जनरल एनेस्थीसिया में'),
+    t('**Recovery:** most bruising settles in 1–2 weeks; about 2–3 weeks after graft surgery', '**रिकवरी:** ज़्यादातर नील 1–2 हफ़्तों में कम हो जाता है; ग्राफ़्ट सर्जरी के बाद लगभग 2–3 हफ़्ते'),
     t('**Where:** Alyantra Medicity Superspeciality Hospital, Gomti Nagar, Lucknow', '**कहां:** अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर, लखनऊ'),
   ],
 
@@ -36,8 +36,8 @@ const guide: Guide = {
       h2: t('What is entropion?', 'एंट्रोपियन क्या है?'),
       paras: [
         t(
-          'Normally the eyelashes point outwards, away from the eye. In entropion the whole eyelid margin rolls inwards, so the lashes and the lid skin sweep across the clear front of the eye (the cornea). The problem may come and go at first — appearing when you squeeze your eyes shut or look down — and then become constant.',
-          'सामान्य रूप से पलकों के बाल आंख से दूर बाहर की ओर होते हैं। एंट्रोपियन में पलक का पूरा किनारा अंदर की ओर मुड़ जाता है, जिससे बाल और पलक की त्वचा आंख के साफ़ अगले हिस्से (कॉर्निया) पर रगड़ते हैं। शुरू में यह समस्या आती-जाती रह सकती है — आंखें ज़ोर से बंद करने या नीचे देखने पर — और फिर लगातार बनी रहती है।'
+          'Normally the eyelashes point outwards, away from the eye. In entropion the whole eyelid margin rolls inwards, so the lashes and the lid skin sweep across the clear front of the eye (the cornea). The problem may come and go at first and then become constant.',
+          'सामान्य रूप से पलकों के बाल आंख से दूर बाहर की ओर होते हैं। एंट्रोपियन में पलक का पूरा किनारा अंदर की ओर मुड़ जाता है, जिससे बाल और पलक की त्वचा आंख के साफ़ अगले हिस्से (कॉर्निया) पर रगड़ते हैं। शुरू में यह समस्या आती-जाती रह सकती है और फिर लगातार बनी रहती है।'
         ),
         t(
           'Entropion is different from **trichiasis**, where the eyelid is in the right position but individual lashes grow in the wrong direction. The two can look similar, but trichiasis is often managed by treating the misdirected lashes, whereas entropion needs the eyelid itself repositioned. It is also the opposite of [ectropion](/ectropion-surgery-in-lucknow), where the lid turns outwards.',
@@ -58,8 +58,8 @@ const guide: Guide = {
       ],
       paras: [
         t(
-          'Many people pull out the rubbing lashes themselves for relief. This helps only briefly — the lashes regrow, often stiffer — and does not treat the turned-in eyelid.',
-          'कई लोग राहत के लिए चुभते बाल ख़ुद खींच देते हैं। इससे कुछ ही समय आराम मिलता है — बाल फिर उग आते हैं, अक्सर और सख़्त — और अंदर मुड़ी पलक का इलाज नहीं होता।'
+          'Many people pull out the rubbing lashes themselves for relief. This helps only briefly — the lashes regrow — and does not treat the turned-in eyelid.',
+          'कई लोग राहत के लिए चुभते बाल ख़ुद खींच देते हैं। इससे कुछ ही समय आराम मिलता है — बाल फिर उग आते हैं — और अंदर मुड़ी पलक का इलाज नहीं होता।'
         ),
       ],
     },
@@ -69,9 +69,9 @@ const guide: Guide = {
       table: {
         head: [t('Type', 'प्रकार'), t('Cause', 'कारण'), t('Usual repair', 'आम मरम्मत')],
         rows: [
-          [t('Involutional (age-related)', 'इनवोल्यूशनल (उम्र से जुड़ा)'), t('Lower lid tissues loosen with age and the muscle that holds the lid edge out weakens; the lid rolls in', 'उम्र के साथ निचली पलक के ऊतक ढीले होते हैं और पलक के किनारे को बाहर रखने वाली पकड़ कमज़ोर हो जाती है; पलक अंदर मुड़ जाती है'), t('Tightening the lid horizontally and re-attaching the lower lid retractors; or rotating sutures', 'पलक को क्षैतिज रूप से कसना और निचली पलक के रिट्रैक्टर को दोबारा जोड़ना; या रोटेटिंग टांके')],
-          [t('Cicatricial (scarring)', 'सिकाट्रिशियल (निशान से)'), t('Scarring of the inner lining (conjunctiva) pulls the lid inwards — after chemical burns, trachoma, severe inflammatory or autoimmune eye disease, or previous surgery', 'अंदरूनी परत (कंजंक्टाइवा) पर निशान पलक को अंदर खींचते हैं — केमिकल जलन, ट्रेकोमा, गंभीर सूजन या ऑटोइम्यून आंख रोग, या पहले की सर्जरी के बाद'), t('Rotating the eyelid edge outward, sometimes with a graft for the inner lining (often the upper lid)', 'पलक के किनारे को बाहर घुमाना, कभी-कभी अंदरूनी परत के लिए ग्राफ़्ट के साथ (अक्सर ऊपरी पलक में)')],
-          [t('Spastic', 'स्पास्टिक'), t('Temporary squeezing of the eyelid muscle after eye irritation or surgery', 'आंख में जलन या सर्जरी के बाद पलक की मांसपेशी का अस्थायी रूप से भिंचना'), t('Treat the irritation; sometimes temporary sutures or Botox', 'जलन का इलाज; कभी-कभी अस्थायी टांके या बोटॉक्स')],
+          [t('Involutional (age-related)', 'इनवोल्यूशनल (उम्र से जुड़ा)'), t('Lower lid tissues loosen with age and the muscle that holds the lid edge out weakens; the lid rolls in', 'उम्र के साथ निचली पलक के ऊतक ढीले होते हैं और पलक के किनारे को बाहर रखने वाली पकड़ कमज़ोर हो जाती है; पलक अंदर मुड़ जाती है'), t('Re-attaching the lower lid retractors (Jones procedure), with or without tightening the lid horizontally (lateral tarsal strip, LTS)', 'निचली पलक के रिट्रैक्टर को दोबारा जोड़ना (जोन्स प्रक्रिया), पलक को क्षैतिज रूप से कसने (लेटरल टार्सल स्ट्रिप, LTS) के साथ या बिना')],
+          [t('Cicatricial (scarring)', 'सिकाट्रिशियल (निशान से)'), t('Scarring of the inner lining (conjunctiva) pulls the lid inwards — after chemical burns, severe inflammatory or autoimmune eye disease, or previous surgery', 'अंदरूनी परत (कंजंक्टाइवा) पर निशान पलक को अंदर खींचते हैं — केमिकल जलन, गंभीर सूजन या ऑटोइम्यून आंख रोग, या पहले की सर्जरी के बाद'), t('Rotating the eyelid edge outward (tarsal fracture with margin rotation), with a spacer graft such as cartilage, a mucous membrane graft (MMG) or an amniotic membrane graft (AMG) when needed', 'पलक के किनारे को बाहर घुमाना (मार्जिन रोटेशन के साथ टार्सल फ़्रैक्चर), ज़रूरत हो तो कार्टिलेज जैसे स्पेसर ग्राफ़्ट, म्यूकस मेम्ब्रेन ग्राफ़्ट (MMG) या एम्नियोटिक मेम्ब्रेन ग्राफ़्ट (AMG) के साथ')],
+          [t('Spastic', 'स्पास्टिक'), t('Temporary squeezing of the eyelid muscle after eye irritation or surgery', 'आंख में जलन या सर्जरी के बाद पलक की मांसपेशी का अस्थायी रूप से भिंचना'), t('Treat the irritation', 'जलन का इलाज')],
           [t('Congenital', 'जन्मजात'), t('Rare; present from birth. Different from epiblepharon, a fold of skin common in some children that often improves with growth', 'दुर्लभ; जन्म से। यह एपिब्लेफ़ेरॉन से अलग है — कुछ बच्चों में त्वचा की तह, जो अक्सर बढ़ती उम्र के साथ सुधर जाती है'), t('Planned individually', 'व्यक्तिगत योजना')],
         ],
       },
@@ -80,7 +80,7 @@ const guide: Guide = {
       id: 'diagnosis',
       h2: t('How entropion is assessed', 'एंट्रोपियन की जांच कैसे होती है'),
       steps: [
-        t('Watching the eyelid at rest, on looking down and after a forced squeeze, which reveals intermittent entropion', 'आराम की स्थिति, नीचे देखने और ज़ोर से आंख भींचने के बाद पलक को देखना — इससे आता-जाता एंट्रोपियन पता चलता है'),
+        t('Watching the eyelid position during the examination, which can reveal intermittent entropion', 'जांच के दौरान पलक की स्थिति देखना — इससे आता-जाता एंट्रोपियन पता चल सकता है'),
         t('Measuring eyelid laxity and checking the lid retractors', 'पलक का ढीलापन मापना और पलक के रिट्रैक्टर की जांच'),
         t('Examining the inner lining for scarring — this changes the type of surgery needed', 'अंदरूनी परत पर निशान की जांच — इससे सर्जरी का प्रकार बदल जाता है'),
         t('Staining the cornea with a dye to check for scratches or an ulcer', 'डाई से कॉर्निया पर खरोंच या अल्सर की जांच'),
@@ -95,8 +95,8 @@ const guide: Guide = {
           h3: t('Temporary relief while waiting for surgery', 'सर्जरी से पहले अस्थायी राहत'),
           paras: [
             t(
-              'Lubricating drops and ointment soothe the eye. Taping the lower lid skin gently down and out can keep the lashes off the eye for a while. A bandage contact lens or temporary everting sutures may occasionally be used. In some cases a Botox injection weakens the inward-pulling muscle for a few months. These measures protect the cornea but are not a permanent cure for age-related entropion.',
-              'चिकनाई वाली ड्रॉप्स और ऑइंटमेंट से आंख को आराम मिलता है। निचली पलक की त्वचा को हल्के से नीचे और बाहर की ओर टेप करने से कुछ समय तक बाल आंख से दूर रहते हैं। कभी-कभी बैंडेज कॉन्टैक्ट लेंस या अस्थायी टांके इस्तेमाल किए जा सकते हैं। कुछ मामलों में बोटॉक्स इंजेक्शन अंदर खींचने वाली मांसपेशी को कुछ महीनों के लिए कमज़ोर करता है। ये उपाय कॉर्निया की रक्षा करते हैं, लेकिन उम्र से जुड़े एंट्रोपियन का स्थायी इलाज नहीं हैं।'
+              'Lubricating drops and ointment soothe the eye. These measures protect the cornea but are not a permanent cure for age-related entropion.',
+              'चिकनाई वाली ड्रॉप्स और ऑइंटमेंट से आंख को आराम मिलता है। ये उपाय कॉर्निया की रक्षा करते हैं, लेकिन उम्र से जुड़े एंट्रोपियन का स्थायी इलाज नहीं हैं।'
             ),
           ],
         },
@@ -104,8 +104,8 @@ const guide: Guide = {
           h3: t('Surgery for age-related (involutional) entropion', 'उम्र से जुड़े (इनवोल्यूशनल) एंट्रोपियन की सर्जरी'),
           paras: [
             t(
-              'The aim is to correct both causes of the inward roll: horizontal looseness and weakness of the tissues that hold the lid edge out. Commonly, the lid is tightened at its outer corner (a lateral tarsal strip) and the lower-lid retractors are re-attached through a small incision just below the lashes or on the inner surface of the lid. In some patients, carefully placed everting sutures are enough. Surgery is usually done under local anaesthesia as a day-care procedure, and patients typically notice relief from the rubbing straight away.',
-              'उद्देश्य अंदर मुड़ने के दोनों कारणों को ठीक करना है: क्षैतिज ढीलापन और पलक के किनारे को बाहर थामे रखने वाले ऊतकों की कमज़ोरी। आमतौर पर पलक को बाहरी कोने पर कसा जाता है (लेटरल टार्सल स्ट्रिप) और बालों के ठीक नीचे या पलक की अंदरूनी सतह पर छोटे चीरे से निचली पलक के रिट्रैक्टर को दोबारा जोड़ा जाता है। कुछ मरीज़ों में सावधानी से लगाए गए एवर्टिंग टांके ही काफ़ी होते हैं। सर्जरी आमतौर पर लोकल एनेस्थीसिया में डे-केयर प्रक्रिया होती है, और मरीज़ों को अक्सर तुरंत रगड़ से राहत महसूस होती है।'
+              'The aim is to correct both causes of the inward roll: horizontal looseness and weakness of the tissues that hold the lid edge out. For the lower lid, the lower-lid retractors are re-attached through a small incision just below the lashes or on the inner surface of the lid (the Jones procedure), with or without tightening the lid at its outer corner (a lateral tarsal strip, LTS). Surgery is usually done under local anaesthesia as a day-care procedure, and many patients feel relief from the rubbing soon after surgery.',
+              'उद्देश्य अंदर मुड़ने के दोनों कारणों को ठीक करना है: क्षैतिज ढीलापन और पलक के किनारे को बाहर थामे रखने वाले ऊतकों की कमज़ोरी। निचली पलक में बालों के ठीक नीचे या पलक की अंदरूनी सतह पर छोटे चीरे से निचली पलक के रिट्रैक्टर को दोबारा जोड़ा जाता है (जोन्स प्रक्रिया), और ज़रूरत हो तो पलक को बाहरी कोने पर कसा भी जाता है (लेटरल टार्सल स्ट्रिप, LTS)। सर्जरी आमतौर पर लोकल एनेस्थीसिया में डे-केयर प्रक्रिया होती है, और कई मरीज़ों को सर्जरी के जल्द बाद रगड़ से राहत महसूस होती है।'
             ),
           ],
         },
@@ -113,8 +113,8 @@ const guide: Guide = {
           h3: t('Surgery for scarring (cicatricial) entropion', 'निशान वाले (सिकाट्रिशियल) एंट्रोपियन की सर्जरी'),
           paras: [
             t(
-              'When scarring of the inner lining is pulling the lid in, the eyelid edge is rotated outwards (for example by a tarsal fracture or lamellar repositioning procedure), and sometimes the shortened inner lining is lengthened with a graft such as mucous membrane from inside the mouth. Any underlying inflammatory eye disease needs to be controlled first. These operations are more complex and are planned individually.',
-              'जब अंदरूनी परत के निशान पलक को अंदर खींच रहे हों, तो पलक के किनारे को बाहर की ओर घुमाया जाता है (जैसे टार्सल फ़्रैक्चर या लैमेलर रिपोज़िशनिंग प्रक्रिया), और कभी-कभी छोटी हुई अंदरूनी परत को ग्राफ़्ट से लंबा किया जाता है, जैसे मुंह के अंदर की म्यूकस मेम्ब्रेन। अगर आंख की कोई सूजन वाली बीमारी है तो पहले उसे नियंत्रित करना ज़रूरी है। ये ऑपरेशन ज़्यादा जटिल होते हैं और हर मरीज़ के लिए अलग से योजना बनती है।'
+              'When scarring of the inner lining shortens the back layer of the eyelid (posterior lamellar shortening) and pulls the lid in, the eyelid edge is rotated outwards by a tarsal fracture with margin rotation, on the upper lid and, in a few cases, the lower lid. If the tarsal support is deficient, a spacer graft such as cartilage, taken from the ear, is used to correct the lid position. If the scarred lining has become stuck to the eye (symblepharon), a mucous membrane graft (MMG), taken from the lower lip, upper lip or cheek depending on the health of the donor area, or an amniotic membrane graft (AMG) may be used. Any underlying inflammatory eye disease needs to be controlled first. Graft cases are done under general anaesthesia; these operations are more complex and are planned individually.',
+              'जब अंदरूनी परत के निशान पलक की पिछली परत को छोटा कर देते हैं (पोस्टीरियर लैमेलर शॉर्टनिंग) और पलक को अंदर खींचते हैं, तो पलक के किनारे को मार्जिन रोटेशन के साथ टार्सल फ़्रैक्चर से बाहर की ओर घुमाया जाता है — ऊपरी पलक में, और कुछ मामलों में निचली पलक में। अगर टार्सल सहारा कम हो, तो पलक की स्थिति ठीक करने के लिए स्पेसर ग्राफ़्ट लगाया जाता है, जैसे कान से लिया गया कार्टिलेज। अगर निशान वाली परत आंख से चिपक गई हो (सिम्ब्लेफ़ेरॉन), तो म्यूकस मेम्ब्रेन ग्राफ़्ट (MMG) — जो डोनर जगह की सेहत के अनुसार निचले होंठ, ऊपरी होंठ या गाल से लिया जाता है — या एम्नियोटिक मेम्ब्रेन ग्राफ़्ट (AMG) इस्तेमाल किया जा सकता है। अगर आंख की कोई सूजन वाली बीमारी है तो पहले उसे नियंत्रित करना ज़रूरी है। ग्राफ़्ट वाले ऑपरेशन जनरल एनेस्थीसिया में होते हैं; ये ऑपरेशन ज़्यादा जटिल होते हैं और हर मरीज़ के लिए अलग से योजना बनती है।'
             ),
           ],
         },
@@ -123,11 +123,25 @@ const guide: Guide = {
     {
       id: 'recovery',
       h2: t('Recovery after entropion surgery', 'एंट्रोपियन सर्जरी के बाद रिकवरी'),
-      paras: [
-        t(
-          'Expect swelling and bruising for about one to two weeks. The eyelid may look slightly over-corrected or tight at first; this usually relaxes as it heals. Antibiotic ointment is used for around a week, and any non-dissolving stitches are removed in clinic. Most people return to light activities within a few days. Avoid rubbing the eye, swimming, eye make-up and heavy exercise until your surgeon says it is safe. If the cornea was scratched before surgery, it will continue to heal once the lashes stop rubbing.',
-          'लगभग एक से दो हफ़्ते सूजन और नील की उम्मीद रखें। शुरू में पलक थोड़ी ज़्यादा कसी या बाहर की ओर लग सकती है; भरने के साथ यह आमतौर पर ढीली हो जाती है। लगभग एक हफ़्ते तक एंटीबायोटिक ऑइंटमेंट लगाया जाता है, और न घुलने वाले टांके क्लिनिक में हटाए जाते हैं। ज़्यादातर लोग कुछ दिनों में हल्के काम शुरू कर देते हैं। सर्जन की अनुमति तक आंख मलने, तैराकी, आई मेकअप और भारी व्यायाम से बचें। अगर सर्जरी से पहले कॉर्निया पर खरोंच थी, तो बाल रगड़ना बंद होने के बाद वह ठीक होती रहेगी।'
-        ),
+      subsections: [
+        {
+          h3: t('After standard repair', 'सामान्य सर्जरी के बाद'),
+          paras: [
+            t(
+              'Expect swelling and bruising for about one to two weeks. The eyelid may look slightly over-corrected or tight at first; this usually relaxes as it heals. Antibiotic ointment is used for around a week, and any non-dissolving stitches are removed in clinic. Most people return to light activities within a few days. Avoid rubbing the eye, swimming, eye make-up and heavy exercise until your surgeon says it is safe. If the cornea was scratched before surgery, it will continue to heal once the lashes stop rubbing.',
+              'लगभग एक से दो हफ़्ते सूजन और नील की उम्मीद रखें। शुरू में पलक थोड़ी ज़्यादा कसी या बाहर की ओर लग सकती है; भरने के साथ यह आमतौर पर ढीली हो जाती है। लगभग एक हफ़्ते तक एंटीबायोटिक ऑइंटमेंट लगाया जाता है, और न घुलने वाले टांके क्लिनिक में हटाए जाते हैं। ज़्यादातर लोग कुछ दिनों में हल्के काम शुरू कर देते हैं। सर्जन की अनुमति तक आंख मलने, तैराकी, आई मेकअप और भारी व्यायाम से बचें। अगर सर्जरी से पहले कॉर्निया पर खरोंच थी, तो बाल रगड़ना बंद होने के बाद वह ठीक होती रहेगी।'
+            ),
+          ],
+        },
+        {
+          h3: t('After graft repair', 'ग्राफ़्ट सर्जरी के बाद'),
+          paras: [
+            t(
+              'Graft repair is done under general anaesthesia, and recovery usually takes about 2–3 weeks. Graft cases take longer to heal and need more diligent aftercare.',
+              'ग्राफ़्ट सर्जरी जनरल एनेस्थीसिया में होती है, और रिकवरी में आमतौर पर लगभग 2–3 हफ़्ते लगते हैं। ग्राफ़्ट वाले मामलों में भरने में ज़्यादा समय लगता है और ज़्यादा सावधानी से देखभाल करनी होती है।'
+            ),
+          ],
+        },
       ],
     },
     {
@@ -155,28 +169,28 @@ const guide: Guide = {
   ],
 
   whyDrSaumika: [
-    t('Fellowship-trained in Oculoplasty & Ocular Oncology (Dr. Shroff’s Charity Eye Hospital, New Delhi)', 'ओकुलोप्लास्टी व ओकुलर ऑन्कोलॉजी में फ़ेलोशिप-प्रशिक्षित (डॉ. श्रॉफ़्स चैरिटी आई हॉस्पिटल, नई दिल्ली)'),
+    t('Fellowship in Oculoplasty and Ocular Oncology (Dr. Shroff’s Charity Eye Hospital, New Delhi)', 'ओकुलोप्लास्टी और ओकुलर ऑन्कोलॉजी में फ़ेलोशिप (डॉ. श्रॉफ़्स चैरिटी आई हॉस्पिटल, नई दिल्ली)'),
     t('Entropion and ectropion correction are part of her routine eyelid practice', 'एंट्रोपियन और एक्ट्रोपियन का सुधार उनके नियमित पलक संबंधी काम का हिस्सा है'),
-    t('Experience with socket and eyelid reconstruction, including mucous membrane grafts, relevant to scarring entropion', 'सॉकेट और पलक पुनर्निर्माण का अनुभव, जिसमें म्यूकस मेम्ब्रेन ग्राफ़्ट शामिल है — जो निशान वाले एंट्रोपियन में उपयोगी है'),
+    t('Experience with eyelid and socket reconstruction, including mucous membrane and cartilage grafts, relevant to scarring entropion', 'पलक और सॉकेट पुनर्निर्माण का अनुभव, जिसमें म्यूकस मेम्ब्रेन और कार्टिलेज ग्राफ़्ट शामिल हैं — जो निशान वाले एंट्रोपियन में उपयोगी है'),
     t('As an eye surgeon, she also assesses and treats corneal damage caused by rubbing lashes', 'नेत्र सर्जन होने के नाते वे रगड़ते बालों से हुए कॉर्निया के नुकसान की भी जांच और इलाज करती हैं'),
   ],
 
   faqs: [
     {
       q: t('Can entropion be treated without surgery?', 'क्या एंट्रोपियन का इलाज बिना सर्जरी के हो सकता है?'),
-      a: t('Drops, ointment, taping, a bandage contact lens or Botox can give temporary relief and protect the eye, and spastic entropion can settle once the irritation is treated. Age-related and scarring entropion, however, need surgery for a lasting correction.', 'ड्रॉप्स, ऑइंटमेंट, टेप, बैंडेज कॉन्टैक्ट लेंस या बोटॉक्स अस्थायी राहत दे सकते हैं और आंख की रक्षा करते हैं, और स्पास्टिक एंट्रोपियन जलन का इलाज होने पर ठीक हो सकता है। लेकिन उम्र और निशान से हुए एंट्रोपियन के स्थायी सुधार के लिए सर्जरी ज़रूरी है।'),
+      a: t('Drops and ointment can give temporary relief and protect the eye, and spastic entropion can settle once the irritation is treated. Age-related and scarring entropion, however, need surgery for a lasting correction.', 'ड्रॉप्स और ऑइंटमेंट अस्थायी राहत दे सकते हैं और आंख की रक्षा करते हैं, और स्पास्टिक एंट्रोपियन जलन का इलाज होने पर ठीक हो सकता है। लेकिन उम्र और निशान से हुए एंट्रोपियन के स्थायी सुधार के लिए सर्जरी ज़रूरी है।'),
     },
     {
       q: t('Should I keep pulling out the eyelashes that rub my eye?', 'क्या चुभते बालों को खींचते रहना ठीक है?'),
-      a: t('It gives only short-term relief. The lashes regrow within weeks and can be stiffer and more irritating, and the turned-in eyelid remains. It is better to have the eyelid assessed and corrected.', 'इससे थोड़े समय की राहत मिलती है। बाल कुछ हफ़्तों में फिर उग आते हैं और ज़्यादा सख़्त व चुभने वाले हो सकते हैं, और अंदर मुड़ी पलक वैसी ही रहती है। बेहतर है कि पलक की जांच करवाकर उसे ठीक करवाया जाए।'),
+      a: t('It gives only short-term relief. Lashes regrow within weeks and irritation follows. It is better to have the eyelid assessed and corrected.', 'इससे थोड़े समय की राहत मिलती है। बाल कुछ हफ़्तों में फिर उग आते हैं और चुभन लौट आती है। बेहतर है कि पलक की जांच करवाकर उसे ठीक करवाया जाए।'),
     },
     {
       q: t('Is entropion surgery painful?', 'क्या एंट्रोपियन सर्जरी में दर्द होता है?'),
-      a: t('It is usually done under local anaesthesia, so you feel pressure rather than pain. Afterwards, mild soreness for a few days is usual. Many patients say the eye feels more comfortable soon after surgery because the lashes no longer rub.', 'यह आमतौर पर लोकल एनेस्थीसिया में होती है, इसलिए दर्द नहीं बल्कि दबाव महसूस होता है। बाद में कुछ दिनों तक हल्का दर्द सामान्य है। कई मरीज़ बताते हैं कि सर्जरी के जल्द बाद आंख ज़्यादा आरामदायक लगती है क्योंकि बाल अब रगड़ते नहीं।'),
+      a: t('It is usually done under local anaesthesia, so you feel pressure rather than pain. Graft cases are done under general anaesthesia instead. Afterwards, mild soreness for a few days is usual. Many patients say the eye feels more comfortable soon after surgery because the lashes no longer rub.', 'यह आमतौर पर लोकल एनेस्थीसिया में होती है, इसलिए दर्द नहीं बल्कि दबाव महसूस होता है। ग्राफ़्ट वाले मामलों में इसके बजाय जनरल एनेस्थीसिया दिया जाता है। बाद में कुछ दिनों तक हल्का दर्द सामान्य है। कई मरीज़ बताते हैं कि सर्जरी के जल्द बाद आंख ज़्यादा आरामदायक लगती है क्योंकि बाल अब रगड़ते नहीं।'),
     },
     {
       q: t('How long is recovery after entropion surgery?', 'एंट्रोपियन सर्जरी के बाद रिकवरी में कितना समय लगता है?'),
-      a: t('Most swelling and bruising settle within one to two weeks, and light daily activities can usually be resumed within a few days. Your surgeon will advise when you can swim, exercise and wear eye make-up.', 'ज़्यादातर सूजन और नील एक से दो हफ़्तों में कम हो जाते हैं, और हल्की दिनचर्या आमतौर पर कुछ दिनों में शुरू की जा सकती है। सर्जन बताएंगे कि तैराकी, व्यायाम और आई मेकअप कब कर सकते हैं।'),
+      a: t('Most swelling and bruising settle within one to two weeks, and light daily activities can usually be resumed within a few days. After graft surgery, recovery usually takes about two to three weeks. Your surgeon will advise when you can swim, exercise and wear eye make-up.', 'ज़्यादातर सूजन और नील एक से दो हफ़्तों में कम हो जाते हैं, और हल्की दिनचर्या आमतौर पर कुछ दिनों में शुरू की जा सकती है। ग्राफ़्ट सर्जरी के बाद रिकवरी में आमतौर पर लगभग दो से तीन हफ़्ते लगते हैं। सर्जन बताएंगे कि तैराकी, व्यायाम और आई मेकअप कब कर सकते हैं।'),
     },
     {
       q: t('Can entropion damage my eyesight?', 'क्या एंट्रोपियन से नज़र को नुकसान हो सकता है?'),
@@ -184,7 +198,11 @@ const guide: Guide = {
     },
     {
       q: t('Who treats entropion in Lucknow?', 'लखनऊ में एंट्रोपियन का इलाज कौन करता है?'),
-      a: t('Entropion is treated by oculoplastic surgeons — eye surgeons with specialist training in eyelid surgery. In Lucknow, Dr. Saumika Singh assesses and operates on entropion.', 'एंट्रोपियन का इलाज ओकुलोप्लास्टिक सर्जन करते हैं — पलक की सर्जरी में विशेष प्रशिक्षण वाले नेत्र सर्जन। लखनऊ में डॉ. सौमिका सिंह एंट्रोपियन की जांच और सर्जरी करती हैं।'),
+      a: t('Entropion is treated by oculoplastic surgeons — eye surgeons with specialist training in eyelid surgery. In Lucknow, Dr. Saumika Singh assesses and operates on entropion at Alyantra Medicity Superspeciality Hospital, Gomti Nagar.', 'एंट्रोपियन का इलाज ओकुलोप्लास्टिक सर्जन करते हैं — पलक की सर्जरी में विशेष प्रशिक्षण वाले नेत्र सर्जन। लखनऊ में डॉ. सौमिका सिंह अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में एंट्रोपियन की जांच और सर्जरी करती हैं।'),
+    },
+    {
+      q: t('When does entropion need urgent attention?', 'एंट्रोपियन में तुरंत इलाज कब ज़रूरी है?'),
+      a: t('See an eye doctor the same day if the eye becomes increasingly painful and red, your vision drops, you see a white spot on the clear part of the eye, or light becomes very uncomfortable. These can be signs of a corneal ulcer, which can threaten sight and needs prompt treatment.', 'अगर आंख में दर्द और लालिमा बढ़ती जाए, नज़र कम हो, आंख के साफ़ हिस्से पर सफ़ेद धब्बा दिखे, या रोशनी बहुत चुभने लगे, तो उसी दिन नेत्र चिकित्सक को दिखाएं। ये कॉर्नियल अल्सर के संकेत हो सकते हैं, जो नज़र के लिए ख़तरा है और जिसका तुरंत इलाज ज़रूरी है।'),
     },
   ],
 
@@ -215,10 +233,7 @@ const guide: Guide = {
   },
 
   reviewerNotes: [
-    'Pre-applied on 16 Nov 2026 from her ptosis/ectropion review: urgent/emergency boxes removed, hospital name taken out of the opening paragraph, search description and FAQ answers (kept in the \'Where\' line and credentials), and home-care/risk wording trimmed. Please check the page reads well without them.',
-    'Confirm she uses Botox and bandage contact lenses as temporary measures for entropion.',
-    'Confirm the cicatricial techniques named (tarsal fracture / lamellar repositioning, mucous membrane graft).',
-    'Trachoma is mentioned as a cause of cicatricial entropion; confirm wording is appropriate for the Lucknow audience.',
+    'Approved by Dr Saumika on 21 Nov 2026. Rewritten from her answered review (17 Nov plan): taping, bandage contact lens and Botox removed; Jones procedure ± lateral tarsal strip for the lower lid (E1); tarsal fracture with margin rotation, cartilage (ear) spacer graft, MMG (lip/cheek) or AMG for symblepharon (E2, E3); graft cases under GA with 2–3 weeks recovery (E4); trachoma removed from this page only (E5; Ectropion vs Entropion unchanged on purpose); trichiasis comparison kept (E6); urgent advice and hospital name moved into FAQs, not the opening.',
   ],
 };
 

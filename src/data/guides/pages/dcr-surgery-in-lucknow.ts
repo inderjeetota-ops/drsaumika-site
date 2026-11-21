@@ -9,7 +9,7 @@ const guide: Guide = {
   hindiKeywords: ['DCR सर्जरी लखनऊ', 'आंसू नली बंद होने का ऑपरेशन', 'dcr surgery kya hai', 'dcr operation kaise hota hai', 'आंखों से पानी आने का ऑपरेशन'],
 
   metaTitle: t(
-    'DCR Surgery in Lucknow – Blocked Tear Duct | Dr Saumika Singh',
+    'DCR Surgery in Lucknow – Blocked Tear Duct | Dr Saumika',
     'लखनऊ में DCR सर्जरी – बंद आंसू नली का इलाज | डॉ. सौमिका सिंह'
   ),
   metaDescription: t(
@@ -18,8 +18,8 @@ const guide: Guide = {
   ),
   h1: t('DCR Surgery in Lucknow – Blocked Tear Duct Treatment', 'लखनऊ में DCR सर्जरी – बंद आंसू नली का इलाज'),
   lead: t(
-    'DCR surgery in Lucknow — dacryocystorhinostomy, the standard operation for a blocked tear duct in adults — is performed by Dr. Saumika Singh, an oculoplasty surgeon with a special interest in the tear drainage (lacrimal) system. DCR creates a new drainage passage from the tear sac into the nose, bypassing the blocked nasolacrimal duct so that tears can drain normally again. It is used to treat constant watering, sticky discharge and repeated tear-sac infections (dacryocystitis) caused by a blockage confirmed on examination.',
-    'लखनऊ में DCR सर्जरी — डैक्रियोसिस्टोराइनोस्टॉमी, जो वयस्कों में बंद आंसू नली का मानक ऑपरेशन है — डॉ. सौमिका सिंह करती हैं। वे आंसू निकासी (लैक्रिमल) तंत्र में विशेष रुचि रखने वाली ओकुलोप्लास्टी सर्जन हैं। DCR में आंसू की थैली (लैक्रिमल सैक) से नाक में एक नया रास्ता बनाया जाता है, ताकि बंद नली को बायपास करके आंसू फिर से सामान्य रूप से बह सकें। यह ऑपरेशन जांच में पुष्टि हुई रुकावट से होने वाले लगातार पानी आने, चिपचिपे स्राव और आंसू की थैली के बार-बार संक्रमण (डैक्रियोसिस्टाइटिस) के इलाज के लिए किया जाता है।'
+    'DCR surgery in Lucknow — dacryocystorhinostomy, the standard operation for a blocked tear duct — is performed by Dr. Saumika Singh, an oculoplasty surgeon with a special interest in the tear drainage (lacrimal) system. DCR creates a new drainage passage from the tear sac into the nose, bypassing the blocked nasolacrimal duct so that tears can drain normally again. It is used to treat constant watering, sticky discharge and repeated tear-sac infections (dacryocystitis) caused by a blockage confirmed on examination.',
+    'लखनऊ में DCR सर्जरी — डैक्रियोसिस्टोराइनोस्टॉमी, जो बंद आंसू नली का मानक ऑपरेशन है — डॉ. सौमिका सिंह करती हैं। वे आंसू निकासी (लैक्रिमल) तंत्र में विशेष रुचि रखने वाली ओकुलोप्लास्टी सर्जन हैं। DCR में आंसू की थैली (लैक्रिमल सैक) से नाक में एक नया रास्ता बनाया जाता है, ताकि बंद नली को बायपास करके आंसू फिर से सामान्य रूप से बह सकें। यह ऑपरेशन जांच में पुष्टि हुई रुकावट से होने वाले लगातार पानी आने, चिपचिपे स्राव और आंसू की थैली के बार-बार संक्रमण (डैक्रियोसिस्टाइटिस) के इलाज के लिए किया जाता है।'
   ),
   atAGlance: [
     t('**What it treats:** a blocked nasolacrimal (tear) duct causing watering, discharge or tear-sac infection', '**किसके लिए:** बंद आंसू नली (नेज़ोलैक्रिमल डक्ट) जिससे पानी आना, स्राव या आंसू की थैली में संक्रमण हो'),
@@ -69,7 +69,7 @@ const guide: Guide = {
       steps: [
         t('Examination of the eyelids, eyelid position, the tear film and the inner corner of the eye under a slit lamp', 'स्लिट लैंप से पलकों, पलक की स्थिति, आंसू की परत और आंख के भीतरी कोने की जांच'),
         t('Gentle pressure over the tear sac to check for mucus or pus (regurgitation)', 'आंसू की थैली पर हल्का दबाव देकर बलगम या मवाद की जांच'),
-        t('Syringing (irrigation): after numbing drops, saline is gently flushed through the tear opening. If it reaches the throat, the system is open; if it comes back, the level of the block can be judged. It is quick and usually only mildly uncomfortable', 'सिरिंजिंग (इरिगेशन): सुन्न करने वाली ड्रॉप्स के बाद आंसू के छेद से हल्के से सलाइन डाला जाता है। अगर यह गले तक पहुंचे तो रास्ता खुला है; अगर वापस आए तो रुकावट की जगह का अंदाज़ा लगता है। यह जल्दी होता है और आमतौर पर हल्की असुविधा ही होती है'),
+        t('Syringing (irrigation): after numbing drops, distilled water is gently flushed through the tear opening. If it reaches the throat, the system is open; if it comes back, the examining doctor can judge the level of the block. It is quick and usually only mildly uncomfortable', 'सिरिंजिंग (इरिगेशन): सुन्न करने वाली ड्रॉप्स के बाद आंसू के छेद से हल्के से डिस्टिल्ड वॉटर डाला जाता है। अगर यह गले तक पहुंचे तो रास्ता खुला है; अगर वापस आए तो जांच करने वाले डॉक्टर रुकावट की जगह का अंदाज़ा लगाते हैं। यह जल्दी होता है और आमतौर पर हल्की असुविधा ही होती है'),
         t('A nasal examination, and imaging (such as a dacryocystogram or a CT scan) only when injury, previous surgery, a tumour or an unusual blockage is suspected', 'नाक की जांच; और इमेजिंग (जैसे डैक्रियोसिस्टोग्राम या CT स्कैन) सिर्फ़ तब जब चोट, पहले की सर्जरी, ट्यूमर या असामान्य रुकावट का संदेह हो'),
       ],
     },
@@ -78,8 +78,8 @@ const guide: Guide = {
       h2: t('How DCR surgery is done', 'DCR ऑपरेशन कैसे होता है'),
       paras: [
         t(
-          'DCR can be performed from the outside (external DCR) or from inside the nose with an endoscope (endoscopic or endonasal DCR). Both aim to create the same new passage. Dr. Saumika Singh performs external DCR, with or without silicone intubation. She does not perform endoscopic DCR; if that approach is better suited to you, she will explain why and advise on referral.',
-          'DCR बाहर से (एक्सटर्नल DCR) या नाक के अंदर से एंडोस्कोप द्वारा (एंडोस्कोपिक/एंडोनेज़ल DCR) किया जा सकता है। दोनों का लक्ष्य एक ही नया रास्ता बनाना है। डॉ. सौमिका सिंह इंट्यूबेशन के साथ या बिना एक्सटर्नल DCR करती हैं। वे एंडोस्कोपिक DCR नहीं करतीं; अगर आपके लिए वह तरीका ज़्यादा उपयुक्त हो, तो वे इसका कारण समझाएंगी और रेफ़रल की सलाह देंगी।'
+          'Dr. Saumika Singh performs external DCR and its combinations: fistulectomy, intubation, mitomycin C (MMC) with intubation, and canalicular trephination, as required case by case.',
+          'डॉ. सौमिका सिंह एक्सटर्नल DCR और उसके संयोजन करती हैं: फ़िस्टुलेक्टॉमी, इंट्यूबेशन, माइटोमाइसिन C (MMC) के साथ इंट्यूबेशन, और कैनालिकुलर ट्रेफ़िनेशन — हर मरीज़ की ज़रूरत के अनुसार।'
         ),
       ],
       subsections: [
@@ -90,24 +90,15 @@ const guide: Guide = {
             t('The tear sac is exposed and a small window is made in the thin bone between the sac and the nose', 'आंसू की थैली तक पहुंचकर थैली और नाक के बीच की पतली हड्डी में एक छोटी खिड़की बनाई जाती है'),
             t('The lining of the tear sac is joined to the lining of the nose, creating a wide new channel', 'आंसू की थैली की परत को नाक की परत से जोड़कर एक चौड़ा नया रास्ता बनाया जाता है'),
             t('A soft silicone tube may be placed through the tear passages to keep the new channel open while it heals; it is removed in the clinic later, usually after a few weeks to a few months', 'भरने के दौरान रास्ता खुला रखने के लिए एक मुलायम सिलिकॉन ट्यूब डाली जा सकती है; इसे बाद में क्लिनिक में निकाला जाता है, आमतौर पर कुछ हफ़्तों से कुछ महीनों के बीच'),
-            t('The skin is closed with fine stitches; the scar usually becomes faint as it heals', 'त्वचा बारीक टांकों से बंद की जाती है; भरने के साथ निशान आमतौर पर हल्का हो जाता है'),
-          ],
-        },
-        {
-          h3: t('Endoscopic DCR', 'एंडोस्कोपिक DCR'),
-          paras: [
-            t(
-              'In endoscopic DCR the same opening is made from inside the nose with a camera, so there is no skin incision. Suitability depends on the nasal anatomy and the type of blockage. Both approaches are recognised treatments, and published success rates for both are high in suitable patients. Endoscopic DCR is offered by some oculoplastic and ENT surgeons; Dr. Saumika Singh performs the external approach.',
-              'एंडोस्कोपिक DCR में यही रास्ता नाक के अंदर से कैमरे की मदद से बनाया जाता है, इसलिए त्वचा पर चीरा नहीं लगता। यह उपयुक्त है या नहीं, यह नाक की बनावट और रुकावट के प्रकार पर निर्भर करता है। दोनों तरीके मान्य इलाज हैं, और उपयुक्त मरीज़ों में दोनों की प्रकाशित सफलता दर ऊंची है। एंडोस्कोपिक DCR कुछ ओकुलोप्लास्टिक और ENT सर्जन करते हैं; डॉ. सौमिका सिंह बाहरी (एक्सटर्नल) तरीका अपनाती हैं।'
-            ),
+            t('The skin is closed with fine stitches. The incision is small and carefully placed, and is usually not noticeable once healed', 'त्वचा बारीक टांकों से बंद की जाती है। चीरा छोटा और सावधानी से लगाया जाता है, और भरने के बाद आमतौर पर दिखाई नहीं देता'),
           ],
         },
         {
           h3: t('Related tear-duct procedures', 'आंसू नली की अन्य प्रक्रियाएं'),
           paras: [
             t(
-              'When a DCR is not suitable — for example in some elderly or unwell patients with repeated sac infection — removal of the tear sac (dacryocystectomy, DCT) may be considered. Injuries that cut the tear canals need canalicular repair, ideally soon after the injury. Babies with a blocked tear duct are usually managed differently, with massage and, if needed, probing.',
-              'जब DCR उपयुक्त न हो — जैसे बार-बार थैली में संक्रमण वाले कुछ बुज़ुर्ग या अस्वस्थ मरीज़ों में — तो आंसू की थैली निकालने (डैक्रियोसिस्टेक्टॉमी, DCT) पर विचार किया जा सकता है। चोट से कटी आंसू नलियों के लिए कैनालिकुलर रिपेयर ज़रूरी है, बेहतर है कि चोट के तुरंत बाद। शिशुओं में बंद आंसू नली का इलाज आमतौर पर अलग होता है — मालिश और ज़रूरत हो तो प्रोबिंग।'
+              'When a DCR is not suitable — for example in some elderly or unwell patients with repeated sac infection — removal of the tear sac (dacryocystectomy, DCT) may be considered. Injuries that cut the tear canals need canalicular repair, ideally soon after the injury.',
+              'जब DCR उपयुक्त न हो — जैसे बार-बार थैली में संक्रमण वाले कुछ बुज़ुर्ग या अस्वस्थ मरीज़ों में — तो आंसू की थैली निकालने (डैक्रियोसिस्टेक्टॉमी, DCT) पर विचार किया जा सकता है। चोट से कटी आंसू नलियों के लिए कैनालिकुलर रिपेयर ज़रूरी है, बेहतर है कि चोट के तुरंत बाद।'
             ),
           ],
         },
@@ -120,15 +111,12 @@ const guide: Guide = {
       table: {
         head: [t('Time after surgery', 'सर्जरी के बाद समय'), t('What to expect', 'क्या उम्मीद करें')],
         rows: [
-          [t('First 1–2 days', 'पहले 1–2 दिन'), t('Mild pain, swelling and bruising near the nose; some blood-stained nasal discharge is common', 'नाक के पास हल्का दर्द, सूजन और नील; नाक से थोड़ा ख़ून मिला स्राव आम है')],
-          [t('First week', 'पहला हफ़्ता'), t('Do not blow your nose hard, and sneeze with the mouth open', 'ज़ोर से नाक न छिड़कें, छींक मुंह खोलकर लें')],
-          [t('Around 1 week', 'लगभग 1 हफ़्ता'), t('Skin stitches removed if non-absorbable; many people return to desk work', 'न घुलने वाले टांके हों तो हटाए जाते हैं; कई लोग दफ़्तरी काम पर लौट आते हैं')],
-          [t('Weeks to months', 'हफ़्तों से महीनों तक'), t('If a silicone tube was placed, it is removed in clinic in a few seconds; watering usually continues to improve as healing completes', 'अगर सिलिकॉन ट्यूब डाली गई थी तो क्लिनिक में कुछ सेकंड में निकाली जाती है; भराव पूरा होने के साथ पानी आना आमतौर पर कम होता जाता है')],
+          [t('First 1–2 days', 'पहले 1–2 दिन'), t('Mild pain, swelling and heaviness near the nose; blood-tinged nasal discharge is common', 'नाक के पास हल्का दर्द, सूजन और भारीपन; नाक से ख़ून मिला स्राव आम है')],
+          [t('First week', 'पहला हफ़्ता'), t('Do not blow your nose hard, and sneeze with the mouth open; many people return to desk work after 3–5 days', 'ज़ोर से नाक न छिड़कें, छींक मुंह खोलकर लें; कई लोग 3–5 दिनों बाद दफ़्तरी काम पर लौट आते हैं')],
+          [t('Around 7–10 days', 'लगभग 7–10 दिन'), t('Stitches removed if the wound heals well', 'घाव ठीक से भरने पर टांके हटाए जाते हैं')],
+          [t('Weeks to months', 'हफ़्तों से महीनों तक'), t('If a silicone tube was placed, removal is done in the clinic and generally does not need anaesthesia; watering usually continues to improve as healing completes', 'अगर सिलिकॉन ट्यूब डाली गई थी, तो उसे क्लिनिक में निकाला जाता है और आमतौर पर एनेस्थीसिया की ज़रूरत नहीं होती; भराव पूरा होने के साथ पानी आना आमतौर पर कम होता जाता है')],
         ],
       },
-      bullets: [
-        t('If the tube slips forward into the corner of the eye, do not pull it — tape it to the cheek and call the clinic', 'अगर ट्यूब आंख के कोने में आगे खिसक आए तो उसे खींचें नहीं — गाल पर टेप से चिपकाकर क्लिनिक को फ़ोन करें'),
-      ],
       subsections: [
         {
           h3: t('Caring for the wound and nose at home', 'घर पर घाव और नाक की देखभाल'),
@@ -143,17 +131,17 @@ const guide: Guide = {
           h3: t('Returning to work, driving, exercise and travel', 'काम, गाड़ी चलाना, व्यायाम और यात्रा कब शुरू करें'),
           paras: [
             t(
-              'Most people take about a week off desk work, and longer if the job is physical, dusty or outdoors. Drive only once you feel comfortable, are off any medicine that makes you drowsy, and can see clearly. Walking is encouraged from the first day, but leave the gym, head-down yoga positions, swimming and contact sports until your surgeon clears you, usually after about two weeks. Ask before planning air travel in the first couple of weeks.',
-              'ज़्यादातर लोग दफ़्तरी काम से लगभग एक हफ़्ते की छुट्टी लेते हैं, और अगर काम मेहनत वाला, धूल भरा या बाहर का हो तो ज़्यादा। गाड़ी तभी चलाएं जब आप सहज महसूस करें, नींद लाने वाली कोई दवा न ले रहे हों और साफ़ दिखाई दे। पहले दिन से टहलना अच्छा है, लेकिन जिम, सिर नीचे करने वाले योगासन, तैराकी और टक्कर वाले खेल सर्जन की अनुमति तक टालें — आमतौर पर लगभग दो हफ़्ते बाद। पहले दो-एक हफ़्तों में हवाई यात्रा की योजना बनाने से पहले पूछ लें।'
+              'Most people take about 3–5 days off desk work, and longer if the job is physical, dusty or outdoors. Drive only once you feel comfortable, are off any medicine that makes you drowsy, and can see clearly. Walking is encouraged from the first day, but leave the gym, head-down yoga positions, swimming and contact sports until your surgeon clears you, usually after about two weeks. Ask before planning air travel in the first couple of weeks.',
+              'ज़्यादातर लोग दफ़्तरी काम से लगभग 3–5 दिनों की छुट्टी लेते हैं, और अगर काम मेहनत वाला, धूल भरा या बाहर का हो तो ज़्यादा। गाड़ी तभी चलाएं जब आप सहज महसूस करें, नींद लाने वाली कोई दवा न ले रहे हों और साफ़ दिखाई दे। पहले दिन से टहलना अच्छा है, लेकिन जिम, सिर नीचे करने वाले योगासन, तैराकी और टक्कर वाले खेल सर्जन की अनुमति तक टालें — आमतौर पर लगभग दो हफ़्ते बाद। पहले दो-एक हफ़्तों में हवाई यात्रा की योजना बनाने से पहले पूछ लें।'
             ),
           ],
         },
         {
-          h3: t('Is it normal for the eye to still water after DCR?', 'क्या DCR के बाद भी आंख से पानी आना सामान्य है?'),
+          h3: t('Will my eye still water after surgery?', 'सर्जरी के बाद भी क्या आंख से पानी आता रहेगा?'),
           paras: [
             t(
-              'Yes, for a while. Swelling inside the new passage, and a silicone tube if one was placed, can keep the eye watery for some weeks. Watering usually eases as healing completes and after the tube comes out. If the eye is still watering a few months after surgery, or the sticky discharge returns, tell the clinic: the passage can be checked with a simple syringing test and the next steps discussed.',
-              'हां, कुछ समय तक। नए रास्ते के अंदर की सूजन, और अगर सिलिकॉन ट्यूब डाली गई हो तो वह भी, कुछ हफ़्तों तक आंख में पानी बनाए रख सकती है। भराव पूरा होने और ट्यूब निकलने के बाद पानी आना आमतौर पर कम हो जाता है। अगर सर्जरी के कुछ महीने बाद भी आंख से पानी आता रहे, या चिपचिपा स्राव लौट आए, तो क्लिनिक को बताएं: एक सरल सिरिंजिंग जांच से रास्ता देखा जा सकता है और आगे के कदमों पर बात की जा सकती है।'
+              'Maybe, for a while. Swelling inside the new passage, and a silicone tube if one was placed, can keep the eye watery for some weeks. Watering usually eases as healing completes and after the tube comes out. If the eye is still watering a few months after surgery, or the sticky discharge returns, tell the clinic: the passage can be checked with a simple syringing test and the next steps discussed.',
+              'शायद, कुछ समय तक। नए रास्ते के अंदर की सूजन, और अगर सिलिकॉन ट्यूब डाली गई हो तो वह भी, कुछ हफ़्तों तक आंख में पानी बनाए रख सकती है। भराव पूरा होने और ट्यूब निकलने के बाद पानी आना आमतौर पर कम हो जाता है। अगर सर्जरी के कुछ महीने बाद भी आंख से पानी आता रहे, या चिपचिपा स्राव लौट आए, तो क्लिनिक को बताएं: एक सरल सिरिंजिंग जांच से रास्ता देखा जा सकता है और आगे के कदमों पर बात की जा सकती है।'
             ),
           ],
         },
@@ -164,15 +152,15 @@ const guide: Guide = {
       h2: t('Risks and success of DCR surgery', 'DCR सर्जरी के जोखिम और सफलता'),
       paras: [
         t(
-          'DCR is a long-established operation and most patients with a confirmed duct blockage have far less watering afterwards. It is not successful in everyone, though: the new passage can scar and close, and watering may persist if other causes such as dry eye or a lax eyelid are also present. Possible risks include:',
-          'DCR एक लंबे समय से स्थापित ऑपरेशन है, और पुष्टि हुई नली की रुकावट वाले ज़्यादातर मरीज़ों में बाद में पानी आना काफ़ी कम हो जाता है। फिर भी यह हर किसी में सफल नहीं होता: नया रास्ता निशान बनकर बंद हो सकता है, और अगर सूखी आंख या ढीली पलक जैसे दूसरे कारण भी हों तो पानी आता रह सकता है। संभावित जोखिम:'
+          'DCR is a long-established operation and most patients with a confirmed duct blockage have far less watering afterwards. Success depends on the cause, the status of the lacrimal sac, and any bony injury or prior surgery. The new passage can scar and close, and watering may persist if other causes such as dry eye or a lax eyelid are also present. Possible risks include:',
+          'DCR एक लंबे समय से स्थापित ऑपरेशन है, और पुष्टि हुई नली की रुकावट वाले ज़्यादातर मरीज़ों में बाद में पानी आना काफ़ी कम हो जाता है। सफलता कारण, आंसू की थैली (लैक्रिमल सैक) की स्थिति, और हड्डी की किसी चोट या पहले की सर्जरी पर निर्भर करती है। नया रास्ता निशान बनकर बंद हो सकता है, और अगर सूखी आंख या ढीली पलक जैसे दूसरे कारण भी हों तो पानी आता रह सकता है। संभावित जोखिम:'
         ),
       ],
       bullets: [
-        t('Nosebleed, usually minor, occasionally needing packing', 'नकसीर — आमतौर पर हल्की, कभी-कभी पैकिंग की ज़रूरत'),
-        t('Infection or a visible scar beside the nose (external approach)', 'संक्रमण या नाक के पास दिखने वाला निशान (एक्सटर्नल तरीका)'),
+        t('Blood-tinged nasal discharge', 'नाक से ख़ून मिला स्राव'),
+        t('Infection, and a scar beside the nose from the external approach, which is usually not noticeable once healed', 'संक्रमण, और एक्सटर्नल तरीके से नाक के पास निशान, जो भरने के बाद आमतौर पर दिखाई नहीं देता'),
         t('Closure of the new passage, with return of watering, sometimes needing further surgery', 'नए रास्ते का बंद होना और पानी आना वापस लौटना, कभी-कभी दोबारा सर्जरी की ज़रूरत'),
-        t('Problems with the silicone tube, such as irritation or slipping', 'सिलिकॉन ट्यूब से समस्याएं, जैसे चुभन या खिसकना'),
+        t('Problems with the silicone tube, such as irritation', 'सिलिकॉन ट्यूब से समस्याएं, जैसे चुभन'),
         t('Rarely, injury to nearby structures — your surgeon will discuss this with you', 'बहुत कम, आसपास की संरचनाओं को नुकसान — सर्जन आपसे इस पर चर्चा करेंगे'),
       ],
     },
@@ -190,7 +178,7 @@ const guide: Guide = {
 
   whyDrSaumika: [
     t('Oculoplasty fellowship training, with tear drainage (lacrimal) surgery as a core part of her practice', 'ओकुलोप्लास्टी फ़ेलोशिप प्रशिक्षण, जिसमें आंसू निकासी (लैक्रिमल) सर्जरी उनके काम का मुख्य हिस्सा है'),
-    t('Performs DCR with or without silicone intubation, dacryocystectomy (DCT) and canalicular repair', 'सिलिकॉन इंट्यूबेशन के साथ या बिना DCR, डैक्रियोसिस्टेक्टॉमी (DCT) और कैनालिकुलर रिपेयर करती हैं'),
+    t('Performs external DCR and its combinations (fistulectomy, intubation, MMC with intubation and canalicular trephination), as well as dacryocystectomy (DCT) and canalicular repair', 'एक्सटर्नल DCR और उसके संयोजन (फ़िस्टुलेक्टॉमी, इंट्यूबेशन, MMC के साथ इंट्यूबेशन और कैनालिकुलर ट्रेफ़िनेशन) के साथ-साथ डैक्रियोसिस्टेक्टॉमी (DCT) और कैनालिकुलर रिपेयर करती हैं'),
     t('Checks the whole eye and eyelid as well as the duct, so that other causes of watering are not missed', 'सिर्फ़ नली ही नहीं, पूरी आंख और पलक की जांच करती हैं, ताकि पानी आने के दूसरे कारण छूट न जाएं'),
     t('Consults at Alyantra Medicity Superspeciality Hospital, Gomti Nagar, Lucknow', 'अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर, लखनऊ में परामर्श'),
   ],
@@ -206,27 +194,35 @@ const guide: Guide = {
     },
     {
       q: t('How long does DCR surgery take?', 'DCR ऑपरेशन में कितना समय लगता है?'),
-      a: t('The operation commonly takes around an hour, though this varies with the anatomy and whether a tube is placed. Most patients go home the same day or the next morning.', 'ऑपरेशन में आमतौर पर लगभग एक घंटा लगता है, हालांकि यह बनावट और ट्यूब डालने पर निर्भर करता है। ज़्यादातर मरीज़ उसी दिन या अगली सुबह घर चले जाते हैं।'),
+      a: t('The operation time varies with the anatomy and whether a tube is placed. Most patients go home the same day or the next morning.', 'ऑपरेशन का समय नाक की बनावट और ट्यूब डालने पर निर्भर करता है। ज़्यादातर मरीज़ उसी दिन या अगली सुबह घर चले जाते हैं।'),
     },
     {
       q: t('Will DCR leave a scar?', 'क्या DCR से निशान रहेगा?'),
-      a: t('External DCR uses a small incision beside the nose, placed along natural skin lines, which usually fades to a faint line over several months. Healing varies, and your surgeon will show you where the incision will be.', 'एक्सटर्नल DCR में नाक के पास त्वचा की प्राकृतिक रेखाओं के साथ छोटा चीरा लगता है, जो कई महीनों में आमतौर पर हल्की रेखा बन जाता है। भराव हर व्यक्ति में अलग होता है, और सर्जन आपको चीरे की जगह पहले दिखाएंगे।'),
+      a: t('External DCR uses an incision beside the nose, placed along natural skin lines. The incision is small and carefully placed, and is usually not noticeable once healed. Healing varies, and your surgeon will show you where the incision will be.', 'एक्सटर्नल DCR में नाक के पास त्वचा की प्राकृतिक रेखाओं के साथ चीरा लगाया जाता है। चीरा छोटा और सावधानी से लगाया जाता है, और भरने के बाद आमतौर पर दिखाई नहीं देता। भराव हर व्यक्ति में अलग होता है, और सर्जन आपको चीरे की जगह पहले दिखाएंगे।'),
     },
     {
       q: t('Can a blocked tear duct be cleared without surgery?', 'क्या बिना सर्जरी के बंद आंसू नली खुल सकती है?'),
-      a: t('In babies, many blocked ducts open by themselves or with massage and, if needed, a simple probing. In adults, an established duct blockage rarely clears with drops or syringing alone; antibiotics treat infection but not the blockage. DCR is the standard lasting treatment for adults.', 'शिशुओं में कई बंद नलियां अपने-आप या मालिश से, और ज़रूरत हो तो सरल प्रोबिंग से खुल जाती हैं। वयस्कों में स्थापित रुकावट सिर्फ़ ड्रॉप्स या सिरिंजिंग से शायद ही खुलती है; एंटीबायोटिक संक्रमण का इलाज करते हैं, रुकावट का नहीं। वयस्कों में DCR ही स्थायी मानक इलाज है।'),
+      a: t('An established duct blockage rarely clears with drops or syringing alone; antibiotics treat infection but not the blockage. DCR is the standard operation for a blocked tear duct.', 'स्थापित रुकावट सिर्फ़ ड्रॉप्स या सिरिंजिंग से शायद ही खुलती है; एंटीबायोटिक संक्रमण का इलाज करते हैं, रुकावट का नहीं। DCR बंद आंसू नली का मानक ऑपरेशन है।'),
+    },
+    {
+      q: t('When is a painful swelling near the nose urgent?', 'नाक के पास दर्द भरी सूजन कब तुरंत चिंता की बात है?'),
+      a: t('A rapidly growing, painful, red swelling beside the nose, especially with fever, spreading redness around the eye, swollen eyelids that will not open, painful eye movements or reduced vision, may mean acute dacryocystitis or a spreading infection (cellulitis). Contact the clinic urgently or go to an emergency department — this needs antibiotics promptly. DCR is planned once the acute infection has been treated.', 'नाक के पास तेज़ी से बढ़ती, दर्द भरी, लाल सूजन — खासकर बुखार, आंख के चारों ओर फैलती लालिमा, न खुलने वाली सूजी पलकें, आंख घुमाने में दर्द या नज़र कम होने के साथ — एक्यूट डैक्रियोसिस्टाइटिस या फैलता संक्रमण (सेल्युलाइटिस) हो सकता है। तुरंत क्लिनिक से संपर्क करें या इमरजेंसी में जाएं — इसमें जल्दी एंटीबायोटिक चाहिए। तीव्र संक्रमण ठीक होने के बाद DCR की योजना बनाई जाती है।'),
     },
     {
       q: t('When is the silicone tube removed after DCR?', 'DCR के बाद सिलिकॉन ट्यूब कब निकाली जाती है?'),
-      a: t('If a tube is placed, it is usually removed in the clinic after a few weeks to a few months, depending on the surgeon’s plan. Removal takes only seconds and generally does not need anaesthesia.', 'अगर ट्यूब डाली जाती है, तो सर्जन की योजना के अनुसार आमतौर पर कुछ हफ़्तों से कुछ महीनों बाद क्लिनिक में निकाली जाती है। निकालने में कुछ ही सेकंड लगते हैं और आमतौर पर एनेस्थीसिया की ज़रूरत नहीं होती।'),
+      a: t('If a tube is placed, it is usually removed after a few weeks to a few months, depending on the surgeon’s plan. Removal is done in the clinic and generally does not need anaesthesia.', 'अगर ट्यूब डाली जाती है, तो सर्जन की योजना के अनुसार आमतौर पर कुछ हफ़्तों से कुछ महीनों बाद निकाली जाती है। इसे क्लिनिक में निकाला जाता है और आमतौर पर एनेस्थीसिया की ज़रूरत नहीं होती।'),
     },
     {
       q: t('When can I go back to work after DCR surgery?', 'DCR सर्जरी के बाद काम पर कब लौट सकते हैं?'),
-      a: t('Many people return to desk work after about a week, once the stitches are out or the wound has settled, and some feel ready sooner. Physical, dusty or outdoor work may need longer. Bruising beside the nose usually fades within about two weeks. Your surgeon will advise you based on your healing and your job.', 'कई लोग लगभग एक हफ़्ते बाद, टांके हटने या घाव ठीक होने पर, दफ़्तरी काम पर लौट आते हैं, और कुछ उससे पहले भी तैयार महसूस करते हैं। मेहनत वाले, धूल भरे या बाहर के काम में ज़्यादा समय लग सकता है। नाक के पास का नील आमतौर पर लगभग दो हफ़्तों में कम हो जाता है। सर्जन आपके भराव और काम के हिसाब से सलाह देंगे।'),
+      a: t('Many people return to desk work after about 3–5 days, once the wound has settled, and some feel ready sooner. Physical, dusty or outdoor work may need longer. Swelling and heaviness beside the nose settle gradually. Your surgeon will advise you based on your healing and your job.', 'कई लोग लगभग 3–5 दिनों बाद, घाव ठीक होने पर, दफ़्तरी काम पर लौट आते हैं, और कुछ उससे पहले भी तैयार महसूस करते हैं। मेहनत वाले, धूल भरे या बाहर के काम में ज़्यादा समय लग सकता है। नाक के पास की सूजन और भारीपन धीरे-धीरे कम होते हैं। सर्जन आपके भराव और काम के हिसाब से सलाह देंगे।'),
+    },
+    {
+      q: t('When should I seek urgent advice after DCR surgery?', 'DCR सर्जरी के बाद तुरंत सलाह कब लें?'),
+      a: t('Seek urgent advice for heavy nosebleeding that does not stop with 10–15 minutes of pressure, fever, increasing pain or redness, or any change in vision.', '10–15 मिनट दबाने से न रुकने वाली तेज़ नकसीर, बुखार, बढ़ते दर्द या लालिमा, या नज़र में बदलाव पर तुरंत संपर्क करें।'),
     },
     {
       q: t('Which doctor treats a blocked tear duct in Lucknow?', 'लखनऊ में बंद आंसू नली का इलाज कौन करता है?'),
-      a: t('Blocked tear ducts are treated by oculoplastic (eye plastic) surgeons, who specialise in the tear drainage system, and endoscopic DCR is also performed by some ENT surgeons. In Lucknow, Dr. Saumika Singh assesses watering eyes and performs DCR.', 'बंद आंसू नली का इलाज ओकुलोप्लास्टिक सर्जन करते हैं, जो आंसू निकासी तंत्र के विशेषज्ञ हैं; कुछ ENT सर्जन भी एंडोस्कोपिक DCR करते हैं। लखनऊ में डॉ. सौमिका सिंह आंखों से पानी आने की जांच और DCR करती हैं।'),
+      a: t('Blocked tear ducts are treated by oculoplastic (eye plastic) surgeons, who specialise in the tear drainage system. In Lucknow, Dr. Saumika Singh assesses watering eyes and performs DCR at Alyantra Medicity Superspeciality Hospital, Gomti Nagar.', 'बंद आंसू नली का इलाज ओकुलोप्लास्टिक सर्जन करते हैं, जो आंसू निकासी तंत्र के विशेषज्ञ हैं। लखनऊ में डॉ. सौमिका सिंह अलयंत्रा मेडिसिटी सुपरस्पेशलिटी हॉस्पिटल, गोमती नगर में आंखों से पानी आने की जांच और DCR करती हैं।'),
     },
   ],
 
@@ -259,13 +255,7 @@ const guide: Guide = {
   },
 
   reviewerNotes: [
-    'Pre-applied on 16 Nov 2026 from her ptosis/ectropion review: urgent/emergency boxes removed, hospital name taken out of the opening paragraph, search description and FAQ answers (kept in the \'Where\' line and credentials), and home-care/risk wording trimmed. Please check the page reads well without them.',
-    'Removed: head-raised sleeping, bending/lifting advice and the \'seek urgent advice\' bullet. Kept: no hard nose-blowing and sneezing with the mouth open (DCR-specific); remove them if you prefer.',
-    'Confirmed (2026-11-11): she does NOT perform endoscopic DCR. The page says so explicitly, describes endoscopic DCR neutrally as an approach other surgeons offer, and says she will advise on referral if it suits a patient better.',
-    'Recovery section expanded in Batch 3 (home care, return to work/driving/exercise/travel, persistent watering) plus a return-to-work FAQ: confirm the timings (about a week off desk work, about two weeks before gym/swimming, ask before air travel in the first couple of weeks).',
-    'Confirm anaesthesia options (local + sedation vs GA) and stay (day care / one night) at Alyantra.',
-    'Confirm typical tube-removal interval and incision length (1–1.5 cm).',
-    '"Published success rates for both are high" — intentionally no number; add a cited figure only if desired.',
+    'Approved by Dr Saumika on 21 Nov 2026. Rewritten from her review comments and answers (17 Nov plan): "in adults" removed; distilled water in syringing; endoscopic DCR and the ENT clause removed (only what she performs); external DCR and its combinations (fistulectomy, intubation, MMC with intubation, canalicular trephination), DCT and canalicular repair; scar wording per D1 (c); heaviness, blood-tinged nasal discharge; 3–5 days back to desk work; stitches out at 7–10 days; tube removal generally without anaesthesia; "Maybe, for a while"; urgent advice and hospital name in FAQs, not the opening.',
   ],
 };
 
