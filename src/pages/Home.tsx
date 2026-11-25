@@ -132,7 +132,8 @@ export default function Home() {
           "url": `https://drsaumika.in${language === 'hi' ? '/hi' : '/'}`,
           "sameAs": [
             "https://share.google/Giu91wM7buG8pRTa2",
-            "https://www.justdial.com/Lucknow/Dr-Saumika-Singh-Vibhuti-Khand/0522PX522-X522-260728114605-U7Z4_BZDET"
+            "https://www.justdial.com/Lucknow/Dr-Saumika-Singh-Vibhuti-Khand/0522PX522-X522-260728114605-U7Z4_BZDET",
+            "https://alyantra.in/index.php?p=doctor&id=24"
           ],
           "hasCredential": [
             {
